@@ -1,6 +1,7 @@
 import react from '@vitejs/plugin-react'
 import { readdirSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
+import { resolve } from 'node:path'
 import { defineConfig, type Plugin } from 'vite'
 
 const BASE = '/Midterms2026ML/'
@@ -38,4 +39,6 @@ function projectData(): Plugin {
 export default defineConfig({
   base: BASE,
   plugins: [react(), projectData()],
+  // Two pages: the walkthrough (/) and the election-night tracker (/live/)
+  build: { rollupOptions: { input: { main: resolve(import.meta.dirname, 'index.html'), live: resolve(import.meta.dirname, 'live/index.html') } } },
 })

@@ -25,6 +25,7 @@ export function Hero() {
           </p>
           <div style={{ display: 'flex', gap: 12, marginTop: 24, flexWrap: 'wrap' }}>
             <a className="btn btn-primary" href="#problem" style={{ textDecoration: 'none' }}>Start the walkthrough</a>
+            <a className="btn live-link" href={`${import.meta.env.BASE_URL}live/`} style={{ textDecoration: 'none' }}><i />Live results tracker</a>
             <a className="btn" href="#forecast" style={{ textDecoration: 'none' }}>Skip to the forecast →</a>
             <a className="btn" href="#data" style={{ textDecoration: 'none' }}>Datasets & APIs</a>
           </div>

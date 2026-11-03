@@ -9,7 +9,8 @@ elections, freeze the forecast before Election Day, score it afterwards. Sister 
 |------|-------|
 | Repo | `elmandalorian-thx/Midterms2026ML` (`main`) |
 | Hosting | GitHub Pages via `.github/workflows/pages.yml` |
-| URL | `https://elmandalorian-thx.github.io/Midterms2026ML/`; Vite `base` is `/Midterms2026ML/` |
+| URL | Guide `https://elmandalorian-thx.github.io/Midterms2026ML/` · Live tracker `https://elmandalorian-thx.github.io/Midterms2026ML/live/`; Vite `base` is `/Midterms2026ML/` |
+| Default branch | `ccr-51bcea57-agira0` (deploys on push; scheduled run every 10 min refreshes 2026 results until 2026-12-31) |
 | Env vars | optional `FIFTYPLUSONE_API_KEY` (fetch only) |
 
 ## Tech stack
@@ -30,7 +31,11 @@ ml/build.py      -> web/src/data/guide.json                 (bundled: metrics, c
                  -> data/forecast/forecast_2026.{csv,json}  (FROZEN: written once, never overwritten)
 data/raw + data/forecast served at /data/raw|forecast/ by the projectData() plugin in web/vite.config.ts
 web/src/lib/model.ts mirrors build.py features() + inference (logreg, depth-3 tree, GBM)
+web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.ts = TS port of the winner parser,
+                 Wikipedia API polling, Bayesian env nowcast, alerts, demo replay. Backup feed = data/raw/districts_2026.csv
 ```
+
+- `parseCalls()` in `lib/live.ts` and `parse_page()` in `ml/wiki_tables.py` must agree (winner = {{Aye}} line, else "X hold/gain" status).
 
 - **Every number in the UI comes from `guide.json`.** Never hard-code a metric; derive text from `guide`.
 - **Feature parity:** `features()` in `ml/build.py` and `districtFeatures()` in `web/src/lib/model.ts` must match. `build.py` asserts the exported GBM reproduces sklearn.

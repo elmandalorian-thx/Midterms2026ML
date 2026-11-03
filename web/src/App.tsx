@@ -49,10 +49,11 @@ export default function App() {
   const themeBtn = <button className="btn" onClick={toggle} style={{ fontSize: 13 }}>{theme === 'dark' ? '☀ Light' : '☾ Dark'}</button>
   return (
     <>
-      <div className="topbar"><span>House 2026 · ML guide</span><span style={{ display: 'flex', gap: 8 }}><a className="btn" href="#forecast" style={{ textDecoration: 'none', fontSize: 13 }}>Forecast</a>{themeBtn}</span></div>
+      <div className="topbar"><span>House 2026 · ML guide</span><span style={{ display: 'flex', gap: 8 }}><a className="btn live-link" href={`${import.meta.env.BASE_URL}live/`} style={{ textDecoration: 'none', fontSize: 13 }}><i />Live</a>{themeBtn}</span></div>
       <div className="shell">
         <nav className="rail" aria-label="Chapters">
           <div className="rail-title">House 2026<div className="muted" style={{ fontWeight: 400, fontSize: 12 }}>A nonpartisan ML walkthrough by Juan Barahona</div></div>
+          <a className="live-link rail-live" href={`${import.meta.env.BASE_URL}live/`}><i />Live results tracker</a>
           {CHAPTERS.map(([id, label], i) => (
             <a key={id} href={`#${id}`} className={active === id ? 'active' : ''}>
               <span className="mono">{String(i + 1).padStart(2, '0')}</span>{label}

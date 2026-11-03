@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-11-03 (evening)
+
+- Live results tracker at `/live/`: polls the Wikipedia API (revision check first), race-to-218 bar, alert feed (calls, flips, upsets, milestones) with filters, browser notifications and sound, Bayesian nowcast of the national environment, re-simulated seat projection, live forecast record, watchlist, labeled demo replay
+- Backup feed + scheduled GitHub Action (every 10 min until 2026-12-31): refresh 2026 results, rebuild, commit, redeploy
+- Python parser also reads "Democratic/Republican hold/gain" status cells (same-party top-two races decided before Election Day)
+
 ## 2026-11-03 (Election Day)
 
 - Initial project, modeled on PokemonML: Python pipeline (`ml/`), notebook, and a 10-chapter React guide (`web/`)

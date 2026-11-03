@@ -33,6 +33,10 @@ export function Scorecard() {
           </p>
         </div>
       )}
+      <p style={{ marginTop: 16 }}>
+        <a className="btn live-link" href={`${import.meta.env.BASE_URL}live/`} style={{ textDecoration: 'none' }}><i />Follow the count live</a>
+        <span className="muted" style={{ fontSize: 14, marginLeft: 10 }}>calls, flips, upsets and a results-updated projection, scored against this frozen forecast</span>
+      </p>
       <Code label="How to score it after Election Day" code={`
 # 1. refresh only the 2026 page (winners are marked with a check in the result tables)
 .venv/bin/python ml/fetch_data.py --only 2026

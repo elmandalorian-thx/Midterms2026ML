@@ -98,6 +98,8 @@ def parse_page(text: str) -> list[dict]:
             s = STRIPE.search(aye.group(0))
             name = s.group(1) if s else (PARTY_WORD.search(aye.group(0)) or [None, ""])[1] or ""
             winner = "D" if "Democratic" in name else "R" if "Republican" in name else "O"  # DFL counts as D
+        elif st_m := re.search(r"(Democratic|Republican|DFL) (hold|gain)\b", inc_part):
+            winner = "R" if st_m.group(1) == "Republican" else "D"  # status cell only (e.g. same-party top-two races)
         rows[district] = {
             "district": district, "state": st, "pvi": pvi,
             "incParty": incumbents[0]["party"] if incumbents else None,

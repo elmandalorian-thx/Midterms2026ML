@@ -5,7 +5,27 @@ itself on elections it never saw, **freezes its forecast before Election Day**, 
 Built as a companion to [PokemonML](https://github.com/elmandalorian-thx/PokemonML) and mapped to Géron's
 *Hands-On Machine Learning* (3rd ed.). For learning only: not a prediction service, not advocacy.
 
-**Site:** https://elmandalorian-thx.github.io/Midterms2026ML/ (after the Pages workflow runs on `main`)
+## Live links
+
+| Page | URL |
+|---|---|
+| 🔴 **Live results tracker** (election night + the count) | **https://elmandalorian-thx.github.io/Midterms2026ML/live/** |
+| ML walkthrough (10 chapters) | https://elmandalorian-thx.github.io/Midterms2026ML/ |
+| Frozen pre-election forecast (CSV) | https://elmandalorian-thx.github.io/Midterms2026ML/data/forecast/forecast_2026.csv |
+| Code & data | https://github.com/elmandalorian-thx/Midterms2026ML |
+
+### The live tracker
+
+- **Race to 218**: called seats per party, plus a projection for the uncalled ones.
+- **Alert feed**: every call, every seat that **flips**, **upsets** against the frozen forecast, and milestones (50/100/200 called, a party reaching 218), with filters, optional browser notifications and sound.
+- **Results-updated projection** (a Bayesian update): each call is evidence about the true national environment; uncalled seats are re-scored and the seat distribution re-simulated.
+- **Live scorecard**: frozen forecast's hits/misses and Brier score on called races; a watchlist of the closest uncalled races.
+- **Demo replay**: a clearly labeled simulated night, so you can see it work before races are called.
+
+**Where the live data comes from:** the browser polls the free, CORS-enabled **Wikipedia API** (it checks the page's revision id first and downloads the
+page only when it changed), and parses the ✓ winner marks editors add as networks call races. Backup: a GitHub Action re-fetches the results every
+10 minutes, commits `data/raw/districts_2026.csv`, rebuilds the Scorecard and redeploys. Paid, official-grade alternatives: **AP Elections API** and
+**Decision Desk HQ API**; state election sites (often Clarity/Scytl ENR) publish free official counts in per-state formats.
 
 **Highlights from the data**
 - 2,600 district races (2014–2024) from two independent sources that agree on 100% of winners, after fixing a fusion-voting join bug in NY/CT.

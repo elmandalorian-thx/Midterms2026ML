@@ -13,6 +13,16 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 | 7 | [U.S. Census ACS API](https://www.census.gov/data/developers/data-sets/acs-1year.html) (extension) | Demographics by congressional district | `https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E&for=congressional%20district:*&key=KEY` | free key | public domain | extra features |
 | 8 | President's party by year | +1 / −1 per election 1998–2026 | public record, hard-coded in `ml/build.py` (`PRES_PARTY`) | — | — | midterm-penalty chart |
 
+## Live results (election night)
+
+| Source | Access | Cost | Used |
+|---|---|---|---|
+| Wikipedia API (`en.wikipedia.org/w/api.php`, `origin=*` for CORS) | `action=query&prop=revisions&rvprop=ids|timestamp` to check, then `rvprop=content&rvslots=main` to download | free | yes: `web/src/lib/live.ts` |
+| Backup: `data/raw/districts_2026.csv` on GitHub Pages | refreshed by `.github/workflows/pages.yml` every 10 min | free | yes, when Wikipedia is unreachable or rate-limited |
+| AP Elections API | developer.ap.org | paid | no (drop-in upgrade) |
+| Decision Desk HQ API | decisiondeskhq.com | paid | no |
+| State election-night reporting (often Clarity/Scytl ENR JSON) | per state | free | no |
+
 ## Files in this repo
 
 | File | Made by | Contents |

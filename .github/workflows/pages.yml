@@ -1,40 +1,78 @@
-name: Deploy guide to GitHub Pages
+name: Deploy guide + live tracker to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, ccr-51bcea57-agira0]
   workflow_dispatch:
+  # Election night and the weeks of counting: refresh 2026 results every 10 minutes and redeploy.
+  # (GitHub may delay scheduled runs at busy times; the live page also polls Wikipedia directly.)
+  schedule:
+    - cron: '*/10 * * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: web
+    outputs:
+      skip: ${{ steps.window.outputs.skip }}
     steps:
       - uses: actions/checkout@v4
+
+      - name: Stop the schedule after the count is over
+        id: window
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%Y%m%d)" -gt 20261231 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+
+      - uses: actions/setup-python@v5
+        if: github.event_name != 'push' && steps.window.outputs.skip != 'true'
+        with:
+          python-version: '3.13'
+      - name: Refresh 2026 results and rebuild the scorecard
+        if: github.event_name != 'push' && steps.window.outputs.skip != 'true'
+        run: |
+          pip install -q -r ml/requirements.txt
+          python ml/fetch_data.py --only 2026
+          python ml/build.py
+          if [ -n "$(git status --porcelain data/raw web/src/data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/raw web/src/data
+            git commit -m "Refresh 2026 House results ($(date -u +'%Y-%m-%d %H:%M') UTC)"
+            git push
+          fi
+
       - uses: actions/setup-node@v4
+        if: steps.window.outputs.skip != 'true'
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: web/package-lock.json
-      - run: npm ci
-      - run: npm run build
+      - name: Build site
+        if: steps.window.outputs.skip != 'true'
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+      - uses: actions/configure-pages@v5
+        if: steps.window.outputs.skip != 'true'
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
+        if: steps.window.outputs.skip != 'true'
         with:
           path: web/dist
 
   deploy:
     needs: build
+    if: needs.build.outputs.skip != 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
