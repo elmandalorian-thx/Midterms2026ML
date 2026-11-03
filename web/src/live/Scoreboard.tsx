@@ -128,7 +128,6 @@ export function Scoreboard({ called, sCalled, sLogLik, controls }: {
         </p>
       </section>
 
-      <MarketsPanel called={called} sCalled={sCalled} />
 
       <section className="panel">
         <h2>Which polling average was closest?</h2>
@@ -162,6 +161,8 @@ export function Scoreboard({ called, sCalled, sLogLik, controls }: {
           national House popular vote, which takes weeks to count; positive gaps mean the average overstated Democrats.
         </p>
       </section>
+
+      <MarketsPanel called={called} sCalled={sCalled} />
     </>
   )
 }
