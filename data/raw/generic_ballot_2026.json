@@ -4,45 +4,45 @@
  "rows": [
   {
    "source": "Decision Desk HQ",
-   "rep": 42.3,
-   "dem": 51.2,
-   "other": 6.5,
-   "updated": "November 1, 2026"
+   "rep": 42.8,
+   "dem": 51.4,
+   "other": 5.8,
+   "updated": "November 3, 2026"
   },
   {
    "source": "FiftyPlusOne",
-   "rep": 43.7,
-   "dem": 52.3,
-   "other": 4.0,
-   "updated": "November 1, 2026"
+   "rep": 44.1,
+   "dem": 52.8,
+   "other": 3.1,
+   "updated": "November 3, 2026"
   },
   {
    "source": "NBC News",
    "rep": 44.0,
    "dem": 52.0,
    "other": 4.0,
-   "updated": "November 1, 2026"
+   "updated": "November 3, 2026"
   },
   {
    "source": "RealClearPolitics",
-   "rep": 43.1,
-   "dem": 52.0,
-   "other": 4.9,
-   "updated": "November 1, 2026"
+   "rep": 43.3,
+   "dem": 52.1,
+   "other": 4.6,
+   "updated": "November 3, 2026"
   },
   {
    "source": "Silver Bulletin",
-   "rep": 42.6,
-   "dem": 51.4,
-   "other": 6.0,
-   "updated": "November 1, 2026"
+   "rep": 43.0,
+   "dem": 51.8,
+   "other": 5.2,
+   "updated": "November 3, 2026"
   },
   {
    "source": "Average",
-   "rep": 43.1,
-   "dem": 51.8,
-   "other": 5.1,
-   "updated": "November 1, 2026"
+   "rep": 43.4,
+   "dem": 52.0,
+   "other": 4.6,
+   "updated": "November 3, 2026"
   }
  ]
 }
