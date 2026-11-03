@@ -7,7 +7,7 @@ Sources (all free, no account needed):
      read as raw wikitext via index.php?action=raw. The per-state tables give, for every district:
      Cook PVI, incumbent + party, whether the incumbent runs, candidates, and (after the election)
      the winner. The 2026 page also has the generic-ballot polling aggregates.
-  3. Optional: FiftyPlusOne poll CSVs (needs a free API key in FIFTYPLUSONE_API_KEY).
+  3. Optional: FiftyPlusOne poll CSVs (paid plan, from $100/month; key in FIFTYPLUSONE_API_KEY).
 
 Run:  .venv/bin/python ml/fetch_data.py            # everything
       .venv/bin/python ml/fetch_data.py --only 2026  # just refresh the 2026 page (e.g. after results)

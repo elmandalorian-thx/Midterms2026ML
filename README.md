@@ -43,7 +43,7 @@ See **[docs/DATA_SOURCES.md](docs/DATA_SOURCES.md)** for the full table (URLs, k
 |---|---|---|
 | FiveThirtyEight `election-results` (House returns 1998–2024, CC BY 4.0) | raw GitHub CSV | no |
 | Wikipedia House election pages 2014–2026 (Cook PVI, incumbents, candidates, winners, 2026 polling averages; CC BY-SA 4.0) | MediaWiki `action=raw` | no |
-| FiftyPlusOne poll CSVs (optional) | `fiftyplusone.news/api/csv` | free |
+| FiftyPlusOne poll CSVs (optional) | `fiftyplusone.news/api/csv` | paid (from $100/mo) |
 | MIT Election Lab House returns 1976–2024 (alternative) | Harvard Dataverse | guestbook |
 | Census ACS by congressional district (extension) | `api.census.gov` | free |
 

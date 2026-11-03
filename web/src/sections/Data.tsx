@@ -18,7 +18,7 @@ const SOURCES: { name: string; what: string; how: string; license: string; url: 
     how: "Wikipedia 2026 page, table 'Generic congressional ballot aggregate polls' (parsed by fetch_data.py).", license: 'CC BY-SA 4.0 (table)',
     url: 'https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections#Generic_congressional_ballot_aggregate_polls' },
   { name: 'FiftyPlusOne poll files (optional)', what: 'Every 2026 generic-ballot poll (generic.csv), presidential approval, House/Senate/governor polls.',
-    how: 'fiftyplusone.news/api/csv?api_key=KEY&filename=generic.csv (free key; set FIFTYPLUSONE_API_KEY).', license: 'See their terms',
+    how: 'fiftyplusone.news/api/csv?api_key=KEY&filename=generic.csv (paid plan, from $100/mo; set FIFTYPLUSONE_API_KEY).', license: 'See their terms',
     url: 'https://fiftyplusone.news/readme' },
   { name: 'MIT Election Data + Science Lab', what: 'The standard academic House returns, 1976–2024 (alternative / longer history).',
     how: 'Harvard Dataverse doi:10.7910/DVN/IG0UN2 (needs a guestbook form, so not auto-downloaded here).', license: 'CC0',

@@ -441,7 +441,7 @@ export default function LiveApp() {
                 <tr><td><b>AP Elections API</b></td><td>The official vote counts and race calls most news sites use, by county and district, minute by minute.</td><td>Paid license (developer.ap.org)</td><td>Drop-in upgrade</td></tr>
                 <tr><td><b>Decision Desk HQ API</b></td><td>Race calls and vote counts, also used by major outlets.</td><td>Paid / enterprise</td><td>Drop-in upgrade</td></tr>
                 <tr><td><b>State election sites</b> (many use Clarity / Scytl ENR)</td><td>Official, unprojected counts as they are reported, often as JSON per state.</td><td>Free, but a different format per state</td><td>No</td></tr>
-                <tr><td><b>FiftyPlusOne</b></td><td>Polls (generic ballot, approval), not live results.</td><td>Free key</td><td>Pre-election inputs</td></tr>
+                <tr><td><b>FiftyPlusOne</b></td><td>Polls (generic ballot, approval), not live results.</td><td>Paid plans from $100/month</td><td>Optional pre-election input</td></tr>
               </tbody>
             </table>
           </div>
