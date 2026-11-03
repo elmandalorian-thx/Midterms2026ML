@@ -5,7 +5,7 @@
   padding: 12px 24px; background: color-mix(in srgb, var(--page) 86%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border);
 }
 .brand { font-weight: 800; letter-spacing: -0.02em; color: var(--text-primary); text-decoration: none; font-size: 17px; }
-.brand .muted { font-weight: 500; }
+.live-nav { display: flex; align-items: center; gap: 16px; }
 .top-actions { display: flex; gap: 8px; }
 .top-actions .btn { padding: 7px 12px; font-size: 13px; }
 .btn[aria-pressed='true'] { background: var(--surface-2); }
@@ -75,8 +75,8 @@
 .linkish { background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; font-size: inherit; text-decoration: underline; }
 
 /* Senate + Congress */
-.tabs { display: inline-flex; justify-self: start; width: fit-content; max-width: 100%; overflow-x: auto; gap: 4px; padding: 4px; background: var(--surface-2); border-radius: 12px; margin-bottom: 16px; }
-.tabs button { border: 0; background: transparent; padding: 7px 14px; border-radius: 9px; font: inherit; font-size: 14px; font-weight: 600; color: var(--text-secondary); cursor: pointer; }
+.tabs { display: inline-flex; justify-self: start; width: fit-content; max-width: 100%; overflow-x: auto; gap: 4px; padding: 4px; background: var(--surface-2); border-radius: 12px; margin-bottom: 16px; scrollbar-width: none; }
+.tabs button { border: 0; background: transparent; padding: 7px 14px; border-radius: 9px; font: inherit; font-size: 14px; font-weight: 600; color: var(--text-secondary); cursor: pointer; white-space: nowrap; flex: none; }
 .tabs button[aria-pressed='true'] { background: var(--surface-1); color: var(--text-primary); box-shadow: var(--shadow); }
 .race-seg.hold { background-image: repeating-linear-gradient(45deg, color-mix(in srgb, var(--surface-1) 45%, transparent) 0 3px, transparent 3px 7px); }
 .race-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
@@ -100,10 +100,29 @@
 @media (max-width: 1080px) { .live-grid { grid-template-columns: minmax(0, 1fr); } .col-feed { position: static; max-height: 560px; order: -1; } }
 @media (max-width: 760px) {
   .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .two { grid-template-columns: minmax(0, 1fr); }
-  .live-top { padding: 10px 14px; } .live-main { padding: 14px 12px 40px; } .banner { margin: 12px 12px 0; }
+  .live-top { padding: 10px 14px; row-gap: 10px; } .live-nav { display: contents; } .live-top .switcher { order: 3; width: 100%; } .live-top .switcher a { flex: 1; } .live-main { padding: 14px 12px 40px; } .banner { margin: 12px 12px 0; }
   .panel { padding: 16px; border-radius: 14px; }
 }
 
 /* scoreboard tags */
 .tag { display: inline-block; font-size: 11.5px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap; }
 .tag-best { border-color: var(--text-primary); color: var(--text-primary); font-weight: 600; }
+
+/* "How to read a race card" explainer */
+.explainer { margin: 0 0 14px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-2); }
+.explainer summary { cursor: pointer; padding: 10px 14px; font-weight: 650; font-size: 14px; }
+.explainer-body { padding: 0 16px 14px; font-size: 14px; line-height: 1.6; color: var(--text-secondary); }
+.explainer-body h3 { font-size: 15px; font-weight: 750; color: var(--text-primary); margin: 16px 0 6px; }
+.explainer-body ol, .explainer-body ul { padding-left: 20px; margin: 6px 0; }
+.explainer-body li { margin: 4px 0; }
+.explainer-body b { color: var(--text-primary); }
+
+/* tooltips inside race cards */
+.rcard header .tip { border-bottom: 1px dotted var(--text-muted); }
+.rcard .tip:has(> .pbar) { display: block; padding: 4px 0; border-bottom: 0; }
+.rcard .pbar { display: block; }
+.rcard .pbar-fill { position: absolute; inset: 0 auto 0 0; border-radius: 4px; transition: width 0.6s ease, background 0.6s ease; }
+.rcard .pbar-tick { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--text-muted); }
+.rcard footer .tip { border-bottom: 1px dotted var(--text-muted); }
+.explainer-pick { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.explainer-pick select { font: inherit; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); }

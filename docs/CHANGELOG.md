@@ -2,6 +2,9 @@
 
 ## 2026-11-03 (Senate)
 
+- Shared site navigation (`web/src/components/SiteNav.tsx`): House guide / Senate guide / Live tracker switcher on every page, chapter track rail, mobile top bar + drawer; both guides use `GuideShell`
+- Race cards: hover/tap explanations for lean, bar, now, frozen and tipping (`InfoTip`), plus a "How to read a race card" explainer with a per-race logistic-regression breakdown (`senateContrib`)
+- Fix: Senate "now" probabilities computed exactly (the 0.25-point grid made "now" differ from "frozen" before any call)
 - Live tracker Scoreboard tab (`web/src/lib/scoreboard.ts`, `web/src/live/Scoreboard.tsx`): every frozen House/Senate model graded on called races (all + close races, ties flagged), and each generic-ballot average vs. the national margin implied by results alone (flat prior)
 - Senate pipeline: `ml/senate_tables.py` (Wikipedia Senate tables), 538 Senate + state presidential returns, `ml/build_senate.py` (computed state lean, leave-one-cycle-out with bootstrap CIs, House transfer, pooled House + Senate model chosen by a pre-registered rule, symmetric independent stand-in rule)
 - Frozen Senate forecast `data/forecast/senate_forecast_2026.{csv,json}` committed before polls closed, with joint House × Senate control odds

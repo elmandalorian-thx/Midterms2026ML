@@ -273,3 +273,12 @@ export function simulateCongress(calledH: Map<string, 'D' | 'R' | 'O'>, calledS:
   for (const k in out) out[k] /= n
   return out
 }
+
+/** The chosen logistic model's arithmetic for one race: each feature's push on the log-odds, relative to an average past race. */
+export function senateContrib(r: SenateRace2026, env: number, key = senate.chosen) {
+  const { mean, scale, coef, intercept } = senate.model.logreg[key]
+  const x = senateFeatures(r, env)
+  const parts = senate.features.map((f, i) => ({ key: f.key, label: f.label, x: x[f.key], push: (coef[i] * (x[f.key] - mean[i])) / scale[i] }))
+  const z = intercept + parts.reduce((s, p) => s + p.push, 0)
+  return { intercept, parts, z, p: sigmoid(z) }
+}

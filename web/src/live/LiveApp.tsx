@@ -10,10 +10,11 @@ import {
 } from '../lib/live'
 import {
   fetchSenateBackup, parseSenateCalls, D_CONTROL, R_CONTROL, SENATE_PAGE, senateAlerts, senateDemo, senateLogLik, SF, simulateCongress,
-  simulateSenate, SR, STABLE, seatOf, seatTotals, sideOf, type SCall,
+  senateP, simulateSenate, SR, seatOf, seatTotals, sideOf, type SCall,
 } from '../lib/senate'
 import './live.css'
-import { CongressGrid, RaceCards, SenateBar } from './SenatePanels'
+import { CongressGrid, RaceCards, ReadCard, SenateBar } from './SenatePanels'
+import { SiteSwitcher } from '../components/SiteNav'
 import { Scoreboard } from './Scoreboard'
 
 type W = 'D' | 'R' | 'O'
@@ -311,8 +312,8 @@ export default function LiveApp() {
 
   // Senate: chamber odds, expected seats, race probabilities at the updated environment
   const sSim = useMemo(() => simulateSenate(sCalled, post, 3000), [sCalled, post])
-  const sRow = STABLE[gridIndex(mean)]
-  const sProbs = SR.map((_, i) => sRow[i])
+  // Exact, not the 0.25-point grid: otherwise rounding alone could make "now" differ from "frozen" before any call.
+  const sProbs = useMemo(() => SR.map((r) => senateP(r, mean)), [mean])
   const sTot = seatTotals(sCalled)
   const sExp = SR.reduce((acc, r, i) => {
     const c = sCalled.get(r.id)
@@ -380,7 +381,10 @@ export default function LiveApp() {
   return (
     <div className="live-page">
       <header className="live-top">
-        <a href={GUIDE_URL} className="brand">Midterms 2026 <span className="muted">· Live tracker</span></a>
+        <div className="live-nav">
+          <a href={GUIDE_URL} className="brand">Midterms 2026</a>
+          <SiteSwitcher current="live" row />
+        </div>
         <div className={`status ${demo ? 'demo' : paused ? 'paused' : status}`}>
           <i />{demo ? 'DEMO REPLAY' : paused ? 'PAUSED' : status === 'error' ? 'RETRYING' : status === 'backup' ? 'LIVE · BACKUP FEED' : 'LIVE'}
           {!demo && !paused && <span className="muted tabular">{status === 'checking' ? 'checking…' : nextIn !== null ? `next check ${nextIn}s` : ''}</span>}
@@ -388,8 +392,8 @@ export default function LiveApp() {
         <div className="top-actions">
           <button className="btn" aria-pressed={paused} onClick={() => setPaused((p) => !p)}>{paused ? '▶ Resume' : '❚❚ Pause'}</button>
           <button className="btn" aria-pressed={notify} onClick={askNotify} title="Browser notification when this tab is in the background">{notify ? '🔔 On' : '🔕 Alerts'}</button>
-          <button className="btn" aria-pressed={sound} onClick={() => setSound((s) => !s)}>{sound ? '🔊' : '🔈'}</button>
-          <button className="btn" onClick={toggleTheme}>{theme === 'dark' ? '☀' : '☾'}</button>
+          <button className="btn" aria-pressed={sound} onClick={() => setSound((s) => !s)} title={sound ? 'Sound alerts on: click to mute' : 'Sound alerts off: click for a chime on each call'} aria-label={sound ? 'Mute sound alerts' : 'Turn on sound alerts'}>{sound ? '🔊' : '🔈'}</button>
+          <button className="btn" onClick={toggleTheme} title="Light / dark mode" aria-label="Toggle light and dark mode">{theme === 'dark' ? '☀' : '☾'}</button>
         </div>
       </header>
 
@@ -489,7 +493,8 @@ export default function LiveApp() {
                   <div><h2>All {SR.length} races</h2><p className="muted sub" style={{ margin: 0 }}>Closest uncalled first. Probabilities update with every call in either chamber.</p></div>
                   <input type="search" placeholder="State or candidate, e.g. Texas" value={q} onChange={(e) => setQ(e.target.value)} style={{ maxWidth: 260 }} />
                 </div>
-                <RaceCards called={sCalled} probs={sProbs} q={q} />
+                <ReadCard env={{ mean, sd }} probs={sProbs} />
+                <RaceCards called={sCalled} probs={sProbs} q={q} env={{ mean, sd }} />
               </section>
               <div className="two">
                 <section className="panel">

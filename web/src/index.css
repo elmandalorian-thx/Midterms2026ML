@@ -98,33 +98,88 @@ img { display: block; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
 
 /* ------------------------------------------------------------------ layout */
-.shell { display: grid; grid-template-columns: 220px minmax(0, 1fr); max-width: 1320px; margin: 0 auto; }
-.rail {
-  position: sticky; top: 0; height: 100vh; padding: 32px 0 32px 28px;
-  display: flex; flex-direction: column; gap: 2px;
-}
-.rail-title { font-weight: 700; font-size: 14px; margin-bottom: 20px; letter-spacing: -0.01em; }
-.rail a {
-  display: flex; gap: 10px; align-items: baseline; text-decoration: none;
-  color: var(--text-muted); font-size: 14px; padding: 6px 10px; border-radius: 8px;
-}
-.rail a .mono { font-size: 11px; }
-.rail a:hover { color: var(--text-primary); background: var(--surface-2); }
-.rail a.active { color: var(--text-primary); background: var(--surface-1); box-shadow: var(--shadow); }
-.rail-foot { margin-top: auto; display: flex; flex-direction: column; gap: 8px; }
+.shell { display: grid; grid-template-columns: 252px minmax(0, 1fr); max-width: 1340px; margin: 0 auto; }
 main { padding: 0 40px 120px; min-width: 0; }
-.topbar { display: none; }
 
+/* ------------------------------------------------------------------ navigation (components/SiteNav.tsx) */
+.rail {
+  position: sticky; top: 0; height: 100vh; overflow-y: auto; scrollbar-width: thin;
+  padding: 28px 14px 28px 24px; display: flex; flex-direction: column; gap: 22px;
+}
+.nav-brand { display: block; text-decoration: none; color: var(--text-primary); padding: 0 4px; }
+.nav-brand b { display: block; font-size: 16px; font-weight: 800; letter-spacing: -0.02em; }
+.nav-brand span { display: block; font-size: 12px; line-height: 1.4; color: var(--text-muted); margin-top: 2px; }
+.nav-label { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); padding: 0 0 8px 12px; }
+
+/* site switcher: stacked card in the rail, segmented control in top bars */
+.switcher { display: flex; flex-direction: column; gap: 2px; padding: 4px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface-1); }
+.switcher a {
+  display: flex; align-items: center; gap: 10px; padding: 7px 8px; border-radius: 8px;
+  color: var(--text-secondary); text-decoration: none; font-size: 14px; font-weight: 550; white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.switcher a:hover { background: var(--surface-2); color: var(--text-primary); }
+.switcher a[aria-current='page'] { background: var(--surface-2); color: var(--text-primary); font-weight: 700; }
+.sw-badge {
+  display: inline-grid; place-items: center; width: 22px; height: 22px; flex: none; border-radius: 6px;
+  font: 700 11px var(--mono); color: var(--text-secondary); background: var(--page); border: 1px solid var(--border);
+}
+.switcher a[aria-current='page'] .sw-badge { color: var(--page); background: var(--text-primary); border-color: var(--text-primary); }
+.sw-pulse { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--critical); animation: pulse 1.4s ease-in-out infinite; }
+.switcher.row { flex-direction: row; padding: 3px; border-radius: 10px; }
+.switcher.row a { padding: 5px 12px; font-size: 13px; gap: 7px; justify-content: center; }
+
+/* chapter list: one continuous track, the active chapter marked on it */
+.toc { display: flex; flex-direction: column; }
+.toc a {
+  display: grid; grid-template-columns: 24px 1fr; align-items: baseline; gap: 6px; padding: 6px 10px;
+  margin-left: 2px; border-left: 2px solid var(--grid); color: var(--text-muted); text-decoration: none; font-size: 14px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.toc a .mono { font-size: 11px; }
+.toc a:hover { color: var(--text-primary); border-left-color: var(--text-muted); }
+.toc a.active { color: var(--text-primary); font-weight: 650; border-left-color: var(--text-primary); }
+.toc a.active .mono { color: var(--accent); }
+
+.nav-foot {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 14px 4px 0;
+  border-top: 1px solid var(--border); font-size: 13px;
+}
+.nav-foot a { color: var(--text-muted); text-decoration: none; }
+.nav-foot a:hover { color: var(--text-primary); }
+.theme-btn { margin-left: auto; padding: 5px 10px; font-size: 12.5px; }
+
+/* mobile: sticky top bar with the switcher + a drawer for chapters */
+.topbar { display: none; }
+.drawer, .drawer-backdrop { display: none; }
 @media (max-width: 1000px) {
   .shell { grid-template-columns: minmax(0, 1fr); }
   .rail { display: none; }
   main { padding: 0 18px 80px; }
   .topbar {
-    display: flex; position: sticky; top: 0; z-index: 20; align-items: center; justify-content: space-between;
-    padding: 10px 18px; background: color-mix(in srgb, var(--page) 88%, transparent); backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border); font-weight: 700; font-size: 14px;
+    display: flex; position: sticky; top: 0; z-index: 20; align-items: center; gap: 10px;
+    padding: 8px 14px; background: color-mix(in srgb, var(--page) 88%, transparent); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
   }
+  .topbar-brand { font-weight: 800; font-size: 15px; letter-spacing: -0.02em; color: var(--text-primary); text-decoration: none; white-space: nowrap; }
+  .topbar .switcher { margin-left: auto; }
+  .menu-btn { display: inline-grid; place-items: center; width: 38px; height: 34px; padding: 0; }
+  .drawer-backdrop { display: block; position: fixed; inset: 0; z-index: 40; background: rgba(0, 0, 0, 0.38); animation: fade-in 0.2s ease; }
+  .drawer {
+    display: flex; flex-direction: column; gap: 22px; position: fixed; top: 0; right: 0; bottom: 0; z-index: 41;
+    width: min(340px, 88vw); overflow-y: auto; padding: 22px 18px 28px; background: var(--page);
+    border-left: 1px solid var(--border); box-shadow: -12px 0 40px rgba(0, 0, 0, 0.18); animation: slide-in 0.24s ease;
+  }
+  .drawer[hidden] { display: none; }
+  .drawer-close { align-self: flex-end; width: 34px; height: 34px; padding: 0; margin-bottom: -18px; }
 }
+@media (max-width: 480px) {
+  .topbar-brand { display: none; }
+  .topbar .switcher { margin-left: 0; flex: 1; }
+  .topbar .switcher a { flex: 1; padding: 5px 6px; }
+}
+@keyframes slide-in { from { transform: translateX(100%); } to { transform: none; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
 
 /* ------------------------------------------------------------------ chapters */
 .chapter { padding: 88px 0 24px; border-top: 1px solid var(--grid); }
@@ -254,9 +309,27 @@ input[type='range'] { width: 100%; accent-color: var(--text-primary); }
 /* link to the live tracker */
 .live-link { display: inline-flex; align-items: center; gap: 8px; }
 .live-link i { width: 8px; height: 8px; border-radius: 50%; background: var(--critical); animation: pulse 1.4s ease-in-out infinite; }
-.rail a.rail-live { color: var(--text-primary); font-weight: 650; margin-bottom: 12px; border: 1px solid var(--border); background: var(--surface-1); }
 
 /* probability bar (Senate guide race table + live tracker) */
 .pbar { position: relative; height: 8px; border-radius: 4px; background: var(--surface-2); }
 .pbar div { position: absolute; inset: 0 auto 0 0; border-radius: 4px; transition: width 0.6s ease, background 0.6s ease; }
 .pbar span { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--text-muted); }
+
+/* InfoTip: hover on desktop, tap (focus) on touch screens */
+.tip { position: relative; cursor: help; border-bottom: 1px dotted var(--text-muted); outline: none; }
+.tip:focus-visible { box-shadow: 0 0 0 2px var(--accent); border-radius: 3px; }
+.tip-box {
+  display: none; position: absolute; top: calc(100% + 8px); z-index: 60; width: max-content; max-width: min(300px, 78vw);
+  padding: 10px 12px; border-radius: 10px; background: var(--text-primary); color: var(--page);
+  font-size: 12.5px; font-weight: 450; line-height: 1.5; letter-spacing: 0; text-align: left; white-space: normal;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); pointer-events: none;
+}
+.tip-left .tip-box { left: -6px; }
+.tip-right .tip-box { right: -6px; }
+.tip:hover .tip-box, .tip:focus .tip-box { display: block; animation: tip-in 0.15s ease; }
+@keyframes tip-in { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+/* phones: a bottom sheet, so long explanations never run off-screen */
+@media (max-width: 600px) {
+  .tip-left .tip-box, .tip-right .tip-box { position: fixed; top: auto; left: 12px; right: 12px; bottom: 12px; width: auto; max-width: none; font-size: 13.5px; padding: 14px 16px; }
+}
+.tip-box b { color: inherit; }

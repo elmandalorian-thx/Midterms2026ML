@@ -55,7 +55,8 @@ web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.
 | `components/charts.tsx` | `ChartFrame` (animates children in on scroll), `BarList`, `DivergingBars`, `LineChart`, `Legend`, `Tooltip`, `useWidth` |
 | `components/election.tsx` | `Hemicycle`, `YearScatter`, `SeatHistogram`, `TreeDiagram`, `YearBars` |
 | `components/anim.tsx` | `useInView`, `useTween`, `CountUp`, `Reveal` (respect reduced motion) |
-| `components/ui.tsx` | `Chapter` (with HOML `book` chips), `Callout` (concept/pitfall/result/try/fair), `Code`, `StatTile`, `PartyTag`, `probColor` |
+| `components/ui.tsx` | `Chapter` (with HOML `book` chips), `Callout` (concept/pitfall/result/try/fair), `Code`, `StatTile`, `PartyTag`, `probColor`, `InfoTip` (hover/tap; bottom sheet on phones) |
+| `components/SiteNav.tsx` | `GuideShell` (rail + mobile drawer for a guide), `SiteSwitcher` (cross-page nav, used by all 3 pages), `useTheme` |
 | `lib/data.ts` | `guide`, `pct`, `fmt`, `lean`, `MAJORITY`, `dataUrl` |
 | `lib/model.ts` | `districtFeatures`, `predict`, `logreg`, `tree`, `gbm`, `fixed`, `mulberry32`, `randn` |
 | `lib/scoreboard.ts` | `observations`, `scoreModels`, `scorePolls`, `resultsOnlyEnv` (live grading of frozen models + poll averages) |
@@ -65,7 +66,7 @@ web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.
 
 1. Compute it in `ml/build.py` and add it to `guide`. 2. Type it in `web/src/lib/types.ts`.
 3. `.venv/bin/python ml/build.py` (~1 min). 4. Section in `web/src/sections/`, charts in `ChartFrame` with `table`.
-5. New chapter: add to `CHAPTERS` in `App.tsx` (Senate: `senate/SenateApp.tsx`; Senate metrics go in `ml/build_senate.py` + `Senate` type). 6. `cd web && npx tsc -b && npm run build`; check light, dark and 390px.
+5. New chapter: add to `CHAPTERS` in `App.tsx` (rendered by `GuideShell`) (Senate: `senate/SenateApp.tsx`; Senate metrics go in `ml/build_senate.py` + `Senate` type). 6. `cd web && npx tsc -b && npm run build`; check light, dark and 390px.
 
 ## Guidelines
 

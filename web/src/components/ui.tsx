@@ -72,3 +72,13 @@ export function probColor(p: number) {
   const pole = p >= 0.5 ? 'var(--dem)' : 'var(--rep)'
   return `color-mix(in oklab, ${pole} ${Math.round(Math.pow(k, 0.75) * 100)}%, var(--tossup))`
 }
+
+/** Hover (desktop) or tap (mobile, via focus) explanation. `align` keeps the box inside its card. */
+export function InfoTip({ tip, align = 'left', children }: { tip: ReactNode; align?: 'left' | 'right'; children: ReactNode }) {
+  return (
+    <span className={`tip tip-${align}`} tabIndex={0}>
+      {children}
+      <span className="tip-box" role="tooltip">{tip}</span>
+    </span>
+  )
+}
