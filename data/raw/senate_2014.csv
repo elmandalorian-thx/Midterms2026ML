@@ -1,0 +1,37 @@
+race,state,special,pvi_cook,inc_party,inc_running,candidates,winner,winner_name,status
+AK,AK,0,,D,1,R:Dan Sullivan;D+:Mark Begich;O:Mark Fish;I:Ted Gianoutsos,R,Dan Sullivan,Incumbent lost re-election. Republican gain.
+AL,AL,0,,R,1,R:Jeff Sessions,R,Jeff Sessions,Incumbent re-elected.
+AR,AR,0,,D,1,R:Tom Cotton;D+:Mark Pryor,R,Tom Cotton,Incumbent lost re-election. Republican gain.
+CO,CO,0,,D,1,R:Cory Gardner;D+:Mark Udall;O:Gaylon Kent,R,Cory Gardner,Incumbent lost re-election. Republican gain.
+DE,DE,0,,D,1,D:Chris Coons;R+:Kevin L. Wade;O:Andrew Groff,D,Chris Coons,Incumbent re-elected.
+GA,GA,0,,R,0,R:David Perdue;D+:Michelle Nunn;O:Amanda Swafford,R,David Perdue,Incumbent retired. Republican hold.
+HI-S,HI,1,,D,1,D:Brian Schatz;R+:Campbell Cavasso;O:Michael A. Kokoski,D,Brian Schatz,Interim appointee elected.
+IA,IA,0,,D,0,R:Joni Ernst;D+:Bruce Braley,R,Joni Ernst,Incumbent retired. New senator . Republican gain.
+ID,ID,0,,R,1,R:Jim Risch;D+:Nels Mitchell,R,Jim Risch,Incumbent re-elected.
+IL,IL,0,,D,1,D:Dick Durbin;R+:Jim Oberweis;O:Sharon Hansen,D,Dick Durbin,Incumbent re-elected.
+KS,KS,0,,R,1,R:Pat Roberts;I+:Greg Orman;O:Randall Batson,R,Pat Roberts,Incumbent re-elected.
+KY,KY,0,,R,1,R:Mitch McConnell;D+:Alison Lundergan Grimes;O:David Patterson,R,Mitch McConnell,Incumbent re-elected.
+LA,LA,0,,D,1,R:Bill Cassidy;D+:Mary Landrieu,R,Bill Cassidy,Incumbent lost re-election in runoff. Republican gain.
+MA,MA,0,,D,1,D:Ed Markey;R+:Brian Herr,D,Ed Markey,Incumbent re-elected.
+ME,ME,0,,R,1,R:Susan Collins;D+:Shenna Bellows,R,Susan Collins,Incumbent re-elected.
+MI,MI,0,,D,0,D:Gary Peters;R+:Terri Lynn Land,D,Gary Peters,Incumbent retired. Democratic hold.
+MN,MN,0,,D,1,D:Al Franken;R+:Mike McFadden,D,Al Franken,Incumbent re-elected.
+MS,MS,0,,R,1,R:Thad Cochran;D+:Travis Childers;O:Shawn O'Hara,R,Thad Cochran,Incumbent re-elected.
+MT,MT,0,,D,1,R:Steve Daines;D+:Amanda Curtis;O:Roger Roots,R,Steve Daines,Interim appointee nominated but withdrew. Republican gain.
+NC,NC,0,,D,1,R:Thom Tillis;D+:Kay Hagan;O+:Sean Haugh,R,Thom Tillis,Incumbent lost re-election. Republican gain.
+NE,NE,0,,R,0,R:Ben Sasse;D+:David Domina;I:Jim Jenkins;I:Todd Watson,R,Ben Sasse,Incumbent retired. Republican hold.
+NH,NH,0,,D,0,D:Jeanne Shaheen;R+:Scott Brown,D,Jeanne Shaheen,Incumbent .
+NJ,NJ,0,,D,1,D:Cory Booker;R+:Jeff Bell,D,Cory Booker,Incumbent re-elected.
+NM,NM,0,,D,1,D:Tom Udall;R+:Allen Weh,D,Tom Udall,Incumbent re-elected.
+OK,OK,0,,R,1,R:Jim Inhofe;D:Matt Silverstein,R,Jim Inhofe,Incumbent re-elected.
+OK-S,OK,1,,R,0,R:James Lankford;D+:Connie Johnson;I:Mark T. Beard,R,James Lankford,"| Incumbent resigned, effective January 3, 2015. Republican hold."
+OR,OR,0,,D,1,D:Jeff Merkley;R+:Monica Wehby;O:Mike Montchalin,D,Jeff Merkley,Incumbent re-elected.
+RI,RI,0,,D,1,D:Jack Reed;R:Mark Zaccaria,D,Jack Reed,Incumbent re-elected.
+SC,SC,0,,R,1,R:Lindsey Graham;D+:Brad Hutto;I+:Thomas Ravenel;O:Victor Kocher,R,Lindsey Graham,Incumbent re-elected.
+SC-S,SC,1,,R,0,R:Tim Scott;D+:Joyce Dickerson;I:Jill Bossi,R,Tim Scott,Interim appointee .
+SD,SD,0,,D,0,R:Mike Rounds;D+:Rick Weiland;I+:Larry Pressler;I+:Gordon Howie,R,Mike Rounds,Incumbent retired. Republican gain.
+TN,TN,0,,R,1,R:Lamar Alexander;D:Gordon Ball;O:Joe B. Wilmoth,R,Lamar Alexander,Incumbent re-elected.
+TX,TX,0,,R,1,R:John Cornyn;D+:David Alameel;O:Rebecca Paddock;O:Emily Marie Sanchez,R,John Cornyn,Incumbent re-elected.
+VA,VA,0,,D,1,D:Mark Warner;R+:Ed Gillespie;O+:Robert Sarvis,D,Mark Warner,Incumbent re-elected.
+WV,WV,0,,D,0,R:Shelley Moore Capito;D+:Natalie Tennant,R,Shelley Moore Capito,Incumbent retired. Republican gain.
+WY,WY,0,,R,1,R:Mike Enzi;D:Charlie Hardy;I:Curt Gottshall;O:Joe Porambo,R,Mike Enzi,Incumbent re-elected.

@@ -1,0 +1,1665 @@
+cycle,state_abbrev,office_seat_name,special,stage,candidate_name,ballot_party,votes,percent,unopposed,winner
+2024,VA,Class I,false,general,,,8505,0.19142790134249366,,
+2024,VT,Class I,false,general,Justin Schoville,OTH,3339,0.9191940603381115,,false
+2024,VT,Class I,false,general,Matt Hill,LIB,4530,1.2470647179789291,,false
+2024,VT,Class I,false,general,Steve Berry,IND,7941,2.1860796744968383,,false
+2024,VT,Class I,false,general,Gerald Malloy,REP,116512,32.07461466250795,,false
+2024,VT,Class I,false,general,Bernie Sanders,IND,229429,63.159560967149616,,true
+2024,VT,Class I,false,general,,,9336,2.5701095379804157,,
+2024,VT,Class I,false,general,,,296,0.0814859065169455,,
+2024,VT,Class I,false,general,,,398,0.10956550943832534,,
+2024,VT,Class I,false,general,Mark Stewart Greenstein,OTH,1104,0.30392040809022913,,false
+2024,WY,Class I,false,general,,,6860,2.5968913015498063,,
+2024,WY,Class I,false,general,,,101,0.03823411391494613,,
+2024,WY,Class I,false,general,,,2017,0.7635466115489737,,
+2024,WY,Class I,false,general,Scott D. Morrow,DEM,63727,24.124211657997744,,false
+2024,WY,Class I,false,general,John Barrasso,REP,198418,75.11224173045328,,true
+2024,MI,Class I,false,general,,,4,7.172074380866197e-05,,
+2024,MI,Class I,false,general,Doug Dern,NLP,18779,0.33671096199571576,,false
+2024,MI,Class I,false,general,Douglas P. Marsh,GRE,53978,0.967835577325989,,false
+2024,MI,Class I,false,general,Dave Stein,UST,41363,0.7416462815394211,,false
+2024,MI,Class I,false,general,Joseph Solis-Mullen,LIB,56697,1.0165877529299268,,false
+2024,MI,Class I,false,general,Mike Rogers,REP,2693680,48.29818329562914,,false
+2024,MI,Class I,false,general,Elissa Slotkin,DEM,2712686,48.638964409836,,true
+2024,TX,Class I,false,general,Analisa Roche,W,1906,0.016879424760539767,,false
+2024,TX,Class I,false,general,Tracy Andrus,W,919,0.008138610364604431,,false
+2024,TX,Class I,false,general,Ted Brown,LIB,267039,2.364881798861374,,false
+2024,TX,Class I,false,general,Colin Allred,DEM,5031249,44.55644750631739,,false
+2024,TX,Class I,false,general,Ted Cruz,REP,5990741,53.05365265969609,,true
+2024,OH,Class I,false,general,Tariq K. Shabazz,W,524,0.009185537336404528,,false
+2024,OH,Class I,false,general,Nathan Russell,W,19,0.0003330633767016909,,false
+2024,OH,Class I,false,general,David Allen Pastorius,W,13,0.000227885468269578,,false
+2024,OH,Class I,false,general,Stephen Faris,W,84,0.0014724907180495809,,false
+2024,OH,Class I,false,general,Bernie Moreno,REP,2857383,50.088927921579355,,true
+2024,OH,Class I,false,general,Donald C. Kissick,LIB,195648,3.4296412381543377,,false
+2024,OH,Class I,false,general,Sherrod Brown,DEM,2650949,46.470211863366885,,false
+2024,NM,Class I,false,general,Nella Louise Domenici,REP,405978,44.94332516707978,,false
+2024,NM,Class I,false,general,Martin Heinrich,DEM,497333,55.05667483292023,,true
+2024,MA,Class I,false,general,,,99507,2.9152222195204196,,
+2024,MA,Class I,false,general,,,6221,0.18225448890667523,,
+2024,MA,Class I,false,general,John Deaton,REP,1365445,40.00297068078687,,false
+2024,MA,Class I,false,general,Elizabeth Ann Warren,DEM,2041693,59.81477483030645,,true
+2024,MN,Class I,false,general,Joyce Lynne Lacey,OTH,46377,1.454133055824073,,false
+2024,MN,Class I,false,general,Amy Klobuchar,DEM,1792441,56.201300401370446,,true
+2024,MN,Class I,false,general,Rebecca Whiting,LIB,55215,1.731245157671393,,false
+2024,MN,Class I,false,general,,,3578,0.11218681833103765,,
+2024,MN,Class I,false,general,Royce White,REP,1291712,40.501134566803046,,false
+2024,MS,Class I,false,general,Roger F. Wicker,REP,763420,62.81219120273885,,true
+2024,MS,Class I,false,general,Ty Pinkins,DEM,451981,37.18780879726115,,false
+2024,MT,Class I,false,general,Tim Sheehy,REP,319682,52.6431754333385,,true
+2024,MT,Class I,false,general,Sid Daoud,LIB,7272,1.1975061834924627,,false
+2024,MT,Class I,false,general,Robert Barb,GRE,4003,0.6591882910506502,,false
+2024,MT,Class I,false,general,Jon Tester,DEM,276305,45.5001300921184,,false
+2024,NE,Class I,false,general,,,2719,0.2897682706407939,,
+2024,NE,Class I,false,general,Dan Osborn,DEM,436493,46.51777188555059,,false
+2024,NE,Class I,false,general,Deb Fischer,REP,499124,53.192459843808614,,true
+2024,NE,Class II,true,general,Preston Love Jr.,DEM,349902,37.422473676611354,,false
+2024,NE,Class II,true,general,Pete Ricketts,REP,585103,62.577526323388646,,true
+2024,NV,Class I,false,general,Chris Cunningham,LIB,20881,1.425588914801929,,false
+2024,NV,Class I,false,general,Janine Hansen,IAP,21316,1.4552872615256893,,false
+2024,NV,Class I,false,general,,,44380,3.0299140864378913,,
+2024,NV,Class I,false,general,Sam Brown,REP,677046,46.223326105597764,,false
+2024,NV,Class I,false,general,Jacky S. Rosen,DEM,701105,47.86588363163673,,true
+2024,ND,Class I,false,general,,,1156,0.31729737296439736,,
+2024,ND,Class I,false,general,Katrina Christiansen,DEM,121602,33.377158431848315,,false
+2024,ND,Class I,false,general,Kevin Cramer,REP,241569,66.3055441951873,,true
+2024,MO,Class I,false,general,Gina Bufe,W,19,0.0006391799119882903,,false
+2024,MO,Class I,false,general,Nathan Kline,GRE,20123,0.6769588088915981,,false
+2024,MO,Class I,false,general,Jared Young,OTH,21111,0.7101961643149892,,false
+2024,MO,Class I,false,general,W.C. Young,LIB,35671,1.200009823186016,,false
+2024,MO,Class I,false,general,Lucas Kunce,DEM,1243728,41.84031334617749,,false
+2024,MO,Class I,false,general,Josh Hawley,REP,1651907,55.57188267751793,,true
+2024,PA,Class I,false,general,Marty Selker,CON,23621,0.33922928702968214,,false
+2024,PA,Class I,false,general,Leila Hazou,GRE,66388,0.9534208504011913,,false
+2024,PA,Class I,false,general,John C. Thomas,LIB,89653,1.287537499262186,,false
+2024,PA,Class I,false,general,Dave McCormick,REP,3399295,48.8184420326643,,true
+2024,PA,Class I,false,general,Robert P. Casey Jr.,DEM,3384180,48.60137033064264,,false
+2024,RI,Class I,false,general,,,1244,0.25287225479115677,,
+2024,RI,Class I,false,general,Patricia Morgan,REP,196039,39.84953694292893,,false
+2024,RI,Class I,false,general,Sheldon Whitehouse,DEM,294665,59.89759080227992,,true
+2024,TN,Class I,false,general,Hastina Robinson,IND,8278,0.2752353365199188,,false
+2024,TN,Class I,false,general,"Pamela Jeanine ""P."" Moses",IND,24682,0.8206521594569505,,false
+2024,TN,Class I,false,general,Tharon Chandler,IND,28444,0.9457349495013978,,false
+2024,TN,Class I,false,general,Gloria Johnson,DEM,1027461,34.16206500315201,,false
+2024,TN,Class I,false,general,Marsha Blackburn,REP,1918743,63.796312551369724,,true
+2024,UT,Class I,false,general,,,8878,0.6066242161817932,,
+2024,UT,Class I,false,general,Laird F. Hamblin,W,322,0.02200191457654172,,false
+2024,UT,Class I,false,general,Caroline Gleich,DEM,464515,31.739811644479126,,false
+2024,UT,Class I,false,general,John Curtis,REP,914700,62.50046976137489,,true
+2024,UT,Class I,false,general,Carlton E. Bowen,IAP,83972,5.737716679569446,,false
+2024,VA,Class I,false,general,Timothy Michael Kaine,DEM,2415429,54.36572655047597,,true
+2024,VA,Class I,false,general,Hung Cao,REP,2018992,45.44284554818154,,false
+2024,WA,Class I,false,general,,,10627,0.2787489530848226,,
+2024,WA,Class I,false,general,Raul Garcia,REP,1549187,40.63557489250185,,false
+2024,WA,Class I,false,general,Maria Cantwell,DEM,2252577,59.085676154413335,,true
+2024,WI,Class I,false,general,,,2922,0.08617468452014238,,
+2024,WI,Class I,false,general,John Schiess,W,26,0.00076678364049408,,false
+2024,WI,Class I,false,general,Thomas Leager,IND,28751,0.8479152479940497,,false
+2024,WI,Class I,false,general,Phil Anderson,IND,42315,1.2479403749041151,,false
+2024,WI,Class I,false,general,Eric D. Hovde,REP,1643996,48.484201455296365,,false
+2024,WI,Class I,false,general,Tammy Baldwin,DEM,1672777,49.33300145364483,,true
+2024,AZ,Class I,false,general,Jannie Prosser,W,82,0.0024486280814640647,,false
+2024,AZ,Class I,false,general,Eduardo Quintana,GRE,75868,2.265518479079459,,false
+2024,AZ,Class I,false,general,Ruben Gallego,DEM,1676335,50.057572621232474,,true
+2024,AZ,Class I,false,general,Kari Lake,REP,1595761,47.65152677933143,,false
+2024,AZ,Class I,false,general,Steven Cavin Sanders,W,92,0.002747241262130414,,false
+2024,AZ,Class I,false,general,Benjamin Rodriguez,W,2,5.972263613326986e-05,,false
+2024,AZ,Class I,false,general,Shawn Petty,W,24,0.0007166716335992384,,false
+2024,AZ,Class I,false,general,David Bozic,W,12,0.0003583358167996192,,false
+2024,AZ,Class I,false,general,Christopher Beckett,W,103,0.003075715760863398,,false
+2024,AZ,Class I,false,general,Sarah Williams,W,535,0.01597580516564969,,false
+2024,CT,Class I,false,general,John Flynn,W,7,0.0004097739277240746,,false
+2024,CT,Class I,false,general,Robert Finley Hyde,OTH,14879,0.8710037529437865,,false
+2024,CT,Class I,false,general,Justin Paglino,GRE,14422,0.8442513693766578,,false
+2024,CT,Class I,false,general,Christopher S. Murphy,WFP,47049,2.7542076464985694,,true
+2024,CT,Class I,false,general,Matthew M. Corey,REP,678256,39.70451787463142,,false
+2024,CT,Class I,false,general,Christopher S. Murphy,DEM,953646,55.82560958262184,,true
+2024,ME,Class I,false,general,,,21665,2.6395559356808507,,
+2024,ME,Class I,false,general,Demi Kouzounas,REP,284338,34.642328900974924,,false
+2024,ME,Class I,false,general,Angus S. King Jr.,IND,427331,52.063885416590516,,true
+2024,ME,Class I,false,general,David Allen Costello,DEM,88891,10.830037695758435,,false
+2024,ME,Class I,false,general,Jason S. Cherry,IND,20222,2.4637479866761214,,false
+2024,CA,Class I,false,general,Steve Garvey,REP,6312594,41.1274828088053,,false
+2024,CA,Class I,false,general,Adam B. Schiff,DEM,9036252,58.872517191194696,,true
+2024,CA,Class I,true,general,Steve Garvey,REP,6204637,41.249605762331996,,false
+2024,CA,Class I,true,general,Adam B. Schiff,DEM,8837051,58.750394237668004,,true
+2024,IN,Class I,false,general,Antonio Xavier Alvarez,W,19,0.0006714025280778771,,false
+2024,IN,Class I,false,general,Phillip Beachy,W,168,0.0059366118272149125,,false
+2024,IN,Class I,false,general,Andrew Horning,LIB,73233,2.587832702038272,,false
+2024,IN,Class I,false,general,Valerie McCray,DEM,1097061,38.76681730819178,,false
+2024,IN,Class I,false,general,Jim Banks,REP,1659416,58.63874197541465,,true
+2024,MD,Class I,false,general,,,5755,0.1904760013477294,,
+2024,MD,Class I,false,general,Robin Rowe,W,17,0.0005626571716614075,,false
+2024,MD,Class I,false,general,Christy Renee Helmondollar,W,3,9.929244205789544e-05,,false
+2024,MD,Class I,false,general,Irwin Gibbs,W,2,6.61949613719303e-05,,false
+2024,MD,Class I,false,general,Billy Bridges,W,70,0.00231682364801756,,false
+2024,MD,Class I,false,general,Patrick J. Burke,W,879,0.029092685522963364,,false
+2024,MD,Class I,false,general,Mike Scott,LIB,69396,2.2968327696832374,,false
+2024,MD,Class I,false,general,Larry Hogan,REP,1294344,42.83952554099487,,false
+2024,MD,Class I,false,general,Angela Alsobrooks,DEM,1650912,54.64102803422809,,true
+2024,NJ,Class I,false,general,Joanne Kuniansky,SWP,9806,0.24321673100938915,,false
+2024,NJ,Class I,false,general,Patricia G. Mooneyham,OTH,17224,0.42720426013723417,,false
+2024,NJ,Class I,false,general,Kenneth R. Kaplan,LIB,24242,0.601270649921437,,false
+2024,NJ,Class I,false,general,Christina Khalil,GRE,45443,1.1271158379828339,,false
+2024,NJ,Class I,false,general,Curtis Bashaw,REP,1773589,43.99005901837767,,false
+2024,NJ,Class I,false,general,Andy Kim,DEM,2161491,53.61113350257144,,true
+2024,NY,Class I,false,general,,,13492,0.16843278486981225,,
+2024,NY,Class I,false,general,,,4895,0.06110869270217396,,
+2024,NY,Class I,false,general,,,365214,4.559295218903322,,
+2024,NY,Class I,false,general,Diane Sare,OTH,39413,0.4920279684312119,,false
+2024,NY,Class I,false,general,Kirsten E. Gillibrand,WFP,392395,4.898620117031573,,true
+2024,NY,Class I,false,general,Michael D. Sapraicone,CRV,329070,4.108077121042776,,false
+2024,NY,Class I,false,general,Michael D. Sapraicone,REP,2917044,36.41608690392653,,false
+2024,NY,Class I,false,general,Kirsten E. Gillibrand,DEM,4318903,53.9167551046981,,true
+2024,WV,Class I,false,general,Tim Stevenski,W,7,0.0009361830746124536,,false
+2024,WV,Class I,false,general,Lewie Andrews,W,6,0.000802442635382103,,false
+2024,WV,Class I,false,general,Joshua Standridge,W,2,0.00026748087846070105,,false
+2024,WV,Class I,false,general,David Moran,LIB,26075,3.4872819529313897,,false
+2024,WV,Class I,false,general,Glenn Elliott,DEM,207548,27.757560681380788,,false
+2024,WV,Class I,false,general,Jim Justice,REP,514079,68.75315125909937,,true
+2024,DE,Class I,false,general,"Michael ""Dr. Mike"" Katz",IDE,19555,3.906265606085425,,false
+2024,DE,Class I,false,general,Eric Hansen,REP,197753,39.502722700087496,,false
+2024,DE,Class I,false,general,Lisa Blunt Rochester,DEM,283298,56.591011693827085,,true
+2024,HI,Class I,false,general,,,701,0.13970739173673627,,
+2024,HI,Class I,false,general,,,19772,3.9405057766315967,,
+2024,HI,Class I,false,general,Emma Jane Avila Pohlman,GRE,8270,1.6481884873934507,,false
+2024,HI,Class I,false,general,Shelby Billionaire,WTP,9224,1.8383180904132033,,false
+2024,HI,Class I,false,general,Bob McDermott,REP,160075,31.902511743592093,,false
+2024,HI,Class I,false,general,Mazie K. Hirono,DEM,324194,64.61098167860125,,true
+2024,FL,Class I,false,general,Howard Knepper,W,13,0.00012084673027790656,,false
+2024,FL,Class I,false,general,Ben Everidge,NPA,62683,0.5826950456930783,,false
+2024,FL,Class I,false,general,Tuan T.Q. Nguyen,NPA,56586,0.52601792919274,,false
+2024,FL,Class I,false,general,Feena Bonoan,LIB,57363,0.5332408453024273,,false
+2024,FL,Class I,false,general,Debbie Mucarsel-Powell,DEM,4603077,42.789754205187336,,false
+2024,FL,Class I,false,general,Rick Scott,REP,5977706,55.56817112789414,,true
+2022,GA,Class III,false,runoff,Raphael Warnock,DEM,1820633,51.40305549853933,,true
+2022,GA,Class III,false,runoff,Herschel Junior Walker,REP,1721244,48.59694450146066,,false
+2022,LA,Class III,false,jungle primary,W. Thomas La Fontaine Olson,NPA,1676,0.12116042189273399,,false
+2022,LA,Class III,false,jungle primary,John Kennedy,REP,851568,61.56106094889719,,true
+2022,LA,Class III,false,jungle primary,Xan John,OTH,2753,0.19901828250041567,,false
+2022,LA,Class III,false,jungle primary,Devin Lance Graham,REP,25275,1.8271656702499115,,false
+2022,LA,Class III,false,jungle primary,Gary Chambers,DEM,246933,17.85113750551222,,false
+2022,LA,Class III,false,jungle primary,Beryl A. Billiot,NPA,9378,0.6779489477983648,,false
+2022,LA,Class III,false,jungle primary,Thomas Wenn,OTH,1322,0.09556925879605868,,false
+2022,LA,Class III,false,jungle primary,Syrita Steib,DEM,31568,2.28209558371708,,false
+2022,LA,Class III,false,jungle primary,Aaron C. Sigler,LIB,4865,0.351697764026343,,false
+2022,LA,Class III,false,jungle primary,Salvador P. Rodriguez,DEM,7767,0.5614874682821389,,false
+2022,LA,Class III,false,jungle primary,Luke Mixon,DEM,182887,13.221161144806945,,false
+2022,LA,Class III,false,jungle primary,"M.V. ""Vinny"" Mendoza",DEM,11910,0.8609908262186527,,false
+2022,LA,Class III,false,jungle primary,Bradley McMorris,IND,5388,0.3895061773019396,,false
+2022,HI,Class III,false,general,Brian Schatz,DEM,290894,71.2073181777013,,true
+2022,HI,Class III,false,general,,,631,0.1544611362562635,,
+2022,HI,Class III,false,general,,,10215,2.500507934798307,,
+2022,HI,Class III,false,general,Dan Decker,OTH,2208,0.5404915829696193,,false
+2022,HI,Class III,false,general,Emma Jane Avila Pohlman,GRE,4142,1.013911293777248,,false
+2022,HI,Class III,false,general,Feena Bonoan,LIB,4915,1.2031323053875358,,false
+2022,HI,Class III,false,general,Bob McDermott,REP,106358,26.035146640164303,,false
+2022,ID,Class III,false,general,Mike Crapo,REP,358539,60.67779112863646,,true
+2022,ID,Class III,false,general,Idaho Sierra Law,LIB,4126,0.6982687132968911,,false
+2022,ID,Class III,false,general,Scott Oh Cleveland,IND,49917,8.447765235492223,,false
+2022,ID,Class III,false,general,David Roth,DEM,169808,28.73766690923861,,false
+2022,ID,Class III,false,general,Ray J. Writz,CON,8500,1.4385080133358155,,false
+2022,KS,Class III,false,general,Jerry Moran,REP,602976,60.000238816425785,,true
+2022,KS,Class III,false,general,David C. Graham,LIB,29766,2.9619207209071843,,false
+2022,KS,Class III,false,general,Mark R. Holland,DEM,372214,37.03784046266702,,false
+2022,AZ,Class III,false,general,Lester Ralph Maul,W,95,0.003693201476969584,,false
+2022,AZ,Class III,false,general,William Michael Taylor,W,8,0.0003110064401658597,,false
+2022,AZ,Class III,false,general,Todd James Smeltzer,W,6,0.0002332548301243948,,false
+2022,AZ,Class III,false,general,Ty Richard McLean,W,21,0.0008163919054353818,,false
+2022,AZ,Class III,false,general,Roxanne Renee Rodriguez,W,20,0.0007775161004146494,,false
+2022,AZ,Class III,false,general,Edward Davida,W,3,0.0001166274150621974,,false
+2022,AZ,Class III,false,general,Christopher Bullock,W,27,0.0010496467355597767,,false
+2022,AZ,Class III,false,general,Sherrise Bordes,W,17,0.000660888685352452,,false
+2022,AZ,Class III,false,general,Marc Victor,LIB,53762,2.090041029524619,,false
+2022,AZ,Class III,false,general,Mark Kelly,DEM,1322027,51.39486388414388,,true
+2022,AZ,Class III,false,general,Blake Masters,REP,1196308,46.50743655274241,,false
+2022,CO,Class III,false,general,Frank Atwood,AVP,11354,0.4541363849079848,,false
+2022,CO,Class III,false,general,Brian Peotter,LIB,43534,1.7412694539883926,,false
+2022,CO,Class III,false,general,T.J. Cole,UTY,16379,0.6551259334514605,,false
+2022,CO,Class III,false,general,Joe O'Dea,REP,1031693,41.26557419014211,,false
+2022,CO,Class III,false,general,Michael Bennet,DEM,1397170,55.88389403751005,,true
+2022,FL,Class III,false,general,Moses Quiles,W,33,0.0004253665951105528,,false
+2022,FL,Class III,false,general,Howard Knepper,W,2,2.5779793643063803e-05,,false
+2022,FL,Class III,false,general,Edward A. Gray,W,190,0.0024490803960910616,,false
+2022,FL,Class III,false,general,Uloma Uma Ekpete,W,42,0.0005413756665043399,,false
+2022,FL,Class III,false,general,Tuan T.Q. Nguyen,NPA,17385,0.22409085624233213,,false
+2022,FL,Class III,false,general,Steven B. Grant,NPA,31816,0.410104957273859,,false
+2022,FL,Class III,false,general,Dennis Misigoy,LIB,32177,0.41475821002643204,,false
+2022,FL,Class III,false,general,Val Demings,DEM,3201522,41.26728825186446,,false
+2022,FL,Class III,false,general,Marco Rubio,REP,4474847,57.680316122141576,,true
+2022,NC,Class III,false,general,Michelle Estelle Lewis,W,137,0.0036301737925829984,,false
+2022,NC,Class III,false,general,,,2378,0.06301133780118519,,
+2022,NC,Class III,false,general,Matthew Hoh,GRE,29934,0.7931797248699233,,false
+2022,NC,Class III,false,general,Shannon W. Bray,LIB,51640,1.3683370412334748,,false
+2022,NC,Class III,false,general,Cheri Beasley,DEM,1784049,47.273050543678146,,false
+2022,NC,Class III,false,general,Ted Budd,REP,1905786,50.49879117862469,,true
+2022,NV,Class III,false,general,,,12441,1.218690307097027,,
+2022,NV,Class III,false,general,Neil Scott,LIB,6422,0.6290836067982564,,false
+2022,NV,Class III,false,general,Barry Rubinson,IAP,5208,0.5101630993779693,,false
+2022,NV,Class III,false,general,Barry Lindemann,NPA,8075,0.7910074937552041,,false
+2022,NV,Class III,false,general,Adam Paul Laxalt,REP,490388,48.03722388205907,,false
+2022,NV,Class III,false,general,Catherine Cortez Masto,DEM,498316,48.81383161091247,,true
+2022,IL,Class III,false,general,Bill Redpath,LIB,68671,1.6753535586167594,,false
+2022,IL,Class III,false,general,Constant G. Vlakancic,W,11,0.00026836494509741157,,false
+2022,IL,Class III,false,general,Lowell Martin Seida,W,23,0.000561126703385497,,false
+2022,IL,Class III,false,general,Tammy Duckworth,DEM,2329136,56.82349588767317,,true
+2022,IL,Class III,false,general,Kathy Salvi,REP,1701055,41.50032106206159,,false
+2022,OK,Class III,false,general,Micahael L. Delaney,IND,20907,1.816843539590452,,false
+2022,OK,Class III,false,general,Madison Horn,DEM,369370,32.098698915125325,,false
+2022,OK,Class III,false,general,James Lankford,REP,739960,64.30341730307318,,true
+2022,OK,Class III,false,general,Kenneth D. Blevins,LIB,20495,1.7810402422110447,,false
+2022,OK,Class II,true,general,Ray Woods,IND,17063,1.483118799875878,,false
+2022,OK,Class II,true,general,Kendra Horn,DEM,405389,35.23647935081066,,false
+2022,OK,Class II,true,general,Markwayne Mullin,REP,710643,61.76920783567916,,true
+2022,OK,Class II,true,general,Robert Murphy,LIB,17386,1.5111940136342972,,false
+2022,SC,Class III,false,general,,,1812,0.10685839846859885,,
+2022,SC,Class III,false,general,Krystle Matthews,DEM,627616,37.012163693856586,,false
+2022,SC,Class III,false,general,Tim Scott,REP,1066274,62.88097790767482,,true
+2022,WI,Class III,false,general,,,4758,0.17937950074590656,,
+2022,WI,Class III,false,general,Adam Nicholas Paul,W,67,0.0025259408469894364,,false
+2022,WI,Class III,false,general,Ron Johnson,REP,1337185,50.41268972360552,,true
+2022,WI,Class III,false,general,Mandela Barnes,DEM,1310467,49.40540483480159,,false
+2022,NH,Class III,false,general,,,464,0.07472120455734932,,
+2022,NH,Class III,false,general,Jeremy Kauffman,LIB,12390,1.9952494061757717,,false
+2022,NH,Class III,false,general,Maggie Hassan,DEM,332193,53.49539031361971,,true
+2022,NH,Class III,false,general,Donald C. Bolduc,REP,275928,44.43463907564717,,false
+2022,ND,Class III,false,general,,,265,0.11035229449487799,,
+2022,ND,Class III,false,general,Rick Becker,IND,44406,18.491713167319062,,false
+2022,ND,Class III,false,general,Katrina Christiansen,DEM,59995,24.983343049887566,,false
+2022,ND,Class III,false,general,John Hoeven,REP,135474,56.41459148829849,,true
+2022,SD,Class III,false,general,John R. Thune,REP,242316,69.627032929142,,true
+2022,SD,Class III,false,general,Tamara J. Lesnar,LIB,14697,4.223033159013849,,false
+2022,SD,Class III,false,general,Brian L. Bengs,DEM,91007,26.149933911844148,,false
+2022,UT,Class III,false,general,Michael Seguin,W,60,0.005575855800934513,,false
+2022,UT,Class III,false,general,Laird F. Hamblin,W,152,0.014125501362367433,,false
+2022,UT,Class III,false,general,Abraham Korb,W,37,0.003438444410576283,,false
+2022,UT,Class III,false,general,Tommy Williams,IAP,12103,1.1247430459785068,,false
+2022,UT,Class III,false,general,Mike Lee,REP,571974,53.154075764728624,,true
+2022,UT,Class III,false,general,James Arthur Hansen,LIB,31784,2.953716679615043,,false
+2022,UT,Class III,false,general,Evan McMullin,IND,459958,42.744324708103946,,false
+2022,WA,Class III,false,general,,,6751,0.22149676826667541,,
+2022,WA,Class III,false,general,Tiffany Smiley,REP,1299322,42.63007316513009,,false
+2022,WA,Class III,false,general,Patty Murray,DEM,1741827,57.14843006660324,,true
+2022,VT,Class III,false,general,,,4542,1.5820271682340645,,
+2022,VT,Class III,false,general,,,313,0.10902124695228144,,
+2022,VT,Class III,false,general,,,612,0.21316614420062696,,
+2022,VT,Class III,false,general,Peter Welch,DEM,196575,68.46917450365726,,true
+2022,VT,Class III,false,general,Kerry Patrick Raheb,IND,1532,0.533611981887844,,false
+2022,VT,Class III,false,general,Gerald Malloy,REP,80468,28.027864855451064,,false
+2022,VT,Class III,false,general,Cris Ericson,IND,1105,0.3848833159177987,,false
+2022,VT,Class III,false,general,Dawn Marie Ellis,IND,2752,0.9585510275165448,,false
+2022,VT,Class III,false,general,Stephen Duke,IND,1209,0.4211076280041797,,false
+2022,VT,Class III,false,general,Natasha Diamondstone-Kohout,GMP,1574,0.5482410309996517,,false
+2022,VT,Class III,false,general,Mark Coester,IND,1273,0.4433995123650296,,false
+2022,MD,Class III,false,general,,,2723,0.13599116232240743,,
+2022,MD,Class III,false,general,Andrew J. Wildman,W,89,0.004444808463714382,,false
+2022,MD,Class III,false,general,Scottie Griffin,W,334,0.016680517155961836,,false
+2022,MD,Class III,false,general,Chris Van Hollen,DEM,1316897,65.76803293752896,,true
+2022,MD,Class III,false,general,Chris Chaffee,REP,682293,34.074850574528945,,false
+2022,KY,Class III,false,general,Billy Ray Wilson,W,48,0.0032480055216093863,,false
+2022,KY,Class III,false,general,Charles Lee Thomason,W,145,0.009811683346528356,,false
+2022,KY,Class III,false,general,Charles Booker,DEM,564311,38.18510924801905,,false
+2022,KY,Class III,false,general,Rand Paul,REP,913326,61.801831063112814,,true
+2022,OH,Class III,false,general,LaShondra Tinsley,W,362,0.008758046152483875,,false
+2022,OH,Class III,false,general,Tim Ryan,DEM,1939489,46.9230225807591,,false
+2022,OH,Class III,false,general,Shane Hoffman,W,403,0.009749979556494478,,false
+2022,OH,Class III,false,general,Stephen Faris,W,194,0.004693538545806275,,false
+2022,OH,Class III,false,general,Matthew R. Esh,W,78,0.0018870928173860282,,false
+2022,OH,Class III,false,general,John Cheng,W,702,0.016983835356474252,,false
+2022,OH,Class III,false,general,JD Vance,REP,2192114,53.03490492681225,,true
+2022,OR,Class III,false,general,,,2197,0.11395529653533366,,
+2022,OR,Class III,false,general,Chris Henry,PRO,36883,1.913069277247479,,false
+2022,OR,Class III,false,general,Ron Wyden,DEM,1076424,55.83259723156577,,true
+2022,OR,Class III,false,general,Dan Pulju,PG,23454,1.2165259558214454,,false
+2022,OR,Class III,false,general,Jo Rae Perkins,REP,788991,40.923852238829966,,false
+2022,NY,Class III,false,general,,,4151,0.07092444573083874,,
+2022,NY,Class III,false,general,,,1421,0.02427936337834783,,
+2022,NY,Class III,false,general,,,111556,1.9060581710309437,,
+2022,NY,Class III,false,general,Diane Sare,OTH,26844,0.4586595570220754,,false
+2022,NY,Class III,false,general,Charles E. Schumer,WFP,297739,5.087201529138568,,true
+2022,NY,Class III,false,general,Joe Pinion,CON,296652,5.06862892675133,,false
+2022,NY,Class III,false,general,Joe Pinion,REP,2204499,37.666314066294454,,false
+2022,NY,Class III,false,general,Charles E. Schumer,DEM,3022822,51.648271475062735,,true
+2022,IA,Class III,false,general,,,322,0.026466202987557596,,
+2022,IA,Class III,false,general,,,13448,1.1053338440269396,,
+2022,IA,Class III,false,general,,,1815,0.14918061621868645,,
+2022,IA,Class III,false,general,Michael Franken,DEM,533330,43.836087078739425,,false
+2022,IA,Class III,false,general,Chuck Grassley,REP,681501,56.01473230504189,,true
+2022,CA,Class III,true,general,Mark P. Meuser,REP,4212446,39.10642552105512,,false
+2022,CA,Class III,true,general,Alex Padilla,DEM,6559303,60.89357447894488,,true
+2022,CA,Class III,false,general,Mark P. Meuser,REP,4222025,38.935492239184235,,false
+2022,CA,Class III,false,general,Alex Padilla,DEM,6621616,61.064507760815765,,true
+2022,PA,Class III,false,general,Daniel Wassmer,OTH,26428,0.49232296222388106,,false
+2022,PA,Class III,false,general,Richard L. Weiss,GRE,30434,0.5669500920357801,,false
+2022,PA,Class III,false,general,Erik Gerhardt,LIB,72887,1.3578002023464513,,false
+2022,PA,Class III,false,general,Mehmet Oz,REP,2487260,46.3347665741248,,false
+2022,PA,Class III,false,general,John Fetterman,DEM,2751012,51.248160169269084,,true
+2022,CT,Class III,false,general,Shabadjot Bharara,W,12,0.0009524663719841541,,false
+2022,CT,Class III,false,general,John Anderson,W,68,0.00539730944124354,,false
+2022,CT,Class III,false,general,Richard Blumenthal,WFP,22689,1.8008757928290393,,true
+2022,CT,Class III,false,general,Leora R. Levy,REP,535943,42.538973733358624,,false
+2022,CT,Class III,false,general,Richard Blumenthal,DEM,701175,55.65380069799911,,true
+2022,IN,Class III,false,general,Thomas Baer,W,2,0.00010751797969415434,,false
+2022,IN,Class III,false,general,Antonio Xavier Alvarez,W,3,0.00016127696954123155,,false
+2022,IN,Class III,false,general,David G. Storer,W,7,0.00037631292892954023,,false
+2022,IN,Class III,false,general,Phillip Beachy,W,7,0.00037631292892954023,,false
+2022,IN,Class III,false,general,Haneefah Khaaliq,W,148,0.007956330497367423,,false
+2022,IN,Class III,false,general,Daniel Niederberger,W,1294,0.06956413286211786,,false
+2022,IN,Class III,false,general,James Sceniak,LIB,63823,3.431060009010007,,false
+2022,IN,Class III,false,general,Thomas McDermott,DEM,704480,37.87213316746893,,false
+2022,IN,Class III,false,general,Todd Young,REP,1090390,58.61826493935448,,true
+2022,AK,Class III,false,general,Lisa Murkowski,REP,115759,44.48795747935266,,true
+2022,AK,Class III,false,general,Lisa Murkowski,REP,114118,43.3864204055097,,true
+2022,AK,Class III,false,general,Buzz A. Kelley,REP,8575,3.260121584476119,,false
+2022,AK,Class III,false,general,Patricia R. Chesbro,DEM,28233,10.733879031430234,,false
+2022,AK,Class III,false,general,Kelly C. Tshibaka,REP,117534,46.29801783632181,,false
+2022,AK,Class III,false,general,Lisa Murkowski,REP,136330,53.70198216367819,,true
+2022,AK,Class III,false,general,Kelly C. Tshibaka,REP,115310,44.31539989930939,,false
+2022,AK,Class III,false,general,Patricia R. Chesbro,DEM,29134,11.196642621337956,,false
+2022,AK,Class III,false,general,Kelly C. Tshibaka,REP,112101,42.61957897858395,,false
+2022,MO,Class III,false,general,Gina Bufe,W,5,0.00024164745569393902,,false
+2022,GA,Class III,false,general,Herschel Junior Walker,REP,1908442,48.48777567859542,,false
+2022,GA,Class III,false,general,Raphael Warnock,DEM,1946117,49.44498420193073,,true
+2022,GA,Class III,false,general,Chase Oliver,LIB,81365,2.0672401194738517,,false
+2022,AR,Class III,false,general,Natalie James,DEM,280187,31.08677851917107,,false
+2022,AR,Class III,false,general,Kenneth Cates,LIB,28682,3.1822710599951627,,false
+2022,AR,Class III,false,general,John Boozman,REP,592437,65.73095042083376,,true
+2022,AL,Class III,false,general,Will Boyd,DEM,436746,30.882072183041327,,false
+2022,AL,Class III,false,general,Katie Britt,REP,942154,66.6191970516985,,true
+2022,AL,Class III,false,general,John Sophocleus,LIB,32879,2.324856212320699,,false
+2022,AL,Class III,false,general,,,2459,0.1738745529394628,,
+2022,MO,Class III,false,general,Trudy Busch Valentine,DEM,872694,42.17685693987328,,false
+2022,MO,Class III,false,general,Jonathan Dine,LIB,34821,1.6828812109437299,,false
+2022,MO,Class III,false,general,Paul Venable,CON,14608,0.7059972065554121,,false
+2022,MO,Class III,false,general,Nathan Mooney,W,14,0.0006766128759430292,,false
+2022,MO,Class III,false,general,Theodis Brown,W,4,0.00019331796455515122,,false
+2022,MO,Class III,false,general,David Kirk,W,3,0.0001449884734163634,,false
+2022,MO,Class III,false,general,Martin Lindstedt,W,0,0.0,,false
+2022,MO,Class III,false,general,Rik Combs,W,6,0.0002899769468327268,,false
+2022,MO,Class III,false,general,Steve Price,W,9,0.0004349654202490902,,false
+2022,MO,Class III,false,general,Eric Schmitt,REP,1146966,55.43228313349089,,true
+2020,GA,Class III,true,runoff,Kelly Loeffler,REP,2195841,48.960167707405695,,false
+2020,GA,Class II,false,runoff,Jon Ossoff,DEM,2269923,50.61254404221096,,true
+2020,GA,Class II,false,runoff,David A. Perdue,REP,2214979,49.387455957789044,,false
+2020,GA,Class III,true,runoff,Raphael Warnock,DEM,2289113,51.0398322925943,,true
+2020,AZ,Class III,true,general,Matthew Haupt,W,37,0.0011027274025077213,,false
+2020,AZ,Class III,true,general,Benjamin Rodriguez,W,17,0.0005066585362873314,,false
+2020,AZ,Class III,true,general,Jim Stevens,W,23,0.0006854791961534483,,false
+2020,AZ,Class III,true,general,Joshua Rodriguez,W,69,0.002056437588460345,,false
+2020,AZ,Class III,true,general,Frank Saenz,W,8,0.00023842754648815598,,false
+2020,AZ,Class III,true,general,Buzz Stewart,W,22,0.0006556757528424289,,false
+2020,GA,Class III,true,jungle primary,Matt Lieberman,DEM,136021,2.7678228411059167,,false
+2020,GA,Class III,true,jungle primary,Joy Felicia Slade,DEM,44945,0.9145631747561436,,false
+2020,GA,Class III,true,jungle primary,Ed Tarver,DEM,26333,0.5358369580788415,,false
+2020,GA,Class III,true,jungle primary,Raphael Warnock,DEM,1617035,32.90423102217823,,true
+2020,GA,Class III,true,jungle primary,John Fortuin,GRE,15293,0.3111895568260253,,false
+2020,GA,Class III,true,jungle primary,Al Bartell,IND,14640,0.297901988617865,,false
+2020,GA,Class III,true,jungle primary,Allen Buckley,IND,17954,0.36533690598669044,,false
+2020,GA,Class III,true,jungle primary,Michael Todd Greene,IND,13293,0.2704925638454426,,false
+2020,GA,Class III,true,jungle primary,Valencia Stovall,IND,13318,0.2710012762576999,,false
+2020,GA,Class III,true,jungle primary,Brian Richard Slowinski,LIB,35431,0.720967579147512,,false
+2020,GA,Class III,true,jungle primary,Derrick E. Grayson,REP,51592,1.0498196309271102,,false
+2020,GA,Class III,true,jungle primary,Annette L. Davis Jackson,REP,44335,0.9021505918970659,,false
+2020,GA,Class III,true,jungle primary,A. Wayne Johnson,REP,36176,0.736127209032779,,false
+2020,GA,Class III,true,jungle primary,Kelly Loeffler,REP,1273214,25.90799061038978,,false
+2020,GA,Class III,true,jungle primary,Kandiss Taylor,REP,40349,0.8210414848867648,,false
+2020,AZ,Class III,true,general,Mark Kelly,DEM,1716467,51.15662692973571,,true
+2020,AZ,Class III,true,general,Martha McSally,REP,1637661,48.8079367761675,,false
+2020,AZ,Class III,true,general,Edward Davida,W,28,0.0008344964127085459,,false
+2020,AZ,Class III,true,general,John Schiess,W,92,0.0027419167846137933,,false
+2020,AZ,Class III,true,general,Debbie Simmons,W,98,0.0029207374444799104,,false
+2020,AZ,Class III,true,general,Patrick Thomas,W,29,0.0008642998560195655,,false
+2020,AZ,Class III,true,general,Mohammad Arif,W,68,0.0020266341451493255,,false
+2020,AZ,Class III,true,general,Adam Chilton,W,19,0.0005662654229093703,,false
+2020,AZ,Class III,true,general,Perry Kapadia,W,58,0.001728599712039131,,false
+2020,AZ,Class III,true,general,Matthew Dorchester,W,379,0.01129550501487639,,false
+2020,AZ,Class III,true,general,Christopher Beckett,W,69,0.002056437588460345,,false
+2020,AZ,Class III,true,general,William Decker,W,21,0.0006258723095314094,,false
+2020,AZ,Class III,true,general,Nicholas N. Glenn,W,152,0.004530123383274963,,false
+2020,GA,Class III,true,jungle primary,Rod Mack,W,7,0.0001424394754320393,,false
+2020,GA,Class III,true,jungle primary,Richard Dien Winfield,DEM,28687,0.5837373188169873,,false
+2020,DE,Class II,false,general,Mark W. Turley,IDE,7833,1.5955269027467995,,false
+2020,DE,Class II,false,general,Lauren E. Witzke,REP,186054,37.89788872253964,,false
+2020,DE,Class II,false,general,Nadine M. Frost,LIB,5244,1.06816584680253,,false
+2020,DE,Class II,false,general,Christopher A. Coons,DEM,291804,59.43841852791103,,true
+2020,IA,Class II,false,general,,,864,0.051679957507590496,,
+2020,IA,Class II,false,general,,,27438,1.6411975394598008,,
+2020,IA,Class II,false,general,,,1211,0.07243568118251399,,
+2020,IA,Class II,false,general,Joni K. Ernst,REP,864997,51.739592828927385,,true
+2020,IA,Class II,false,general,Rick Stewart,LIB,36961,2.2108135525903383,,false
+2020,IA,Class II,false,general,Suzanne Herzog,IND,13800,0.8254437657462371,,false
+2020,IA,Class II,false,general,Theresa Greenfield,DEM,754859,45.15171417155353,,false
+2020,WY,Class II,false,general,Merav Ben-David,DEM,72766,26.75840360083402,,false
+2020,WY,Class II,false,general,Cynthia M. Lummis,REP,198100,72.84775517858915,,true
+2020,WY,Class II,false,general,,,1071,0.39384122057682475,,
+2020,WY,Class II,false,general,,,6401,2.353854017658502,,
+2020,WY,Class II,false,general,,,165,0.06067581829614948,,
+2020,GA,Class III,true,jungle primary,Doug Collins,REP,980454,19.95076477789209,,false
+2020,GA,Class III,true,jungle primary,Deborah A. Jackson,DEM,324118,6.595313985440243,,false
+2020,GA,Class III,true,jungle primary,Jamesia James,DEM,94406,1.921020159662443,,false
+2020,GA,Class III,true,jungle primary,Tamara Y. Johnson-Shealey,DEM,106767,2.172547924778934,,false
+2020,NE,Class II,false,general,,,5788,0.6223575609777078,,
+2020,NE,Class II,false,general,Ben Sasse,REP,583507,62.74187859941593,,true
+2020,NE,Class II,false,general,Gene Siadek,LIB,55115,5.926267618052241,,false
+2020,NE,Class II,false,general,Chris E. Janicek,DEM,227191,24.428824574306567,,false
+2020,NE,Class II,false,general,Preston Love Jr.,W,58411,6.280671647247563,,false
+2020,MN,Class II,false,general,,,2261,0.07034287250299914,,
+2020,MN,Class II,false,general,Kevin O'Connor,LMN,190154,5.91595691195723,,false
+2020,MN,Class II,false,general,Jason Lewis,REP,1398145,43.498246561568216,,false
+2020,MN,Class II,false,general,Tina Smith,DEM,1566522,48.736690543628136,,true
+2020,MN,Class II,false,general,Oliver Steinberg,GLC,57174,1.77876311034342,,false
+2020,MA,Class II,false,general,,,7428,0.2084095556398521,,
+2020,MA,Class II,false,general,,,93869,2.633709824765385,,
+2020,MA,Class II,false,general,Shiva Ayyadurai,W,21134,0.592962782564975,,false
+2020,MA,Class II,false,general,Kevin J. O'Connor,REP,1177765,33.04489503206387,,false
+2020,MA,Class II,false,general,Edward J. Markey,DEM,2357809,66.1537326297313,,true
+2020,OR,Class II,false,general,,,2402,0.10347877371191114,,
+2020,OR,Class II,false,general,Jo Rae Perkins,REP,912814,39.32426034432325,,false
+2020,OR,Class II,false,general,Ibrahim Ali Taher,PG,42239,1.8196669120805222,,false
+2020,OR,Class II,false,general,Gary Dye,LIB,42747,1.841551681874715,,false
+2020,OR,Class II,false,general,Jeff Merkley,DEM,1321047,56.911042288009604,,true
+2020,LA,Class II,false,jungle primary,Jamar Montgomery,NPA,5804,0.280177626049761,,false
+2020,LA,Class II,false,jungle primary,Reno Jean Daret,NPA,3954,0.19087221457628445,,false
+2020,LA,Class II,false,jungle primary,John Paul Bourgeois,NPA,16518,0.7973766414696678,,false
+2020,LA,Class II,false,jungle primary,Dustin Murphy,REP,38383,1.8528700586953784,,false
+2020,LA,Class II,false,jungle primary,Bill Cassidy,REP,1228908,59.323316001647086,,true
+2020,LA,Class II,false,jungle primary,Melinda Mary Price,OTH,7680,0.37073814060340526,,false
+2020,LA,Class II,false,jungle primary,Beryl A. Billiot,NPA,17362,0.8381192183797295,,false
+2020,LA,Class II,false,jungle primary,Aaron C. Sigler,LIB,11321,0.5465008450222854,,false
+2020,LA,Class II,false,jungle primary,"M.V. ""Vinny"" Mendoza",IND,7811,0.37706192919963527,,false
+2020,LA,Class II,false,jungle primary,Antoine Pierce,DEM,55710,2.6892997152364204,,false
+2020,LA,Class II,false,jungle primary,Adrian Perkins,DEM,394049,19.02200437065511,,false
+2020,LA,Class II,false,jungle primary,David Drew Knight,DEM,36962,1.78427384804467,,false
+2020,LA,Class II,false,jungle primary,Derrick Edwards,DEM,229814,11.093856125602992,,false
+2020,LA,Class II,false,jungle primary,Xan John,OTH,2813,0.1357924986350754,,false
+2020,LA,Class II,false,jungle primary,Peter Wenstrup,DEM,14454,0.6977407661825026,,false
+2020,NJ,Class II,false,general,Rikin Mehta,REP,1817052,40.920539406004806,,false
+2020,NJ,Class II,false,general,Madelyn R. Hoffman,GRE,38288,0.8622568934610084,,false
+2020,NJ,Class II,false,general,Daniel Burke,OTH,11632,0.2619560223761609,,false
+2020,NJ,Class II,false,general,Veronica Fernandez,OTH,32290,0.7271801893506049,,false
+2020,NJ,Class II,false,general,Cory A. Booker,DEM,2541178,57.22806748880741,,true
+2020,VA,Class II,false,general,Daniel M. Gade,REP,1934199,43.908304194673114,,false
+2020,VA,Class II,false,general,,,4388,0.09961210754747864,,
+2020,VA,Class II,false,general,Mark R. Warner,DEM,2466500,55.99208369777941,,true
+2020,RI,Class II,false,general,,,833,0.16853409730062194,,
+2020,AK,Class II,false,general,John Wayne Howe,AKI,16806,4.7395984624365814,,false
+2020,AK,Class II,false,general,Al Gross,DEM,146068,41.19383959366812,,false
+2020,AK,Class II,false,general,Dan Sullivan,REP,191112,53.89706898448053,,true
+2020,AK,Class II,false,general,,,601,0.16949295941475576,,
+2020,AL,Class II,false,general,Gordon Douglas Jones,DEM,920478,39.73666545072299,,false
+2020,AL,Class II,false,general,Tommy Tuberville,REP,1392076,60.09536164251688,,true
+2020,AL,Class II,false,general,,,3891,0.16797290676014323,,
+2020,SC,Class II,false,general,Lindsey Graham,REP,1369137,54.4365958624375,,true
+2020,SC,Class II,false,general,Bill Bledsoe,CON,32845,1.3059102128579971,,false
+2020,NH,Class II,false,general,Jeanne Shaheen,DEM,450778,56.63652103116669,,true
+2020,NH,Class II,false,general,Justin F. O'Donnell,LIB,18421,2.3144460331141303,,false
+2020,NH,Class II,false,general,Bryant Messner,REP,326229,40.98797106220019,,false
+2020,NH,Class II,false,general,,,486,0.061061873518998284,,
+2020,SC,Class II,false,general,Jaime Harrison,DEM,1110828,44.16628497270888,,false
+2020,SC,Class II,false,general,,,2294,0.09120895199562325,,
+2020,RI,Class II,false,general,Jack Reed,DEM,328574,66.47769806297065,,true
+2020,RI,Class II,false,general,Allen R. Waters,REP,164855,33.353767839728725,,false
+2020,AR,Class II,false,general,Tom Cotton,REP,793871,66.52953544949513,,true
+2020,AR,Class II,false,general,Ricky Dale Harrington Jr.,LIB,399390,33.47046455050487,,false
+2020,CO,Class II,false,general,Michael Sanchez,UN,5,0.00015452177057225593,,false
+2020,CO,Class II,false,general,Stephen Dale Evans,UTY,8971,0.27724296076074156,,false
+2020,CO,Class II,false,general,Raymon Anthony Doane,LIB,56262,1.7387407711872527,,false
+2020,CO,Class II,false,general,Cory Gardner,REP,1429492,44.17752697177505,,false
+2020,CO,Class II,false,general,Bruce Edward Lohmiller,GRE,71,0.002194209142126034,,false
+2020,CO,Class II,false,general,John Wright Hickenlooper,DEM,1731114,53.498960068484045,,true
+2020,CO,Class II,false,general,Danny Skelly,UN,55,0.001699739476294815,,false
+2020,CO,Class II,false,general,Daniel Doyle,AVP,9820,0.3034807574039106,,false
+2020,GA,Class II,false,general,Jon Ossoff,DEM,2374519,47.94901230267509,,false
+2020,GA,Class II,false,general,David A. Perdue,REP,2462617,49.72798820720188,,true
+2020,GA,Class II,false,general,Shane Hazel,LIB,115039,2.322999490123027,,false
+2020,ID,Class II,false,general,James E. Risch,REP,538446,62.62259733644093,,true
+2020,ID,Class II,false,general,Paulette E. Jordan,DEM,285864,33.24668799653884,,false
+2020,ID,Class II,false,general,Ray J. Writz,CON,10188,1.1848895184729022,,false
+2020,ID,Class II,false,general,Natalie M. Fleming,IND,25329,2.945825148547324,,false
+2020,IL,Class II,false,general,Albert A. Schaal,W,2,3.3507005728525235e-05,,false
+2020,IL,Class II,false,general,Lowell Martin Seida,W,6,0.0001005210171855757,,false
+2020,IL,Class II,false,general,Kevin Keely,W,10,0.00016753502864262615,,false
+2020,IL,Class II,false,general,Mark C. Curran,REP,2319870,38.865948689716916,,false
+2020,IL,Class II,false,general,WIllie Wilson,OTH,237699,3.9822908773323595,,false
+2020,IL,Class II,false,general,Danny Malouf,LIB,75673,1.2677878222473449,,false
+2020,IL,Class II,false,general,David F. Black,GRE,56711,0.9501079009351974,,false
+2020,IL,Class II,false,general,Richard J. Durbin,DEM,3278930,54.93356314671662,,true
+2020,KS,Class II,false,general,Roger Marshall,REP,727962,53.22312841115551,,true
+2020,KS,Class II,false,general,Jason Buckley,LIB,68263,4.990879214479201,,false
+2020,KS,Class II,false,general,Barbara Goolsbee Bollier,DEM,571530,41.78599237436529,,false
+2020,KY,Class II,false,general,Demetra Jefferson Wysinger,W,1,4.683715704077222e-05,,false
+2020,KY,Class II,false,general,Harold H. Fitzpatrick,W,1,4.683715704077222e-05,,false
+2020,KY,Class II,false,general,Randall Lee Teegarden,W,9,0.00042153441336694993,,false
+2020,KY,Class II,false,general,Daniel Cobble,W,18,0.0008430688267338999,,false
+2020,KY,Class II,false,general,Paul John Frangedakis,W,70,0.0032786009928540546,,false
+2020,KY,Class II,false,general,Mitch McConnell,REP,1233315,57.76496833573999,,true
+2020,KY,Class II,false,general,Brad Barron,LIB,85386,3.999237491083376,,false
+2020,KY,Class II,false,general,Amy McGrath,DEM,816257,38.231157294629604,,false
+2020,MI,Class II,false,general,Leonard Paul Gadzinski,W,7,0.00012774375333046212,,false
+2020,MI,Class II,false,general,Robert William Carr,W,5,9.124553809318725e-05,,false
+2020,MI,Class II,false,general,Valerie Willis,UST,50597,0.9233500981801989,,false
+2020,MI,Class II,false,general,John James,REP,2642233,48.218394370515284,,false
+2020,MI,Class II,false,general,Doug Dern,NLP,13093,0.23893556605082011,,false
+2020,MI,Class II,false,general,Marcia Squier,GRE,39217,0.7156752534801047,,false
+2020,MI,Class II,false,general,Gary C. Peters,DEM,2734568,49.90342572248217,,true
+2020,MS,Class II,false,general,Cindy Hyde-Smith,REP,709511,54.105222540976726,,true
+2020,MS,Class II,false,general,Jimmy Edwards,LIB,23152,1.765503441481095,,false
+2020,MS,Class II,false,general,Mike Espy,DEM,578691,44.12927401754217,,false
+2020,MT,Class II,false,general,Steve Daines,REP,333174,55.01216074975604,,true
+2020,MT,Class II,false,general,Steve Bullock,DEM,272463,44.98783925024396,,false
+2020,NM,Class II,false,general,Mark V. Ronchetti,REP,418483,45.624304296490436,,false
+2020,NM,Class II,false,general,Bob Walsh,LIB,24271,2.6460990997964537,,false
+2020,NM,Class II,false,general,Ben Ray Luján,DEM,474483,51.72959660371311,,true
+2020,NC,Class II,false,general,Thomas Roland Tillis,REP,2665598,48.68714830741895,,true
+2020,NC,Class II,false,general,Shannon W. Bray,LIB,171571,3.133744368900403,,false
+2020,NC,Class II,false,general,Cal Cunningham,DEM,2569965,46.94041153237507,,false
+2020,NC,Class II,false,general,Kevin Eugene Hayes,CON,67818,1.2386957913055676,,false
+2020,OK,Class II,false,general,James M. Inhofe,REP,979140,62.9121392787406,,true
+2020,OK,Class II,false,general,Robert Murphy,LIB,34435,2.2125329534728766,,false
+2020,OK,Class II,false,general,A. D. Nesbit,IND,11371,0.7306145553634408,,false
+2020,OK,Class II,false,general,Joan E. Farr,IND,21652,1.3911939453635758,,false
+2020,OK,Class II,false,general,Abby Broyles,DEM,509763,32.7535192670595,,false
+2020,SD,Class II,false,general,M. Michael Rounds,REP,276232,65.73524757328917,,true
+2020,SD,Class II,false,general,Daniel P. Ahlers,DEM,143987,34.26475242671083,,false
+2020,TN,Class II,false,general,John Gentry,W,64,0.0021623367562448453,,false
+2020,TN,Class II,false,general,Eric William Stansberry,IND,6781,0.22910633662650465,,false
+2020,TN,Class II,false,general,Kacey Morgan,IND,9598,0.3242829404130942,,false
+2020,TN,Class II,false,general,Elizabeth McLeod,IND,16652,0.5626129947654557,,false
+2020,TN,Class II,false,general,Aaron James,IND,7203,0.24336424461299408,,false
+2020,TN,Class II,false,general,Steven J. Hooper,IND,9609,0.3246545920430738,,false
+2020,TN,Class II,false,general,G. Dean Hill,IND,4872,0.16460788556913886,,false
+2020,TN,Class II,false,general,Ronnie Henley,IND,8478,0.2864420471788094,,false
+2020,TN,Class II,false,general,Jeffrey Alan Grunau,IND,4160,0.14055188915591496,,false
+2020,TN,Class II,false,general,Yomi Faparusi,IND,10727,0.3624279122537259,,false
+2020,TN,Class II,false,general,Marquita Bradshaw,DEM,1040691,35.16131876864382,,false
+2020,TN,Class II,false,general,Bill Hagerty,REP,1840926,62.19846805198122,,true
+2020,TN,Class II,false,general,Al Green,W,0,0.0,,false
+2020,TX,Class II,false,general,John Cornyn,REP,5962983,53.50826989134999,,true
+2020,TX,Class II,false,general,Kerry Douglas McKennon,LIB,209722,1.8819207396958373,,false
+2020,TX,Class II,false,general,David B. Collins,GRE,81893,0.7348591713597582,,false
+2020,TX,Class II,false,general,Mary Jennings Hegar,DEM,4888764,43.86886622804656,,false
+2020,TX,Class II,false,general,Ricardo Turullols-Bonilla,W,678,0.006083969547847998,,false
+2020,WV,Class II,false,general,Shelley Moore Capito,REP,547454,70.28390664999397,,true
+2020,WV,Class II,false,general,David Moran,LIB,21155,2.715946993136633,,false
+2020,WV,Class II,false,general,Paula Jean Swearengin,DEM,210309,27.000146356869404,,false
+2020,ME,Class II,false,general,Max Linn,IND,13508,1.648960000390633,,false
+2020,ME,Class II,false,general,Sara I. Gideon,DEM,347223,42.38649971984282,,false
+2020,ME,Class II,false,general,,,9122,1.113548498931252,,
+2020,ME,Class II,false,general,Susan M. Collins,REP,417645,50.9831136632474,,true
+2020,ME,Class II,false,general,Lisa Savage,IND,40579,4.953594007688148,,false
+2020,ME,Class II,false,general,,,228,0.027832608830993803,,
+2018,MS,Class II,true,runoff,Mike Espy,DEM,420819,46.36674350035479,,false
+2018,MS,Class II,true,runoff,Cindy Hyde-Smith,REP,486769,53.63325649964521,,true
+2018,NV,Class I,false,general,Dean Heller,REP,441202,45.38498886982426,,false
+2018,MN,Class I,false,general,,,931,0.03585072696879601,,
+2018,MN,Class I,false,general,Jim Newberger,REP,940437,36.21412472433255,,false
+2018,MN,Class I,false,general,Paula M. Overby,GRE,23101,0.8895678235297062,,false
+2018,MN,Class I,false,general,Amy Klobuchar,DEM,1566174,60.30985656243514,,true
+2018,MN,Class I,false,general,Dennis Schuller,LMN,66236,2.550600162733805,,false
+2018,ND,Class I,false,general,,,2042,0.6261153254143952,,
+2018,ND,Class I,false,general,Kevin Cramer,REP,179720,55.105507484561755,,true
+2018,ND,Class I,false,general,Heidi Heitkamp,DEM,144376,44.268377190023855,,false
+2018,RI,Class I,false,general,,,840,0.22296662401987588,,
+2018,RI,Class I,false,general,Bob Flanders,REP,144421,38.33459858044583,,false
+2018,RI,Class I,false,general,Sheldon Whitehouse,DEM,231477,61.4424347955343,,true
+2018,VT,Class I,false,general,,,5389,1.976715182815893,,
+2018,VT,Class I,false,general,,,294,0.10784083572979634,,
+2018,VT,Class I,false,general,Bernie Sanders,IND,183649,67.36347496918833,,true
+2018,VT,Class I,false,general,Lawrence Zupan,REP,74815,27.442558248723515,,false
+2018,VT,Class I,false,general,Reid Kane,LBU,1171,0.4295293151006514,,false
+2018,VT,Class I,false,general,Bruce Busa,IND,914,0.3352602852280063,,false
+2018,VT,Class I,false,general,Jon Svitavsky,IND,1130,0.414490286988673,,false
+2018,VT,Class I,false,general,Folasade Adeluola,IND,1979,0.7259082105757381,,false
+2018,VT,Class I,false,general,Edward S. Gilbert,IND,2244,0.8231116849580375,,false
+2018,VT,Class I,false,general,Russell Beste,IND,2763,1.0134837725218617,,false
+2018,VT,Class I,false,general,Brad J. Peacock,IND,3665,1.3443423909853864,,false
+2018,WY,Class I,false,general,,,1801,0.8853603382164978,,
+2018,WY,Class I,false,general,,,54,0.026546062334087114,,
+2018,WY,Class I,false,general,,,325,0.1597679677514502,,
+2018,WY,Class I,false,general,John Barrasso,REP,136210,66.95998426900009,,true
+2018,WY,Class I,false,general,Joseph Porambo,LIB,5658,2.781437420116016,,false
+2018,WY,Class I,false,general,Gary Trauner,DEM,61227,30.09881034313244,,false
+2018,VA,Class I,false,general,Corey Stewart,REP,1374313,41.00746171792874,,false
+2018,VA,Class I,false,general,Matt J. Waters,LIB,61565,1.8370082948093214,,false
+2018,VA,Class I,false,general,Timothy Michael Kaine,DEM,1910370,57.00260758799453,,true
+2018,VA,Class I,false,general,,,5125,0.15292239926740472,,
+2018,MN,Class II,true,general,Karin Housley,REP,1095777,42.35122650304017,,false
+2018,MN,Class II,true,general,,,1101,0.042553092809802746,,
+2018,MN,Class II,true,general,Jerry Trooien,UN,24324,0.9401102901958601,,false
+2018,MN,Class II,true,general,Tina Smith,DEM,1370540,52.9706774019501,,true
+2018,MN,Class II,true,general,Sarah Wellington,LMN,95614,3.695432712004069,,false
+2018,WA,Class I,false,general,Maria Cantwell,DEM,1803364,58.433759924929554,,true
+2018,WA,Class I,false,general,Susan Hutchison,REP,1282804,41.566240075070446,,false
+2018,UT,Class I,false,general,Timothy Noel Aalders,CON,28774,2.707129665433245,,false
+2018,UT,Class I,false,general,Jenny Wilson,DEM,328541,30.9099564680303,,false
+2018,UT,Class I,false,general,Reed C. McCandless,IAP,12708,1.1956003262780872,,false
+2018,UT,Class I,false,general,Craig R. Bowden,LIB,27607,2.597335395621589,,false
+2018,UT,Class I,false,general,Caleb Dan Reeve,W,29,0.0027283923089443285,,false
+2018,UT,Class I,false,general,Tyrone Jensen,W,17,0.0015994023880018477,,false
+2018,UT,Class I,false,general,Ryan David Jackson,W,3,0.00028224748023562016,,false
+2018,UT,Class I,false,general,Hektor Reiksthegn,W,2,0.0001881649868237468,,false
+2018,UT,Class I,false,general,Glade G. Fitzgerald,W,1,9.40824934118734e-05,,false
+2018,UT,Class I,false,general,Mitt Romney,REP,665215,62.58508585497936,,true
+2018,MD,Class I,false,general,Michael Brandon Puskar,W,247,0.010739648739569606,,false
+2018,MD,Class I,false,general,Benjamin L. Cardin,DEM,1491614,64.85591261143473,,true
+2018,MD,Class I,false,general,Arvin Vohra,LIB,22943,0.997569882720427,,false
+2018,MD,Class I,false,general,Tony Campbell,REP,697017,30.306549576957842,,false
+2018,MD,Class I,false,general,Neal Simon,UN,85964,3.737745604244379,,false
+2018,MD,Class I,false,general,Lih Y. Young,W,364,0.015826850774102577,,false
+2018,MD,Class I,false,general,Edward Shlikas,W,90,0.0039132323342561314,,false
+2018,MD,Class I,false,general,,,1650,0.07174259279469573,,
+2018,HI,Class I,false,general,,,126,0.03244487589834969,,
+2018,HI,Class I,false,general,,,10180,2.6213399733746017,,
+2018,HI,Class I,false,general,Mazie K. Hirono,DEM,276316,71.15109784705074,,true
+2018,HI,Class I,false,general,Ronald C. Curtis,REP,112035,28.848902152949265,,false
+2018,DE,Class I,false,general,Demitri G. Theodoropoulos,GRE,4170,1.1500085492242267,,false
+2018,DE,Class I,false,general,Matthew Water Stout,W,4,0.0011031257066899058,,false
+2018,DE,Class I,false,general,Thomas R. Carper,DEM,217385,59.9507454371963,,true
+2018,DE,Class I,false,general,Nadine M. Frost,LIB,3910,1.078305378289383,,false
+2018,DE,Class I,false,general,Rob Arlett,REP,137127,37.81707969531668,,false
+2018,DE,Class I,false,general,Peter Todd Farina,W,7,0.0019304699867073352,,false
+2018,DE,Class I,false,general,Barry Eveland,W,3,0.0008273442800174294,,false
+2018,MS,Class II,true,jungle primary,Mike Espy,DEM,386742,40.90486500322063,,false
+2018,MS,Class II,true,jungle primary,Tobey Bartee,DEM,13852,1.46509608479196,,false
+2018,MS,Class II,true,jungle primary,Cindy Hyde-Smith,REP,389995,41.24892777854753,,true
+2018,MS,Class II,true,jungle primary,Chris McDaniel,REP,154878,16.381111133439877,,false
+2018,WI,Class I,false,general,Mary Jo Walters,W,28,0.001052329726473196,,false
+2018,WI,Class I,false,general,John Schiess,W,14,0.000526164863236598,,false
+2018,WI,Class I,false,general,Leah Vukmir,REP,1184885,44.53177528400688,,false
+2018,WI,Class I,false,general,,,2922,0.10981812359838136,,
+2018,WI,Class I,false,general,Tammy Baldwin,DEM,1472914,55.356828097805035,,true
+2018,NM,Class I,false,general,Mick Rich,REP,212813,30.532185959495678,,false
+2018,NM,Class I,false,general,Martin Heinrich,DEM,376998,54.0877345009842,,true
+2018,NM,Class I,false,general,Gary Johnson,LIB,107201,15.380079539520123,,false
+2018,NJ,Class I,false,general,Natalie Lynn Rivera,FTP,19897,0.6278022661083958,,false
+2018,NJ,Class I,false,general,Patricia Flanagan,OTH,16101,0.5080285614218868,,false
+2018,NJ,Class I,false,general,Bob Menendez,DEM,1711654,54.007149821254465,,true
+2018,NJ,Class I,false,general,Hank Schroeder,OTH,8854,0.27936680223771104,,false
+2018,NJ,Class I,false,general,Madelyn R. Hoffman,GRE,25150,0.793548122461987,,false
+2018,NJ,Class I,false,general,Murray Sabrin,LIB,21212,0.6692939472629689,,false
+2018,NJ,Class I,false,general,Kevin Kimple,OTH,9087,0.286718560191335,,false
+2018,NJ,Class I,false,general,Bob Hugin,REP,1357355,42.828091919061244,,false
+2018,MA,Class I,false,general,Shiva Ayyadurai,IND,91710,3.3877706319331824,,false
+2018,MA,Class I,false,general,Elizabeth Ann Warren,DEM,1633371,60.33678230129031,,true
+2018,MA,Class I,false,general,,,45575,1.683542106099169,,
+2018,MA,Class I,false,general,,,2799,0.10339515863898134,,
+2018,MA,Class I,false,general,Geoff Diehl,REP,979210,36.17205190813752,,false
+2018,NY,Class I,false,general,Chele Farley,CRV,246171,4.0628827452874825,,false
+2018,NY,Class I,false,general,Kirsten E. Gillibrand,DEM,3755489,61.98175844521469,,true
+2018,NY,Class I,false,general,Kirsten E. Gillibrand,IDP,99325,1.639290690924923,,true
+2018,NY,Class I,false,general,Chele Farley,REF,21610,0.35665816089491653,,false
+2018,NY,Class I,false,general,Chele Farley,REP,1730439,28.55970343733635,,false
+2018,NY,Class I,false,general,Kirsten E. Gillibrand,OTH,41989,0.6929995149382995,,true
+2018,NY,Class I,false,general,Kirsten E. Gillibrand,WFP,160128,2.6428023131782137,,true
+2018,NY,Class I,false,general,,,1069,0.01764310846814742,,
+2018,NY,Class I,false,general,,,3872,0.06390469222513266,,
+2018,NY,Class I,false,general,,,190794,3.1489235145666226,,
+2018,NV,Class I,false,general,Timothy Rex Hagan,LIB,9196,0.945962070994474,,false
+2018,NV,Class I,false,general,Barry Michaels,NPA,9269,0.9534713392831425,,false
+2018,NV,Class I,false,general,,,15303,1.574168940020491,,
+2018,NE,Class I,false,general,Jane Raybould,DEM,269917,38.621199828869784,,false
+2018,NE,Class I,false,general,Jim Schultz,LIB,25349,3.627073487264678,,false
+2018,NE,Class I,false,general,Deb Fischer,REP,403151,57.6850488565325,,true
+2018,NE,Class I,false,general,,,466,0.06667782733304431,,
+2018,NV,Class I,false,general,Jacky S. Rosen,DEM,490071,50.411981088987915,,true
+2018,NV,Class I,false,general,Kamau Akil Bakari,IAP,7091,0.7294276908897146,,false
+2018,MS,Class I,false,general,Roger F. Wicker,REP,547619,58.492867557131646,,true
+2018,MS,Class I,false,general,Shawn R. O'Hara,REF,6048,0.6460054581479682,,false
+2018,MS,Class I,false,general,Danny Bedwell,LIB,12981,1.3865404848245328,,false
+2018,MS,Class I,false,general,David Baria,DEM,369567,39.47458649989586,,false
+2018,MO,Class I,false,general,Craig S. O'Dear,IND,34398,1.4084328267457291,,false
+2018,MO,Class I,false,general,Gina Bufe,W,4,0.00016378078106235586,,false
+2018,MO,Class I,false,general,Rodney Stock,W,1,4.0945195265588965e-05,,false
+2018,MO,Class I,false,general,Martin Lindstedt,W,2,8.189039053117793e-05,,false
+2018,MO,Class I,false,general,Josh Hawley,REP,1254927,51.38323105905977,,true
+2018,MO,Class I,false,general,Japheth R. Campbell,LIB,27316,1.118458953874828,,false
+2018,MO,Class I,false,general,Jo Crain,GRE,12706,0.5202496510445733,,false
+2018,MO,Class I,false,general,Claire McCaskill,DEM,1112935,45.56934089290825,,false
+2018,MT,Class I,false,general,Matt Rosendale,REP,235963,46.78241181322168,,false
+2018,MT,Class I,false,general,Rick Breckenridge,LIB,14545,2.883715581778962,,false
+2018,MT,Class I,false,general,Jon Tester,DEM,253876,50.333872604999364,,true
+2018,OH,Class I,false,general,Stephen Faris,W,1012,0.022943173929662396,,false
+2018,OH,Class I,false,general,Jim Renacci,REP,2053963,46.56564264238257,,false
+2018,OH,Class I,false,general,Sherrod Brown,DEM,2355923,53.41141418368777,,true
+2018,PA,Class I,false,general,Lou Barletta,REP,2134848,42.6168403401605,,false
+2018,PA,Class I,false,general,Dale R. Kerns,LIB,50907,1.0162294885615044,,false
+2018,PA,Class I,false,general,Neal Taylor Gale,GRE,31208,0.6229887810915479,,false
+2018,PA,Class I,false,general,Robert P. Casey Jr.,DEM,2792437,55.74394139018645,,true
+2018,TN,Class I,false,general,Phil Bredesen,DEM,985450,43.91997290238619,,false
+2018,TN,Class I,false,general,Marsha Blackburn,REP,1227483,54.70700705072781,,true
+2018,TN,Class I,false,general,Kevin Lee McCants,IND,1927,0.08588339112374874,,false
+2018,TN,Class I,false,general,Breton Phillips,IND,2226,0.09920935580771391,,false
+2018,TN,Class I,false,general,John Carico,IND,3398,0.15144357189335664,,false
+2018,TN,Class I,false,general,Kris L. Todd,IND,5084,0.22658596807116688,,false
+2018,TN,Class I,false,general,G. Dean Hill,IND,8717,0.3885031242479075,,false
+2018,TN,Class I,false,general,Trudy A. Austin,IND,9455,0.42139463574210917,,false
+2018,TX,Class I,false,general,Ted Cruz,REP,4260553,50.8926012837366,,true
+2018,TX,Class I,false,general,Neal M. Dikeman,LIB,65470,0.7820436938693723,,false
+2018,TX,Class I,false,general,Beto O'Rourke,DEM,4045632,48.32535502239402,,false
+2018,AZ,Class I,false,general,Martha McSally,REP,1135200,47.61129854028926,,false
+2018,WV,Class I,false,general,Rusty Hollen,LIB,24411,4.165457976840934,,false
+2018,WV,Class I,false,general,"Joe Manchin, III",DEM,290510,49.5722091209725,,true
+2018,WV,Class I,false,general,Patrick Morrisey,REP,271113,46.262332902186564,,false
+2018,AZ,Class I,false,general,Angela Green,GRE,57442,2.409168614122001,,false
+2018,AZ,Class I,false,general,Kyrsten Sinema,DEM,1191100,49.9557943017429,,true
+2018,AZ,Class I,false,general,Jonathan B. Ringham,W,46,0.001929280948602278,,false
+2018,AZ,Class I,false,general,Michael DeCarlo,W,45,0.001887340058415272,,false
+2018,AZ,Class I,false,general,Robert Kay,W,37,0.0015518129369192235,,false
+2018,AZ,Class I,false,general,Barry Hess,W,365,0.015308424918257204,,false
+2018,AZ,Class I,false,general,Jeff Pearce,W,29,0.0012162858154231753,,false
+2018,AZ,Class I,false,general,Sheila Bilyeu,W,42,0.001761517387854254,,false
+2018,AZ,Class I,false,general,Edward Davida,W,2,8.388178037401208e-05,,false
+2018,CA,Class I,false,general,Kevin de León,DEM,5093942,45.8361842552804,,false
+2018,CA,Class I,false,general,Dianne Feinstein,DEM,6019422,54.1638157447196,,true
+2018,CT,Class I,false,general,Jeffery Russell,GRE,6618,0.4771999653889417,,false
+2018,CT,Class I,false,general,Christopher S. Murphy,WFP,37894,2.7323988347610397,,true
+2018,CT,Class I,false,general,Kristi L. Talmadge,W,18,0.0012979146837414554,,false
+2018,CT,Class I,false,general,Fred Linck,W,70,0.005047445992327882,,false
+2018,CT,Class I,false,general,Matthew M. Corey,REP,545717,39.349672637074214,,false
+2018,CT,Class I,false,general,Richard Lion,LIB,8838,0.6372761097170546,,false
+2018,CT,Class I,false,general,Christopher S. Murphy,DEM,787685,56.79710709238268,,true
+2018,FL,Class I,false,general,Michael Stephen Levinson,W,107,0.0013064705088702633,,false
+2018,FL,Class I,false,general,Howard Knepper,W,113,0.0013797305374050443,,false
+2018,FL,Class I,false,general,Charles Frederick Tolbert,W,121,0.0014774105754514191,,false
+2018,FL,Class I,false,general,David Weeks,W,220,0.0026862010462753074,,false
+2018,FL,Class I,false,general,Lateresa Jones,W,467,0.00570207222095713,,false
+2018,FL,Class I,false,general,Rick Scott,REP,4099505,50.05497554641297,,true
+2018,FL,Class I,false,general,Bill Nelson,DEM,4089472,49.93247256869807,,false
+2018,IN,Class I,false,general,Joe Donnelly,DEM,1023553,44.8422279321728,,false
+2018,IN,Class I,false,general,James Johnson,W,6,0.00026286217479020314,,false
+2018,IN,Class I,false,general,Christopher Fischer,W,12,0.0005257243495804063,,false
+2018,IN,Class I,false,general,Nathan Altman,W,52,0.0022781388481817604,,false
+2018,IN,Class I,false,general,Mike Braun,REP,1158000,50.7323997345092,,true
+2018,IN,Class I,false,general,Lucy M. Brenton,LIB,100942,4.4223056079454475,,false
+2018,MI,Class I,false,general,George E. Huffman,UST,27251,0.643126200802356,,false
+2018,MI,Class I,false,general,Marcia Squier,GRE,40204,0.9488182370209505,,false
+2018,MI,Class I,false,general,Tim Yow,W,3,7.080028631635786e-05,,false
+2018,MI,Class I,false,general,Valerie Willis,W,5,0.00011800047719392977,,false
+2018,MI,Class I,false,general,Tom Bagwell,W,10,0.00023600095438785953,,false
+2018,MI,Class I,false,general,John James,REP,1938818,45.7562898384361,,false
+2018,MI,Class I,false,general,John Howard Wilhelm,NLP,16502,0.3894487749308458,,false
+2018,MI,Class I,false,general,Debbie Stabenow,DEM,2214478,52.261892147091835,,true
+2018,ME,Class I,false,general,,,11655,1.8371429156900358,,
+2018,ME,Class I,false,general,Eric L. Brakey,REP,223502,35.22995417782535,,false
+2018,ME,Class I,false,general,Angus S. King Jr.,IND,344575,54.31433034525046,,true
+2018,ME,Class I,false,general,Zak Ringelstein,DEM,66268,10.445627347657425,,false
+2018,ME,Class I,false,general,,,64,0.010088129266766391,,
+2017,AL,Class II,true,general,,,22852,1.6943472329319653,,
+2017,AL,Class II,true,general,Roy S. Moore,REP,651972,48.340055756569186,,false
+2017,AL,Class II,true,general,Gordon Douglas Jones,DEM,673896,49.96559701049884,,true
+2016,LA,Class III,false,runoff,Foster L. Campbell,DEM,347816,39.345389798949554,,false
+2016,LA,Class III,false,runoff,John Kennedy,REP,536191,60.65461020105044,,true
+2016,VT,Class III,false,general,,,466,0.1484979716961591,,
+2016,VT,Class III,false,general,,,6192,1.9731747655420973,,
+2016,VT,Class III,false,general,,,309,0.09846753917191668,,
+2016,VT,Class III,false,general,Cris Ericson,OTH,9156,2.9176983451717446,,false
+2016,VT,Class III,false,general,Scott Milne,REP,103637,33.02550277398035,,false
+2016,VT,Class III,false,general,Pete Diamondstone,LBU,3241,1.0327938331915274,,false
+2016,VT,Class III,false,general,Jerry P. Trudell,IND,5223,1.664388210663174,,false
+2016,VT,Class III,false,general,Patrick J. Leahy,DEM,192243,61.261149297821284,,true
+2016,WA,Class III,false,general,Chris Vance,REP,1329338,40.986989554212556,,false
+2016,WA,Class III,false,general,Patty Murray,DEM,1913979,59.01301044578745,,true
+2016,WI,Class III,false,general,,,1396,0.047342238602847794,,
+2016,WI,Class III,false,general,John Schiess,W,8,0.00027130222695041713,,false
+2016,WI,Class III,false,general,Ron Johnson,REP,1479471,50.17297212607007,,true
+2016,WI,Class III,false,general,Phil Anderson,LIB,87531,2.9684194033996203,,false
+2016,WI,Class III,false,general,Russ Feingold,DEM,1380335,46.810994929700506,,false
+2016,LA,Class III,false,jungle primary,Gary Landrieu,DEM,45587,2.3575804120219175,,false
+2016,LA,Class III,false,jungle primary,John Fleming,REP,204026,10.551422579752643,,false
+2016,LA,Class III,false,jungle primary,William Robert Lang,OTH,1424,0.07364368146004804,,false
+2016,LA,Class III,false,jungle primary,David Duke,REP,58606,3.030871907055882,,false
+2016,LA,Class III,false,jungle primary,Rob Maness,REP,90856,4.698715114279582,,false
+2016,LA,Class III,false,jungle primary,Charles W. Boustany Jr.,REP,298008,15.411802123978932,,false
+2016,LA,Class III,false,jungle primary,John Kennedy,REP,482591,24.957709185032336,,true
+2016,LA,Class III,false,jungle primary,Gregory Taylor,OTH,1151,0.05952519477564277,,false
+2016,LA,Class III,false,jungle primary,Arden Wells,NPA,1483,0.07669492949806969,,false
+2016,LA,Class III,false,jungle primary,Kaitlin Marone,NPA,4108,0.21244960915581274,,false
+2016,LA,Class III,false,jungle primary,Troy M. Hebert,NPA,9503,0.49145779839525044,,false
+2016,LA,Class III,false,jungle primary,Beryl A. Billiot,NPA,19352,1.0008093564711023,,false
+2016,LA,Class III,false,jungle primary,Le Roy Gillam,LIB,4067,0.2103292503497299,,false
+2016,LA,Class III,false,jungle primary,Thomas Clements,LIB,11370,0.5880116981746814,,false
+2016,LA,Class III,false,jungle primary,"M.V. ""Vinny"" Mendoza",DEM,4927,0.25480506920902857,,false
+2016,LA,Class III,false,jungle primary,Peter Williams,DEM,6855,0.3545136491633633,,false
+2016,LA,Class III,false,jungle primary,Joshua Pellerin,DEM,7395,0.3824403261215276,,false
+2016,LA,Class III,false,jungle primary,Derrick Edwards,DEM,51774,2.6775477274666626,,false
+2016,LA,Class III,false,jungle primary,Caroline Fayard,DEM,240917,12.459280060611231,,false
+2016,LA,Class III,false,jungle primary,Foster L. Campbell,DEM,337833,17.471394549643545,,false
+2016,LA,Class III,false,jungle primary,Abhay Patel,REP,1576,0.08150452386308688,,false
+2016,LA,Class III,false,jungle primary,Charles Marsala,REP,3684,0.19052199613680967,,false
+2016,LA,Class III,false,jungle primary,Anh Quang Cao,REP,21019,1.0870200425623244,,false
+2016,LA,Class III,false,jungle primary,Donald Crawford,REP,25523,1.319949214820791,,false
+2016,CO,Class III,false,general,William Robert Hammons,UTY,9336,0.3403544191937144,,false
+2016,AK,Class III,false,general,Ray Metcalfe,DEM,36200,11.623389341801497,,false
+2016,AK,Class III,false,general,,,706,0.22668820097546566,,
+2016,AK,Class III,false,general,Breck A. Craig,UN,2609,0.837718861678456,,false
+2016,AK,Class III,false,general,Margaret Stock,UN,41194,13.226903330004719,,false
+2016,AK,Class III,false,general,Ted Gianoutsos,UN,1758,0.5644728857151113,,false
+2016,AK,Class III,false,general,Lisa Murkowski,REP,138149,44.35800039172749,,true
+2016,AK,Class III,false,general,Joe Miller,LIB,90825,29.16282698809726,,false
+2016,AZ,Class III,false,general,Selena Lopez,W,223,0.008811686746511876,,false
+2016,AZ,Class III,false,general,Sydney Dudikoff,W,494,0.019520059429492673,,false
+2016,AZ,Class III,false,general,Santos Chavez,W,4,0.00015805716137241033,,false
+2016,AZ,Class III,false,general,Anthony Camboni,W,45,0.0017781430654396162,,false
+2016,AZ,Class III,false,general,Pat Quinn,W,694,0.02742291749811319,,false
+2016,AZ,Class III,false,general,Leonard A. Clark,W,83,0.0032796860984775143,,false
+2016,AZ,Class III,false,general,Sheila Bilyeu,W,34,0.0013434858716654878,,false
+2016,AZ,Class III,false,general,Gene Scott,W,7,0.0002766000324017181,,false
+2016,AZ,Class III,false,general,John McCain,REP,1359267,53.710470891798025,,true
+2016,AZ,Class III,false,general,Gary Swing,GRE,138634,5.478024127425683,,false
+2016,AZ,Class III,false,general,Ann Kirkpatrick,DEM,1031245,40.74891434487282,,false
+2016,AR,Class III,false,general,,,1070,0.0966120763289578,,
+2016,AR,Class III,false,general,John Boozman,REP,661984,59.771634333223176,,true
+2016,AR,Class III,false,general,Frank Gilbert,LIB,43866,3.960733962846788,,false
+2016,AR,Class III,false,general,Conner W. Eldridge,DEM,400602,36.171019627601076,,false
+2016,CA,Class III,false,general,Loretta Sanchez,DEM,4701417,38.39716939710765,,false
+2016,CA,Class III,false,general,Kamala Harris,DEM,7542759,61.60283060289235,,true
+2016,CO,Class III,false,general,Dan Chapin,UN,8361,0.30480969353884385,,false
+2016,CO,Class III,false,general,Paul Fiorino,UN,3216,0.11724291046775764,,false
+2016,CO,Class III,false,general,Darryl Glenn,REP,1215318,44.30578963428305,,false
+2016,CO,Class III,false,general,Lily Tang Williams,LIB,99277,3.619255106501112,,false
+2016,CO,Class III,false,general,Arn Menconi,GRE,36805,1.3417678233102674,,false
+2016,CO,Class III,false,general,Michael Bennet,DEM,1370710,49.97078041270525,,true
+2016,CT,Class III,false,general,John M. Traceski,W,12,0.0007517496974207468,,false
+2016,CT,Class III,false,general,Richard Blumenthal,WFP,87948,5.5095735323966535,,true
+2016,CT,Class III,false,general,Andrew Rule,W,26,0.0016287910110782846,,false
+2016,CT,Class III,false,general,Dan Carter,REP,552621,34.61938912819588,,false
+2016,CT,Class III,false,general,Richard Lion,LIB,18190,1.1395272496736153,,false
+2016,CT,Class III,false,general,Jeffery Russell,GRE,16713,1.046999391082745,,false
+2016,CT,Class III,false,general,Richard Blumenthal,DEM,920766,57.68213015794261,,true
+2016,FL,Class III,false,general,Howard Knepper,W,50,0.0005375292147128196,,false
+2016,FL,Class III,false,general,Charles Frederick Tolbert,W,56,0.000602032720478358,,false
+2016,FL,Class III,false,general,Bradley Patrick,W,7,7.525409005979475e-05,,false
+2016,FL,Class III,false,general,Angela Marie Walls-Windhauser,W,37,0.00039777161888748656,,false
+2016,FL,Class III,false,general,Marco Rubio,REP,4835191,51.98112842432986,,true
+2016,FL,Class III,false,general,Robert Samuel Kaplan,W,10,0.00010750584294256393,,false
+2016,FL,Class III,false,general,Bruce Nathan,NPA,52451,0.563878896818042,,false
+2016,FL,Class III,false,general,Basil E. Dalack,NPA,22236,0.23904999236708516,,false
+2016,FL,Class III,false,general,Anton Khoury,NPA,45820,0.4925917723628279,,false
+2016,FL,Class III,false,general,Steven Machat,NPA,26918,0.2893842280327936,,false
+2016,FL,Class III,false,general,Paul Anthony Stanton,LIB,196956,2.1173920802595623,,false
+2016,FL,Class III,false,general,Patrick Murphy,DEM,4122088,44.31485451234274,,false
+2016,GA,Class III,false,general,Michelle Gates,W,813,0.020853613023119808,,false
+2016,GA,Class III,false,general,Johnny Isakson,REP,2135806,54.783852172764355,,true
+2016,GA,Class III,false,general,Allen Buckley,LIB,162260,4.162001536447011,,false
+2016,GA,Class III,false,general,Jim Barksdale,DEM,1599726,41.03329267776551,,false
+2016,HI,Class III,false,general,,,20763,4.984372074265055,,
+2016,HI,Class III,false,general,,,339,0.08138044276722313,,
+2016,HI,Class III,false,general,John Stanley Carroll,REP,92653,22.242307267585616,,false
+2016,HI,Class III,false,general,Joy J. Allison,CON,9103,2.185268939557617,,false
+2016,HI,Class III,false,general,"John ""Raghu"" Giuffre",OTH,1393,0.3344040022853741,,false
+2016,HI,Class III,false,general,Michael Kokoski,LIB,6809,1.6345706041357588,,false
+2016,HI,Class III,false,general,Brian Schatz,DEM,306604,73.60344918643563,,true
+2016,ID,Class III,false,general,Mike Crapo,REP,449017,66.13471233962203,,true
+2016,ID,Class III,false,general,Jerry Sturgill,DEM,188249,27.726775296306172,,false
+2016,ID,Class III,false,general,Ray J. Writz,CON,41677,6.1385123640718,,false
+2016,IL,Class III,false,general,Susana Sandoval,W,42,0.0007647657140235089,,false
+2016,IL,Class III,false,general,Patricia Elaine Beard,W,1,1.8208707476750214e-05,,false
+2016,IL,Class III,false,general,Jim Brown,W,106,0.0019301229925355223,,false
+2016,IL,Class III,false,general,Eric Kufi James Stewart,W,5,9.104353738375105e-05,,false
+2016,IL,Class III,false,general,Christopher Aguayo,W,77,0.0014020704757097663,,false
+2016,IL,Class III,false,general,Chad Koppie,W,408,0.007429152650514086,,false
+2016,IL,Class III,false,general,Mark Kirk,REP,2184692,39.78041755479637,,false
+2016,IL,Class III,false,general,Kenton McMillen,LIB,175988,3.204514011418316,,false
+2016,IL,Class III,false,general,Scott K. Summers,GRE,117619,2.1416899647078833,,false
+2016,IL,Class III,false,general,Tammy Duckworth,DEM,3012940,54.86174310499978,,true
+2016,IN,Class III,false,general,Evan Bayh,DEM,1158947,42.41271693138926,,false
+2016,IN,Class III,false,general,James Johnson,W,127,0.004647680222034689,,false
+2016,IN,Class III,false,general,Todd Young,REP,1423991,52.11224257523936,,true
+2016,IN,Class III,false,general,Lucy M. Brenton,LIB,149481,5.470392813149349,,false
+2016,IA,Class III,false,general,,,1685,0.1093420270519313,,
+2016,IA,Class III,false,general,Chuck Grassley,REP,926007,60.08990056040222,,true
+2016,IA,Class III,false,general,Michael Luick-Thrams,OTH,4441,0.28818275497782014,,false
+2016,IA,Class III,false,general,Jim Hennager,OTH,17649,1.1452685076792495,,false
+2016,IA,Class III,false,general,Charles A. Aldrich,LIB,41794,2.712071619352176,,false
+2016,IA,Class III,false,general,Patty Judge,DEM,549460,35.6552345305366,,false
+2016,KS,Class III,false,general,DJ Smith,W,46,0.0039051821767485456,,false
+2016,KS,Class III,false,general,Jerry Moran,REP,732376,62.175254388660704,,true
+2016,KS,Class III,false,general,Robert David Garrard,LIB,65760,5.582712607456181,,false
+2016,KS,Class III,false,general,Patrick Wiesner,DEM,379740,32.23812782170636,,false
+2016,KY,Class III,false,general,Billy Ray Wilson,W,36,0.0018912877305335269,,false
+2016,KY,Class III,false,general,Angel Doss,W,6,0.00031521462175558785,,false
+2016,KY,Class III,false,general,Rand Paul,REP,1090177,57.27328845027358,,true
+2016,KY,Class III,false,general,Jim Gray,DEM,813246,42.72450504737413,,false
+2016,MD,Class III,false,general,,,3231,0.11851792074595495,,
+2016,MD,Class III,false,general,Lih Y. Young,W,77,0.0028244753628717213,,false
+2016,MD,Class III,false,general,Charles Ulysses Smith,W,26,0.0009537189536969448,,false
+2016,MD,Class III,false,general,Greg A. Dorsey,W,242,0.008876922569025409,,false
+2016,MD,Class III,false,general,Ed Tinus,W,138,0.00506204675423763,,false
+2016,MD,Class III,false,general,Jeffrey Binkins,W,7,0.0002567704875337928,,false
+2016,MD,Class III,false,general,Bob Robinson,W,15,0.0005502224732866988,,false
+2016,MD,Class III,false,general,Kathy Szeliga,REP,972557,35.674847863486136,,false
+2016,MD,Class III,false,general,Margaret Flowers,GRE,89970,3.3002343947736197,,false
+2016,MD,Class III,false,general,Chris Van Hollen,DEM,1659907,60.88787566439363,,true
+2016,MO,Class III,false,general,Gina Bufe,W,21,0.0007492932558968487,,false
+2016,MO,Class III,false,general,Roy Blunt,REP,1378458,49.18425156843135,,true
+2016,MO,Class III,false,general,Thomas Morgan,W,4,0.0001427225249327331,,false
+2016,MO,Class III,false,general,Steven Wallace,W,1,3.5680631233183275e-05,,false
+2016,MO,Class III,false,general,Patrick Lee,W,53,0.0018910734553587135,,false
+2016,MO,Class III,false,general,Nathaniel Malone,W,12,0.00042816757479819924,,false
+2016,MO,Class III,false,general,Jon Kelly,W,4,0.0001427225249327331,,false
+2016,MO,Class III,false,general,Jonathan Dine,LIB,67738,2.4169345984733686,,false
+2016,MO,Class III,false,general,Johnathan McFarland,GRE,30743,1.0969296460017532,,false
+2016,MO,Class III,false,general,Jason Kander,DEM,1300200,46.391956729384894,,false
+2016,MO,Class III,false,general,Fred Ryman,CON,25407,0.9065377977414875,,false
+2016,NV,Class III,false,general,,,42257,3.8127969654261413,,
+2016,NV,Class III,false,general,Jarrod M. Williams,IND,6888,0.6214957402999566,,false
+2016,NV,Class III,false,general,Joseph J. Heck,REP,495079,44.67036724912343,,false
+2016,NV,Class III,false,general,Tom Sawyer,NOP,14208,1.2819703075176805,,false
+2016,NV,Class III,false,general,Tony Gumina,IND,10740,0.9690569469833817,,false
+2016,NV,Class III,false,general,Tom F. Jones,IAP,17128,1.545438304276663,,false
+2016,NV,Class III,false,general,Catherine Cortez Masto,DEM,521994,47.09887448637275,,true
+2016,NH,Class III,false,general,,,520,0.07035203073842573,,
+2016,NH,Class III,false,general,Kelly Ayotte,REP,353632,47.84371025786725,,false
+2016,NH,Class III,false,general,Brian Chabot,LIB,12597,1.7042779446383636,,false
+2016,NH,Class III,false,general,Aaron Day,IND,17742,2.400357171848364,,false
+2016,NH,Class III,false,general,Maggie Hassan,DEM,354649,47.981302594907596,,true
+2016,NY,Class III,false,general,,,400943,5.499107399531701,,
+2016,NY,Class III,false,general,,,3474,0.04764741897469996,,
+2016,NY,Class III,false,general,,,3472,0.04761998810597532,,
+2016,NY,Class III,false,general,Charles E. Schumer,OTH,45402,0.6227081509180563,,true
+2016,NY,Class III,false,general,Charles E. Schumer,WFP,241672,3.3146364532106185,,true
+2016,NY,Class III,false,general,Wendy E. Long,REP,1723927,23.64440761393137,,false
+2016,NY,Class III,false,general,Wendy E. Long,REF,17813,0.24431303229600762,,false
+2016,NY,Class III,false,general,Alex Merced,LIB,48120,0.6599867015148423,,false
+2016,NY,Class III,false,general,Charles E. Schumer,IDP,45402,0.6227081509180563,,true
+2016,NY,Class III,false,general,Robin Laverne Wilson,GRE,113415,1.5555359882025321,,false
+2016,NY,Class III,false,general,Charles E. Schumer,DEM,4784220,65.61765538489898,,true
+2016,NY,Class III,false,general,Wendy E. Long,CRV,267613,3.6704285360035636,,false
+2016,NC,Class III,false,general,Richard Burr,REP,2395376,51.06177974489319,,true
+2016,NC,Class III,false,general,Sean Newton Haugh,LIB,167592,3.572527148558781,,false
+2016,NC,Class III,false,general,Deborah K. Ross,DEM,2128165,45.365693106548036,,false
+2016,ND,Class III,false,general,,,366,0.10686100186568799,,
+2016,ND,Class III,false,general,John Hoeven,REP,268788,78.47801904228017,,true
+2016,ND,Class III,false,general,Robert N. Marquette,LIB,10556,3.082034796978695,,false
+2016,ND,Class III,false,general,James Germalic,IND,4675,1.3649595183663699,,false
+2016,ND,Class III,false,general,Eliot Glassheim,DEM,58116,16.96812564050908,,false
+2016,OH,Class III,false,general,Rob Portman,REP,3118568,58.02883049847697,,true
+2016,OH,Class III,false,general,Scott Allen Rupert,NPA,77291,1.4381941769612796,,false
+2016,OH,Class III,false,general,Joseph Rosario DeMare,GRE,88246,1.6420396079766735,,false
+2016,OH,Class III,false,general,Ted Strickland,DEM,1996913,37.157607593358605,,false
+2016,OH,Class III,false,general,James Stahl,W,111,0.0020654352206945447,,false
+2016,OH,Class III,false,general,Tom Connors,NPA,93041,1.7312626880057758,,false
+2016,OK,Class III,false,general,James Lankford,REP,980892,67.7389615116084,,true
+2016,OK,Class III,false,general,Robert Murphy,LIB,43421,2.9985905153631065,,false
+2016,OK,Class III,false,general,Sean Donahue Braddy,IND,40405,2.7903099830323184,,false
+2016,OK,Class III,false,general,Mark Beard,IND,27418,1.8934468287286257,,false
+2016,OK,Class III,false,general,Mike Workman,DEM,355911,24.578691161267553,,false
+2016,OR,Class III,false,general,James D. Lindsay,LIB,23941,1.2261853910773899,,false
+2016,OR,Class III,false,general,Cody Reynolds,IND,59516,3.048228968521028,,false
+2016,OR,Class III,false,general,,,2058,0.10540451672182735,,
+2016,OR,Class III,false,general,Mark Callahan,REP,651106,33.347674083907734,,false
+2016,OR,Class III,false,general,Shanti S. Lewallen,WFP,61915,3.171098470763819,,false
+2016,OR,Class III,false,general,Eric Navickas,PG,48823,2.5005659474780253,,false
+2016,OR,Class III,false,general,Ron Wyden,DEM,1105119,56.60084262153018,,true
+2016,PA,Class III,false,general,Patrick J. Toomey,REP,2951702,48.773500228690175,,true
+2016,PA,Class III,false,general,Edward T. Clifford,LIB,235142,3.885452661134039,,false
+2016,PA,Class III,false,general,Kathleen Alana McGinty,DEM,2865012,47.341047110175786,,false
+2016,SC,Class III,false,general,,,1857,0.09059009421467365,,
+2016,SC,Class III,false,general,Bill Bledsoe,LIB,24830,1.2112827352452056,,false
+2016,SC,Class III,false,general,Thomas Dixon,WFP,37610,1.8347299102928787,,false
+2016,SC,Class III,false,general,Tim Scott,REP,1241609,60.569454112970774,,true
+2016,SC,Class III,false,general,Thomas Dixon,GRE,14872,0.7255012822620498,,false
+2016,SC,Class III,false,general,Thomas Dixon,DEM,704540,34.36959880344974,,false
+2016,SC,Class III,false,general,Bill Bledsoe,CON,12652,0.6172029466903882,,false
+2016,SC,Class III,false,general,Rebel Michael Scarborough,AMP,11923,0.5816401148742886,,false
+2016,SD,Class III,false,general,John R. Thune,REP,265516,71.82786157941437,,true
+2016,SD,Class III,false,general,Jay H. Williams,DEM,104140,28.172138420585625,,false
+2016,UT,Class III,false,general,William C. Barron,UN,26167,2.3455371420785793,,false
+2016,UT,Class III,false,general,Mike Lee,REP,760241,68.14588995417745,,true
+2016,UT,Class III,false,general,Stone Teiko Fonua,IAP,27340,2.450681601422722,,false
+2016,UT,Class III,false,general,Misty Katherine Snow,DEM,301860,27.057891302321245,,false
+2016,AL,Class III,false,general,Ronald Steven Crumpton,DEM,748709,35.86726158881388,,false
+2016,AL,Class III,false,general,,,3631,0.17394478606372196,,
+2016,AL,Class III,false,general,Richard C. Shelby,REP,1335104,63.958793625122404,,true
+2014,LA,Class II,false,runoff,Bill Cassidy,REP,712379,55.9347638837961,,true
+2014,LA,Class II,false,runoff,Mary L. Landrieu,DEM,561210,44.06523611620389,,false
+2014,CO,Class II,false,general,Mark Udall,DEM,944203,46.26046883528053,,false
+2014,CO,Class II,false,general,William Robert Hammons,UTY,6427,0.31488571123407566,,false
+2014,CO,Class II,false,general,John W. Willoughby,W,21,0.0010288781602482634,,false
+2014,CO,Class II,false,general,Steve Shogan,UN,29472,1.443957006611277,,false
+2014,CO,Class II,false,general,Kathleen Rosewater Cunningham,W,17,0.0008329013678200227,,false
+2014,CO,Class II,false,general,Raul Acosta,UN,24151,1.18325887848361,,false
+2014,CO,Class II,false,general,Cory Gardner,REP,983891,48.20495056975353,,true
+2014,CO,Class II,false,general,Gaylon Kent,LIB,52876,2.590617219108913,,false
+2014,DE,Class II,false,general,Kevin Wade,REP,98823,42.225194199232604,,false
+2014,DE,Class II,false,general,Andrew Richard Groff,GRE,4560,1.9484015416299918,,false
+2014,DE,Class II,false,general,Christopher A. Coons,DEM,130655,55.826404259137405,,true
+2014,GA,Class II,false,general,Brian Russell Brown,W,9,0.00035049390432684725,,false
+2014,GA,Class II,false,general,Mary H. Schroder,W,14,0.0005452127400639846,,false
+2014,GA,Class II,false,general,Anantha Reddy Muscu,W,21,0.0008178191100959769,,false
+2014,GA,Class II,false,general,David A. Perdue,REP,1358088,52.889062837715485,,true
+2014,GA,Class II,false,general,Amanda Swafford,LIB,48862,1.9028703503576012,,false
+2014,GA,Class II,false,general,Mary Michelle Nunn,DEM,1160811,45.20635328617243,,false
+2014,ID,Class II,false,general,James E. Risch,REP,285596,65.32836196445318,,true
+2014,ID,Class II,false,general,Nels Mitchell,DEM,151574,34.67163803554681,,false
+2014,IL,Class II,false,general,Sherry Procarione,W,1,2.7750651515920966e-05,,false
+2014,IL,Class II,false,general,Hilaire F. Shioura,W,12,0.0003330078181910516,,false
+2014,IL,Class II,false,general,Roger K. Davis,W,31,0.00086027019699355,,false
+2014,IL,Class II,false,general,James D. Oberweis,REP,1538522,42.69498787157776,,false
+2014,IL,Class II,false,general,Sharon Hansen,LIB,135316,3.7551071605283615,,false
+2014,IL,Class II,false,general,Richard J. Durbin,DEM,1929637,53.54868393922718,,true
+2014,IA,Class II,false,general,,,1111,0.09834469328140213,,
+2014,IA,Class II,false,general,Joni K. Ernst,REP,588575,52.100115074798616,,true
+2014,IA,Class II,false,general,Ruth Smith,OTH,4724,0.418164114366646,,false
+2014,IA,Class II,false,general,Bob Quast,OTH,5873,0.5198725325307604,,false
+2014,IA,Class II,false,general,Douglas Butzier,LIB,8232,0.7286890324865009,,false
+2014,IA,Class II,false,general,Rick Stewart,IND,26815,2.3736390192086394,,false
+2014,IA,Class II,false,general,Bruce L. Braley,DEM,494370,43.76117553332743,,false
+2014,KS,Class II,false,general,Pat Roberts,REP,460350,53.146476931762166,,true
+2014,KS,Class II,false,general,Gregory Orman,IND,368372,42.527802759437584,,false
+2014,KS,Class II,false,general,Randall A. Batson,LIB,37469,4.325720308800253,,false
+2014,KY,Class II,false,general,Shawna Sterling,W,9,0.0006267985636562693,,false
+2014,KY,Class II,false,general,Mike Maggard,W,17,0.0011839528424618419,,false
+2014,KY,Class II,false,general,Robert Edward Ransdell,W,53,0.003691147097086919,,false
+2014,KY,Class II,false,general,Gregory D. Welch,W,64,0.004457234230444582,,false
+2014,KY,Class II,false,general,Mitch McConnell,REP,806787,56.188103641838936,,true
+2014,KY,Class II,false,general,David Patterson,LIB,44240,3.0810631617948165,,false
+2014,KY,Class II,false,general,Alison Lundergan Grimes,DEM,584698,40.72087406363259,,false
+2014,LA,Class II,false,jungle primary,Rob Maness,REP,202556,13.76018651616392,,false
+2014,LA,Class II,false,jungle primary,Bill Cassidy,REP,603048,40.96671023420495,,false
+2014,LA,Class II,false,jungle primary,Brannon McMorris,LIB,13034,0.8854354897000362,,false
+2014,LA,Class II,false,jungle primary,William Waymire,DEM,4673,0.3174497501433381,,false
+2014,LA,Class II,false,jungle primary,Wayne Ables,DEM,11323,0.7692025510107035,,false
+2014,LA,Class II,false,jungle primary,Mary L. Landrieu,DEM,619402,42.07768246057862,,true
+2014,LA,Class II,false,jungle primary,Thomas Clements,REP,14173,0.9628108942395743,,false
+2014,LA,Class II,false,jungle primary,Vallian Senegal,DEM,3835,0.26052210395884906,,false
+2014,MT,Class II,false,general,Steve Daines,REP,213709,57.786364398392756,,true
+2014,MT,Class II,false,general,Roger Roots,LIB,7933,2.145062813323022,,false
+2014,MT,Class II,false,general,Amanda G. Curtis,DEM,148184,40.068572788284214,,false
+2014,NE,Class II,false,general,,,446,0.08254108084399181,,
+2014,NE,Class II,false,general,Ben Sasse,REP,347636,64.3368860544438,,true
+2014,NE,Class II,false,general,Todd F. Watson,OTH,6260,1.1585362468237415,,false
+2014,NE,Class II,false,general,Jim Jenkins,OTH,15868,2.9366858090413945,,false
+2014,NE,Class II,false,general,Dave Domina,DEM,170127,31.485350808847073,,false
+2014,ME,Class II,false,general,Susan M. Collins,REP,413505,68.45791916931003,,true
+2014,ME,Class II,false,general,,,269,0.04453435933433549,,
+2014,ME,Class II,false,general,,,12968,2.1469203414411253,,
+2014,NJ,Class II,false,general,Eugene Martin LaVergne,DRP,3890,0.2080731304843183,,false
+2014,NJ,Class II,false,general,Joseph Baratelli,LIB,16721,0.8943935256627985,,false
+2014,NJ,Class II,false,general,Jeff Bell,REP,791297,42.325872476310956,,false
+2014,NJ,Class II,false,general,Cory A. Booker,DEM,1043866,55.83559548229907,,true
+2014,NJ,Class II,false,general,Antonio N. Sabas,IND,3544,0.18956585461090592,,false
+2014,NJ,Class II,false,general,Jeffrey Harlan Boss,IND,4513,0.24139692490378625,,false
+2014,NJ,Class II,false,general,Hank Schroeder,OTH,5704,0.30510260572816233,,false
+2014,NH,Class II,false,general,Jeanne Shaheen,DEM,251184,51.45536597706894,,true
+2014,NH,Class II,false,general,Scott Brown,REP,235347,48.211136125729524,,false
+2014,NH,Class II,false,general,,,1628,0.3334978972015265,,
+2014,WV,Class II,false,general,Natalie E. Tennant,DEM,156360,34.46413732755257,,false
+2014,WV,Class II,false,general,John S. Buckley,LIB,7409,1.6330570060107255,,false
+2014,WV,Class II,false,general,Bob Henry Baber,MTP,5504,1.2131658470890851,,false
+2014,WV,Class II,false,general,Shelley Moore Capito,REP,281820,62.11744168362028,,true
+2014,WV,Class II,false,general,Alex Wolf Weinstein,W,10,0.00220415306520546,,false
+2014,WV,Class II,false,general,Roger Smith,W,8,0.001763322452164368,,false
+2014,WV,Class II,false,general,Dino Battista,W,7,0.001542907145643822,,false
+2014,WV,Class II,false,general,Larry Eugene Butcher,W,5,0.00110207653260273,,false
+2014,WV,Class II,false,general,Phillip J. Hudok,CON,2566,0.5655856765317211,,false
+2014,VA,Class II,false,general,Mark R. Warner,DEM,1073667,49.14993227199421,,true
+2014,VA,Class II,false,general,Ed W. Gillespie,REP,1055940,48.33843219852111,,false
+2014,VA,Class II,false,general,Robert C. Sarvis,LIB,53102,2.4308837875313634,,false
+2014,VA,Class II,false,general,,,1764,0.08075174195332238,,
+2014,TX,Class II,false,general,David M. Alameel,DEM,1597387,34.364543350576696,,false
+2014,TX,Class II,false,general,Emily Sanchez,GRE,54701,1.1767811343274335,,false
+2014,TX,Class II,false,general,Rebecca Paddock,LIB,133751,2.8773816474548646,,false
+2014,TX,Class II,false,general,John Cornyn,REP,2861531,61.560039050348536,,true
+2014,TX,Class II,false,general,Mohammed Tahiro,W,988,0.02125481729247188,,false
+2014,TN,Class II,false,general,Joe B. Wilmoth,CON,36088,2.6263677482506287,,false
+2014,TN,Class II,false,general,William Gordon Ball,DEM,437848,31.865159217358713,,false
+2014,TN,Class II,false,general,Martin Pleasant,GRE,12570,0.9148038848234982,,false
+2014,TN,Class II,false,general,Tom Emerson,IND,11157,0.811970321636895,,false
+2014,TN,Class II,false,general,Danny Page,IND,7713,0.5613271570122228,,false
+2014,TN,Class II,false,general,Rick Tyler,IND,5759,0.4191213661653561,,false
+2014,TN,Class II,false,general,Bartholomew J. Phillips,IND,2386,0.17364535156633784,,false
+2014,TN,Class II,false,general,Edmund Louis Gauthier,IND,2314,0.16840542477975934,,false
+2014,TN,Class II,false,general,Eric Schechter,IND,1673,0.12175552102702564,,false
+2014,TN,Class II,false,general,Choudhury Salekin,IND,787,0.057275310847740096,,false
+2014,TN,Class II,false,general,Lamar Alexander,REP,850087,61.86657836419675,,true
+2014,TN,Class II,false,general,Erin Kent Magee,W,5,0.0003638838046235076,,false
+2014,TN,Class II,false,general,Joshua James,IND,5678,0.41322644853045526,,false
+2014,SD,Class II,false,general,Richard P. Weiland,DEM,82456,29.51054357006857,,false
+2014,SD,Class II,false,general,Gordon K. Howie,IND,8474,3.0327974460653087,,false
+2014,SD,Class II,false,general,M. Michael Rounds,REP,140741,50.37042074069832,,true
+2014,SD,Class II,false,general,Larry Pressler,IND,47741,17.086238243167795,,false
+2014,SC,Class II,false,general,Charles Bradley Hutto,DEM,456726,36.830514283410274,,false
+2014,SC,Class II,false,general,Victor Kocher,LIB,33839,2.72878656532871,,false
+2014,SC,Class II,false,general,Thomas Ravenel,OTH,47588,3.8375098280345945,,false
+2014,SC,Class II,false,general,Lindsey Graham,REP,672941,54.26615325685946,,true
+2014,SC,Class II,false,general,Charles Bradley Hutto,WFP,24207,1.9520593512489164,,false
+2014,SC,Class II,false,general,,,4774,0.3849767151180372,,
+2014,RI,Class II,false,general,Mark S. Zaccaria,REP,92684,29.247265681702,,false
+2014,RI,Class II,false,general,,,539,0.1700862738168117,,
+2014,RI,Class II,false,general,Jack Reed,DEM,223675,70.58264804448119,,true
+2014,OR,Class II,false,general,James E. Leuenberger,CON,24212,1.656520376733182,,false
+2014,OR,Class II,false,general,Jeff Merkley,DEM,814537,55.7284461466676,,true
+2014,OR,Class II,false,general,,,6672,0.4564804210128775,,
+2014,OR,Class II,false,general,Mike Montchalin,LIB,44916,3.073032762322303,,false
+2014,OR,Class II,false,general,Christina Jean Lugo,PG,32434,2.2190476581432357,,false
+2014,OR,Class II,false,general,Monica Wehby,REP,538847,36.86647263512081,,false
+2014,OK,Class II,false,general,Matt Silverstein,DEM,234307,28.548504812161813,,false
+2014,OK,Class II,false,general,Joan E. Farr,IND,10554,1.285923680417383,,false
+2014,OK,Class II,false,general,Ray Woods,IND,9913,1.2078227633103578,,false
+2014,OK,Class II,false,general,Aaron DeLozier,IND,7793,0.9495170780265932,,false
+2014,OK,Class II,false,general,James M. Inhofe,REP,558166,68.00823166608384,,true
+2014,NC,Class II,false,general,Kay R. Hagan,DEM,1377651,47.256199316635346,,false
+2014,NC,Class II,false,general,Sean Newton Haugh,LIB,109100,3.742349365292745,,false
+2014,NC,Class II,false,general,Thomas Roland Tillis,REP,1423259,48.82064541977257,,true
+2014,NC,Class II,false,general,John W. Rhodes,W,621,0.021301548632876213,,false
+2014,NC,Class II,false,general,David Waddell,W,201,0.006894704146872978,,false
+2014,NC,Class II,false,general,Barry Gurney,W,142,0.004870885516696332,,false
+2014,NC,Class II,false,general,,,4307,0.1477387600028951,,
+2014,NM,Class II,false,general,Tom Udall,DEM,286409,55.558810178737005,,true
+2014,NM,Class II,false,general,Allen E. Weh,REP,229097,44.441189821262995,,false
+2014,MS,Class II,false,general,Travis W. Childers,DEM,239439,37.89443197680492,,false
+2014,MS,Class II,false,general,Shawn R. O'Hara,REF,13938,2.2058753707320315,,false
+2014,MS,Class II,false,general,Thad Cochran,REP,378481,59.89969265246305,,true
+2014,MN,Class II,false,general,Mike McFadden,REP,850227,42.90764500930595,,false
+2014,MN,Class II,false,general,Al Franken,DEM,1053205,53.15115405888788,,true
+2014,MN,Class II,false,general,Stephen W. Carlson,IDP,47530,2.3986539680488996,,false
+2014,MN,Class II,false,general,Heather Johnson,LIB,29685,1.498086325300475,,false
+2014,MN,Class II,false,general,,,881,0.04446063845678688,,
+2014,MI,Class II,false,general,Richard A. Matkin,UST,37529,1.2021701784019392,,false
+2014,MI,Class II,false,general,Jeff Jones,W,67,0.0021462176437669514,,false
+2014,MI,Class II,false,general,Robert Boensch,W,6,0.00019219859496420462,,false
+2014,MI,Class II,false,general,Jim Fulner,LIB,62897,2.0147858379105963,,false
+2014,MI,Class II,false,general,Terri Lynn Land,REP,1290199,41.32907250403697,,false
+2014,MI,Class II,false,general,Gary C. Peters,DEM,1704936,54.614383950648524,,true
+2014,MI,Class II,false,general,Chris Wahmhoff,GRE,26137,0.8372491127632361,,false
+2014,ME,Class II,false,general,Shenna Bellows,DEM,190254,31.49754647135563,,false
+2014,AL,Class II,false,general,,,22484,2.7483528707110465,,
+2014,AL,Class II,false,general,Jeff Sessions,REP,795606,97.25164712928895,,true
+2014,AK,Class II,false,general,,,1376,0.4872521246458924,,
+2014,AK,Class II,false,general,Dan Sullivan,REP,135445,47.9621104815864,,true
+2014,AK,Class II,false,general,Mark S. Fish,LIB,10512,3.722379603399433,,false
+2014,AK,Class II,false,general,Ted Gianoutsos,UN,5636,1.9957507082152974,,false
+2014,AK,Class II,false,general,Mark Begich,DEM,129431,45.83250708215297,,false
+2014,AR,Class II,false,general,,,505,0.05958666910519702,,
+2014,AR,Class II,false,general,Tom Cotton,REP,478819,56.4974837906561,,true
+2014,AR,Class II,false,general,Nathan LaFrance,LIB,17210,2.030666485743447,,false
+2014,AR,Class II,false,general,Mark H. Swaney,GRE,16797,1.981935209821771,,false
+2014,AR,Class II,false,general,Mark L. Pryor,DEM,334174,39.430327844673485,,false
+2014,HI,Class III,true,general,,,152,0.04296528292073471,,
+2014,OK,Class III,true,general,Mark Beard,IND,25965,3.1630303694770308,,false
+2014,OK,Class III,true,general,Constance N. Johnson,DEM,237923,28.983542252920614,,false
+2014,OK,Class III,true,general,James Lankford,REP,557002,67.85342737760236,,true
+2014,WY,Class II,false,general,Charlie Hardy,DEM,29377,17.445810321277985,,false
+2014,WY,Class II,false,general,Curt Gottshall,IND,13311,7.904863709246392,,false
+2014,WY,Class II,false,general,Joseph Porambo,LIB,3677,2.1836213551873627,,false
+2014,WY,Class II,false,general,Michael B. Enzi,REP,121554,72.18599679315874,,true
+2014,WY,Class II,false,general,,,2633,1.563632044658234,,
+2014,WY,Class II,false,general,,,471,0.27970782112952075,,
+2014,WY,Class II,false,general,,,130,0.0772017340697191,,
+2014,HI,Class III,true,general,Michael Kokoski,LIB,8941,2.527319701278217,,false
+2014,HI,Class III,true,general,Cam Cavasso,REP,98006,27.702996828483723,,false
+2014,HI,Class III,true,general,Brian Schatz,DEM,246827,69.76968347023806,,true
+2014,HI,Class III,true,general,,,15777,4.459626767371259,,
+2014,MA,Class II,false,general,Brian R. Muello,W,6,0.00028777364875883226,,false
+2014,MA,Class II,false,general,Brian J. Herr,REP,791950,37.983723522426196,,false
+2014,MA,Class II,false,general,Edward J. Markey,DEM,1289944,61.868648595760526,,true
+2014,MA,Class II,false,general,,,101817,4.8833749326130045,,
+2014,MA,Class II,false,general,,,3072,0.14734010816452212,,
+2014,SC,Class III,true,general,,,532,0.04400396366529857,,
+2014,SC,Class III,true,general,Jill Bossi,AMP,21652,1.7909282354906857,,false
+2014,SC,Class III,true,general,Joyce Dickerson,DEM,459583,38.014048182685926,,false
+2014,SC,Class III,true,general,Tim Scott,REP,727215,60.15101961815809,,true
+2013,NJ,Class II,true,general,Eugene Martin LaVergne,DRP,1041,0.07718778431019256,,false
+2013,NJ,Class II,true,general,Cory A. Booker,DEM,740742,54.92433595148959,,true
+2013,NJ,Class II,true,general,Robert DePasquale,IND,3137,0.23260142111534493,,false
+2013,NJ,Class II,true,general,Stuart David Meissner,OTH,2051,0.15207698906840053,,false
+2013,NJ,Class II,true,general,Pablo Olivera,OTH,1530,0.11344602304956257,,false
+2013,NJ,Class II,true,general,Antonio N. Sabas,OTH,1336,0.09906136391778797,,false
+2013,NJ,Class II,true,general,Steven M. Lonegan,REP,593684,44.02031944323954,,false
+2013,NJ,Class II,true,general,Edward C. Stackhouse,OTH,5138,0.3809710238095768,,false
+2013,MA,Class II,true,general,Edward J. Markey,DEM,645429,54.80000679238234,,true
+2013,MA,Class II,true,general,Richard A. Heos,OTH,4550,0.3863167457696194,,false
+2013,MA,Class II,true,general,Gabriel E. Gomez,REP,525307,44.60107489450581,,false
+2013,MA,Class II,true,general,,,1991,0.16904541556644223,,
+2013,MA,Class II,true,general,,,2504,0.21260156734222568,,
+2012,VT,Class I,false,general,Pete Diamondstone,LBU,2511,0.8576932798655562,,false
+2012,VT,Class I,false,general,Laurel LaFramboise,OTH,877,0.29956073534133526,,false
+2012,VT,Class I,false,general,,,252,0.086076744932744,,
+2012,VT,Class I,false,general,Peter D. Moss,OTH,2452,0.8375403911709853,,false
+2012,VT,Class I,false,general,Bernie Sanders,IND,207848,70.99555270151181,,true
+2012,VT,Class I,false,general,John MacGovern,REP,72898,24.90008949248878,,false
+2012,VT,Class I,false,general,Cris Ericson,OTH,5924,2.0234866546887913,,false
+2012,WV,Class I,false,general,"Joe Manchin, III",DEM,399898,60.57206733696656,,true
+2012,WV,Class I,false,general,John Raese,REP,240787,36.47171623230466,,false
+2012,WV,Class I,false,general,Bob Henry Baber,MTP,19517,2.956216430728777,,false
+2012,WY,Class I,false,general,John Barrasso,REP,185250,75.65485865507918,,true
+2012,WY,Class I,false,general,Tim Chesnut,DEM,53019,21.65260432406825,,false
+2012,WY,Class I,false,general,Joel Otto,COU,6176,2.522237015135056,,false
+2012,WY,Class I,false,general,,,5747,2.3470362898285564,,
+2012,WY,Class I,false,general,,,417,0.1703000057175062,,
+2012,WY,Class I,false,general,,,91,0.03716379021653012,,
+2012,MS,Class I,false,general,Shawn R. O'Hara,REF,13194,1.0626884713523543,,false
+2012,MS,Class I,false,general,Thomas Cramer,CON,15281,1.2307823655248846,,false
+2012,MS,Class I,false,general,Albert N. Gore,DEM,503467,40.55090015206578,,false
+2012,MS,Class I,false,general,Roger F. Wicker,REP,709626,57.15562901105699,,true
+2012,DE,Class I,false,general,Andrew Richard Groff,GRE,3191,0.7985365585101325,,false
+2012,DE,Class I,false,general,Alexander Pires,IDE,15300,3.828771339769673,,false
+2012,DE,Class I,false,general,Kevin Wade,REP,115700,28.95351921642818,,false
+2012,DE,Class I,false,general,Thomas R. Carper,DEM,265415,66.41917288529201,,true
+2012,TN,Class I,false,general,Angelia Stinnett,W,470,0.020245731489047705,,false
+2012,TN,Class I,false,general,Bob Corker,REP,1506443,64.89157549267127,,true
+2012,TN,Class I,false,general,David Gatchell,IND,6523,0.2809849074533153,,false
+2012,TN,Class I,false,general,Mary Wright,W,2,8.61520488895647e-05,,false
+2012,TN,Class I,false,general,Allen Hoenicke,W,5,0.00021538012222391175,,false
+2012,TN,Class I,false,general,Christopher Schappert,W,12,0.0005169122933373882,,false
+2012,TN,Class I,false,general,Lee Stewart,W,14,0.0006030643422269529,,false
+2012,TN,Class I,false,general,Gary Gene Davis,W,18,0.0007753684400060823,,false
+2012,TN,Class I,false,general,Margie Nell Penn,W,23,0.0009907485622299942,,false
+2012,TN,Class I,false,general,Larry Crim,W,218,0.009390573328962553,,false
+2012,TN,Class I,false,general,Jacob Maurer,W,409,0.01761809399791598,,false
+2012,TN,Class I,false,general,Michel Joseph Long,IND,8080,0.3480542775138414,,false
+2012,TN,Class I,false,general,James Higdon,IND,8085,0.3482696576360653,,false
+2012,TN,Class I,false,general,Shaun E. Crowell,IND,20936,0.9018396477759634,,false
+2012,TN,Class I,false,general,Martin Pleasant,GRE,38472,1.6572208124396668,,false
+2012,TN,Class I,false,general,Mark E. Clayton,DEM,705882,30.406590287131856,,false
+2012,TN,Class I,false,general,Kermit E. Steck,CON,18620,0.8020755751618474,,false
+2012,TN,Class I,false,general,Troy Stephen Scoggin,IND,7148,0.3079074227313042,,false
+2012,TN,Class I,false,general,Jim Maynard,W,117,0.005039894860039535,,false
+2012,CT,Class I,false,general,Christopher S. Murphy,WFP,35778,2.3666392373412783,,true
+2012,CT,Class I,false,general,Michael Vasile,W,8,0.0005291831264668294,,false
+2012,CT,Class I,false,general,John M. Traceski,W,19,0.00125680992535872,,false
+2012,CT,Class I,false,general,Jeffery Russell,W,40,0.0026459156323341473,,false
+2012,CT,Class I,false,general,Matthew Coleman,W,6414,0.42427257164478055,,false
+2012,CT,Class I,false,general,Michael D. Adams,W,388,0.025665381633641227,,false
+2012,CT,Class I,false,general,Linda McMahon,REP,604569,39.99096419811558,,false
+2012,CT,Class I,false,general,Paul Passarelli,LIB,25045,1.656673925295218,,false
+2012,CT,Class I,false,general,Linda McMahon,IND,46520,3.0771998804046135,,false
+2012,CT,Class I,false,general,Christopher S. Murphy,DEM,792983,52.454152896880736,,true
+2012,FL,Class I,false,general,Lionel Long,W,2,2.442018543223606e-05,,false
+2012,FL,Class I,false,general,Piotr Blass,W,9,0.00010989083444506228,,false
+2012,FL,Class I,false,general,Robert Monroe,W,12,0.00014652111259341635,,false
+2012,FL,Class I,false,general,Lawrence Sidney Scott,W,18,0.00021978166889012455,,false
+2012,FL,Class I,false,general,Naomi L. Craine,W,19,0.00023199176160624259,,false
+2012,FL,Class I,false,general,Chris Borgia,NPA,82089,1.002314300973413,,false
+2012,FL,Class I,false,general,William G. Gaylor,NPA,126079,1.5394362795554453,,false
+2012,FL,Class I,false,general,Bill Nelson,DEM,4523451,55.23175610681682,,true
+2012,FL,Class I,false,general,Connie Mack,REP,3458267,42.225760707091354,,false
+2012,IN,Class I,false,general,Andrew Horning,LIB,145282,5.674852017614923,,false
+2012,IN,Class I,false,general,Amy J. Willis,W,3,0.00011718283099657748,,false
+2012,IN,Class I,false,general,Richard Mourdock,REP,1133621,44.28030601905705,,false
+2012,IN,Class I,false,general,Joe Donnelly,DEM,1281181,50.044138866342045,,true
+2012,IN,Class I,false,general,James Johnson,W,15,0.0005859141549828874,,false
+2012,MD,Class I,false,general,,,2346,0.08909196827930978,,
+2012,MD,Class I,false,general,Ed Tinus,W,48,0.0018228535709321693,,false
+2012,MD,Class I,false,general,Brandy Baker,W,151,0.005734393525224116,,false
+2012,MD,Class I,false,general,Lih Y. Young,W,163,0.006190106917957158,,false
+2012,MD,Class I,false,general,Rob Sobhani,UN,430934,16.365199598668408,,false
+2012,MD,Class I,false,general,Daniel J. Bongino,REP,693291,26.32849948010697,,false
+2012,MD,Class I,false,general,Dean A. Ahmad,LIB,32252,1.2248056952021735,,false
+2012,MD,Class I,false,general,Benjamin L. Cardin,DEM,1474028,55.97785840529175,,true
+2012,MD,Class I,false,general,Mary Catherine Podlesak,W,21,0.000797498437282824,,false
+2012,MI,Class I,false,general,Katherine Houston,W,4,8.596755842247811e-05,,false
+2012,MI,Class I,false,general,Raymond O'Donnell,W,7,0.0001504432272393367,,false
+2012,MI,Class I,false,general,Daniel Holloway,W,10,0.00021491889605619529,,false
+2012,MI,Class I,false,general,Amitabh Ghosh,W,48,0.0010316107010697373,,false
+2012,MI,Class I,false,general,Pete Hoekstra,REP,1767386,37.98446480251748,,false
+2012,MI,Class I,false,general,John D. Litle,NLP,11229,0.24133242838150168,,false
+2012,MI,Class I,false,general,Scott Avery Boman,LIB,84480,1.8156348338827375,,false
+2012,MI,Class I,false,general,Harley G. Mikkelson,GRE,27890,0.5994088011007286,,false
+2012,MI,Class I,false,general,Debbie Stabenow,DEM,2735826,58.79807037218365,,true
+2012,MI,Class I,false,general,Richard A. Matkin,UST,26038,0.5596058215511213,,false
+2012,MO,Class I,false,general,Arnie C. Dienoff,W,2,7.337314315503782e-05,,false
+2012,MO,Class I,false,general,Charlie L. Bailey,W,4,0.00014674628631007564,,false
+2012,MO,Class I,false,general,Bernard Mowinski,W,5,0.00018343285788759454,,false
+2012,MO,Class I,false,general,William Dean,W,6,0.00022011942946511347,,false
+2012,MO,Class I,false,general,Bernard J. Duraski,W,9,0.0003301791441976702,,false
+2012,MO,Class I,false,general,Todd Akin,REP,1066159,39.113718466515984,,false
+2012,MO,Class I,false,general,Jonathan Dine,LIB,165468,6.0704536257888995,,false
+2012,MO,Class I,false,general,Claire McCaskill,DEM,1494125,54.81432375826044,,true
+2012,MO,Class I,false,general,Ted Kimzey,W,15,0.0005502985736627837,,false
+2012,NJ,Class I,false,general,Gregory Pason,SOC,2249,0.06660449457435463,,false
+2012,NJ,Class I,false,general,Joe Kyrillos,REP,1329534,39.3743619783993,,false
+2012,NJ,Class I,false,general,J. David Dranikoff,OTH,3834,0.11354452298713903,,false
+2012,NJ,Class I,false,general,Robert D. Turkavage,OTH,3532,0.10460074470281039,,false
+2012,NJ,Class I,false,general,Daryl Mikell Brooks,OTH,2066,0.061184920315970066,,false
+2012,NJ,Class I,false,general,Eugene Martin LaVergne,OTH,2198,0.0650941214203786,,false
+2012,NJ,Class I,false,general,Gwen Diakos,OTH,9359,0.277168281334542,,false
+2012,NJ,Class I,false,general,Inder Jit Soni,OTH,3593,0.10640726945560525,,false
+2012,NJ,Class I,false,general,Kenneth R. Kaplan,LIB,16803,0.4976235314952783,,false
+2012,NJ,Class I,false,general,Bob Menendez,DEM,1987680,58.86546099402099,,true
+2012,NJ,Class I,false,general,Kenneth Wolski,GRE,15801,0.46794914129363163,,false
+2012,NM,Class I,false,general,Jon Ross Barrie,IAP,28199,3.6348613612136225,,false
+2012,NM,Class I,false,general,Martin Heinrich,DEM,395717,51.00806529576833,,true
+2012,NM,Class I,false,general,Heather A. Wilson,REP,351260,45.27754181850055,,false
+2012,NM,Class I,false,general,Robert L. Anderson,W,617,0.0795315245174937,,false
+2012,NY,Class I,false,general,,,455963,6.407009049791558,,
+2012,NY,Class I,false,general,Kirsten E. Gillibrand,WFP,250580,3.521049575726032,,true
+2012,NY,Class I,false,general,Wendy E. Long,REP,1514647,21.28321165585724,,false
+2012,NY,Class I,false,general,John Mangelli,OTH,21985,0.3089243950927321,,false
+2012,NY,Class I,false,general,Christopher Edes,LIB,31894,0.4481616855623197,,false
+2012,NY,Class I,false,general,Colia Clark,GRE,42442,0.5963779475335791,,false
+2012,NY,Class I,false,general,Kirsten E. Gillibrand,DEM,4420043,62.10867000495178,,true
+2012,NY,Class I,false,general,Wendy E. Long,CRV,240819,3.383891921848381,,false
+2012,NY,Class I,false,general,Kirsten E. Gillibrand,IDP,138255,1.9427037636363738,,true
+2012,PA,Class I,false,general,Tom Smith,REP,2509132,44.587592684536546,,false
+2012,PA,Class I,false,general,Rayburn Smith,LIB,96926,1.7223872672069023,,false
+2012,PA,Class I,false,general,Robert P. Casey Jr.,DEM,3021364,53.69002004825656,,true
+2012,UT,Class I,false,general,JoAnn Secrist,W,1,9.931462974016312e-05,,false
+2012,UT,Class I,false,general,William C. Barron,UN,7172,0.71228452449645,,false
+2012,UT,Class I,false,general,Orrin G. Hatch,REP,657608,65.31009503416921,,true
+2012,UT,Class I,false,general,Scott N. Howell,DEM,301873,29.980405223552264,,false
+2012,UT,Class I,false,general,Shaun Lynn McCausland,CON,31905,3.1686332618599042,,false
+2012,UT,Class I,false,general,Daniel Geery,OTH,8342,0.8284826412924409,,false
+2012,AZ,Class I,false,general,Steven Watts,W,290,0.012926680758234518,,false
+2012,TX,Class I,false,general,Ted Cruz,REP,4440137,56.45565786485696,,true
+2012,TX,Class I,false,general,John Jay Myers,LIB,162354,2.0643060961837407,,false
+2012,TX,Class I,false,general,David B. Collins,GRE,67404,0.857031475092507,,false
+2012,TX,Class I,false,general,Paul Sadler,DEM,3194927,40.6230045638668,,false
+2012,VA,Class I,false,general,,,6587,0.17324198962915116,,
+2012,VA,Class I,false,general,George F. Allen,REP,1785542,46.960808964082865,,false
+2012,VA,Class I,false,general,Timothy Michael Kaine,DEM,2010067,52.86594904628799,,true
+2012,WA,Class I,false,general,Michael Baumgartner,REP,1213924,39.54900881828699,,false
+2012,WA,Class I,false,general,Maria Cantwell,DEM,1855493,60.45099118171301,,true
+2012,WI,Class I,false,general,,,3373,0.11208173293710963,,
+2012,WI,Class I,false,general,Diane E. Lorbiecki,W,43,0.0014288510276595653,,false
+2012,WI,Class I,false,general,Riley J. Hood,W,70,0.0023260365566551066,,false
+2012,WI,Class I,false,general,Tommy Thompson,REP,1380126,45.86033612557407,,false
+2012,WI,Class I,false,general,Nimrod Y.U. Allen,OTH,16455,0.5467847362822824,,false
+2012,WI,Class I,false,general,Joseph M. Kexel,LIB,62240,2.0681787898030546,,false
+2012,WI,Class I,false,general,Tammy Baldwin,DEM,1547104,51.40886372781917,,true
+2012,AZ,Class I,false,general,Don Manspeaker,W,24,0.0010697942696469946,,false
+2012,AZ,Class I,false,general,Jeff Flake,REP,1104457,49.23090706964628,,true
+2012,AZ,Class I,false,general,Marc Victor,LIB,102109,4.551484294974374,,false
+2012,AZ,Class I,false,general,Richard Carmona,DEM,1036542,46.20361216035146,,false
+2012,CA,Class I,false,general,Elizabeth Emken,REP,4713887,37.4757155278554,,false
+2012,CA,Class I,false,general,Dianne Feinstein,DEM,7864624,62.5242844721446,,true
+2012,HI,Class I,false,general,,,77,0.017886885196395676,,
+2012,HI,Class I,false,general,,,6599,1.5329292910521437,,
+2012,HI,Class I,false,general,Linda Lingle,REP,160994,37.3984570819289,,false
+2012,HI,Class I,false,general,Mazie K. Hirono,DEM,269489,62.6015429180711,,true
+2012,ME,Class I,false,general,,,24121,3.442910994734506,,
+2012,ME,Class I,false,general,Charlie Summers,REP,215399,30.74497679842535,,false
+2012,ME,Class I,false,general,Angus S. King Jr.,OTH,370580,52.89473721772369,,true
+2012,ME,Class I,false,general,Andrew Ian Dodge,OTH,5624,0.8027416539275677,,false
+2012,ME,Class I,false,general,Danny Francis Dalton,NON,5807,0.8288621593807585,,false
+2012,ME,Class I,false,general,Stephen M. Woods,IND,10289,1.4686004404802178,,false
+2012,ME,Class I,false,general,Cynthia Dill,DEM,92900,13.260081730062417,,false
+2012,MA,Class I,false,general,,,27643,0.868131233127609,,
+2012,MA,Class I,false,general,,,2159,0.06780361510409535,,
+2012,MA,Class I,false,general,Scott Brown,REP,1458048,45.79014608397222,,false
+2012,MA,Class I,false,general,Elizabeth Ann Warren,DEM,1696346,53.273919067796086,,true
+2012,MN,Class I,false,general,,,2582,0.09081294467831572,,
+2012,MN,Class I,false,general,Kurt Patrick Bills,REP,867974,30.527991806435477,,false
+2012,MN,Class I,false,general,Michael James Cavlan,OTH,13986,0.49190931226604323,,false
+2012,MN,Class I,false,general,Stephen J. Williams,IDP,73539,2.5864806888840666,,false
+2012,MN,Class I,false,general,Tim A. Davis,GRT,30531,1.073822623537435,,false
+2012,MN,Class I,false,general,Amy Klobuchar,DEM,1854595,65.22898262419866,,true
+2012,MT,Class I,false,general,Denny Rehberg,REP,218051,44.86036875650632,,false
+2012,MT,Class I,false,general,Dan Cox,LIB,31892,6.561248883896425,,false
+2012,MT,Class I,false,general,Jon Tester,DEM,236123,48.578382359597256,,true
+2012,NE,Class I,false,general,Deb Fischer,REP,455593,57.77443277215016,,true
+2012,NE,Class I,false,general,Bob Kerrey,DEM,332979,42.22556722784984,,false
+2012,NV,Class I,false,general,,,45277,4.537660164060112,,
+2012,NV,Class I,false,general,Dean Heller,REP,457656,45.86627647686672,,true
+2012,NV,Class I,false,general,David Lory VanDerBeek,IAP,48792,4.889933403821388,,false
+2012,NV,Class I,false,general,Shelley Berkley,DEM,446080,44.706129955251775,,false
+2012,ND,Class I,false,general,,,1406,0.4378098298582567,,
+2012,ND,Class I,false,general,Rick Berg,REP,158401,49.32397927409511,,false
+2012,ND,Class I,false,general,Heidi Heitkamp,DEM,161337,50.23821089604663,,true
+2012,OH,Class I,false,general,Josh Mandel,REP,2435712,44.70001750774176,,false
+2012,OH,Class I,false,general,Scott Allen Rupert,IND,250616,4.599287431239904,,false
+2012,OH,Class I,false,general,Sherrod Brown,DEM,2762690,50.70069506101833,,true
+2012,RI,Class I,false,general,,,933,0.22310486406863883,,
+2012,RI,Class I,false,general,Barry Hinckley,REP,146222,34.9655299398119,,false
+2012,RI,Class I,false,general,Sheldon Whitehouse,DEM,271034,64.81136519611945,,true
+2010,IL,Class III,true,general,Mark Kirk,REP,1778698,48.01487283076432,,true
+2010,IL,Class III,true,general,Mike Labno,LIB,87247,2.3551798056025786,,false
+2010,IL,Class III,true,general,Will Boyd,W,468,0.012633375921487349,,false
+2010,IL,Class III,true,general,Avner Nager,W,15,0.00040491589491946627,,false
+2010,IL,Class III,true,general,Stan Jagla,W,12,0.000323932715935573,,false
+2010,IL,Class III,true,general,Darren Raichart,W,9,0.00024294953695167974,,false
+2010,IL,Class III,true,general,Alexi Giannoulias,DEM,1719478,46.41626487762227,,false
+2010,IL,Class III,true,general,LeAlan M. Jones,GRE,117914,3.1830168555689298,,false
+2010,IL,Class III,true,general,Robert L. Zadek,W,561,0.015143854469988038,,false
+2010,IL,Class III,true,general,Lowell Martin Seida,W,3,8.098317898389325e-05,,false
+2010,IL,Class III,true,general,Corey Dabney,W,33,0.0008908149688228259,,false
+2010,IL,Class III,true,general,Susanne Atanus,W,19,0.0005128934668979906,,false
+2010,IL,Class III,true,general,Shon-Tiyon Taiwan Horton,W,16,0.0004319102879140973,,false
+2010,HI,Class III,false,general,Jim Brewer,GRE,7762,2.0945375260063197,,false
+2010,HI,Class III,false,general,Daniel K. Inouye,DEM,277228,74.80861237563515,,true
+2010,HI,Class III,false,general,Jeff S. Jarrett,N,2697,0.7277721859880243,,false
+2010,HI,Class III,false,general,Lloyd Jeffrey Mallan,LIB,2957,0.7979319072920236,,false
+2010,HI,Class III,false,general,Cam Cavasso,REP,79939,21.571146005078486,,false
+2010,MO,Class III,false,general,Roy Blunt,REP,1054160,54.22915490979727,,true
+2010,MO,Class III,false,general,Jonathan Dine,LIB,58663,3.0178008219562846,,false
+2010,MO,Class III,false,general,Mark S. Memoly,W,1,5.144300192551156e-05,,false
+2010,MO,Class III,false,general,Richie L. Wolfe,W,2,0.00010288600385102311,,false
+2010,MO,Class III,false,general,Charlie L. Bailey,W,3,0.0001543290057765347,,false
+2010,MO,Class III,false,general,Jeff Wirick,W,4,0.00020577200770204623,,false
+2010,MO,Class III,false,general,Frazier Glenn Miller,W,7,0.0003601010134785809,,false
+2010,MO,Class III,false,general,Dale Michael Hoinoski,W,14,0.0007202020269571618,,false
+2010,MO,Class III,false,general,Robin Carnahan,DEM,789736,40.626390568645796,,false
+2010,MO,Class III,false,general,Jerry Garth Beck,CON,41309,2.125058966540957,,false
+2010,UT,Class III,false,general,Samuel Frank Granato,DEM,191732,32.76182013909062,,false
+2010,UT,Class III,false,general,Scott N. Bradley,CON,33095,5.65504160757309,,false
+2010,UT,Class III,false,general,Mike Lee,REP,360403,61.5831382533363,,true
+2010,AR,Class III,false,general,,,376,0.04820778581383332,,
+2010,AK,Class III,false,general,Lisa Murkowski,W,101091,39.56548455399741,,true
+2010,AK,Class III,false,general,Scott T. McAdams,DEM,60045,23.50070253578236,,false
+2010,AK,Class III,false,general,Fredrick David Haase,LIB,1459,0.5710304771372547,,false
+2010,AK,Class III,false,general,Joe Miller,REP,90839,35.55300720539485,,false
+2010,AK,Class III,false,general,Robert Timothy Carter,UN,927,0.362813743869935,,false
+2010,AK,Class III,false,general,Ted Gianoutsos,UN,458,0.17925425533163994,,false
+2010,AK,Class III,false,general,Joe Miller,W,21,0.00821908157634157,,false
+2010,AK,Class III,false,general,,,61,0.023874475055087416,,
+2010,AK,Class III,false,general,,,602,0.23561367185512497,,
+2010,OR,Class III,false,general,,,1448,0.10037515908908157,,
+2010,OR,Class III,false,general,Bruce W. Cronk,WFP,18940,1.3129181720629868,,false
+2010,OR,Class III,false,general,Jim Huffman,REP,566199,39.24883611952962,,false
+2010,OR,Class III,false,general,Richard K. Staggenborg,PRO,14466,1.0027811128333246,,false
+2010,OR,Class III,false,general,Marc L. Delphine,LIB,16028,1.1110587361048339,,false
+2010,OR,Class III,false,general,Ron Wyden,DEM,825507,57.22403070038015,,true
+2010,AR,Class III,false,general,Stephan Hercher,W,143,0.01833434407281427,,false
+2010,AR,Class III,false,general,John Boozman,REP,451618,57.902935674658984,,true
+2010,AR,Class III,false,general,Trevor Drown,IND,25234,3.235306561771995,,false
+2010,AR,Class III,false,general,John Laney Gray,GRE,14430,1.8501019928021674,,false
+2010,AR,Class III,false,general,Blanche Lincoln,DEM,288156,36.9451136408802,,false
+2010,IA,Class III,false,general,,,872,0.07813179005127847,,
+2010,IA,Class III,false,general,Chuck Grassley,REP,718215,64.35254999045753,,true
+2010,IA,Class III,false,general,John Heiderscheit,LIB,25290,2.2660011128404043,,false
+2010,IA,Class III,false,general,Roxanne Conlin,DEM,371686,33.30331710665079,,false
+2010,MD,Class III,false,general,,,1644,0.08964707191069318,,
+2010,MD,Class III,false,general,Mary Catherine Podlesak,W,6,0.0003271790945645737,,false
+2010,MD,Class III,false,general,Claud L. Ashbury,W,204,0.011124089215195506,,false
+2010,MD,Class III,false,general,Denise L. Whittington,W,56,0.0030536715492693544,,false
+2010,MD,Class III,false,general,Lih Y. Young,W,80,0.00436238792752765,,false
+2010,MD,Class III,false,general,Donald Kaplan,W,110,0.005998283400350518,,false
+2010,MD,Class III,false,general,Eric Wargotz,REP,655666,35.753368036129295,,false
+2010,MD,Class III,false,general,Kenniss Henry,GRE,20717,1.1296948836823788,,false
+2010,MD,Class III,false,general,Barbara A. Mikulski,DEM,1140531,62.19298331713797,,true
+2010,MD,Class III,false,general,Richard Shawver,CON,14746,0.804097154741534,,false
+2010,MD,Class III,false,general,James T. Lynch,W,84,0.004580507323904032,,false
+2010,MD,Class III,false,general,Robert J. Evans,W,14,0.0007634178873173386,,false
+2010,NC,Class III,false,general,,,1272,0.04781812870971125,,
+2010,NC,Class III,false,general,Richard Burr,REP,1458046,54.81213151940224,,true
+2010,NC,Class III,false,general,Michael A. Beitler,LIB,55687,2.093434067183719,,false
+2010,NC,Class III,false,general,Elaine Marshall,DEM,1145074,43.04661628470433,,false
+2010,VT,Class III,false,general,,,113,0.04804871203939144,,
+2010,VT,Class III,false,general,Pete Diamondstone,SUS,1433,0.6093257022340525,,false
+2010,VT,Class III,false,general,Leonard Wheeler Britton,REP,72699,30.91233023497096,,false
+2010,VT,Class III,false,general,Stephen J. Cain,IND,2356,1.0017943855292586,,false
+2010,VT,Class III,false,general,Daniel Freilich,IND,3544,1.5069436767044535,,false
+2010,VT,Class III,false,general,Patrick J. Leahy,DEM,151281,64.32616996487766,,true
+2010,VT,Class III,false,general,Cris Ericson,OTH,2731,1.161248075925469,,false
+2010,VT,Class III,false,general,Johenry Nunes,IND,1021,0.43413924771874923,,false
+2010,WI,Class III,false,general,Robert Taylor,CON,23473,1.0810419968213045,,false
+2010,WI,Class III,false,general,Russ Feingold,DEM,1020958,47.019915434358005,,false
+2010,WI,Class III,false,general,Ron Johnson,REP,1125999,51.85754728321016,,true
+2010,WI,Class III,false,general,Michael D. LaForest,W,129,0.005941056430364602,,false
+2010,WI,Class III,false,general,"Ernest J. Pagels, Jr.",W,134,0.006171329935417492,,false
+2010,WI,Class III,false,general,,,638,0.029382899244748958,,
+2010,SC,Class III,false,general,Alvin Greene,DEM,364598,27.646319288683447,,false
+2010,SC,Class III,false,general,Thomas Clements,GRE,121472,9.21083960042281,,false
+2010,SC,Class III,false,general,Jim DeMint,REP,810771,61.478214186597754,,true
+2010,SC,Class III,false,general,,,21953,1.6646269242959855,,
+2010,NV,Class III,false,general,Harry Reid,DEM,362785,50.28874250766561,,true
+2010,NV,Class III,false,general,Timothy Fasano,IAP,3185,0.44150018574890076,,false
+2010,NV,Class III,false,general,Michael L. Haines,IND,4261,0.5906537806832233,,false
+2010,NV,Class III,false,general,Jesse Holland,IND,3175,0.4401139999223736,,false
+2010,NV,Class III,false,general,Jeffrey C. Reeves,IND,2510,0.3479326424583174,,false
+2010,NV,Class III,false,general,Wil Stand,IND,2119,0.2937327766411054,,false
+2010,NV,Class III,false,general,Sharron Angle,REP,321361,44.546606339859494,,false
+2010,NV,Class III,false,general,Scott Ashjian,TEA,5811,0.8055125837949333,,false
+2010,NV,Class III,false,general,,,16197,2.2452051832260422,,
+2010,NY,Class III,false,general,Charles E. Schumer,DEM,3047880,63.97868636593681,,true
+2010,NY,Class III,false,general,Jay Townsend,CRV,240818,5.055060991007576,,false
+2010,NY,Class III,false,general,Colia Clark,GRE,42341,0.8887887841450879,,false
+2010,NY,Class III,false,general,Randolph A. Credico,LIB,24871,0.5220723613158045,,false
+2010,NY,Class III,false,general,Jay Townsend,REP,1239605,26.020807745924085,,false
+2010,NY,Class III,false,general,,,168384,3.5345837516706378,,
+2010,IL,Class III,false,general,Lowell Martin Seida,W,3,8.098317898389325e-05,,false
+2010,IL,Class III,false,general,Darren Raichart,W,9,0.00024294953695167974,,false
+2010,IL,Class III,false,general,Stan Jagla,W,12,0.000323932715935573,,false
+2010,IL,Class III,false,general,Avner Nager,W,15,0.00040491589491946627,,false
+2010,IL,Class III,false,general,Susanne Atanus,W,19,0.0005128934668979906,,false
+2010,IL,Class III,false,general,Corey Dabney,W,33,0.0008908149688228259,,false
+2010,IL,Class III,false,general,Will Boyd,W,468,0.012633375921487349,,false
+2010,IL,Class III,false,general,Robert L. Zadek,W,561,0.015143854469988038,,false
+2010,IL,Class III,false,general,Mark Kirk,REP,1778698,48.01487283076432,,true
+2010,IL,Class III,false,general,Mike Labno,LIB,87247,2.3551798056025786,,false
+2010,IL,Class III,false,general,LeAlan M. Jones,GRE,117914,3.1830168555689298,,false
+2010,IL,Class III,false,general,Alexi Giannoulias,DEM,1719478,46.41626487762227,,false
+2010,IL,Class III,false,general,Shon-Tiyon Taiwan Horton,W,16,0.0004319102879140973,,false
+2010,DE,Class II,true,general,Samtra Devard,W,10,0.0032530692708570533,,false
+2010,DE,Class II,true,general,James W. Rash,LIB,2101,0.6834698538070669,,false
+2010,DE,Class II,true,general,Christine O'Donnell,REP,123053,40.029993298677304,,false
+2010,DE,Class II,true,general,Maurice F. Bourgeois,W,25,0.008132673177142634,,false
+2010,DE,Class II,true,general,Christopher A. Coons,DEM,174012,56.607308996037766,,true
+2010,DE,Class II,true,general,Glenn A. Miller,IDE,8201,2.66784210902987,,false
+2010,NY,Class I,true,general,Bruce Blakeman,OTH,4516,0.09492111101419087,,false
+2010,NY,Class I,true,general,Kirsten E. Gillibrand,DEM,2837684,59.64484454986564,,true
+2010,NY,Class I,true,general,Cecile Ann Lawrence,GRE,35489,0.7459378451688706,,false
+2010,NY,Class I,true,general,John Clifton,LIB,18414,0.3870410403488288,,false
+2010,NY,Class I,true,general,Vivia M. Morgan,OTH,11787,0.2477491442702099,,false
+2010,NY,Class I,true,general,Joseph Huff,OTH,17019,0.35771974941331147,,false
+2010,NY,Class I,true,general,Joseph J. DioGuardi,REP,1338308,28.129690486975147,,false
+2010,NY,Class I,true,general,Joseph J. DioGuardi,UST,244385,5.13669081381821,,false
+2010,NY,Class I,true,general,,,250033,5.255405259125595,,
+2010,CO,Class III,false,general,Robert Rank,W,67,0.0037804282153106215,,false
+2010,CT,Class III,false,general,Richard Blumenthal,WFP,30836,2.6741478516886867,,true
+2010,CT,Class III,false,general,David Olszta,W,5,0.00043360809633037465,,false
+2010,CT,Class III,false,general,John M. Traceski,W,15,0.0013008242889911241,,false
+2010,CT,Class III,false,general,Jay J. Giles,W,17,0.001474267527523274,,false
+2010,CT,Class III,false,general,Carl E. Vassar,W,31,0.002688370197248323,,false
+2010,CT,Class III,false,general,Todd Vachon,W,45,0.003902472866973372,,false
+2010,CT,Class III,false,general,Jeffery Russell,W,45,0.003902472866973372,,false
+2010,CT,Class III,false,general,Brian Hill,W,559,0.04847738516973589,,false
+2010,CT,Class III,false,general,Linda McMahon,REP,498341,43.216938466675046,,false
+2010,CT,Class III,false,general,John Mertens,OTH,6735,0.5840701057570147,,false
+2010,CT,Class III,false,general,Warren Bruce Mosler,IND,11275,0.9777862572249949,,false
+2010,CT,Class III,false,general,Richard Blumenthal,DEM,605204,52.484270866305614,,true
+2010,CT,Class III,false,general,Matthew Coleman,W,7,0.0006070513348625245,,false
+2010,FL,Class III,false,general,Carol Ann Joyce LaRosa,W,2,3.6961020538130286e-05,,false
+2010,FL,Class III,false,general,Howard Knepper,W,4,7.392204107626057e-05,,false
+2010,FL,Class III,false,general,Robert Monroe,W,6,0.00011088306161439085,,false
+2010,FL,Class III,false,general,George Drake,W,13,0.00024024663349784682,,false
+2010,FL,Class III,false,general,Richard Lock,W,18,0.0003326491848431725,,false
+2010,FL,Class III,false,general,Marco Rubio,REP,2645743,48.89468068080721,,true
+2010,FL,Class III,false,general,Bruce Ray Riggs,NPA,3647,0.06739842095128057,,false
+2010,FL,Class III,false,general,Bobbie Bean,NPA,4301,0.07948467466724918,,false
+2010,FL,Class III,false,general,Lewis J. Armstrong,NPA,4443,0.08210890712545642,,false
+2010,FL,Class III,false,general,Rick Tyler,NPA,7397,0.13670033446027485,,false
+2010,FL,Class III,false,general,Sue Askeland,NPA,15340,0.28349102752745925,,false
+2010,FL,Class III,false,general,Charlie Crist,NPA,1607549,29.708325802525398,,false
+2010,FL,Class III,false,general,Alexander Andrew Snitker,LIB,24850,0.45924068018626873,,false
+2010,FL,Class III,false,general,Kendrick B. Meek,DEM,1092936,20.19801497143098,,false
+2010,FL,Class III,false,general,Bernie DeCastro,CON,4792,0.08855860520936015,,false
+2010,FL,Class III,false,general,Belinda Gail Quarterman-Noah,W,18,0.0003326491848431725,,false
+2010,FL,Class III,false,general,Piotr Blass,W,47,0.0008685839826460617,,false
+2010,KS,Class III,false,general,Jerry Moran,REP,587175,70.09437836340803,,true
+2010,KS,Class III,false,general,Joseph K. Bellis,REF,11624,1.3876221809447864,,false
+2010,KS,Class III,false,general,Michael William Dann,LIB,17922,2.139449821652827,,false
+2010,KS,Class III,false,general,Lisa Johnston,DEM,220971,26.378549633994357,,false
+2010,LA,Class III,false,general,David Vitter,REP,715415,56.5548136987211,,true
+2010,LA,Class III,false,general,William R. McShan,REF,5879,0.46474528732942605,,false
+2010,LA,Class III,false,general,Thomas G. LaFargue,OTH,4043,0.319606259002019,,false
+2010,LA,Class III,false,general,William Robert Lang,OTH,5734,0.4532827823689282,,false
+2010,LA,Class III,false,general,Ernest D. Woolon,OTH,8167,0.6456157104302471,,false
+2010,LA,Class III,false,general,Sam Houston Melton,NPA,3780,0.29881564655642634,,false
+2010,LA,Class III,false,general,Milton Gordon,NPA,4810,0.3802389576551351,,false
+2010,LA,Class III,false,general,RA Galan,NPA,7474,0.5908328418949023,,false
+2010,LA,Class III,false,general,Michael Karlton Brown,NPA,9973,0.7883831860072064,,false
+2010,LA,Class III,false,general,Randall T. Hayes,LIB,13957,1.1033253912666778,,false
+2010,LA,Class III,false,general,Charlie Melancon,DEM,476572,37.67385457954741,,false
+2010,LA,Class III,false,general,Michael Lane Spears,OTH,9190,0.7264856592205181,,false
+2010,OK,Class III,false,general,Tom Coburn,REP,718482,70.63670979038511,,true
+2010,OK,Class III,false,general,Jim Rogers,DEM,265814,26.13318966407151,,false
+2010,OK,Class III,false,general,Ronald F. Dwyer,IND,7807,0.7675359902315388,,false
+2010,OK,Class III,false,general,Stephen P. Wallace,IND,25048,2.4625645553118467,,false
+2010,AL,Class III,false,general,,,1699,0.11437234222305098,,
+2010,AL,Class III,false,general,William G. Barnes,DEM,515619,34.71015463490719,,false
+2010,AL,Class III,false,general,Richard C. Shelby,REP,968181,65.17547302286975,,true
+2010,SD,Class III,false,general,John R. Thune,REP,227947,100.0,,true
+2010,WV,Class I,true,general,John Raese,REP,230013,43.40293764671251,,false
+2010,WV,Class I,true,general,"Joe Manchin, III",DEM,283358,53.46901960192321,,true
+2010,WV,Class I,true,general,Jeff C. Becker,CON,6425,1.2123831017382838,,false
+2010,WV,Class I,true,general,Jesse Johnson,MTP,10152,1.915659649626001,,false
+2010,OH,Class III,false,general,Rob Portman,REP,2168742,56.84629857476794,,true
+2010,OH,Class III,false,general,Eric W. Deaton,CON,65856,1.7261941895070587,,false
+2010,OH,Class III,false,general,Lee Fisher,DEM,1503297,39.40388949379544,,false
+2010,OH,Class III,false,general,Michael L. Pryce,IND,50101,1.3132296994729886,,false
+2010,OH,Class III,false,general,Daniel H. La Botz,SUS,26454,0.6934028955481616,,false
+2010,OH,Class III,false,general,Arthur T. Sullivan,W,648,0.016985146908414933,,false
+2010,CA,Class III,false,general,Marsha J. Feinland,PAF,135093,1.3509083854658326,,false
+2010,CA,Class III,false,general,James Harris,W,41,0.00040999344010495827,,false
+2010,CA,Class III,false,general,Edward C. Noonan,AIP,125441,1.2543899297611238,,false
+2010,CA,Class III,false,general,Barbara Boxer,DEM,5218441,52.183575062798994,,true
+2010,CA,Class III,false,general,Duane Roberts,GRE,128510,1.2850794387289803,,false
+2010,CA,Class III,false,general,Gail Katherine Lightfoot,LIB,175242,1.7523919617286123,,false
+2010,CA,Class III,false,general,Carly Fiorina,REP,4217366,42.17298523223628,,false
+2010,CA,Class III,false,general,Constant G. Vlakancic,W,11,0.00010999824002815954,,false
+2010,CA,Class III,false,general,Jerry Leon Carroll,W,10,9.99984000255996e-05,,false
+2010,CA,Class III,false,general,Hans J. Kugler,W,5,4.99992000127998e-05,,false
+2010,AZ,Class III,false,general,Sydney Dudikoff,W,14,0.0008194399245178767,,false
+2010,AZ,Class III,false,general,Santos Chavez,W,39,0.002282725504014085,,false
+2010,AZ,Class III,false,general,Ian Gilyeat,W,5938,0.34755959084193944,,false
+2010,AZ,Class III,false,general,David F. Nolan,LIB,80097,4.688191402436312,,false
+2010,AZ,Class III,false,general,Jerry Joslyn,GRE,24603,1.4400486044938086,,false
+2010,AZ,Class III,false,general,Rodney Britz Glassman,DEM,592011,34.65124636812519,,false
+2010,AZ,Class III,false,general,'Ray J' Raymond Caplette,W,7,0.00040971996225893834,,false
+2010,AZ,Class III,false,general,Loyd Ellis,W,160,0.009365027708775734,,false
+2010,AZ,Class III,false,general,John McCain,REP,1005615,58.86007712100319,,true
+2010,CO,Class III,false,general,Bruce Edward Lohmiller,W,10,0.0005642430172105405,,false
+2010,CO,Class III,false,general,Michele M. Newman,W,19,0.001072061732700027,,false
+2010,CO,Class III,false,general,Jorge H. Moromisato,UN,5767,0.3253989480253187,,false
+2010,CO,Class III,false,general,Charley Miller,UN,11330,0.6392873384995423,,false
+2010,CO,Class III,false,general,Ken Buck,REP,822731,46.42202217926452,,false
+2010,CO,Class III,false,general,Jason Napolitano,OTH,19415,1.0954778179142644,,false
+2010,CO,Class III,false,general,Maclyn Stringer,LIB,22589,1.2745685515768899,,false
+2010,CO,Class III,false,general,Robert A. Kinsey,GRE,38768,2.1874573291218233,,false
+2010,CO,Class III,false,general,Michael Bennet,DEM,851590,48.050371102632425,,true
+2010,GA,Class III,false,general,Brian Russell Brown,W,12,0.00046961989748197633,,false
+2010,GA,Class III,false,general,Raymond Beckworth,W,24,0.0009392397949639527,,false
+2010,GA,Class III,false,general,Steve Davis,W,52,0.002035019555755231,,false
+2010,GA,Class III,false,general,Johnny Isakson,REP,1489904,58.30738031149888,,true
+2010,GA,Class III,false,general,Chuck Donovan,LIB,68750,2.690530662657156,,false
+2010,GA,Class III,false,general,Michael Thurmond,DEM,996516,38.99864514659576,,false
+2010,ID,Class III,false,general,Randy Lynn Bergquist,CON,17429,3.877160589949503,,false
+2010,ID,Class III,false,general,Frederick R. Reinisch,W,91,0.02024336529263898,,false
+2010,ID,Class III,false,general,Mike Crapo,REP,319953,71.17500500522769,,true
+2010,ID,Class III,false,general,Tom Sullivan,DEM,112057,24.927591039530174,,false
+2010,IN,Class III,false,general,Jack Rooney,W,99,0.0056750403128494956,,false
+2010,IN,Class III,false,general,Jim Miller,W,161,0.009229105963320897,,false
+2010,IN,Class III,false,general,Daniel Coats,REP,952116,54.57875436877788,,true
+2010,IN,Class III,false,general,Rebecca Sink-Burris,LIB,94330,5.407338916273665,,false
+2010,IN,Class III,false,general,Brad Ellsworth,DEM,697775,39.99900256867229,,false
+2010,KY,Class III,false,general,Billy Ray Wilson,W,338,0.024924489121714098,,false
+2010,KY,Class III,false,general,Rand Paul,REP,755706,55.726585728444,,true
+2010,KY,Class III,false,general,Jack Conway,DEM,600052,44.248489782434284,,false
+2010,NH,Class III,false,general,Kelly Ayotte,REP,273218,60.08620879241714,,true
+2010,NH,Class III,false,general,Ken Blevens,LIB,4753,1.045281608057883,,false
+2010,NH,Class III,false,general,Chris Booth,IND,9194,2.021948054804161,,false
+2010,NH,Class III,false,general,Paul W. Hodes,DEM,167545,36.846561544720814,,false
+2010,ND,Class III,false,general,John Hoeven,REP,181689,76.16901573779839,,true
+2010,ND,Class III,false,general,Keith J. Hanson,LIB,3890,1.6307947713952726,,false
+2010,ND,Class III,false,general,Tracy Potter,DEM,52955,22.20018949080634,,false
+2010,PA,Class III,false,general,Patrick J. Toomey,REP,2028945,51.008494690724014,,true
+2010,PA,Class III,false,general,Joe Sestak,DEM,1948716,48.99150530927598,,false
+2010,WA,Class III,false,general,Dino Rossi,REP,1196164,47.635174151186696,,false
+2010,WA,Class III,false,general,Patty Murray,DEM,1314930,52.364825848813304,,true
+2010,MA,Class I,true,general,Joseph L. Kennedy,OTH,22388,0.993881687769857,,false
+2010,MA,Class I,true,general,Martha Coakley,DEM,1060861,47.09533326644713,,false
+2010,MA,Class I,true,general,,,1145,0.050830557999664384,,
+2010,MA,Class I,true,general,,,1155,0.05127449300402826,,
+2010,MA,Class I,true,general,Scott Brown,REP,1168178,51.859510552778985,,true

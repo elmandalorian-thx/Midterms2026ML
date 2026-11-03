@@ -1,0 +1,36 @@
+race,state,special,pvi_cook,inc_party,inc_running,candidates,winner,winner_name,status
+AK,AK,0,,R,1,R+:Dan Sullivan;I+:Al Gross;O:John Wayne Howe,R,Dan Sullivan,Incumbent re-elected.
+AL,AL,0,,D,1,R+:Tommy Tuberville;D+:Doug Jones,R,Tommy Tuberville,Incumbent lost re-election. Republican gain.
+AR,AR,0,,R,1,R+:Tom Cotton;O:Ricky Dale Harrington Jr.,R,Tom Cotton,Incumbent re-elected.
+AZ-S,AZ,1,,R,1,D+:Mark Kelly;R+:Martha McSally,D,Mark Kelly,"Interim appointee lost election. New senator elected November 3, 2020 and seated December 2, 2020. Democratic gain."
+CO,CO,0,,R,1,D+:John Hickenlooper;R+:Cory Gardner,D,John Hickenlooper,Incumbent lost re-election. Democratic gain.
+DE,DE,0,,D,1,D+:Chris Coons;R+:Lauren Witzke;I:Mark Turley;O:Nadine Frost,D,Chris Coons,Incumbent re-elected.
+GA,GA,0,,R,1,R+:David Perdue;D+:Jon Ossoff;O:Shane Hazel,D,Jon Ossoff,"Incumbent term expired but lost re-election in runoff. Democratic gain. Winner delayed term until January 20, 2021, to the start of Biden administration."
+GA-S,GA,1,,R,1,D+:Raphael Warnock;R+:Kelly Loeffler,D,Raphael Warnock,"Interim appointee lost election in runoff. New senator elected January 5, 2021. Democratic gain. Winner delayed term until January 20, 2021, to the start of ."
+IA,IA,0,,R,1,R+:Joni Ernst;D+:Theresa Greenfield;O:Rick Stewart;I:Suzanne Herzog,R,Joni Ernst,Incumbent re-elected.
+ID,ID,0,,R,1,R+:Jim Risch;D+:Paulette Jordan;I:Natalie Fleming;O:Ray Writz,R,Jim Risch,Incumbent re-elected.
+IL,IL,0,,D,1,D+:Dick Durbin;R+:Mark Curran;O+:Willie Wilson;O:Danny Malouf;O:David F. Black,D,Dick Durbin,Incumbent re-elected.
+KS,KS,0,,R,0,R+:Roger Marshall;D+:Barbara Bollier;O:Jason Buckley,R,Roger Marshall,Incumbent retired. Republican hold.
+KY,KY,0,,R,1,R+:Mitch McConnell;D+:Amy McGrath;O:Brad Barron,R,Mitch McConnell,Incumbent re-elected.
+LA,LA,0,,R,1,R+:Bill Cassidy;D+:Adrian Perkins;D:Champ Edwards;D:Antoine Pierce,R,Bill Cassidy,Incumbent re-elected.
+MA,MA,0,,D,1,D+:Ed Markey;R+:Kevin O'Connor,D,Ed Markey,Incumbent re-elected.
+ME,ME,0,,R,1,R+:Susan Collins;D+:Sara Gideon;I:Lisa Savage;I:Max Linn,R,Susan Collins,Incumbent re-elected.
+MI,MI,0,,D,1,D+:Gary Peters;R+:John James,D,Gary Peters,Incumbent re-elected.
+MN,MN,0,,D,1,D+:Tina Smith;R+:Jason Lewis;O:Kevin O'Connor;O:Oliver Steinberg,D,Tina Smith,Incumbent re-elected.
+MS,MS,0,,R,1,R+:Cindy Hyde-Smith;D+:Mike Espy;O:Jimmy Edwards,R,Cindy Hyde-Smith,Incumbent re-elected.
+MT,MT,0,,R,1,R+:Steve Daines;D+:Steve Bullock,R,Steve Daines,Incumbent re-elected.
+NC,NC,0,,R,1,R+:Thom Tillis;D+:Cal Cunningham;O:Shannon Bray;O:Kevin Hayes,R,Thom Tillis,Incumbent re-elected.
+NE,NE,0,,R,1,R+:Ben Sasse;D:Chris Janicek;D+:Preston Love Jr.;O:Gene Siadek,R,Ben Sasse,Incumbent re-elected.
+NH,NH,0,,D,1,D+:Jeanne Shaheen;R:Corky Messner;O:Justin O'Donnell,D,Jeanne Shaheen,Incumbent re-elected.
+NJ,NJ,0,,D,1,D+:Cory Booker;R:Rik Mehta,D,Cory Booker,Incumbent re-elected.
+NM,NM,0,,D,0,D+:Ben Ray Luján;R:Mark Ronchetti;O:Bob Walsh,D,Ben Ray Luján,Incumbent retired. Democratic hold.
+OK,OK,0,,R,1,R+:Jim Inhofe;D:Abby Broyles,R,Jim Inhofe,Incumbent re-elected.
+OR,OR,0,,D,1,D+:Jeff Merkley;R+:Jo Rae Perkins,D,Jeff Merkley,Incumbent re-elected.
+RI,RI,0,,D,1,D+:Jack Reed;R:Allen Waters,D,Jack Reed,Incumbent re-elected.
+SC,SC,0,,R,1,R+:Lindsey Graham;D+:Jaime Harrison;O:Bill Bledsoe,R,Lindsey Graham,Incumbent re-elected.
+SD,SD,0,,R,1,R+:Mike Rounds;D+:Dan Ahlers,R,Mike Rounds,Incumbent re-elected.
+TN,TN,0,,R,0,R+:Bill Hagerty;D+:Marquita Bradshaw,R,Bill Hagerty,Incumbent retired. Republican hold.
+TX,TX,0,,R,1,R+:John Cornyn;D+:MJ Hegar;O:Kerry McKennon;O:David B. Collins,R,John Cornyn,Incumbent re-elected.
+VA,VA,0,,D,1,D+:Mark Warner;R+:Daniel Gade,D,Mark Warner,Incumbent re-elected.
+WV,WV,0,,R,1,R+:Shelley Moore Capito;D+:Paula Jean Swearengin;O:David Moran,R,Shelley Moore Capito,Incumbent re-elected.
+WY,WY,0,,R,0,R+:Cynthia Lummis;D+:Merav Ben-David,R,Cynthia Lummis,Incumbent retired. Republican hold.

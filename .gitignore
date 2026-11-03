@@ -5,6 +5,8 @@ __pycache__/
 # data/raw/ (parsed tables + trimmed 538 returns) and data/forecast/ (frozen forecast) ARE committed.
 # Raw Wikipedia wikitext cache and optional FiftyPlusOne downloads are not.
 data/external/
+# Dry runs of the Senate forecast before it was frozen (ml/build_senate.py without --freeze)
+data/forecast/*.preview.*
 
 # Web
 web/node_modules/

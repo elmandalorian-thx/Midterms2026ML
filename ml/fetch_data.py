@@ -1,12 +1,14 @@
 """Download every public input this project uses and write tidy CSVs to data/raw/.
 
 Sources (all free, no account needed):
-  1. FiveThirtyEight `election-results` repo (CC BY 4.0) - candidate-level U.S. House returns.
+  1. FiveThirtyEight `election-results` repo (CC BY 4.0) - candidate-level U.S. House and Senate returns,
+     and statewide presidential returns (used to compute each state's partisan lean for the Senate model).
      https://github.com/fivethirtyeight/election-results
   2. Wikipedia "<year> United States House of Representatives elections" pages (CC BY-SA 4.0),
      read as raw wikitext via index.php?action=raw. The per-state tables give, for every district:
      Cook PVI, incumbent + party, whether the incumbent runs, candidates, and (after the election)
      the winner. The 2026 page also has the generic-ballot polling aggregates.
+     The "<year> United States Senate elections" pages give the same for every Senate race (incl. specials).
   3. Optional: FiftyPlusOne poll CSVs (paid plan, from $100/month; key in FIFTYPLUSONE_API_KEY).
 
 Run:  .venv/bin/python ml/fetch_data.py            # everything
@@ -24,6 +26,7 @@ import time
 import urllib.request
 from pathlib import Path
 
+from senate_tables import parse_senate_page
 from wiki_tables import parse_page
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -63,13 +66,51 @@ def fetch_538() -> None:
         w.writerows(rows)
     print(f"  {len(rows)} candidate rows")
 
+    print("538 senate results ...")
+    text = get(R538 + "election_results_senate.csv").decode("utf-8")
+    rows = [r for r in csv.DictReader(io.StringIO(text))
+            if r["stage"] in ("general", "runoff", "jungle primary") and r["cycle"].isdigit() and int(r["cycle"]) >= 2010]
+    with open(RAW / "senate_results_538.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, keep, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+    print(f"  {len(rows)} candidate rows")
 
-def wiki_raw(year: int) -> str:
-    title = f"{year}_United_States_House_of_Representatives_elections"
+    print("538 presidential results by state ...")
+    text = get(R538 + "election_results_presidential.csv").decode("utf-8")
+    rows = [r for r in csv.DictReader(io.StringIO(text))
+            if r["stage"] == "general" and r["cycle"].isdigit() and len(r["state_abbrev"]) == 2 and r["state_abbrev"] not in ("PR",)
+            and r["state_abbrev"] not in ("M1", "M2", "N1", "N2", "N3")]
+    with open(RAW / "president_states_538.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, ["cycle", "state_abbrev", "candidate_name", "ballot_party", "votes"], extrasaction="ignore")
+        w.writeheader()
+        w.writerows(rows)
+    print(f"  {len(rows)} candidate rows")
+
+
+def wiki_raw(year: int, chamber: str = "house") -> str:
+    page = "House_of_Representatives" if chamber == "house" else "Senate"
+    title = f"{year}_United_States_{page}_elections"
     CACHE.mkdir(parents=True, exist_ok=True)
     text = get(f"https://en.wikipedia.org/w/index.php?title={title}&action=raw").decode("utf-8")
-    (CACHE / f"house{year}.wiki").write_text(text, encoding="utf-8")
+    (CACHE / f"{chamber}{year}.wiki").write_text(text, encoding="utf-8")
     return text
+
+
+def fetch_senate(years: list[int]) -> None:
+    """One row per Senate race: incumbent, party, on the ballot?, candidates ('P:Name;P+:Name', + = has a Wikipedia article), winner."""
+    for y in years:
+        print(f"Wikipedia Senate {y} ...")
+        rows = parse_senate_page(wiki_raw(y, "senate"))
+        with open(RAW / f"senate_{y}.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["race", "state", "special", "pvi_cook", "inc_party", "inc_running", "candidates", "winner", "winner_name", "status"])
+            for r in sorted(rows, key=lambda r: r["race"]):
+                w.writerow([r["race"], r["state"], r["special"], "" if r["pvi_cook"] is None else r["pvi_cook"], r["inc_party"] or "",
+                            r["inc_running"], ";".join(f"{c['party']}{'+' if c['linked'] else ''}:{c['name']}" for c in r["cands"]),
+                            r["winner"] or "", r["winner_name"] or "", r["status"]])
+        print(f"  {len(rows)} races, {sum(1 for r in rows if r['winner'])} with a winner")
+        time.sleep(3)
 
 
 def generic_ballot_aggregates(text: str) -> list[dict]:
@@ -135,7 +176,9 @@ if __name__ == "__main__":
     a = ap.parse_args()
     if a.only:
         fetch_wikipedia([a.only])
+        fetch_senate([a.only])
     else:
         fetch_538()
         fetch_wikipedia(YEARS)
+        fetch_senate(YEARS)
         fetch_fiftyplusone()

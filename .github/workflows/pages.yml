@@ -35,12 +35,13 @@ jobs:
         if: github.event_name != 'push' && steps.window.outputs.skip != 'true'
         with:
           python-version: '3.13'
-      - name: Refresh 2026 results and rebuild the scorecard
+      - name: Refresh 2026 House + Senate results and rebuild the scorecards
         if: github.event_name != 'push' && steps.window.outputs.skip != 'true'
         run: |
           pip install -q -r ml/requirements.txt
           python ml/fetch_data.py --only 2026
           python ml/build.py
+          python ml/build_senate.py
           if [ -n "$(git status --porcelain data/raw web/src/data)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

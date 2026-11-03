@@ -1,0 +1,36 @@
+race,state,special,pvi_cook,inc_party,inc_running,candidates,winner,winner_name,status
+AK,AK,0,,R,1,R+:Lisa Murkowski;R+:Kelly Tshibaka;D:Patricia Chesbro;R:Buzz Kelley,R,Lisa Murkowski,Incumbent re-elected in instant runoff.
+AL,AL,0,,R,0,R+:Katie Britt;D+:Will Boyd;O+:John Sophocleus,R,Katie Britt,Incumbent retired. Republican hold.
+AR,AR,0,,R,1,R+:John Boozman;D:Natalie James;O:Kenneth Cates,R,John Boozman,Incumbent re-elected.
+AZ,AZ,0,,D,1,D+:Mark Kelly;R+:Blake Masters;O:Marc Victor,D,Mark Kelly,Incumbent re-elected.
+CA,CA,0,,D,1,D+:Alex Padilla;R:Mark Meuser,D,Alex Padilla,Interim appointee elected. Winner also elected to finish the term; see above.
+CO,CO,0,,D,1,D+:Michael Bennet;R+:Joe O'Dea,D,Michael Bennet,Incumbent re-elected.
+CT,CT,0,,D,1,D+:Richard Blumenthal;R+:Leora Levy,D,Richard Blumenthal,Incumbent re-elected.
+FL,FL,0,,R,1,R+:Marco Rubio;D+:Val Demings,R,Marco Rubio,Incumbent re-elected.
+GA,GA,0,,D,1,D+:Raphael Warnock;R+:Herschel Walker;O+:Chase Oliver,D,Raphael Warnock,Incumbent re-elected in runoff.
+HI,HI,0,,D,1,D+:Brian Schatz;R+:Bob McDermott,D,Brian Schatz,Incumbent re-elected.
+IA,IA,0,,R,1,R+:Chuck Grassley;D+:Michael Franken,R,Chuck Grassley,Incumbent re-elected.
+ID,ID,0,,R,1,R+:Mike Crapo;D:David Roth;I:Scott Cleveland;O:Ray Writz;O:Idaho Sierra Law,R,Mike Crapo,Incumbent re-elected.
+IL,IL,0,,D,1,D+:Tammy Duckworth;R:Kathy Salvi;O+:Bill Redpath,D,Tammy Duckworth,Incumbent re-elected.
+IN,IN,0,,R,1,R+:Todd Young;D+:Thomas McDermott Jr.;O:James Sceniak,R,Todd Young,Incumbent re-elected.
+KS,KS,0,,R,1,R+:Jerry Moran;D+:Mark Holland;O:David Graham,R,Jerry Moran,Incumbent re-elected.
+KY,KY,0,,R,1,R+:Rand Paul;D+:Charles Booker,R,Rand Paul,Incumbent re-elected.
+LA,LA,0,,R,1,R+:John Kennedy;D+:Gary Chambers;D:Luke Mixon,R,John Kennedy,Incumbent re-elected.
+MD,MD,0,,D,1,D+:Chris Van Hollen;R:Chris Chaffee,D,Chris Van Hollen,Incumbent re-elected.
+MO,MO,0,,R,0,R+:Eric Schmitt;D+:Trudy Busch Valentine;O:Jonathan Dine;O:Paul Venable,R,Eric Schmitt,Incumbent retired. Republican hold.
+NC,NC,0,,R,0,R+:Ted Budd;D+:Cheri Beasley;O:Shannon Bray;O:Matthew Hoh,R,Ted Budd,Incumbent retired. Republican hold.
+ND,ND,0,,R,1,R+:John Hoeven;D:Katrina Christiansen;I+:Rick Becker,R,John Hoeven,Incumbent re-elected.
+NH,NH,0,,D,1,D+:Maggie Hassan;R+:Don Bolduc;O+:Jeremy Kauffman,D,Maggie Hassan,Incumbent re-elected.
+NV,NV,0,,D,1,D+:Catherine Cortez Masto;R+:Adam Laxalt,D,Catherine Cortez Masto,Incumbent re-elected.
+NY,NY,0,,D,1,D+:Chuck Schumer;R+:Joe Pinion;I:Diane Sare,D,Chuck Schumer,Incumbent re-elected.
+OH,OH,0,,R,0,R+:JD Vance;D+:Tim Ryan,R,JD Vance,Incumbent retired. Republican hold.
+OK,OK,0,,R,1,R+:James Lankford;D:Madison Horn;I:Michael Delaney;O:Kenneth Blevins,R,James Lankford,Incumbent re-elected.
+OK-S,OK,1,,R,0,R+:Markwayne Mullin;D+:Kendra Horn;O:Robert Murphy;I:Ray Woods,R,Markwayne Mullin,"Incumbent resigned January 3, 2023. Republican hold."
+OR,OR,0,,D,1,D+:Ron Wyden;R+:Jo Rae Perkins;O+:Chris Henry;O+:Dan Pulju,D,Ron Wyden,Incumbent re-elected.
+PA,PA,0,,R,0,D+:John Fetterman;R+:Mehmet Oz,D,John Fetterman,Incumbent retired. Democratic gain.
+SC,SC,0,,R,1,R+:Tim Scott;D+:Krystle Matthews,R,Tim Scott,Incumbent re-elected.
+SD,SD,0,,R,1,R+:John Thune;D:Brian Bengs;O:Tamara Lesnar,R,John Thune,Incumbent re-elected.
+UT,UT,0,,R,1,R+:Mike Lee;I+:Evan McMullin;O:James Hansen;I:Tommy Williams,R,Mike Lee,Incumbent re-elected.
+VT,VT,0,,D,0,D+:Peter Welch;R:Gerald Malloy,D,Peter Welch,Incumbent retired. Democratic hold.
+WA,WA,0,,D,1,D+:Patty Murray;R:Tiffany Smiley,D,Patty Murray,Incumbent re-elected.
+WI,WI,0,,R,1,R+:Ron Johnson;D+:Mandela Barnes,R,Ron Johnson,Incumbent re-elected.

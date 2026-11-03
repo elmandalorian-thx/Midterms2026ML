@@ -1,0 +1,36 @@
+race,state,special,pvi_cook,inc_party,inc_running,candidates,winner,winner_name,status
+AZ,AZ,0,,R,0,D:Kyrsten Sinema;R+:Martha McSally;O:Angela Green,D,Kyrsten Sinema,Incumbent retired. Democratic gain.
+CA,CA,0,,D,1,D:Dianne Feinstein;D+:Kevin de León,D,Dianne Feinstein,Incumbent re-elected.
+CT,CT,0,,D,1,D:Chris Murphy;R:Matthew Corey,D,Chris Murphy,Incumbent re-elected.
+DE,DE,0,,D,1,D:Tom Carper;R:Robert Arlett,D,Tom Carper,Incumbent re-elected.
+FL,FL,0,,D,1,R:Rick Scott;D+:Bill Nelson,R,Rick Scott,"Incumbent lost re-election. Republican gain. Winner delayed start of term until January 8, 2019, to finish his term as ."
+HI,HI,0,,D,1,D:Mazie Hirono;R:Ron Curtis,D,Mazie Hirono,Incumbent re-elected.
+IN,IN,0,,D,1,R:Mike Braun;D+:Joe Donnelly;O:Lucy Brenton,R,Mike Braun,Incumbent lost re-election. Republican gain.
+MA,MA,0,,D,1,D+:Elizabeth Warren;R+:Geoff Diehl;I+:Shiva Ayyadurai,D,Elizabeth Warren,Incumbent re-elected.
+MD,MD,0,,D,1,D:Ben Cardin;R:Tony Campbell;I+:Neal Simon;O:Arvin Vohra,D,Ben Cardin,Incumbent re-elected.
+ME,ME,0,,I,1,I:Angus King;R+:Eric Brakey;D:Zak Ringelstein,I,Angus King,Incumbent re-elected.
+MI,MI,0,,D,1,D:Debbie Stabenow;R+:John James,D,Debbie Stabenow,Incumbent re-elected.
+MN,MN,0,,D,1,D:Amy Klobuchar;R+:Jim Newberger;O:Dennis Schuller;O:Paula M. Overby,D,Amy Klobuchar,Incumbent re-elected.
+MN-S,MN,1,,D,1,D+:Tina Smith;R+:Karin Housley;O:Sarah Wellington;I+:Jerry Trooien,D,Tina Smith,Interim appointee elected.
+MO,MO,0,,D,1,R:Josh Hawley;D+:Claire McCaskill,R,Josh Hawley,Incumbent lost re-election. Republican gain.
+MS,MS,0,,R,1,R:Roger Wicker;D+:David Baria,R,Roger Wicker,Incumbent re-elected.
+MS-S,MS,1,,R,1,R+:Cindy Hyde-Smith;D+:Mike Espy,R,Cindy Hyde-Smith,Interim appointee elected.
+MT,MT,0,,D,1,D:Jon Tester;R+:Matt Rosendale;O:Rick Breckenridge,D,Jon Tester,Incumbent re-elected.
+ND,ND,0,,D,1,R:Kevin Cramer;D+:Heidi Heitkamp,R,Kevin Cramer,Incumbent lost re-election. Republican gain.
+NE,NE,0,,R,1,R:Deb Fischer;D+:Jane Raybould;O:Jim Schultz,R,Deb Fischer,Incumbent re-elected.
+NJ,NJ,0,,D,1,D:Bob Menendez;R+:Bob Hugin,D,Bob Menendez,Incumbent re-elected.
+NM,NM,0,,D,1,D:Martin Heinrich;R:Mick Rich;O+:Gary Johnson,D,Martin Heinrich,Incumbent re-elected.
+NV,NV,0,,R,1,D:Jacky Rosen;R+:Dean Heller,D,Jacky Rosen,Incumbent lost re-election. Democratic gain.
+NY,NY,0,,D,1,D:Kirsten Gillibrand;R:Chele Chiavacci Farley,D,Kirsten Gillibrand,Incumbent re-elected.
+OH,OH,0,,D,1,D:Sherrod Brown;R+:Jim Renacci,D,Sherrod Brown,Incumbent re-elected.
+PA,PA,0,,D,1,D:Bob Casey Jr.;R+:Lou Barletta,D,Bob Casey Jr.,Incumbent re-elected.
+RI,RI,0,,D,1,D:Sheldon Whitehouse;R+:Robert Flanders,D,Sheldon Whitehouse,Incumbent re-elected.
+TN,TN,0,,R,0,R:Marsha Blackburn;D+:Phil Bredesen,R,Marsha Blackburn,Incumbent retired. Republican hold.
+TX,TX,0,,R,1,R:Ted Cruz;D+:Beto O'Rourke;O:Neal Dikeman,R,Ted Cruz,Incumbent re-elected.
+UT,UT,0,,R,0,R:Mitt Romney;D+:Jenny Wilson;O:Tim Aalders;O:Craig Bowden;I:Reed McCandless,R,Mitt Romney,Incumbent retired. Republican hold.
+VA,VA,0,,D,1,D:Tim Kaine;R+:Corey Stewart;O:Matt Waters,D,Tim Kaine,Incumbent re-elected.
+VT,VT,0,,I,1,I:Bernie Sanders;R:Lawrence Zupan,I,Bernie Sanders,Incumbent re-elected.
+WA,WA,0,,D,1,D:Maria Cantwell;R+:Susan Hutchison,D,Maria Cantwell,Incumbent re-elected.
+WI,WI,0,,D,1,D:Tammy Baldwin;R+:Leah Vukmir,D,Tammy Baldwin,Incumbent re-elected.
+WV,WV,0,,D,1,D:Joe Manchin;R+:Patrick Morrisey;O:Rusty Hollen,D,Joe Manchin,Incumbent re-elected.
+WY,WY,0,,R,1,R:John Barrasso;D+:Gary Trauner;O:Joe Porambo,R,John Barrasso,Incumbent re-elected.

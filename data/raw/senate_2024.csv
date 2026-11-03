@@ -1,0 +1,35 @@
+race,state,special,pvi_cook,inc_party,inc_running,candidates,winner,winner_name,status
+AZ,AZ,0,,I,0,D+:Ruben Gallego;R+:Kari Lake;O:Eduardo Heredia-Quintana,D,Ruben Gallego,Incumbent retired. Democratic gain.
+CA,CA,0,,D,0,D+:Adam Schiff;R+:Steve Garvey,D,Adam Schiff,Interim appointee retired. Democratic hold. Winner also elected to finish the term; see above.
+CT,CT,0,,D,1,D+:Chris Murphy;R:Matthew Corey;I+:Robert F. Hyde;O:Justin Paglino,D,Chris Murphy,Incumbent re-elected.
+DE,DE,0,,D,0,D+:Lisa Blunt Rochester;R:Eric Hansen;I+:Michael Katz,D,Lisa Blunt Rochester,Incumbent retired. Democratic hold.
+FL,FL,0,,R,1,R+:Rick Scott;D+:Debbie Mucarsel-Powell,R,Rick Scott,Incumbent re-elected.
+HI,HI,0,,D,1,D+:Mazie Hirono;R+:Bob McDermott,D,Mazie Hirono,Incumbent re-elected.
+IN,IN,0,,R,0,R+:Jim Banks;D:Valerie McCray;O:Andy Horning,R,Jim Banks,Incumbent retired to . Republican hold.
+MA,MA,0,,D,1,D+:Elizabeth Warren;R+:John Deaton,D,Elizabeth Warren,Incumbent re-elected.
+MD,MD,0,,D,0,D+:Angela Alsobrooks;R+:Larry Hogan;O:Mike Scott,D,Angela Alsobrooks,Incumbent retired. Democratic hold.
+ME,ME,0,,I,1,I+:Angus King;R:Demitroula Kouzounas;D:David Costello;I:Jason Cherry,I,Angus King,Incumbent re-elected.
+MI,MI,0,,D,0,D+:Elissa Slotkin;R+:Mike Rogers,D,Elissa Slotkin,Incumbent retired. Democratic hold.
+MN,MN,0,,D,1,D+:Amy Klobuchar;R+:Royce White,D,Amy Klobuchar,Incumbent re-elected.
+MO,MO,0,,R,1,R+:Josh Hawley;D+:Lucas Kunce,R,Josh Hawley,Incumbent re-elected.
+MS,MS,0,,R,1,R+:Roger Wicker;D:Ty Pinkins,R,Roger Wicker,Incumbent re-elected.
+MT,MT,0,,D,1,R+:Tim Sheehy;D+:Jon Tester,R,Tim Sheehy,Incumbent lost re-election. Republican gain.
+ND,ND,0,,R,1,R+:Kevin Cramer;D+:Katrina Christiansen,R,Kevin Cramer,Incumbent re-elected.
+NE,NE,0,,R,1,R+:Deb Fischer;I+:Dan Osborn,R,Deb Fischer,Incumbent re-elected.
+NE-S,NE,1,,R,1,R+:Pete Ricketts;D+:Preston Love Jr.,R,Pete Ricketts,Interim appointee elected.
+NJ,NJ,0,,D,0,D+:Andy Kim;R+:Curtis Bashaw,D,Andy Kim,"Interim appointee ineligible to run. Democratic hold. Interim appointee resigned December 8, 2024, to give Kim preferential seniority. Winner appointed the same day."
+NM,NM,0,,D,1,D+:Martin Heinrich;R:Nella Domenici,D,Martin Heinrich,Incumbent re-elected.
+NV,NV,0,,D,1,D+:Jacky Rosen;R+:Sam Brown,D,Jacky Rosen,Incumbent re-elected.
+NY,NY,0,,D,1,D+:Kirsten Gillibrand;R:Mike Sapraicone;I+:Diane Sare,D,Kirsten Gillibrand,Incumbent re-elected.
+OH,OH,0,,D,1,R+:Bernie Moreno;D+:Sherrod Brown;O:Don Kissick,R,Bernie Moreno,Incumbent lost re-election. Republican gain.
+PA,PA,0,,D,1,R+:Dave McCormick;D+:Bob Casey Jr.,R,Dave McCormick,Incumbent lost re-election. Republican gain.
+RI,RI,0,,D,1,D+:Sheldon Whitehouse;R+:Patricia Morgan,D,Sheldon Whitehouse,Incumbent re-elected.
+TN,TN,0,,R,1,R+:Marsha Blackburn;D+:Gloria Johnson,R,Marsha Blackburn,Incumbent re-elected.
+TX,TX,0,,R,1,R+:Ted Cruz;D+:Colin Allred;O:Ted Brown,R,Ted Cruz,Incumbent re-elected.
+UT,UT,0,,R,0,R+:John Curtis;D+:Caroline Gleich;I:Carlton Bowen,R,John Curtis,Incumbent retired. Republican hold.
+VA,VA,0,,D,1,D+:Tim Kaine;R+:Hung Cao,D,Tim Kaine,Incumbent re-elected.
+VT,VT,0,,I,1,I+:Bernie Sanders;R:Gerald Malloy;I+:Steve Berry,I,Bernie Sanders,Incumbent re-elected.
+WA,WA,0,,D,1,D+:Maria Cantwell;R:Raul Garcia,D,Maria Cantwell,Incumbent re-elected.
+WI,WI,0,,D,1,D+:Tammy Baldwin;R:Eric Hovde,D,Tammy Baldwin,Incumbent re-elected.
+WV,WV,0,,I,0,R+:Jim Justice;D+:Glenn Elliott;O:David Moran,R,Jim Justice,"Incumbent retired. Republican gain. Winner delayed start of term until January 14, 2025, to finish his term as ."
+WY,WY,0,,R,1,R+:John Barrasso;D:Scott Morrow,R,John Barrasso,Incumbent re-elected.

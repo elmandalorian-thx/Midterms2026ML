@@ -1,0 +1,59 @@
+{
+ "frozenOn": "2026-11-03",
+ "env": 9.17,
+ "sigmaEnv": 3.0,
+ "sims": 20000,
+ "model": "pooled",
+ "modelName": "Pooled House + Senate",
+ "pRControl": 0.4879,
+ "pDControl": 0.4988,
+ "pNoMajority": 0.0133,
+ "medianSeatsR": 49,
+ "p10R": 47,
+ "p90R": 52,
+ "medianSeatsD": 50,
+ "meanIndependents": 0.07,
+ "hold": {
+  "R": 31,
+  "D": 32,
+  "I_caucusD": 2
+ },
+ "before": {
+  "R": 53,
+  "D": 45,
+  "I_caucusD": 2
+ },
+ "needR": 19,
+ "needD": 17,
+ "vpParty": "R",
+ "joint": {
+  "DD": 0.4985,
+  "DR": 0.4791,
+  "DN": 0.0133,
+  "RD": 0.0002,
+  "RR": 0.0089,
+  "RN": 0.0
+ },
+ "jointIfIndependent": {
+  "DD": 0.4943,
+  "DR": 0.4835,
+  "DN": 0.0132,
+  "RD": 0.0045,
+  "RR": 0.0044,
+  "RN": 0.0001
+ },
+ "houseD": 0.9909,
+ "genericBallot": {
+  "source": "Average",
+  "rep": 43.1,
+  "dem": 51.8,
+  "other": 5.1,
+  "updated": "November 1, 2026"
+ },
+ "standIns2026": {
+  "NE": "Dan Osborn",
+  "ID": "Todd Achilles",
+  "SD": "Brian Bengs"
+ },
+ "rule": "model chosen by lowest leave-one-cycle-out Brier score, 2014-2024"
+}
