@@ -90,3 +90,89 @@ export interface Guide {
   }
   districts: District2026[]
 }
+
+/* ---------------------------------------------------------------- Senate: src/data/senate.json (ml/build_senate.py) */
+
+export type Side = 'D' | 'R'
+export interface LogRegParams { mean: number[]; scale: number[]; coef: number[]; intercept: number }
+
+export interface SenateRace2026 {
+  /** "TX", or "OH-S" for a special election */
+  id: string
+  state: string
+  special: number
+  /** State lean computed from presidential results (+ Democratic, - Republican), in Cook PVI points */
+  lean: number
+  cook: number | null
+  incParty: 'D' | 'R' | 'I' | null
+  /** Side the incumbent belongs to (an independent incumbent counts for the side they stand in for) */
+  incSide: Side | null
+  incRunning: number
+  /** Democratic-side candidate; "(I)" marks an independent standing in where Democrats have no nominee */
+  dName: string | null
+  rName: string | null
+  dStandin: number
+  hasD: number
+  hasR: number
+  status: string
+  /** P(Democratic side wins), frozen before Election Day */
+  pFrozen: number
+  /** P(this race delivers the seat that decides control) */
+  pTipping: number
+  winSide: Side | 'X' | null
+  winnerName: string | null
+}
+
+export interface SenateMethod {
+  key: string; name: string; probabilistic: boolean; accuracy: number; competitiveAccuracy: number; brier?: number; logLoss?: number
+}
+
+export interface SenateForecast {
+  env: number; sigmaEnv: number; sims: number; model: string; modelName: string
+  pRControl: number; pDControl: number; pNoMajority: number
+  medianSeatsR: number; p10R: number; p90R: number; medianSeatsD: number; meanIndependents: number
+  hold: { R: number; D: number; I_caucusD: number }
+  before: { R: number; D: number; I_caucusD: number }
+  needR: number; needD: number; vpParty: string
+  /** keys: House winner + Senate outcome (D, R, N = no majority without independents), e.g. "DR" */
+  joint: Record<string, number>
+  jointIfIndependent: Record<string, number>
+  houseD: number
+}
+
+export interface Senate {
+  built: string
+  counts: { races: number; contested: number; years: number[]; houseRows: number; perYear: Record<string, number> }
+  quality: {
+    races: number; contested: number; checked: number; agree: number; noOpponent: number; thirdCandidateWon: number; marginMissing: number
+    standIns: { year: number; race: string; name: string; side: Side; won: boolean }[]
+    cookCheck: { n: number; corr: number; mae: number; rows: [string, number, number][] }
+  }
+  /** year -> [lean, D-side margin, D side won] */
+  scatter: Record<string, [number, number, number][]>
+  drift: { year: number; n: number; corr: number; slope: number; residSd: number; env: number }[]
+  straightTicket: { year: number; n: number; same: number; share: number }[]
+  outliers: { year: number; race: string; dName: string; rName: string; dStandin: boolean; margin: number; expected: number; resid: number; winner: Side }[]
+  incumbency: { group: string; n: number; resid: number }[]
+  envByYear: Record<string, number>
+  loco: ({ year: number; n: number; env: number; ciLo: number; ciHi: number; brierSenate: number; brierHouse: number; seatsPred: number; seatsActual: number } & Record<string, number>)[]
+  summary: SenateMethod[]
+  chosen: string
+  calibration: Record<string, { bin: number; predicted: number; actual: number; n: number }[]>
+  learning: { n: number; brier: number }[]
+  houseBrier: number
+  effects: Record<string, Record<string, number>>
+  symmetry: { logregGap: number; gbmGap: number }
+  features: { key: string; label: string }[]
+  forecast: SenateForecast & {
+    frozen: SenateForecast & { frozenOn: string; rule: string }
+    hist: number[]
+    ctrlCurve: { env: number; pR: number; pD: number; seatsR: number }[]
+    byEnv: { label: string; share: number; pHouseD: number; pSenateR: number; pSenateD: number }[]
+    genericBallot: Guide['forecast']['genericBallot']
+    houseEnvSlope: number
+  }
+  score2026: null | { called: number; dSide: number; rSide: number; accuracy: number; brier: number; misses: { race: string; p: number; winner: string }[] }
+  model: { logreg: Record<string, LogRegParams>; gbm: Guide['model']['gbm']; tree: TreeNode[] }
+  races: SenateRace2026[]
+}

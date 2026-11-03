@@ -11,21 +11,21 @@ export interface Revision { revid: number; timestamp: string }
 export interface Call { id: string; winner: 'D' | 'R' | 'O'; how: 'check' | 'status' }
 
 /** Tiny request: the page's latest revision id. Only when it changes do we download the page. */
-export async function fetchRevision(): Promise<Revision> {
-  const u = `${API}?action=query&prop=revisions&titles=${encodeURIComponent(PAGE)}&rvprop=ids|timestamp&format=json&formatversion=2&origin=*`
+export async function fetchRevision(page = PAGE): Promise<Revision> {
+  const u = `${API}?action=query&prop=revisions&titles=${encodeURIComponent(page)}&rvprop=ids|timestamp&format=json&formatversion=2&origin=*`
   const j = await (await fetch(u)).json()
   const r = j.query.pages[0].revisions[0]
   return { revid: r.revid, timestamp: r.timestamp }
 }
 
-export async function fetchWikitext(): Promise<{ text: string; rev: Revision }> {
-  const u = `${API}?action=query&prop=revisions&titles=${encodeURIComponent(PAGE)}&rvprop=ids|timestamp|content&rvslots=main&format=json&formatversion=2&origin=*`
+export async function fetchWikitext(page = PAGE): Promise<{ text: string; rev: Revision }> {
+  const u = `${API}?action=query&prop=revisions&titles=${encodeURIComponent(page)}&rvprop=ids|timestamp|content&rvslots=main&format=json&formatversion=2&origin=*`
   const j = await (await fetch(u)).json()
   const r = j.query.pages[0].revisions[0]
   return { text: r.slots.main.content, rev: { revid: r.revid, timestamp: r.timestamp } }
 }
 
-const STATES: Record<string, string> = {
+export const STATES: Record<string, string> = {
   Alabama: 'AL', Alaska: 'AK', Arizona: 'AZ', Arkansas: 'AR', California: 'CA', Colorado: 'CO', Connecticut: 'CT', Delaware: 'DE',
   Florida: 'FL', Georgia: 'GA', Hawaii: 'HI', Idaho: 'ID', Illinois: 'IL', Indiana: 'IN', Iowa: 'IA', Kansas: 'KS', Kentucky: 'KY',
   Louisiana: 'LA', Maine: 'ME', Maryland: 'MD', Massachusetts: 'MA', Michigan: 'MI', Minnesota: 'MN', Mississippi: 'MS', Missouri: 'MO',
@@ -87,11 +87,12 @@ export const TABLE = GRID.map((e) => Float64Array.from(D, (d) => predict(d, e, '
 export const gridIndex = (env: number) => Math.max(0, Math.min(GRID.length - 1, Math.round((env - GRID_LO) / STEP)))
 
 /** Bayesian update of the national environment. Prior: the polls (mean = generic ballot, sd = assumed
- *  polling error). Likelihood: each called race's winner under the logistic model at that environment. */
-export function posteriorEnv(called: Map<string, 'D' | 'R' | 'O'>, prior = guide.forecast.env, sd = guide.forecast.sigmaEnv) {
+ *  polling error). Likelihood: each called race's winner under the logistic model at that environment.
+ *  `extra` adds log-likelihood from other evidence on the same grid (the Senate calls: one national mood, two chambers). */
+export function posteriorEnv(called: Map<string, 'D' | 'R' | 'O'>, extra?: number[], prior = guide.forecast.env, sd = guide.forecast.sigmaEnv) {
   const idx = D.map((d, i) => [i, called.get(d.id)] as const).filter(([, w]) => w === 'D' || w === 'R')
   const logp = GRID.map((e, g) => {
-    let s = -0.5 * ((e - prior) / sd) ** 2
+    let s = -0.5 * ((e - prior) / sd) ** 2 + (extra ? extra[g] : 0)
     for (const [i, w] of idx) {
       const p = Math.min(1 - 1e-6, Math.max(1e-6, TABLE[g][i]))
       s += Math.log(w === 'D' ? p : 1 - p)
@@ -190,5 +191,5 @@ export function demoNight(seed = Date.now()) {
   const row = TABLE[gridIndex(guide.forecast.env + shift)]
   const west = new Set(['CA', 'OR', 'WA', 'NV', 'AZ', 'AK', 'HI', 'ID', 'UT', 'MT', 'CO', 'NM', 'WY'])
   const calls = D.map((d, i) => ({ id: d.id, winner: (rand() < row[i] ? 'D' : 'R') as 'D' | 'R', order: (1 - Math.abs(row[i] - 0.5) * 2) * 2 + (west.has(d.state) ? 1.2 : 0) + rand() * 0.8 }))
-  return { shift, calls: calls.sort((x, y) => x.order - y.order) }
+  return { shift, rand, calls: calls.sort((x, y) => x.order - y.order) }
 }

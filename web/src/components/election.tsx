@@ -149,8 +149,12 @@ export function YearScatter() {
 
 /* ------------------------------------------------------------ seat histogram */
 
-export function SeatHistogram({ counts, total, height = 240, lo = 160, hi = 300 }: {
+export function SeatHistogram({ counts, total, height = 240, lo = 160, hi = 300, majority = MAJORITY, above = 'var(--dem)', below = 'var(--rep)', describe }: {
   counts: number[]; total: number; height?: number; lo?: number; hi?: number
+  /** Bars at or above this count get the `above` color (House: 218 Democratic seats) */
+  majority?: number; above?: string; below?: string
+  /** Tooltip text for a bar (default: House Democratic seats) */
+  describe?: (seats: number) => string
 }) {
   const [ref, width] = useWidth<HTMLDivElement>()
   const [hover, setHover] = useState<number | null>(null)
@@ -162,7 +166,7 @@ export function SeatHistogram({ counts, total, height = 240, lo = 160, hi = 300 
   const y = linear(0, maxP, height - m.b, m.t)
   return (
     <div ref={ref} className="chart" style={{ position: 'relative' }}>
-      <svg width={width} height={height} role="img" aria-label="Distribution of simulated Democratic seat totals"
+      <svg width={width} height={height} role="img" aria-label="Distribution of simulated seat totals"
         onMouseLeave={() => setHover(null)}>
         {ticks(0, maxP, 4).map((t) => (
           <g key={t}>
@@ -178,17 +182,17 @@ export function SeatHistogram({ counts, total, height = 240, lo = 160, hi = 300 
             <g key={s} onMouseEnter={() => setHover(s)}>
               <rect x={x(s)} y={m.t} width={bw + 1} height={height - m.b - m.t} fill="transparent" />
               <rect x={x(s)} y={y(p)} width={bw} height={Math.max(0, height - m.b - y(p))} rx={Math.min(2, bw / 2)}
-                fill={s >= MAJORITY ? 'var(--dem)' : 'var(--rep)'} opacity={hover === null || hover === s ? 1 : 0.55} />
+                fill={s >= majority ? above : below} opacity={hover === null || hover === s ? 1 : 0.55} />
             </g>
           )
         })}
         <line className="axisline" x1={m.l} x2={width - m.r} y1={height - m.b} y2={height - m.b} />
-        <line x1={x(MAJORITY) - 0.5} x2={x(MAJORITY) - 0.5} y1={m.t - 6} y2={height - m.b} stroke="var(--text-primary)" strokeWidth={1.5} strokeDasharray="3 3" />
-        <text x={x(MAJORITY) + 6} y={m.t + 4} style={{ fill: 'var(--text-primary)', fontWeight: 600 }}>{MAJORITY}</text>
+        <line x1={x(majority) - 0.5} x2={x(majority) - 0.5} y1={m.t - 6} y2={height - m.b} stroke="var(--text-primary)" strokeWidth={1.5} strokeDasharray="3 3" />
+        <text x={x(majority) + 6} y={m.t + 4} style={{ fill: 'var(--text-primary)', fontWeight: 600 }}>{majority}</text>
       </svg>
       {hover !== null && (
         <Tooltip x={x(hover) + bw / 2} y={y(counts[hover] / Math.max(1, total))}>
-          <b>{hover}</b> Democratic seats ({435 - hover} Republican) · {pct(counts[hover] / Math.max(1, total), 1)} of runs
+          {describe ? describe(hover) : <><b>{hover}</b> Democratic seats ({435 - hover} Republican)</>} · {pct(counts[hover] / Math.max(1, total), 1)} of runs
         </Tooltip>
       )}
     </div>

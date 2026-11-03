@@ -8,7 +8,12 @@ import {
   alertsFor, demoNight, fetchBackup, fetchRevision, fetchWikitext, GRID, gridIndex, parseCalls, posteriorEnv, priorCurve, simulate, TABLE,
   type Alert, type AlertKind, type Call,
 } from '../lib/live'
+import {
+  fetchSenateBackup, parseSenateCalls, D_CONTROL, R_CONTROL, SENATE_PAGE, senateAlerts, senateDemo, senateLogLik, SF, simulateCongress,
+  simulateSenate, SR, STABLE, seatOf, seatTotals, sideOf, type SCall,
+} from '../lib/senate'
 import './live.css'
+import { CongressGrid, RaceCards, SenateBar } from './SenatePanels'
 
 type W = 'D' | 'R' | 'O'
 interface Point { t: number; called: number; pMaj: number; env: number }
@@ -16,6 +21,8 @@ const D = guide.districts
 const F = guide.forecast
 const GUIDE_URL = import.meta.env.BASE_URL
 const STORE = 'house26-live-v1'
+const STORE_S = 'senate26-live-v1'
+type Tab = 'house' | 'senate' | 'congress'
 
 function load<T>(k: string, fallback: T): T {
   try { const v = localStorage.getItem(k); return v ? (JSON.parse(v) as T) : fallback } catch { return fallback }
@@ -146,6 +153,11 @@ export default function LiveApp() {
   const [alerts, setAlerts] = useState<Alert[]>(saved.alerts)
   const [history, setHistory] = useState<Point[]>(saved.history)
   const [rev, setRev] = useState<{ id?: number; time?: string }>({ id: saved.rev, time: saved.revTime })
+  const savedS = load<{ calls: [string, SCall][]; rev?: number; revTime?: string }>(STORE_S, { calls: [] })
+  const [sCalled, setSCalled] = useState<Map<string, SCall>>(() => new Map(savedS.calls))
+  const [sRev, setSRev] = useState<{ id?: number; time?: string }>({ id: savedS.rev, time: savedS.revTime })
+  const [tab, setTabState] = useState<Tab>(() => load<Tab>('live-tab', 'house'))
+  const setTab = (t: Tab) => { setTabState(t); save('live-tab', t) }
   const [status, setStatus] = useState<'idle' | 'checking' | 'ok' | 'backup' | 'error'>('idle')
   const [lastCheck, setLastCheck] = useState<number | null>(null)
   const [interval, setIntervalS] = useState(120)
@@ -157,8 +169,8 @@ export default function LiveApp() {
   const [filter, setFilter] = useState<'all' | AlertKind>('all')
   const [now, setNow] = useState(Date.now())
   const [q, setQ] = useState('')
-  const live = useRef({ called, notify, sound, rev })
-  live.current = { called, notify, sound, rev }
+  const live = useRef({ called, notify, sound, rev, sCalled, sRev })
+  live.current = { called, notify, sound, rev, sCalled, sRev }
   const fresh = useRef<Set<string>>(new Set())
 
   useEffect(() => { const t = setInterval(() => setNow(Date.now()), 1000); return () => clearInterval(t) }, [])
@@ -167,6 +179,34 @@ export default function LiveApp() {
   useEffect(() => {
     if (!demo) save(STORE, { calls: [...called], alerts: alerts.slice(0, 300), history: history.slice(-500), rev: rev.id, revTime: rev.time })
   }, [called, alerts, history, rev, demo])
+  useEffect(() => { if (!demo) save(STORE_S, { calls: [...sCalled], rev: sRev.id, revTime: sRev.time }) }, [sCalled, sRev, demo])
+
+  /** Show new alerts; beep / notify for the most important one. */
+  const emit = useCallback((made: Alert[], quiet: boolean) => {
+    if (!made.length) return
+    made.forEach((a) => fresh.current.add(a.id))
+    setTimeout(() => made.forEach((a) => fresh.current.delete(a.id)), 4000)
+    setAlerts((prev) => [...[...made].reverse(), ...prev].slice(0, 400))
+    if (quiet) return
+    const top = made.find((a) => a.kind === 'milestone') ?? made.find((a) => a.kind === 'upset') ?? made.find((a) => a.kind === 'flip') ?? made[0]
+    if (live.current.sound) beep(top.kind)
+    if (live.current.notify && 'Notification' in window && Notification.permission === 'granted' && document.hidden) {
+      new Notification(made.length > 1 ? `${top.title} (+${made.length - 1} more)` : top.title, { body: top.body, tag: 'midterms26' })
+    }
+  }, [])
+
+  /** Senate: merge a batch of calls (winners or runoffs), alert on what changed. */
+  const ingestS = useCallback((batch: SCall[], quiet = false) => {
+    const before = live.current.sCalled
+    const after = new Map(before)
+    const same = (a?: SCall, b?: SCall) => !!a && !!b && a.party === b.party && !!a.runoff === !!b.runoff
+    const newCalls = batch.filter((c) => !same(before.get(c.id), c))
+    for (const c of batch) after.set(c.id, c)
+    if (!newCalls.length) return
+    live.current.sCalled = after
+    setSCalled(after)
+    emit(senateAlerts(newCalls, before, after, Date.now()), quiet)
+  }, [emit])
 
   /** Merge a batch of calls: diff against what we had, emit alerts, notify. */
   const ingest = useCallback((batch: Call[], quiet = false) => {
@@ -175,20 +215,10 @@ export default function LiveApp() {
     const newCalls = batch.filter((c) => before.get(c.id) !== c.winner)
     for (const c of batch) after.set(c.id, c.winner)
     if (!newCalls.length) return
-    const t = Date.now()
-    const made = alertsFor(newCalls, before, after, t)
-    made.forEach((a) => fresh.current.add(a.id))
-    setTimeout(() => made.forEach((a) => fresh.current.delete(a.id)), 4000)
+    live.current.called = after
     setCalled(after)
-    setAlerts((prev) => [...made.reverse(), ...prev].slice(0, 400))
-    if (!quiet) {
-      const top = made.find((a) => a.kind === 'milestone') ?? made.find((a) => a.kind === 'upset') ?? made.find((a) => a.kind === 'flip') ?? made[0]
-      if (top && live.current.sound) beep(top.kind)
-      if (top && live.current.notify && 'Notification' in window && Notification.permission === 'granted' && document.hidden) {
-        new Notification(made.length > 1 ? `${top.title} (+${made.length - 1} more)` : top.title, { body: top.body, tag: 'house26' })
-      }
-    }
-  }, [])
+    emit(alertsFor(newCalls, before, after, Date.now()), quiet)
+  }, [emit])
 
   // Real feed: check the revision id; download + parse only when the page changed.
   const poll = useCallback(async () => {
@@ -201,18 +231,25 @@ export default function LiveApp() {
         ingest(parseCalls(text), firstLoad)
         setRev({ id: rv.revid, time: rv.timestamp })
       }
+      const sr = await fetchRevision(SENATE_PAGE)
+      if (sr.revid !== live.current.sRev.id) {
+        const { text, rev: rv } = await fetchWikitext(SENATE_PAGE)
+        ingestS(parseSenateCalls(text), live.current.sRev.id === undefined)
+        setSRev({ id: rv.revid, time: rv.timestamp })
+      }
       setStatus('ok')
     } catch {
-      // Wikipedia unreachable or rate-limited: fall back to the copy our GitHub Action publishes
+      // Wikipedia unreachable or rate-limited: fall back to the copies our GitHub Action publishes
       try {
         ingest(await fetchBackup(GUIDE_URL), live.current.rev.id === undefined && live.current.called.size === 0)
+        ingestS(await fetchSenateBackup(GUIDE_URL), live.current.sRev.id === undefined && live.current.sCalled.size === 0)
         setStatus('backup')
       } catch {
         setStatus('error')
       }
     }
     setLastCheck(Date.now())
-  }, [ingest])
+  }, [ingest, ingestS])
 
   useEffect(() => {
     if (demo || paused) return
@@ -222,18 +259,24 @@ export default function LiveApp() {
   }, [demo, paused, interval, poll])
 
   // Demo: replay a simulated night into a separate, unsaved state
-  const demoRef = useRef<{ calls: Call[]; i: number } | null>(null)
+  const demoRef = useRef<{ calls: ({ h: Call } | { s: SCall })[]; i: number } | null>(null)
   const startDemo = () => {
     const night = demoNight()
-    demoRef.current = { calls: night.calls.map((c) => ({ id: c.id, winner: c.winner, how: 'check' })), i: 0 }
-    live.current.called = new Map()
-    setCalled(new Map()); setAlerts([]); setHistory([])
+    const timeline = [
+      ...night.calls.map((c) => ({ item: { h: { id: c.id, winner: c.winner, how: 'check' as const } }, order: c.order })),
+      ...senateDemo(night.shift, night.rand).map((c) => ({ item: { s: c.call }, order: c.order })),
+    ].sort((a, b) => a.order - b.order)
+    demoRef.current = { calls: timeline.map((t) => t.item), i: 0 }
+    live.current.called = new Map(); live.current.sCalled = new Map()
+    setCalled(new Map()); setSCalled(new Map()); setAlerts([]); setHistory([])
     setDemo(true)
   }
   const stopDemo = () => {
     demoRef.current = null
     const s = load<{ calls: [string, W][]; alerts: Alert[]; history: Point[] }>(STORE, { calls: [], alerts: [], history: [] })
-    setCalled(new Map(s.calls)); setAlerts(s.alerts); setHistory(s.history)
+    const ss = load<{ calls: [string, SCall][] }>(STORE_S, { calls: [] })
+    live.current.called = new Map(s.calls); live.current.sCalled = new Map(ss.calls)
+    setCalled(new Map(s.calls)); setSCalled(new Map(ss.calls)); setAlerts(s.alerts); setHistory(s.history)
     setDemo(false)
   }
   useEffect(() => {
@@ -242,14 +285,18 @@ export default function LiveApp() {
       const st = demoRef.current
       if (!st || st.i >= st.calls.length) return
       const n = Math.max(1, Math.round(demoSpeed * (0.5 + Math.random())))
-      ingest(st.calls.slice(st.i, st.i + n))
+      const batch = st.calls.slice(st.i, st.i + n)
+      const hs = batch.flatMap((b) => ('h' in b ? [b.h] : [])), ss = batch.flatMap((b) => ('s' in b ? [b.s] : []))
+      if (hs.length) ingest(hs)
+      if (ss.length) ingestS(ss)
       st.i += n
     }, 900)
     return () => clearInterval(t)
-  }, [demo, paused, demoSpeed, ingest])
+  }, [demo, paused, demoSpeed, ingest, ingestS])
 
   // Nowcast from the calls so far
-  const { post, mean, sd } = useMemo(() => posteriorEnv(called), [called])
+  const sLogLik = useMemo(() => senateLogLik(sCalled), [sCalled])
+  const { post, mean, sd } = useMemo(() => posteriorEnv(called, sLogLik), [called, sLogLik])
   const prior = useMemo(() => priorCurve(), [])
   const counts = useMemo(() => simulate(called, post, 3000), [called, post])
   const total = counts.reduce((a, b) => a + b, 0)
@@ -260,6 +307,30 @@ export default function LiveApp() {
   const expD = probs.reduce((a, b) => a + b, 0)
   const nD = [...called.values()].filter((w) => w === 'D').length
   const nR = [...called.values()].filter((w) => w === 'R').length
+
+  // Senate: chamber odds, expected seats, race probabilities at the updated environment
+  const sSim = useMemo(() => simulateSenate(sCalled, post, 3000), [sCalled, post])
+  const sRow = STABLE[gridIndex(mean)]
+  const sProbs = SR.map((_, i) => sRow[i])
+  const sTot = seatTotals(sCalled)
+  const sExp = SR.reduce((acc, r, i) => {
+    const c = sCalled.get(r.id)
+    if (c && seatOf(c)) return acc
+    return { d: acc.d + (r.dStandin ? 0 : sProbs[i]), r: acc.r + 1 - sProbs[i] }
+  }, { d: 0, r: 0 })
+  const sDone = [...sCalled.values()].filter((c) => seatOf(c)).length
+  const sRecord = useMemo(() => {
+    let hit = 0, n = 0, brier = 0
+    for (const r of SR) {
+      const c = sCalled.get(r.id)
+      const side = c ? sideOf(r, c) : null
+      if ((side !== 'D' && side !== 'R') || !(r.hasD && r.hasR)) continue
+      const y = side === 'D' ? 1 : 0
+      n++; hit += Number((r.pFrozen >= 0.5) === (y === 1)); brier += (r.pFrozen - y) ** 2
+    }
+    return { n, hit, brier: n ? brier / n : null }
+  }, [sCalled])
+  const joint = useMemo(() => (tab === 'congress' ? simulateCongress(called, sCalled, post) : null), [tab, called, sCalled, post])
 
   // History of the nowcast (one point per change in calls)
   useEffect(() => {
@@ -290,6 +361,14 @@ export default function LiveApp() {
   const nextIn = lastCheck ? Math.max(0, Math.round((lastCheck + interval * 1000 - now) / 1000)) : null
   const seats = D.map((d, i) => ({ id: d.id, p: probs[i], note: called.has(d.id) ? `Called: ${called.get(d.id)}` : `Uncalled · P(Dem) ${pct(probs[i], 0)}` }))
 
+  const pollControls = !demo && (
+    <div className="seg" role="group" aria-label="Polling interval">
+      {[60, 120, 300].map((s) => <button key={s} aria-pressed={interval === s} onClick={() => setIntervalS(s)}>{s / 60} min</button>)}
+      <button onClick={() => poll()} disabled={status === 'checking'}>↻ Now</button>
+    </div>
+  )
+  const senateByEnv = SF.byEnv
+
   const askNotify = async () => {
     if (!('Notification' in window)) return
     if (notify) { setNotify(false); return }
@@ -300,7 +379,7 @@ export default function LiveApp() {
   return (
     <div className="live-page">
       <header className="live-top">
-        <a href={GUIDE_URL} className="brand">House 2026 <span className="muted">· Live tracker</span></a>
+        <a href={GUIDE_URL} className="brand">Midterms 2026 <span className="muted">· Live tracker</span></a>
         <div className={`status ${demo ? 'demo' : paused ? 'paused' : status}`}>
           <i />{demo ? 'DEMO REPLAY' : paused ? 'PAUSED' : status === 'error' ? 'RETRYING' : status === 'backup' ? 'LIVE · BACKUP FEED' : 'LIVE'}
           {!demo && !paused && <span className="muted tabular">{status === 'checking' ? 'checking…' : nextIn !== null ? `next check ${nextIn}s` : ''}</span>}
@@ -322,7 +401,12 @@ export default function LiveApp() {
       )}
 
       <main className="live-main">
-        <section className="panel hero-panel">
+        <div className="tabs" role="group" aria-label="Chamber">
+          {([['house', 'House'], ['senate', 'Senate'], ['congress', 'Control of Congress']] as const).map(([k, label]) => (
+            <button key={k} aria-pressed={tab === k} onClick={() => setTab(k)}>{label}</button>
+          ))}
+        </div>
+        {tab === 'house' && <section className="panel hero-panel">
           <div className="hero-head">
             <div>
               <h1>Race to 218</h1>
@@ -330,12 +414,7 @@ export default function LiveApp() {
                 {demo ? 'Simulated feed' : <>Source: Wikipedia's 2026 House results tables, polled every {interval / 60} min{rev.time ? ` · page updated ${clock(Date.parse(rev.time))}` : ''}</>}
               </p>
             </div>
-            {!demo && (
-              <div className="seg" role="group" aria-label="Polling interval">
-                {[60, 120, 300].map((s) => <button key={s} aria-pressed={interval === s} onClick={() => setIntervalS(s)}>{s / 60} min</button>)}
-                <button onClick={() => poll()} disabled={status === 'checking'}>↻ Now</button>
-              </div>
-            )}
+            {pollControls}
           </div>
           <RaceBar d={nD} r={nR} expD={expD} expR={435 - expD} />
           <div className="kpis">
@@ -353,10 +432,98 @@ export default function LiveApp() {
               <button className="btn btn-primary" onClick={startDemo}>Watch a simulated replay meanwhile</button>
             </div>
           )}
-        </section>
+        </section>}
+
+        {tab === 'senate' && <section className="panel hero-panel">
+          <div className="hero-head">
+            <div>
+              <h1>Race for the Senate</h1>
+              <p className="muted" style={{ margin: 0 }}>
+                {demo ? 'Simulated feed' : <>Source: Wikipedia's 2026 Senate results tables, polled every {interval / 60} min{sRev.time ? ` · page updated ${clock(Date.parse(sRev.time))}` : ''}</>}
+              </p>
+            </div>
+            {pollControls}
+          </div>
+          <SenateBar d={sTot.D} r={sTot.R} i={sTot.I} expD={sTot.D + sExp.d} expR={sTot.R + sExp.r} />
+          <div className="kpis">
+            <div className="kpi"><div className="kpi-label">Races called</div><div className="kpi-value tabular">{sDone}<span className="muted"> / {SR.length}</span></div>
+              <div className="kpi-note">{[...sCalled.values()].some((c) => c.runoff) ? 'runoff pending' : `${100 - SR.length} seats not up this year`}</div></div>
+            <div className="kpi"><div className="kpi-label">P(Republicans keep control), now</div><div className="kpi-value tabular">{pct(sSim.pR, 0)}</div>
+              <div className="kpi-note">frozen forecast: {pct(SF.frozen.pRControl, 0)}</div></div>
+            <div className="kpi"><div className="kpi-label">P(Democrats take control), now</div><div className="kpi-value tabular">{pct(sSim.pD, 0)}</div>
+              <div className="kpi-note">frozen {pct(SF.frozen.pDControl, 0)} · no majority {pct(sSim.pN, 0)}</div></div>
+            <div className="kpi"><div className="kpi-label">Forecast record so far</div><div className="kpi-value tabular">{sRecord.n ? `${sRecord.hit}/${sRecord.n}` : '—'}</div>
+              <div className="kpi-note">{sRecord.brier !== null ? `Brier ${sRecord.brier.toFixed(3)} · contested races` : 'contested races, frozen forecast'}</div></div>
+          </div>
+          {!sDone && !demo && (
+            <div className="empty-state">
+              <b>No Senate races called yet.</b> Republicans need {R_CONTROL} seats (the Vice President breaks a 50–50 tie); Democrats need {D_CONTROL}.
+              <button className="btn btn-primary" onClick={startDemo}>Watch a simulated replay meanwhile</button>
+            </div>
+          )}
+        </section>}
+
+        {tab === 'congress' && <section className="panel hero-panel">
+          <div className="hero-head">
+            <div>
+              <h1>Control of Congress</h1>
+              <p className="muted" style={{ margin: 0 }}>Both chambers simulated together at the same national mood, updated with every call in either chamber.</p>
+            </div>
+            {pollControls}
+          </div>
+          <CongressGrid joint={joint ?? SF.frozen.joint} />
+          <p className="muted" style={{ fontSize: 13.5, marginBottom: 0 }}>
+            “If independent” multiplies the two chambers' separate odds, as if they had nothing to do with each other. They do: one polling miss
+            moves every race the same way. Before the election, a polling miss toward Republicans meant P(Republican Senate) {pct(SF.frozen.joint.DR + SF.frozen.joint.RR, 0)} overall
+            but {pct(senateByEnv[0].pSenateR, 0)} in that world, versus {pct(senateByEnv[2].pSenateR, 0)} if the polls had underrated Democrats.
+          </p>
+        </section>}
 
         <div className="live-grid">
           <div className="col-main">
+            {tab === 'senate' && <>
+              <section className="panel">
+                <div className="hero-head">
+                  <div><h2>All {SR.length} races</h2><p className="muted sub" style={{ margin: 0 }}>Closest uncalled first. Probabilities update with every call in either chamber.</p></div>
+                  <input type="search" placeholder="State or candidate, e.g. Texas" value={q} onChange={(e) => setQ(e.target.value)} style={{ maxWidth: 260 }} />
+                </div>
+                <RaceCards called={sCalled} probs={sProbs} q={q} />
+              </section>
+              <div className="two">
+                <section className="panel">
+                  <h2>Republican seats, simulated</h2>
+                  <p className="muted sub">Called seats fixed; the rest drawn 3,000 times at the updated national mood.</p>
+                  <SeatHistogram counts={sSim.hist} total={sSim.hist.reduce((a, b) => a + b, 0)} lo={40} hi={62} height={200} majority={R_CONTROL}
+                    above="var(--rep)" below="var(--dem)" describe={(n) => `${n} Republican seats`} />
+                  <Legend items={[{ label: 'Republican control (50+)', color: 'var(--rep)' }, { label: 'Republicans short of 50', color: 'var(--dem)' }]} />
+                </section>
+                <section className="panel">
+                  <h2>What all results say about the national mood</h2>
+                  <p className="muted sub">House and Senate calls are evidence about the same national environment.</p>
+                  <EnvChart prior={prior} post={post} />
+                  <Legend items={[{ label: `Polls: ${lean(F.env, 1)} ± ${F.sigmaEnv}`, color: 'var(--axis)' }, { label: `Results so far: ${lean(mean, 1)} ± ${sd.toFixed(1)}`, color: 'var(--series-3)' }]} />
+                </section>
+              </div>
+            </>}
+            {tab === 'congress' && <>
+              <section className="panel">
+                <h2>House</h2>
+                <RaceBar d={nD} r={nR} expD={expD} expR={435 - expD} />
+                <p className="muted sub" style={{ marginTop: 8 }}>P(Democratic majority) now {pct(pMaj, 0)} · frozen {pct(F.frozen.pDemMajority, 0)}</p>
+              </section>
+              <section className="panel">
+                <h2>Senate</h2>
+                <SenateBar d={sTot.D} r={sTot.R} i={sTot.I} expD={sTot.D + sExp.d} expR={sTot.R + sExp.r} />
+                <p className="muted sub" style={{ marginTop: 8 }}>P(Republican control) now {pct(sSim.pR, 0)} · frozen {pct(SF.frozen.pRControl, 0)}</p>
+              </section>
+              <section className="panel">
+                <h2>One national mood, two chambers</h2>
+                <p className="muted sub">Gray: belief from polls. Aqua: updated with every called race in either chamber.</p>
+                <EnvChart prior={prior} post={post} />
+                <Legend items={[{ label: `Polls: ${lean(F.env, 1)} ± ${F.sigmaEnv}`, color: 'var(--axis)' }, { label: `Results so far: ${lean(mean, 1)} ± ${sd.toFixed(1)}`, color: 'var(--series-3)' }]} />
+              </section>
+            </>}
+            {tab === 'house' && <>
             <section className="panel">
               <h2>The House, as results come in</h2>
               <p className="muted sub">Called seats are solid; uncalled seats are shaded by the updated probability. Hover a seat.</p>
@@ -365,7 +532,7 @@ export default function LiveApp() {
             <div className="two">
               <section className="panel">
                 <h2>What the results say about the national mood</h2>
-                <p className="muted sub">Gray: belief from polls ({lean(F.env, 1)}). Aqua: updated with every called race.</p>
+                <p className="muted sub">Gray: belief from polls ({lean(F.env, 1)}). Aqua: updated with every called race, House and Senate.</p>
                 <EnvChart prior={prior} post={post} />
                 <Legend items={[{ label: `Polls: ${lean(F.env, 1)} ± ${F.sigmaEnv}`, color: 'var(--axis)' }, { label: `Results so far: ${lean(mean, 1)} ± ${sd.toFixed(1)}`, color: 'var(--series-3)' }]} />
               </section>
@@ -401,6 +568,7 @@ export default function LiveApp() {
                 </table>
               </div>
             </section>
+            </>}
           </div>
 
           <aside className="col-feed panel">
@@ -426,7 +594,7 @@ export default function LiveApp() {
                   </div>
                 </li>
               ))}
-              {!shown.length && <li className="empty">Alerts appear here as races are called: every call, every seat that flips, upsets against the forecast, and milestones like 218.</li>}
+              {!shown.length && <li className="empty">Alerts appear here as races are called in either chamber: every call, every seat that flips, upsets against the frozen forecasts, runoffs, and milestones like 218 House seats or Senate control.</li>}
             </ol>
           </aside>
         </div>
@@ -437,7 +605,7 @@ export default function LiveApp() {
             <table className="data-table">
               <thead><tr><th>Source</th><th>What it gives</th><th>Cost / access</th><th>Used here</th></tr></thead>
               <tbody>
-                <tr><td><b>Wikipedia API</b> (MediaWiki)</td><td>The 2026 House page; editors add a ✓ to each winner as networks call races. CORS-enabled, so a static page can read it.</td><td>Free, no key. We fetch the tiny revision id first and only download the page when it changed.</td><td>Yes</td></tr>
+                <tr><td><b>Wikipedia API</b> (MediaWiki)</td><td>The 2026 House and Senate pages; editors add a ✓ to each winner as networks call races. CORS-enabled, so a static page can read it.</td><td>Free, no key. We fetch the tiny revision id first and only download the page when it changed.</td><td>Yes</td></tr>
                 <tr><td><b>AP Elections API</b></td><td>The official vote counts and race calls most news sites use, by county and district, minute by minute.</td><td>Paid license (developer.ap.org)</td><td>Drop-in upgrade</td></tr>
                 <tr><td><b>Decision Desk HQ API</b></td><td>Race calls and vote counts, also used by major outlets.</td><td>Paid / enterprise</td><td>Drop-in upgrade</td></tr>
                 <tr><td><b>State election sites</b> (many use Clarity / Scytl ENR)</td><td>Official, unprojected counts as they are reported, often as JSON per state.</td><td>Free, but a different format per state</td><td>No</td></tr>
@@ -455,7 +623,7 @@ export default function LiveApp() {
         </section>
         <footer className="live-foot muted">
           A nonpartisan teaching project by Juan Barahona · <a href={GUIDE_URL}>Read the ML walkthrough</a> · <a href="https://github.com/elmandalorian-thx/Midterms2026ML">Code & data</a> ·
-          Frozen forecast {F.frozen.frozenOn} · Data: Wikipedia contributors (CC BY-SA), FiveThirtyEight (CC BY), Cook PVI.
+          Frozen forecasts: House {F.frozen.frozenOn}, Senate {SF.frozen.frozenOn} · <a href={`${GUIDE_URL}senate/`}>Senate walkthrough</a> · Data: Wikipedia contributors (CC BY-SA), FiveThirtyEight (CC BY), Cook PVI.
           {!demo && <> · <button className="linkish" onClick={startDemo}>Run demo replay</button></>}
         </footer>
       </main>

@@ -478,7 +478,8 @@ def main() -> None:
         "dName": name_of(a.dName, a.dStandin), "rName": name_of(a.rName, a.rStandin), "dStandin": int(a.dStandin),
         "hasD": int(a.hasD), "hasR": int(a.hasR), "status": a.status,
         "pFrozen": r(frozen_csv.p_dside.get(a.race, np.nan), 4), "pTipping": r(frozen_csv.p_tipping.get(a.race, np.nan), 4),
-        "winSide": a.winSide, "winnerName": a.winnerName,
+        "winSide": a.winSide if isinstance(a.winSide, str) else None,
+        "winnerName": a.winnerName if isinstance(a.winnerName, str) else None,
     } for a in r26.itertuples()]
 
     senate = {
@@ -496,7 +497,8 @@ def main() -> None:
         "model": {"logreg": lr_models, "gbm": g_exp, "tree": export_tree(fit_tree, FEATURES, with_counts=True)},
         "races": races26,
     }
-    (OUT_SRC / "senate.json").write_text(json.dumps(senate, separators=(",", ":")), encoding="utf-8")
+    # allow_nan=False: NaN is not valid JSON and would break the TypeScript import
+    (OUT_SRC / "senate.json").write_text(json.dumps(senate, separators=(",", ":"), allow_nan=False), encoding="utf-8")
 
     print("quality", {k: v for k, v in quality.items() if k not in ("standIns", "cookCheck")}, "cook", {k: v for k, v in quality["cookCheck"].items() if k != "rows"})
     print("stand-ins", [(s["year"], s["race"], s["name"], s["won"]) for s in quality["standIns"]])
