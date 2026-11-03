@@ -147,7 +147,8 @@ main { padding: 0 40px 120px; min-width: 0; }
 }
 .nav-foot a { color: var(--text-muted); text-decoration: none; }
 .nav-foot a:hover { color: var(--text-primary); }
-.theme-btn { margin-left: auto; padding: 5px 10px; font-size: 12.5px; }
+.nav-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.theme-btn { flex: none; display: inline-grid; place-items: center; width: 32px; height: 32px; padding: 0; font-size: 15px; }
 
 /* mobile: sticky top bar with the switcher + a drawer for chapters */
 .topbar { display: none; }
@@ -171,7 +172,7 @@ main { padding: 0 40px 120px; min-width: 0; }
     border-left: 1px solid var(--border); box-shadow: -12px 0 40px rgba(0, 0, 0, 0.18); animation: slide-in 0.24s ease;
   }
   .drawer[hidden] { display: none; }
-  .drawer-close { align-self: flex-end; width: 34px; height: 34px; padding: 0; margin-bottom: -18px; }
+  .drawer-close { align-self: flex-end; width: 34px; height: 34px; padding: 0; }
 }
 @media (max-width: 480px) {
   .topbar-brand { display: none; }
