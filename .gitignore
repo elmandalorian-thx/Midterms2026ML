@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+
+# data/raw/ (parsed tables + trimmed 538 returns) and data/forecast/ (frozen forecast) ARE committed.
+# Raw Wikipedia wikitext cache and optional FiftyPlusOne downloads are not.
+data/external/
+
+# Web
+web/node_modules/
+web/dist/
+*.log
+.DS_Store

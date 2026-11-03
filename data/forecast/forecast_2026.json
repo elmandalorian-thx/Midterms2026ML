@@ -1,0 +1,18 @@
+{
+ "frozenOn": "2026-11-03",
+ "env": 9.17,
+ "sigmaEnv": 3.0,
+ "sims": 20000,
+ "pDemMajority": 0.9907,
+ "medianSeatsD": 243,
+ "p10": 228,
+ "p90": 262,
+ "genericBallot": {
+  "source": "Average",
+  "rep": 43.1,
+  "dem": 51.8,
+  "other": 5.1,
+  "updated": "November 1, 2026"
+ },
+ "model": "logistic regression on pvi, env, inc, held (trained 2014-2024)"
+}

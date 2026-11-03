@@ -1,0 +1,436 @@
+district,state,pvi,inc_party,inc_running,inc_count,new_seat,has_d,has_r,n_cands,winner,inc_status
+AK-AL,AK,-9.0,R,1,1,0,0,1,2,R,Incumbent re-elected.
+AL-1,AL,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AL-2,AL,-16.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AL-3,AL,-16.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AL-4,AL,-30.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AL-5,AL,-18.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AL-6,AL,-26.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AL-7,AL,20.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+AR-1,AR,-17.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+AR-2,AR,-7.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+AR-3,AR,-19.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+AR-4,AR,-17.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+AZ-1,AZ,-2.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+AZ-2,AZ,-1.0,R,0,1,0,1,1,2,D,| Incumbent retired to . Democratic gain.
+AZ-3,AZ,13.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+AZ-4,AZ,-21.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+AZ-5,AZ,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AZ-6,AZ,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AZ-7,AZ,23.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+AZ-8,AZ,-13.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+AZ-9,AZ,4.0,D,0,1,0,1,1,2,D,| Incumbent retired to . Democratic hold .
+CA-1,CA,-11.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-10,CA,0.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. New member . Democratic gain.
+CA-11,CA,21.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-12,CA,37.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-13,CA,40.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-14,CA,27.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-15,CA,20.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-16,CA,9.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-17,CA,25.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-18,CA,23.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-19,CA,24.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-2,CA,22.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-20,CA,23.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-21,CA,5.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. New member . Democratic gain.
+CA-22,CA,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-23,CA,-14.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-24,CA,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-25,CA,0.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+CA-26,CA,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-27,CA,16.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-28,CA,23.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-29,CA,29.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-3,CA,5.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-30,CA,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-31,CA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-32,CA,17.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-33,CA,16.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-34,CA,35.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-35,CA,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-36,CA,2.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-37,CA,37.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-38,CA,17.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-39,CA,0.0,R,0,1,0,1,1,2,D,| Incumbent retired. New member . Democratic gain.
+CA-4,CA,-10.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-40,CA,33.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-41,CA,12.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-42,CA,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-43,CA,29.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-44,CA,35.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-45,CA,-3.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+CA-46,CA,15.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-47,CA,13.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-48,CA,-4.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+CA-49,CA,-1.0,R,0,1,0,1,1,2,D,| Incumbent retired. Democratic gain.
+CA-5,CA,21.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-50,CA,-11.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-51,CA,22.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-52,CA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-53,CA,14.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-6,CA,21.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-7,CA,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-8,CA,-9.0,R,1,1,0,0,1,2,R,Incumbent re-elected.
+CA-9,CA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CO-1,CO,21.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CO-2,CO,9.0,D,0,1,0,1,1,2,D,| Incumbent retired to . Democratic hold .
+CO-3,CO,-6.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CO-4,CO,-13.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CO-5,CO,-14.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CO-6,CO,2.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+CO-7,CO,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CT-1,CT,12.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+CT-2,CT,3.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+CT-3,CT,9.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CT-4,CT,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CT-5,CT,2.0,D,0,1,0,1,1,2,D,| Incumbent retired. Democratic hold .
+DE-AL,DE,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+FL-1,FL,-22.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-10,FL,11.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+FL-11,FL,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-12,FL,-8.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+FL-13,FL,2.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+FL-14,FL,7.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+FL-15,FL,-6.0,R,0,1,0,1,1,2,R,| Incumbent retired. Republican hold .
+FL-16,FL,-7.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-17,FL,-13.0,R,0,1,0,1,1,2,R,| Incumbent retired. Republican hold .
+FL-18,FL,-5.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-19,FL,-13.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-2,FL,-18.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-20,FL,31.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+FL-21,FL,9.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+FL-22,FL,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+FL-23,FL,11.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+FL-24,FL,34.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+FL-25,FL,-4.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-26,FL,6.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+FL-27,FL,5.0,R,0,1,0,1,1,3,D,| Incumbent retired. Democratic gain.
+FL-3,FL,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-4,FL,-17.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+FL-5,FL,12.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+FL-6,FL,-7.0,,0,0,1,1,1,2,R,
+FL-7,FL,0.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+FL-8,FL,-11.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+FL-9,FL,5.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+GA-1,GA,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+GA-10,GA,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+GA-11,GA,-17.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+GA-12,GA,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+GA-13,GA,20.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+GA-14,GA,-27.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+GA-2,GA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+GA-3,GA,-18.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+GA-4,GA,24.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+GA-5,GA,34.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+GA-6,GA,-8.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+GA-7,GA,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+GA-8,GA,-15.0,R,1,1,0,0,1,1,R,Incumbent re-elected.
+GA-9,GA,-31.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+HI-1,HI,17.0,D,0,1,0,1,1,5,D,2014
+HI-2,HI,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IA-1,IA,1.0,R,1,1,0,1,1,3,D,| Incumbent lost re-election. Democratic gain.
+IA-2,IA,1.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+IA-3,IA,-1.0,R,1,1,0,1,1,6,D,| Incumbent lost re-election. Democratic gain.
+IA-4,IA,-11.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+ID-1,ID,-21.0,R,0,1,0,1,1,7,R,| Incumbent retired to . Republican hold .
+ID-2,ID,-17.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-1,IL,27.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-10,IL,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-11,IL,9.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-12,IL,-5.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+IL-13,IL,-3.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-14,IL,-5.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+IL-15,IL,-21.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-16,IL,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-17,IL,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-18,IL,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-2,IL,29.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-3,IL,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-4,IL,33.0,D,0,1,0,1,1,2,D,| Incumbent retired. Democratic hold .
+IL-5,IL,20.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-6,IL,-2.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+IL-7,IL,38.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-8,IL,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-9,IL,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IN-1,IN,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IN-2,IN,-11.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IN-3,IN,-18.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IN-4,IN,-17.0,R,0,1,0,1,1,2,R,| Incumbent retired to . Republican hold .
+IN-5,IN,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IN-6,IN,-18.0,R,0,1,0,1,1,2,R,| Incumbent retired to . Republican hold .
+IN-7,IN,11.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IN-8,IN,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IN-9,IN,-13.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+KS-1,KS,-24.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+KS-2,KS,-10.0,R,0,1,0,1,1,3,R,| Incumbent retired. Republican hold .
+KS-3,KS,-4.0,R,1,1,0,1,1,3,D,| Incumbent lost re-election. Democratic gain.
+KS-4,KS,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+KY-1,KY,-23.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+KY-2,KY,-19.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+KY-3,KY,6.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+KY-4,KY,-18.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+KY-5,KY,-31.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+KY-6,KY,-9.0,R,1,1,0,1,1,5,R,Incumbent re-elected.
+LA-1,LA,-24.0,R,1,1,0,1,1,6,R,Incumbent re-elected.
+LA-2,LA,25.0,D,1,1,0,1,0,4,D,Incumbent re-elected.
+LA-3,LA,-20.0,R,1,1,0,1,1,7,R,Incumbent re-elected.
+LA-4,LA,-13.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+LA-5,LA,-15.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+LA-6,LA,-19.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+MA-1,MA,12.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+MA-2,MA,9.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+MA-3,MA,9.0,D,0,1,0,1,1,3,D,| Incumbent retired. Democratic hold .
+MA-4,MA,9.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+MA-5,MA,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+MA-6,MA,6.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MA-7,MA,34.0,D,0,1,0,1,0,1,D,| Incumbent lost renomination. Democratic hold .
+MA-8,MA,10.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+MA-9,MA,4.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+MD-1,MD,-14.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MD-2,MD,11.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MD-3,MD,13.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MD-4,MD,28.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MD-5,MD,16.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+MD-6,MD,6.0,D,0,1,0,1,1,4,D,| Incumbent retired to . Democratic hold .
+MD-7,MD,26.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MD-8,MD,14.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+ME-1,ME,8.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+ME-2,ME,-2.0,R,1,1,0,1,1,6,D,| Incumbent lost re-election. Democratic gain.
+MI-1,MI,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+MI-10,MI,-13.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+MI-11,MI,-4.0,R,0,1,0,1,1,4,D,| Incumbent retired. Democratic gain.
+MI-12,MI,14.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+MI-13,MI,32.0,,0,0,1,1,0,3,D,
+MI-14,MI,30.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MI-2,MI,-9.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MI-3,MI,-6.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MI-4,MI,-10.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+MI-5,MI,5.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MI-6,MI,-4.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MI-7,MI,-7.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+MI-8,MI,-4.0,R,1,1,0,1,1,4,D,| Incumbent lost re-election. Democratic gain.
+MI-9,MI,4.0,D,0,1,0,1,1,4,D,| Incumbent retired. Democratic hold .
+MN-1,MN,-5.0,D,0,1,0,1,1,2,R,| Incumbent retired to . Republican gain.
+MN-2,MN,-2.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. DFL gain.
+MN-3,MN,1.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. DFL gain.
+MN-4,MN,14.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MN-5,MN,26.0,D,0,1,0,1,1,2,D,| Incumbent retired to . DFL hold .
+MN-6,MN,-12.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+MN-7,MN,-12.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+MN-8,MN,-4.0,D,0,1,0,1,1,3,R,1980
+MO-1,MO,29.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MO-2,MO,-8.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+MO-3,MO,-18.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MO-4,MO,-17.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MO-5,MO,7.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
+MO-6,MO,-16.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MO-7,MO,-23.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MO-8,MO,-24.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MS-1,MS,-16.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MS-2,MS,14.0,D,1,1,0,1,0,3,D,Incumbent re-elected.
+MS-3,MS,-13.0,R,0,1,0,1,1,3,R,| Incumbent retired. Republican hold .
+MS-4,MS,-21.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MT-AL,MT,-11.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NC-1,NC,17.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NC-10,NC,-12.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NC-11,NC,-14.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NC-12,NC,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NC-13,NC,-6.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NC-2,NC,-7.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NC-3,NC,-12.0,R,1,1,0,0,1,1,R,Incumbent re-elected.
+NC-4,NC,17.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+NC-5,NC,-10.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NC-6,NC,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NC-7,NC,-9.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NC-8,NC,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NC-9,NC,-8.0,R,0,1,0,1,1,3,,| Incumbent lost renomination. and . Republican loss .
+ND-AL,ND,-16.0,R,0,1,0,1,1,3,R,| Incumbent retired to . Republican hold .
+NE-1,NE,-11.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NE-2,NE,-4.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NE-3,NE,-27.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NH-1,NH,-2.0,D,0,1,0,1,1,3,D,| Incumbent retired. Democratic hold .
+NH-2,NH,2.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+NJ-1,NJ,13.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
+NJ-10,NJ,36.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
+NJ-11,NJ,-3.0,R,0,1,0,1,1,4,D,|Incumbent retired. Democratic gain.
+NJ-12,NJ,16.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NJ-2,NJ,-1.0,R,0,1,0,1,1,6,D,| Incumbent retired. Democratic gain.
+NJ-3,NJ,-2.0,R,1,1,0,1,1,3,D,| Incumbent lost re-election. Democratic gain.
+NJ-4,NJ,-8.0,R,1,1,0,1,1,7,R,Incumbent re-elected.
+NJ-5,NJ,-3.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+NJ-6,NJ,9.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NJ-7,NJ,-3.0,R,1,1,0,1,1,4,D,| Incumbent lost re-election. Democratic gain.
+NJ-8,NJ,27.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NJ-9,NJ,16.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+NM-1,NM,7.0,D,0,1,0,1,1,3,D,| Incumbent retired to . Democratic hold .
+NM-2,NM,-6.0,R,0,1,0,1,1,2,D,2008
+NM-3,NM,8.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+NV-1,NV,15.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+NV-2,NV,-7.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NV-3,NV,-2.0,D,0,1,0,1,1,7,D,| Incumbent retired to . Democratic hold .
+NV-4,NV,3.0,D,0,1,0,1,1,6,D,| Incumbent retired. Democratic hold .
+NY-1,NY,-5.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NY-10,NY,26.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-11,NY,-3.0,R,1,1,0,1,1,3,D,|Incumbent lost re-election. Democratic gain.
+NY-12,NY,31.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+NY-13,NY,43.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-14,NY,29.0,D,0,1,0,1,1,4,D,"| Incumbent lost renomination, ran as nominee, and lost re-election. New member . Democratic hold ."
+NY-15,NY,44.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-16,NY,24.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+NY-17,NY,7.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+NY-18,NY,-1.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-19,NY,-2.0,R,1,1,0,1,1,4,D,|Incumbent lost re-election. Democratic gain.
+NY-2,NY,-3.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NY-20,NY,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-21,NY,-4.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NY-22,NY,-6.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+NY-23,NY,-6.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NY-24,NY,3.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+NY-25,NY,8.0,,0,0,1,1,1,2,D,
+NY-26,NY,11.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-27,NY,-11.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+NY-3,NY,1.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-4,NY,4.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NY-5,NY,37.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+NY-6,NY,16.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+NY-7,NY,38.0,D,1,1,0,1,0,3,D,Incumbent re-elected.
+NY-8,NY,36.0,D,1,1,0,1,0,3,D,Incumbent re-elected.
+NY-9,NY,34.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+OH-1,OH,-5.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OH-10,OH,-4.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OH-11,OH,32.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+OH-12,OH,-7.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OH-13,OH,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+OH-14,OH,-5.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+OH-15,OH,-7.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OH-16,OH,-8.0,R,0,1,0,1,1,2,R,| Incumbent retired to . Republican hold .
+OH-2,OH,-9.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OH-3,OH,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+OH-4,OH,-14.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+OH-5,OH,-11.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OH-6,OH,-16.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+OH-7,OH,-12.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+OH-8,OH,-17.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+OH-9,OH,14.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+OK-1,OK,-17.0,,0,0,1,1,1,2,R,
+OK-2,OK,-24.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+OK-3,OK,-27.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+OK-4,OK,-20.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OK-5,OK,-10.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+OR-1,OR,9.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+OR-2,OR,-11.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+OR-3,OR,24.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
+OR-4,OR,0.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+OR-5,OR,0.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+PA-1,PA,-1.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+PA-10,PA,-6.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+PA-11,PA,-14.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+PA-12,PA,-17.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+PA-13,PA,-22.0,R,0,1,0,1,1,2,R,| Incumbent retired. Republican hold .
+PA-14,PA,-14.0,,0,0,1,1,1,2,R,
+PA-15,PA,-20.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+PA-16,PA,-8.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+PA-17,PA,-3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+PA-18,PA,13.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+PA-2,PA,25.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+PA-3,PA,41.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+PA-4,PA,7.0,,0,0,1,1,1,2,D,
+PA-5,PA,13.0,,0,0,1,1,1,2,D,
+PA-6,PA,2.0,R,0,1,0,1,1,2,D,| Incumbent retired. Democratic gain.
+PA-7,PA,1.0,,0,0,1,1,1,3,D,
+PA-8,PA,-1.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+PA-9,PA,-14.0,R,0,1,0,1,1,2,R,| Incumbent retired to . Republican hold .
+RI-1,RI,16.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+RI-2,RI,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+SC-1,SC,-10.0,R,0,1,0,1,1,2,D,2000
+SC-2,SC,-12.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+SC-3,SC,-19.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+SC-4,SC,-15.0,R,0,1,0,1,1,3,R,| Incumbent retired. Republican hold .
+SC-5,SC,-9.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+SC-6,SC,19.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+SC-7,SC,-9.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+SD-AL,SD,-14.0,R,0,1,0,1,1,4,R,| Incumbent retired to . Republican hold .
+TN-1,TN,-28.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TN-2,TN,-20.0,R,0,1,0,1,1,6,R,| Incumbent retired. Republican hold .
+TN-3,TN,-18.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TN-4,TN,-20.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TN-5,TN,7.0,D,0,1,0,1,1,2,D,1994
+TN-6,TN,-24.0,R,0,1,0,1,1,4,R,| Incumbent retired to . Republican hold .
+TN-7,TN,-20.0,R,0,1,0,1,1,4,R,| Incumbent retired to . Republican hold .
+TN-8,TN,-19.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TN-9,TN,28.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+TX-1,TX,-25.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-10,TX,-9.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-11,TX,-32.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-12,TX,-18.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-13,TX,-33.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-14,TX,-12.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-15,TX,7.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+TX-16,TX,17.0,D,0,1,0,1,1,3,D,| Incumbent retired to . Democratic hold .
+TX-17,TX,-12.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-18,TX,27.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+TX-19,TX,-27.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+TX-2,TX,-11.0,R,0,1,0,1,1,4,R,| Incumbent retired. Republican hold .
+TX-20,TX,10.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+TX-21,TX,-10.0,R,0,1,0,1,1,3,R,| Incumbent retired. Republican hold .
+TX-22,TX,-10.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+TX-23,TX,-1.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-24,TX,-9.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-25,TX,-11.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-26,TX,-18.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-27,TX,-13.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+TX-28,TX,9.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+TX-29,TX,19.0,D,0,1,0,1,1,3,D,| Incumbent retired. Democratic hold .
+TX-3,TX,-13.0,R,0,1,0,1,1,3,R,| Incumbent retired. Republican hold .
+TX-30,TX,29.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+TX-31,TX,-10.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-32,TX,-5.0,R,1,1,0,1,1,3,D,|Incumbent lost re-election. Democratic gain.
+TX-33,TX,23.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+TX-34,TX,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+TX-35,TX,15.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+TX-36,TX,-26.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+TX-4,TX,-28.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-5,TX,-16.0,R,0,1,0,1,1,2,R,| Incumbent retired. Republican hold .
+TX-6,TX,-9.0,R,0,1,0,1,1,3,R,| Incumbent retired. Republican hold .
+TX-7,TX,-7.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+TX-8,TX,-28.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+TX-9,TX,29.0,D,1,1,0,1,0,4,D,Incumbent re-elected.
+UT-1,UT,-26.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+UT-2,UT,-16.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+UT-3,UT,-25.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+UT-4,UT,-13.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+VA-1,VA,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+VA-10,VA,1.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. New member . Democratic gain.
+VA-11,VA,15.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+VA-2,VA,-3.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+VA-3,VA,16.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+VA-4,VA,10.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+VA-5,VA,-6.0,R,0,1,0,1,1,2,R,| Incumbent retired. Republican hold .
+VA-6,VA,-13.0,R,0,1,0,1,1,2,R,| Incumbent retired. Republican hold .
+VA-7,VA,-6.0,R,1,1,0,1,1,3,D,| Incumbent lost re-election. Democratic gain.
+VA-8,VA,21.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+VA-9,VA,-19.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+VT-AL,VT,15.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
+WA-1,WA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-10,WA,5.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-2,WA,10.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+WA-3,WA,-4.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WA-4,WA,-13.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WA-5,WA,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WA-6,WA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-7,WA,33.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-8,WA,0.0,R,0,1,0,1,1,2,D,| Incumbent retired. Democratic gain.
+WA-9,WA,21.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+WI-1,WI,-5.0,R,0,1,0,1,1,3,R,| Incumbent retired. Republican hold .
+WI-2,WI,18.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+WI-3,WI,0.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WI-4,WI,25.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+WI-5,WI,-13.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WI-6,WI,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WI-7,WI,-8.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+WI-8,WI,-7.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WV-1,WV,-19.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WV-2,WV,-17.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+WV-3,WV,-23.0,,0,0,1,1,1,2,R,
+WY-AL,WY,-25.0,R,1,1,0,1,1,4,R,Incumbent re-elected.

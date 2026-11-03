@@ -1,0 +1,436 @@
+district,state,pvi,inc_party,inc_running,inc_count,new_seat,has_d,has_r,n_cands,winner,inc_status
+AK-AL,AK,-6.0,R,1,1,0,1,1,4,,Incumbent advanced to general
+AL-1,AL,-17.0,,0,0,1,1,1,2,,
+AL-2,AL,-7.0,D,1,1,0,1,1,2,,Incumbent renominated
+AL-3,AL,-23.0,R,1,1,0,1,1,2,,Incumbent renominated
+AL-4,AL,-33.0,R,1,1,0,1,1,2,,Incumbent renominated
+AL-5,AL,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
+AL-6,AL,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
+AL-7,AL,10.0,D,1,1,0,1,1,2,,Incumbent renominated
+AR-1,AR,-23.0,R,1,1,0,1,1,3,,Incumbent renominated
+AR-2,AR,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+AR-3,AR,-13.0,R,1,1,0,1,1,3,,Incumbent renominated
+AR-4,AR,-20.0,R,1,1,0,1,1,2,,Incumbent renominated
+AZ-1,AZ,-1.0,R,0,1,0,1,1,3,,Incumbent retiring to
+AZ-2,AZ,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
+AZ-3,AZ,22.0,D,1,1,0,1,0,3,,Incumbent renominated
+AZ-4,AZ,4.0,D,1,1,0,1,1,3,,Incumbent renominated
+AZ-5,AZ,-10.0,R,0,1,0,1,1,2,,Incumbent retiring to
+AZ-6,AZ,0.0,R,1,1,0,1,1,4,,Incumbent renominated
+AZ-7,AZ,13.0,D,1,1,0,1,1,2,,Incumbent renominated
+AZ-8,AZ,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+AZ-9,AZ,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
+CA-1,CA,7.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+CA-10,CA,18.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-11,CA,36.0,D,0,1,0,1,0,2,,|Incumbent retiring. Democratic hold.
+CA-12,CA,39.0,D,1,1,0,1,0,2,,|Incumbent advanced to general Democratic hold.
+CA-13,CA,2.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-14,CA,19.0,D,1,1,0,1,0,2,,|Incumbent advanced to general. Democratic hold.
+CA-15,CA,26.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-16,CA,25.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-17,CA,21.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-18,CA,16.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-19,CA,18.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-2,CA,13.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-20,CA,-16.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+CA-21,CA,5.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-22,CA,1.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+CA-23,CA,-9.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+CA-24,CA,13.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-25,CA,4.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-26,CA,9.0,D,0,1,0,1,1,2,,Incumbent retiring
+CA-27,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-28,CA,14.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-29,CA,19.0,D,1,1,0,1,0,2,,|Incumbent advanced to general. Democratic hold.
+CA-3,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-30,CA,21.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-31,CA,8.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-32,CA,14.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-33,CA,7.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-34,CA,28.0,D,1,1,0,1,0,2,,|Incumbent advanced to general. Democratic hold.
+CA-35,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-36,CA,21.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-37,CA,33.0,D,1,1,0,1,0,2,,|Incumbent advanced to general. Democratic hold.
+CA-38,CA,8.0,,0,0,1,1,1,2,,
+CA-39,CA,7.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-4,CA,8.0,D,1,1,0,1,0,2,,|Incumbent advanced to general. Democratic hold.
+CA-40,CA,-6.0,R,1,1,0,0,1,2,,|Incumbent advanced to general. Republican hold.
+CA-41,CA,9.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-42,CA,8.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-43,CA,27.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-44,CA,20.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-45,CA,3.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-46,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-47,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-48,CA,2.0,R,0,1,0,1,1,2,,2018
+CA-49,CA,7.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-5,CA,-10.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+CA-50,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-51,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-52,CA,11.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-6,CA,5.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+CA-7,CA,7.0,D,1,1,0,1,0,2,,|Incumbent advanced to general. Democratic hold.
+CA-8,CA,19.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-9,CA,8.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CO-1,CO,29.0,D,0,1,0,1,1,5,,Incumbent lost renomination
+CO-2,CO,20.0,D,1,1,0,1,1,3,,Incumbent renominated
+CO-3,CO,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
+CO-4,CO,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
+CO-5,CO,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
+CO-6,CO,11.0,D,1,1,0,1,1,5,,Incumbent renominated
+CO-7,CO,8.0,D,1,1,0,1,1,6,,Incumbent renominated
+CO-8,CO,0.0,R,1,1,0,1,1,3,,Incumbent renominated
+CT-1,CT,12.0,D,0,1,0,1,1,3,,Incumbent lost renomination
+CT-2,CT,4.0,D,1,1,0,1,1,3,,Incumbent renominated
+CT-3,CT,8.0,D,1,1,0,1,1,3,,Incumbent renominated
+CT-4,CT,13.0,D,1,1,0,1,1,3,,Incumbent renominated
+CT-5,CT,3.0,D,1,1,0,1,1,3,,Incumbent renominated
+DE-AL,DE,8.0,D,1,1,0,1,1,2,,Incumbent renominated
+FL-1,FL,-18.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-10,FL,13.0,D,1,1,0,1,0,1,,Incumbent re-elected
+FL-11,FL,-7.0,R,0,1,0,1,1,3,,Incumbent retiring
+FL-12,FL,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-13,FL,-6.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-14,FL,-4.0,D,1,1,0,1,1,3,,Incumbent renominated
+FL-15,FL,-9.0,R,1,1,0,1,1,2,,Incumbent renominated
+FL-16,FL,-6.0,R,0,1,0,1,1,3,,Incumbent retiring
+FL-17,FL,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-18,FL,-8.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-19,FL,-14.0,R,0,1,0,1,1,3,,Incumbent retiring to
+FL-2,FL,-8.0,R,0,1,0,1,1,2,,Incumbent retiring
+FL-20,FL,20.0,,0,0,1,1,1,3,,
+FL-21,FL,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-22,FL,-4.0,,0,0,1,1,1,2,,
+FL-23,FL,9.0,D,1,1,0,1,1,2,,Incumbent renominated
+FL-24,FL,22.0,D,0,1,0,1,1,2,,Incumbent retiring
+FL-25,FL,-3.0,D,1,1,0,1,1,3,,Incumbent renominated
+FL-26,FL,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-27,FL,-6.0,R,1,1,0,1,1,2,,Incumbent renominated
+FL-28,FL,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-3,FL,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
+FL-4,FL,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
+FL-5,FL,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
+FL-6,FL,-14.0,R,1,1,0,1,1,4,,Incumbent renominated
+FL-7,FL,-5.0,R,0,1,0,1,1,3,,Incumbent lost renomination
+FL-8,FL,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+FL-9,FL,-8.0,D,1,1,0,1,1,2,,Incumbent renominated
+GA-1,GA,-8.0,R,0,1,0,1,1,2,,Incumbent retiring to
+GA-10,GA,-11.0,R,0,1,0,1,1,2,,Incumbent retiring to
+GA-11,GA,-12.0,R,0,1,0,1,1,2,,Incumbent retiring
+GA-12,GA,-7.0,R,1,1,0,1,1,2,,Incumbent renominated
+GA-13,GA,21.0,,0,0,1,1,1,2,,
+GA-14,GA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
+GA-2,GA,4.0,D,1,1,0,1,1,2,,Incumbent renominated
+GA-3,GA,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
+GA-4,GA,27.0,D,1,1,0,1,1,2,,Incumbent renominated
+GA-5,GA,36.0,D,1,1,0,1,1,2,,Incumbent renominated
+GA-6,GA,25.0,D,1,1,0,1,1,2,,Incumbent renominated
+GA-7,GA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+GA-8,GA,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
+GA-9,GA,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
+HI-1,HI,13.0,D,0,1,0,1,1,4,,2006
+HI-2,HI,12.0,D,1,1,0,1,1,2,,Incumbent renominated
+IA-1,IA,-4.0,R,1,1,0,1,1,3,,Incumbent renominated
+IA-2,IA,-4.0,R,0,1,0,1,1,4,,Incumbent retiring to
+IA-3,IA,-2.0,R,1,1,0,1,1,2,,Incumbent renominated
+IA-4,IA,-15.0,R,0,1,0,1,1,2,,Incumbent retiring to
+ID-1,ID,-22.0,R,1,1,0,1,1,4,,Incumbent renominated
+ID-2,ID,-13.0,R,1,1,0,1,1,5,,Incumbent renominated
+IL-1,IL,18.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-10,IL,12.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-11,IL,6.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-12,IL,-22.0,R,1,1,0,1,1,2,,Incumbent renominated
+IL-13,IL,5.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-14,IL,3.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-15,IL,-20.0,R,1,1,0,1,1,2,,Incumbent renominated
+IL-16,IL,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+IL-17,IL,3.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-2,IL,18.0,D,0,1,0,1,1,2,,Incumbent retiring to
+IL-3,IL,17.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-4,IL,17.0,D,0,1,0,1,1,4,,Incumbent retiring
+IL-5,IL,19.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-6,IL,3.0,D,1,1,0,1,1,2,,Incumbent renominated
+IL-7,IL,34.0,D,0,1,0,1,1,2,,Incumbent retiring
+IL-8,IL,5.0,D,0,1,0,1,1,2,,Incumbent retiring to
+IL-9,IL,19.0,D,0,1,0,1,1,2,,Incumbent retiring
+IN-1,IN,1.0,D,1,1,0,1,1,2,,Incumbent renominated
+IN-2,IN,-13.0,R,1,1,0,1,1,3,,Incumbent renominated
+IN-3,IN,-16.0,R,0,1,0,1,1,2,,2016
+IN-4,IN,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
+IN-5,IN,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+IN-6,IN,-16.0,R,1,1,0,1,1,2,,Incumbent renominated
+IN-7,IN,21.0,D,1,1,0,1,1,3,,Incumbent renominated
+IN-8,IN,-18.0,R,1,1,0,1,1,2,,Incumbent renominated
+IN-9,IN,-15.0,R,1,1,0,1,1,3,,Incumbent renominated
+KS-1,KS,-16.0,R,1,1,0,1,1,3,,Incumbent renominated
+KS-2,KS,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
+KS-3,KS,2.0,D,1,1,0,1,1,3,,Incumbent renominated
+KS-4,KS,-12.0,R,1,1,0,1,1,3,,Incumbent renominated
+KY-1,KY,-23.0,R,1,1,0,1,1,2,,Incumbent renominated
+KY-2,KY,-20.0,R,1,1,0,1,1,3,,Incumbent renominated
+KY-3,KY,10.0,D,1,1,0,1,1,2,,Incumbent renominated
+KY-4,KY,-18.0,R,0,1,0,1,1,3,,Incumbent lost renomination
+KY-5,KY,-32.0,R,1,1,0,1,1,4,,Incumbent renominated
+KY-6,KY,-7.0,R,0,1,0,1,1,4,,Incumbent retiring to
+LA-1,LA,-20.0,R,1,1,0,1,1,4,,Incumbent running
+LA-2,LA,25.0,D,1,1,0,1,1,5,,Incumbent running
+LA-3,LA,-18.0,R,1,1,0,1,1,6,,Incumbent running
+LA-4,LA,-17.0,R,1,1,0,1,1,5,,Incumbent running
+LA-5,LA,-17.0,R,0,1,0,1,1,9,,Incumbent retiring to
+LA-6,LA,-16.0,D,0,1,0,1,1,10,,1996
+MA-1,MA,8.0,D,1,1,0,1,0,2,,Incumbent renominated
+MA-2,MA,13.0,D,1,1,0,1,0,1,,Incumbent re-elected
+MA-3,MA,11.0,D,1,1,0,1,1,3,,Incumbent renominated
+MA-4,MA,11.0,D,1,1,0,1,1,2,,Incumbent renominated
+MA-5,MA,24.0,D,1,1,0,1,0,1,,Incumbent re-elected
+MA-6,MA,11.0,D,0,1,0,1,1,2,,Incumbent retiring to
+MA-7,MA,34.0,D,1,1,0,1,0,1,,Incumbent re-elected
+MA-8,MA,15.0,D,1,1,0,1,1,3,,Incumbent renominated
+MA-9,MA,6.0,D,1,1,0,1,1,2,,Incumbent renominated
+MD-1,MD,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+MD-2,MD,10.0,D,1,1,0,1,1,2,,Incumbent renominated
+MD-3,MD,12.0,D,1,1,0,1,1,2,,Incumbent renominated
+MD-4,MD,39.0,D,1,1,0,1,1,3,,Incumbent renominated
+MD-5,MD,17.0,D,0,1,0,1,1,2,,Incumbent retiring
+MD-6,MD,3.0,D,1,1,0,1,1,3,,Incumbent renominated
+MD-7,MD,31.0,D,0,1,0,1,1,2,,1996
+MD-8,MD,30.0,D,1,1,0,1,1,3,,Incumbent renominated
+ME-1,ME,11.0,D,1,1,0,1,1,2,,Incumbent renominated
+ME-2,ME,-4.0,D,0,1,0,1,1,2,,Incumbent retiring
+MI-1,MI,-11.0,R,1,1,0,1,1,7,,Incumbent renominated
+MI-10,MI,-3.0,R,0,1,0,1,1,5,,Incumbent retiring to
+MI-11,MI,9.0,D,0,1,0,1,1,5,,Incumbent retiring to
+MI-12,MI,21.0,D,1,1,0,1,1,5,,Incumbent renominated
+MI-13,MI,22.0,D,0,1,0,1,1,5,,Incumbent lost renomination
+MI-2,MI,-15.0,R,1,1,0,1,1,4,,Incumbent renominated
+MI-3,MI,4.0,D,1,1,0,1,1,3,,Incumbent renominated
+MI-4,MI,-3.0,R,1,1,0,1,1,3,,Incumbent renominated
+MI-5,MI,-13.0,R,1,1,0,1,1,5,,Incumbent renominated
+MI-6,MI,12.0,D,1,1,0,1,1,6,,Incumbent renominated
+MI-7,MI,0.0,R,1,1,0,1,1,3,,Incumbent renominated
+MI-8,MI,-1.0,D,1,1,0,1,1,5,,Incumbent renominated
+MI-9,MI,-16.0,R,1,1,0,1,1,6,,Incumbent renominated
+MN-1,MN,-6.0,R,1,1,0,1,1,2,,Incumbent renominated
+MN-2,MN,3.0,,0,0,1,1,1,2,,
+MN-3,MN,11.0,,0,0,1,1,1,2,,
+MN-4,MN,18.0,,0,0,1,1,1,2,,
+MN-5,MN,32.0,,0,0,1,1,1,3,,
+MN-6,MN,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
+MN-7,MN,-18.0,R,1,1,0,1,1,2,,Incumbent renominated
+MN-8,MN,-7.0,R,1,1,0,1,1,2,,Incumbent renominated
+MO-1,MO,29.0,D,1,1,0,1,1,3,,Incumbent renominated
+MO-2,MO,-4.0,R,1,1,0,1,1,3,,Incumbent renominated
+MO-3,MO,-13.0,R,1,1,0,1,1,3,,Incumbent renominated
+MO-4,MO,-21.0,R,1,1,0,1,1,3,,Incumbent renominated
+MO-5,MO,12.0,D,1,1,0,1,1,3,,Incumbent renominated
+MO-6,MO,-19.0,R,0,1,0,1,1,3,,Incumbent retiring
+MO-7,MO,-21.0,R,1,1,0,1,1,3,,Incumbent renominated
+MO-8,MO,-27.0,R,1,1,0,1,1,3,,Incumbent renominated
+MS-1,MS,-18.0,R,1,1,0,1,1,3,,Incumbent renominated
+MS-2,MS,11.0,D,1,1,0,1,1,3,,Incumbent renominated
+MS-3,MS,-14.0,R,1,1,0,1,1,3,,Incumbent renominated
+MS-4,MS,-21.0,R,1,1,0,1,1,3,,Incumbent renominated
+MT-1,MT,-5.0,R,0,1,0,1,1,3,,2017
+MT-2,MT,-15.0,R,1,1,0,1,1,4,,Incumbent renominated
+NC-1,NC,-5.0,D,1,1,0,1,1,3,,Incumbent renominated
+NC-10,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
+NC-11,NC,-5.0,R,1,1,0,1,1,3,,Incumbent renominated but withdrew
+NC-12,NC,24.0,D,1,1,0,1,1,2,,Incumbent renominated
+NC-13,NC,-8.0,R,1,1,0,1,1,3,,Incumbent renominated
+NC-14,NC,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+NC-2,NC,17.0,D,1,1,0,1,1,3,,Incumbent renominated
+NC-3,NC,-6.0,R,1,1,0,1,1,3,,Incumbent renominated
+NC-4,NC,23.0,D,1,1,0,1,1,3,,Incumbent renominated
+NC-5,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
+NC-6,NC,-9.0,R,1,1,0,1,1,2,,Incumbent renominated
+NC-7,NC,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
+NC-8,NC,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
+NC-9,NC,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+ND-AL,ND,-18.0,R,1,1,0,1,1,4,,Incumbent renominated
+NE-1,NE,-6.0,R,1,1,0,1,1,4,,Incumbent renominated
+NE-2,NE,3.0,R,0,1,0,1,1,3,,Incumbent retiring
+NE-3,NE,-27.0,R,1,1,0,1,1,5,,Incumbent renominated
+NH-1,NH,2.0,D,0,1,0,1,1,2,,Incumbent retiring to
+NH-2,NH,2.0,D,1,1,0,1,1,3,,Incumbent renominated
+NJ-1,NJ,10.0,D,1,1,0,1,1,2,,Incumbent renominated
+NJ-10,NJ,27.0,D,1,1,0,1,1,2,,Incumbent renominated
+NJ-11,NJ,5.0,D,1,1,0,1,1,3,,Incumbent renominated
+NJ-12,NJ,13.0,D,0,1,0,1,1,4,,Incumbent retiring
+NJ-2,NJ,-5.0,R,1,1,0,1,1,3,,Incumbent renominated
+NJ-3,NJ,5.0,D,1,1,0,1,1,4,,Incumbent renominated
+NJ-4,NJ,-14.0,R,1,1,0,1,1,2,,Incumbent renominated
+NJ-5,NJ,2.0,D,1,1,0,1,1,3,,Incumbent renominated
+NJ-6,NJ,5.0,D,1,1,0,1,1,2,,Incumbent renominated
+NJ-7,NJ,0.0,R,1,1,0,1,1,3,,Incumbent renominated
+NJ-8,NJ,15.0,D,1,1,0,1,0,4,,Incumbent renominated
+NJ-9,NJ,2.0,D,1,1,0,1,1,3,,Incumbent renominated
+NM-1,NM,7.0,D,1,1,0,1,1,2,,Incumbent renominated
+NM-2,NM,0.0,D,1,1,0,1,1,2,,Incumbent renominated
+NM-3,NM,3.0,D,1,1,0,1,1,2,,Incumbent renominated
+NV-1,NV,2.0,D,1,1,0,1,1,4,,Incumbent renominated
+NV-2,NV,-7.0,R,0,1,0,1,1,3,,|Incumbent retiring
+NV-3,NV,1.0,D,1,1,0,1,1,3,,Incumbent renominated
+NV-4,NV,2.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-1,NY,-4.0,R,1,1,0,1,1,4,,Incumbent renominated
+NY-10,NY,32.0,D,0,1,0,1,1,4,,Incumbent lost renomination
+NY-11,NY,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
+NY-12,NY,33.0,D,0,1,0,1,1,5,,Incumbent retiring
+NY-13,NY,32.0,D,0,1,0,1,1,4,,Incumbent lost renomination
+NY-14,NY,19.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-15,NY,27.0,D,1,1,0,1,1,5,,Incumbent renominated
+NY-16,NY,18.0,D,1,1,0,1,1,2,,Incumbent renominated
+NY-17,NY,1.0,R,1,1,0,1,1,4,,Incumbent renominated
+NY-18,NY,2.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-19,NY,1.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-2,NY,-6.0,R,1,1,0,1,1,4,,Incumbent renominated
+NY-20,NY,8.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-21,NY,-10.0,R,0,1,0,1,1,2,,Incumbent retiring
+NY-22,NY,4.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-23,NY,-10.0,R,1,1,0,1,1,4,,Incumbent renominated
+NY-24,NY,-11.0,R,1,1,0,1,1,4,,Incumbent renominated
+NY-25,NY,10.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-26,NY,11.0,D,1,1,0,1,1,3,,Incumbent renominated
+NY-3,NY,0.0,D,0,1,0,1,1,3,,2022
+NY-4,NY,2.0,D,1,1,0,1,1,4,,Incumbent renominated
+NY-5,NY,24.0,D,1,1,0,1,1,2,,Incumbent renominated
+NY-6,NY,6.0,D,1,1,0,1,1,3,,Incumbent renominated
+NY-7,NY,25.0,D,0,1,0,1,1,5,,Incumbent retiring
+NY-8,NY,24.0,D,1,1,0,1,1,3,,Incumbent renominated
+NY-9,NY,22.0,D,1,1,0,1,1,3,,Incumbent renominated
+OH-1,OH,-1.0,D,1,1,0,1,1,3,,Incumbent renominated
+OH-10,OH,-4.0,R,1,1,0,1,1,3,,Incumbent renominated
+OH-11,OH,28.0,D,1,1,0,1,1,2,,Incumbent renominated
+OH-12,OH,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
+OH-13,OH,2.0,D,1,1,0,1,1,3,,Incumbent renominated
+OH-14,OH,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
+OH-15,OH,-5.0,R,1,1,0,1,1,3,,Incumbent renominated
+OH-2,OH,-21.0,R,1,1,0,1,1,2,,Incumbent renominated
+OH-3,OH,21.0,D,1,1,0,1,1,2,,Incumbent renominated
+OH-4,OH,-21.0,R,1,1,0,1,1,3,,Incumbent renominated
+OH-5,OH,-12.0,R,1,1,0,1,1,3,,Incumbent renominated
+OH-6,OH,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
+OH-7,OH,-5.0,R,1,1,0,1,1,2,,Incumbent renominated
+OH-8,OH,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+OH-9,OH,-5.0,D,1,1,0,1,1,3,,Incumbent renominated
+OK-1,OK,-11.0,R,0,1,0,1,1,2,,Incumbent retiring to
+OK-2,OK,-28.0,R,1,1,0,1,1,3,,Incumbent renominated
+OK-3,OK,-23.0,R,1,1,0,1,0,1,,Incumbent renominated
+OK-4,OK,-17.0,R,1,1,0,1,1,3,,Incumbent renominated
+OK-5,OK,-9.0,R,1,1,0,1,1,4,,Incumbent renominated
+OR-1,OR,20.0,D,1,1,0,1,1,2,,Incumbent renominated
+OR-2,OR,-14.0,R,1,1,0,1,1,2,,Incumbent renominated
+OR-3,OR,24.0,D,1,1,0,1,1,2,,Incumbent renominated
+OR-4,OR,6.0,D,1,1,0,1,1,3,,Incumbent renominated
+OR-5,OR,4.0,D,1,1,0,1,1,3,,Incumbent renominated
+OR-6,OR,6.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-1,PA,1.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-10,PA,-3.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-11,PA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-12,PA,10.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-13,PA,-23.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-14,PA,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-15,PA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-16,PA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-17,PA,3.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-2,PA,19.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-3,PA,40.0,D,0,1,0,1,0,2,,Incumbent retiring
+PA-4,PA,8.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-5,PA,15.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-6,PA,6.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-7,PA,-1.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-8,PA,-4.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-9,PA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
+RI-1,RI,12.0,D,1,1,0,1,1,3,,Incumbent renominated
+RI-2,RI,4.0,D,1,1,0,1,1,2,,Incumbent renominated
+SC-1,SC,-6.0,R,0,1,0,1,1,3,,Incumbent retiring to
+SC-2,SC,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
+SC-3,SC,-21.0,R,1,1,0,1,1,3,,Incumbent renominated
+SC-4,SC,-11.0,R,1,1,0,1,1,3,,Incumbent renominated
+SC-5,SC,-11.0,R,0,1,0,1,1,2,,Incumbent retiring to
+SC-6,SC,13.0,D,1,1,0,1,1,2,,Incumbent renominated
+SC-7,SC,-12.0,R,1,1,0,1,1,2,,Incumbent renominated
+SD-AL,SD,-15.0,R,0,1,0,1,1,2,,Incumbent retiring to
+TN-1,TN,-29.0,R,1,1,0,1,1,7,,Incumbent renominated
+TN-2,TN,-17.0,R,1,1,0,1,1,4,,Incumbent renominated
+TN-3,TN,-18.0,R,1,1,0,1,1,7,,Incumbent renominated
+TN-4,TN,-11.0,R,1,1,0,1,1,4,,Incumbent renominated
+TN-5,TN,-10.0,R,0,1,0,1,1,4,,Incumbent lost renomination
+TN-6,TN,-13.0,R,0,1,0,1,1,4,,Incumbent retiring to
+TN-7,TN,-11.0,R,1,1,0,1,1,4,,Incumbent renominated
+TN-8,TN,-10.0,R,1,1,0,1,1,8,,Incumbent renominated
+TN-9,TN,-9.0,D,0,1,0,1,1,4,,Incumbent retiring
+TX-1,TX,-24.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-10,TX,-10.0,R,0,1,0,1,1,2,,Incumbent retiring
+TX-11,TX,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-12,TX,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-13,TX,-23.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-14,TX,-12.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-15,TX,-7.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-16,TX,11.0,D,1,1,0,1,1,2,,Incumbent renominated
+TX-17,TX,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-18,TX,29.0,D,1,1,0,1,1,2,,Incumbent renominated
+TX-19,TX,-25.0,R,0,1,0,1,1,2,,Incumbent retiring
+TX-2,TX,-11.0,R,0,1,0,1,1,2,,Incumbent lost renomination
+TX-20,TX,16.0,D,1,1,0,1,1,2,,Incumbent renominated
+TX-21,TX,-10.0,R,0,1,0,1,1,2,,Incumbent retiring to
+TX-22,TX,-11.0,R,0,1,0,1,1,2,,Incumbent retiring
+TX-23,TX,-7.0,,0,0,1,1,1,3,,
+TX-24,TX,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-25,TX,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-26,TX,-11.0,R,1,1,0,1,1,3,,Incumbent renominated
+TX-27,TX,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-28,TX,-3.0,D,1,1,0,1,1,3,,Incumbent renominated
+TX-29,TX,17.0,D,1,1,0,1,1,2,,Incumbent renominated
+TX-3,TX,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-30,TX,25.0,,0,0,1,1,1,2,,
+TX-31,TX,-11.0,R,1,1,0,1,1,3,,Incumbent renominated
+TX-32,TX,-8.0,,0,0,1,1,1,2,,
+TX-33,TX,18.0,D,0,1,0,1,1,2,,|Incumbent retiring to . Democratic loss.
+TX-34,TX,-3.0,D,1,1,0,1,1,4,,Incumbent renominated
+TX-35,TX,-4.0,,0,0,1,1,1,2,,
+TX-36,TX,-12.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-37,TX,30.0,D,0,1,0,1,1,2,,|Incumbent retiring. Democratic loss.
+TX-38,TX,-10.0,R,0,1,0,1,1,3,,Incumbent retiring to
+TX-4,TX,-12.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-5,TX,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-6,TX,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+TX-7,TX,13.0,D,1,1,0,1,1,3,,Incumbent renominated
+TX-8,TX,-13.0,R,0,1,0,1,1,2,,Incumbent retiring
+TX-9,TX,-9.0,,0,0,1,1,1,2,,
+UT-1,UT,12.0,,0,0,1,1,1,4,,
+UT-2,UT,-15.0,R,1,1,0,1,1,5,,Incumbent renominated
+UT-3,UT,-21.0,R,1,1,0,1,1,6,,Incumbent renominated
+UT-4,UT,-17.0,R,0,1,0,1,1,4,,|Incumbent retiring. Republican loss.
+VA-1,VA,-3.0,R,1,1,0,1,1,2,,Incumbent renominated
+VA-10,VA,6.0,D,1,1,0,1,1,3,,Incumbent renominated
+VA-11,VA,18.0,D,1,1,0,1,1,3,,Incumbent renominated
+VA-2,VA,0.0,R,1,1,0,1,1,4,,Incumbent renominated
+VA-3,VA,18.0,D,1,1,0,1,1,4,,Incumbent renominated
+VA-4,VA,17.0,D,1,1,0,1,1,3,,Incumbent renominated
+VA-5,VA,-6.0,R,1,1,0,1,1,3,,Incumbent renominated
+VA-6,VA,-12.0,R,1,1,0,1,1,2,,Incumbent renominated
+VA-7,VA,2.0,D,1,1,0,1,1,6,,Incumbent renominated
+VA-8,VA,26.0,D,1,1,0,1,1,4,,Incumbent renominated
+VA-9,VA,-22.0,R,1,1,0,1,1,2,,Incumbent renominated
+VT-AL,VT,17.0,D,1,1,0,1,1,6,,Incumbent renominated
+WA-1,WA,15.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-10,WA,9.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-2,WA,12.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-3,WA,-2.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-4,WA,-10.0,R,0,1,0,1,1,2,,Incumbent retiring
+WA-5,WA,-5.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+WA-6,WA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-7,WA,39.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-8,WA,3.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-9,WA,22.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WI-1,WI,-2.0,R,1,1,0,1,1,2,,Incumbent renominated
+WI-2,WI,21.0,D,1,1,0,1,0,1,,Incumbent re-elected
+WI-3,WI,-3.0,R,1,1,0,1,1,4,,Incumbent renominated
+WI-4,WI,26.0,D,1,1,0,1,1,3,,Incumbent renominated
+WI-5,WI,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
+WI-6,WI,-8.0,R,1,1,0,1,1,5,,Incumbent renominated
+WI-7,WI,-11.0,R,0,1,0,1,1,2,,|Incumbent retiring to run for
+WI-8,WI,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+WV-1,WV,-22.0,R,1,1,0,1,1,3,,Incumbent renominated
+WV-2,WV,-20.0,R,1,1,0,1,1,2,,Incumbent renominated
+WY-AL,WY,-23.0,R,0,1,0,1,1,4,,|Incumbent retiring to
