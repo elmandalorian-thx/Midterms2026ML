@@ -58,6 +58,7 @@ web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.
 | `components/ui.tsx` | `Chapter` (with HOML `book` chips), `Callout` (concept/pitfall/result/try/fair), `Code`, `StatTile`, `PartyTag`, `probColor` |
 | `lib/data.ts` | `guide`, `pct`, `fmt`, `lean`, `MAJORITY`, `dataUrl` |
 | `lib/model.ts` | `districtFeatures`, `predict`, `logreg`, `tree`, `gbm`, `fixed`, `mulberry32`, `randn` |
+| `lib/scoreboard.ts` | `observations`, `scoreModels`, `scorePolls`, `resultsOnlyEnv` (live grading of frozen models + poll averages) |
 | `lib/senate.ts` | `senate`, `SR`, `SF`, `HOLD`, `R_CONTROL`/`D_CONTROL`, `raceName`, `senateP`, `STABLE` (P per race on the env grid), `simulateSenate`, `simulateCongress` |
 
 ## Checklist for a new metric/chapter

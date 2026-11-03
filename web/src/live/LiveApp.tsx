@@ -14,6 +14,7 @@ import {
 } from '../lib/senate'
 import './live.css'
 import { CongressGrid, RaceCards, SenateBar } from './SenatePanels'
+import { Scoreboard } from './Scoreboard'
 
 type W = 'D' | 'R' | 'O'
 interface Point { t: number; called: number; pMaj: number; env: number }
@@ -22,7 +23,7 @@ const F = guide.forecast
 const GUIDE_URL = import.meta.env.BASE_URL
 const STORE = 'house26-live-v1'
 const STORE_S = 'senate26-live-v1'
-type Tab = 'house' | 'senate' | 'congress'
+type Tab = 'house' | 'senate' | 'congress' | 'score'
 
 function load<T>(k: string, fallback: T): T {
   try { const v = localStorage.getItem(k); return v ? (JSON.parse(v) as T) : fallback } catch { return fallback }
@@ -402,7 +403,7 @@ export default function LiveApp() {
 
       <main className="live-main">
         <div className="tabs" role="group" aria-label="Chamber">
-          {([['house', 'House'], ['senate', 'Senate'], ['congress', 'Control of Congress']] as const).map(([k, label]) => (
+          {([['house', 'House'], ['senate', 'Senate'], ['congress', 'Control of Congress'], ['score', 'Scoreboard']] as const).map(([k, label]) => (
             <button key={k} aria-pressed={tab === k} onClick={() => setTab(k)}>{label}</button>
           ))}
         </div>
@@ -481,6 +482,7 @@ export default function LiveApp() {
 
         <div className="live-grid">
           <div className="col-main">
+            {tab === 'score' && <Scoreboard called={called} sCalled={sCalled} sLogLik={sLogLik} controls={pollControls} />}
             {tab === 'senate' && <>
               <section className="panel">
                 <div className="hero-head">

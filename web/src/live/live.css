@@ -103,3 +103,7 @@
   .live-top { padding: 10px 14px; } .live-main { padding: 14px 12px 40px; } .banner { margin: 12px 12px 0; }
   .panel { padding: 16px; border-radius: 14px; }
 }
+
+/* scoreboard tags */
+.tag { display: inline-block; font-size: 11.5px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-secondary); white-space: nowrap; }
+.tag-best { border-color: var(--text-primary); color: var(--text-primary); font-weight: 600; }

@@ -2,6 +2,7 @@
 
 ## 2026-11-03 (Senate)
 
+- Live tracker Scoreboard tab (`web/src/lib/scoreboard.ts`, `web/src/live/Scoreboard.tsx`): every frozen House/Senate model graded on called races (all + close races, ties flagged), and each generic-ballot average vs. the national margin implied by results alone (flat prior)
 - Senate pipeline: `ml/senate_tables.py` (Wikipedia Senate tables), 538 Senate + state presidential returns, `ml/build_senate.py` (computed state lean, leave-one-cycle-out with bootstrap CIs, House transfer, pooled House + Senate model chosen by a pre-registered rule, symmetric independent stand-in rule)
 - Frozen Senate forecast `data/forecast/senate_forecast_2026.{csv,json}` committed before polls closed, with joint House × Senate control odds
 - Live tracker: Senate and Congress tabs (race to 50/51, race cards, runoff detection, joint Bayesian nowcast from House + Senate calls)
