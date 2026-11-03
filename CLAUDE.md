@@ -10,7 +10,7 @@ elections, freeze the forecast before Election Day, score it afterwards. Sister 
 | Repo | `elmandalorian-thx/Midterms2026ML` (`main`) |
 | Hosting | GitHub Pages via `.github/workflows/pages.yml` |
 | URL | Guide `https://elmandalorian-thx.github.io/Midterms2026ML/` · Live tracker `https://elmandalorian-thx.github.io/Midterms2026ML/live/`; Vite `base` is `/Midterms2026ML/` |
-| Default branch | `ccr-51bcea57-agira0` (deploys on push; scheduled run every 10 min refreshes 2026 results until 2026-12-31) |
+| Default branch | `main` (deploys on push; scheduled run every 10 min refreshes 2026 results until 2026-12-31) |
 | Env vars | optional `FIFTYPLUSONE_API_KEY` (fetch only) |
 
 ## Tech stack

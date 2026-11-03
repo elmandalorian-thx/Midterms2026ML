@@ -2,7 +2,7 @@ name: Deploy guide + live tracker to GitHub Pages
 
 on:
   push:
-    branches: [main, ccr-51bcea57-agira0]
+    branches: [main]
   workflow_dispatch:
   # Election night and the weeks of counting: refresh 2026 results every 10 minutes and redeploy.
   # (GitHub may delay scheduled runs at busy times; the live page also polls Wikipedia directly.)
