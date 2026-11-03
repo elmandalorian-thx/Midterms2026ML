@@ -176,3 +176,17 @@ export interface Senate {
   model: { logreg: Record<string, LogRegParams>; gbm: Guide['model']['gbm']; tree: TreeNode[] }
   races: SenateRace2026[]
 }
+
+/** Kalshi / Polymarket snapshot taken before polls closed (ml/fetch_markets.py). p = P(Democratic side). */
+export interface MarketQuote { p: number; vol: number; spread: number | null; liquid: boolean; id: string }
+export type MarketKey = 'kalshi' | 'polymarket'
+export type MarketQuotes = Partial<Record<MarketKey, MarketQuote>>
+export interface Markets {
+  fetchedAt: string
+  cutoff: string
+  rules: { minVolume: number; maxSpread: number }
+  sources: { key: MarketKey; name: string; url: string }[]
+  control: { house: MarketQuotes; senate: MarketQuotes }
+  house: Record<string, MarketQuotes>
+  senate: Record<string, MarketQuotes>
+}

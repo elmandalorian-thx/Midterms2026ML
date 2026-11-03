@@ -1,10 +1,14 @@
 // Live scoreboard: grade every frozen model and every generic-ballot average on the races called so far.
 // Nothing is refit: each model is evaluated exactly as it stood before Election Day.
-import { guide } from './data'
+import raw from '../data/markets.json'
+import { guide, MAJORITY } from './data'
 import { posteriorEnv } from './live'
 import { districtFeatures, fixed, gbm, logreg, tree } from './model'
-import { senate, senateP, sideOf, SR, SF, type SCall } from './senate'
-import type { District2026, SenateRace2026 } from './types'
+import { D_CONTROL, R_CONTROL, seatTotals, senate, senateP, sideOf, SR, SF, type SCall } from './senate'
+import type { District2026, MarketKey, MarketQuotes, Markets, SenateRace2026 } from './types'
+
+/** Prediction-market snapshot, frozen before polls closed. A benchmark only: never a model input. */
+export const markets = raw as unknown as Markets
 
 type HCall = 'D' | 'R' | 'O'
 interface HObs { d: District2026; y: 0 | 1; close: boolean }
@@ -94,4 +98,65 @@ export function scorePolls(obs: ReturnType<typeof observations>, estMean: number
     ...p, gap: p.margin - estMean,
     s: score([...obs.house.map((o) => houseP(o.d, p.margin, HOUSE_CHOICE)), ...obs.sen.map((o) => senateP(o.r, p.margin))], ys),
   }))
+}
+
+/* ------------------------------------------------------------ prediction markets */
+
+const liquid = (q: MarketQuotes | undefined, k: MarketKey) => (q?.[k]?.liquid ? q[k]!.p : null)
+
+export interface MarketRow {
+  chamber: 'House' | 'Senate'; key: MarketKey; name: string
+  priced: number // contested races with a liquid quote (graded once called)
+  market: Score | null; model: Score | null; mClose: Score | null; modelClose: Score | null
+}
+
+/** Each market against the frozen model on exactly the called races that market priced: same races, same grading. */
+export function scoreMarkets(obs: ReturnType<typeof observations>): MarketRow[] {
+  const env = guide.forecast.env
+  const contestedH = guide.districts.filter((d) => fixed(d) === null)
+  const contestedS = SR.filter((r) => r.hasD && r.hasR)
+  return markets.sources.flatMap(({ key, name }) => {
+    const h = obs.house.filter((o) => liquid(markets.house[o.d.id], key) !== null)
+    const s = obs.sen.filter((o) => liquid(markets.senate[o.r.id], key) !== null)
+    const hm = both(h, (o) => liquid(markets.house[o.d.id], key)!), hd = both(h, (o) => houseP(o.d, env, HOUSE_CHOICE))
+    const sm = both(s, (o) => liquid(markets.senate[o.r.id], key)!), sd = both(s, (o) => senateP(o.r, SF.env))
+    return [
+      { chamber: 'House' as const, key, name, priced: contestedH.filter((d) => liquid(markets.house[d.id], key) !== null).length,
+        market: hm.s, model: hd.s, mClose: hm.close, modelClose: hd.close },
+      { chamber: 'Senate' as const, key, name, priced: contestedS.filter((r) => liquid(markets.senate[r.id], key) !== null).length,
+        market: sm.s, model: sd.s, mClose: sm.close, modelClose: sd.close },
+    ]
+  })
+}
+
+/** Who controls each chamber once enough seats are called (null = not decided yet). */
+export function controlResult(called: Map<string, HCall>, sCalled: Map<string, SCall>) {
+  let hD = 0, hR = 0
+  for (const w of called.values()) { if (w === 'D') hD++; else if (w === 'R') hR++ }
+  const t = seatTotals(sCalled)
+  return {
+    house: hD >= MAJORITY ? 'D' : hR >= MAJORITY ? 'R' : null,
+    // Republicans need 50 (the VP breaks ties); Democrats 51, counting independents who win a stand-in race.
+    senate: t.R >= R_CONTROL ? 'R' : t.D + t.I >= D_CONTROL ? 'D' : null,
+  } as { house: 'D' | 'R' | null; senate: 'D' | 'R' | null }
+}
+
+export interface Disagreement { chamber: 'House' | 'Senate'; id: string; model: number; q: MarketQuotes; avg: number }
+
+/** Contested races where the markets' average and the frozen model differ most (the interesting bets of the night). */
+export function disagreements(k = 10): Disagreement[] {
+  const avg = (q: MarketQuotes) => {
+    const ps = markets.sources.map((s) => liquid(q, s.key)).filter((p): p is number => p !== null)
+    return ps.length ? ps.reduce((a, b) => a + b, 0) / ps.length : null
+  }
+  const rows: Disagreement[] = []
+  for (const d of guide.districts) {
+    const q = markets.house[d.id], a = q && avg(q)
+    if (fixed(d) === null && a != null) rows.push({ chamber: 'House', id: d.id, model: houseP(d, guide.forecast.env, HOUSE_CHOICE), q, avg: a })
+  }
+  for (const r of SR) {
+    const q = markets.senate[r.id], a = q && avg(q)
+    if (r.hasD && r.hasR && a != null) rows.push({ chamber: 'Senate', id: r.id, model: senateP(r, SF.env), q, avg: a })
+  }
+  return rows.sort((x, y) => Math.abs(y.avg - y.model) - Math.abs(x.avg - x.model)).slice(0, k)
 }

@@ -3,6 +3,7 @@ import { linear, ticks, Tooltip, useWidth } from '../components/charts'
 import { lean, pct } from '../lib/data'
 import { CLOSE, observations, resultsOnlyEnv, scoreModels, scorePolls, type ModelRow, type PollRow } from '../lib/scoreboard'
 import type { SCall } from '../lib/senate'
+import { MarketsPanel } from './MarketsPanel'
 
 const MIN_N = 8 // fewer close races than this: say so instead of crowning a winner
 const TIE = 0.005 // Brier gaps smaller than this are noise at tonight's sample sizes
@@ -84,7 +85,7 @@ export function Scoreboard({ called, sCalled, sLogLik, controls }: {
         <div className="hero-head">
           <div>
             <h1>Scoreboard</h1>
-            <p className="muted" style={{ margin: 0 }}>Every candidate model and every polling average, graded on the contested races called so far. Nothing is refit: these are the pre-election versions.</p>
+            <p className="muted" style={{ margin: 0 }}>Every candidate model, every polling average and two prediction markets, graded on the contested races called so far. Nothing is refit: these are the pre-election versions.</p>
           </div>
           {controls}
         </div>
@@ -126,6 +127,8 @@ export function Scoreboard({ called, sCalled, sLogLik, controls }: {
           finding, not a reason to have switched: one night is one draw, and most races are safe seats every model gets right.
         </p>
       </section>
+
+      <MarketsPanel called={called} sCalled={sCalled} />
 
       <section className="panel">
         <h2>Which polling average was closest?</h2>

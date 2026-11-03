@@ -18,7 +18,7 @@ Built as a companion to [PokemonML](https://github.com/elmandalorian-thx/Pokemon
 ### The live tracker
 
 - **House / Senate / Congress tabs**: race to 218, race to 50 (Republicans, with the VP) / 51 (Democrats, with two allied independents), and a joint House × Senate control grid.
-- **Scoreboard**: which candidate model predicts better (Brier, log loss, close races only) and which generic-ballot average was closest to what the results imply.
+- **Scoreboard**: which candidate model predicts better (Brier, log loss, close races only) which generic-ballot average was closest to what the results imply, and how Kalshi and Polymarket (prices frozen before polls closed) did against the models on the same races.
 - **Race to 218**: called seats per party, plus a projection for the uncalled ones.
 - **Alert feed**: every call, every seat that **flips**, **upsets** against the frozen forecast, and milestones (50/100/200 called, a party reaching 218), with filters, optional browser notifications and sound.
 - **Results-updated projection** (a Bayesian update): each call is evidence about the true national environment; uncalled seats are re-scored and the seat distribution re-simulated.

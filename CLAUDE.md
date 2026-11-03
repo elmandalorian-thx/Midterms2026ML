@@ -32,6 +32,7 @@ ml/build.py      -> web/src/data/guide.json                 (bundled: metrics, c
 data/raw + data/forecast served at /data/raw|forecast/ by the projectData() plugin in web/vite.config.ts
 ml/build_senate.py -> web/src/data/senate.json            (Senate; reuses build.py models + data/raw/senate_*.csv)
                  -> data/forecast/senate_forecast_2026.*    (FROZEN only with --freeze; otherwise *.preview.*)
+ml/fetch_markets.py -> data/forecast/markets_2026.json + web/src/data/markets.json  (Kalshi/Polymarket, FROZEN: refuses after polls close)
 web/src/lib/model.ts mirrors build.py features() + inference (logreg, depth-3 tree, GBM)
 web/senate/index.html + src/senate/  Senate guide (third Vite entry); lib/senate.ts = Senate model, sim, live parser
 web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.ts = TS port of the winner parser,
@@ -59,7 +60,7 @@ web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.
 | `components/SiteNav.tsx` | `GuideShell` (rail + mobile drawer for a guide), `SiteSwitcher` (cross-page nav, used by all 3 pages), `useTheme` |
 | `lib/data.ts` | `guide`, `pct`, `fmt`, `lean`, `MAJORITY`, `dataUrl` |
 | `lib/model.ts` | `districtFeatures`, `predict`, `logreg`, `tree`, `gbm`, `fixed`, `mulberry32`, `randn` |
-| `lib/scoreboard.ts` | `observations`, `scoreModels`, `scorePolls`, `resultsOnlyEnv` (live grading of frozen models + poll averages) |
+| `lib/scoreboard.ts` | `observations`, `scoreModels`, `scorePolls`, `resultsOnlyEnv`, `markets`, `scoreMarkets`, `controlResult`, `disagreements` (live grading of frozen models, poll averages, prediction markets; markets are a benchmark, never a feature) |
 | `lib/senate.ts` | `senate`, `SR`, `SF`, `HOLD`, `R_CONTROL`/`D_CONTROL`, `raceName`, `senateP`, `STABLE` (P per race on the env grid), `simulateSenate`, `simulateCongress` |
 
 ## Checklist for a new metric/chapter

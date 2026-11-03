@@ -14,6 +14,7 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 | 9 | [FiveThirtyEight election-results](https://github.com/fivethirtyeight/election-results): Senate | Candidate-level Senate general, runoff and jungle-primary returns 2010–2024 | `.../main/election_results_senate.csv` | no | CC BY 4.0 | Senate vote margins, cross-check of winners |
 | 10 | [FiveThirtyEight election-results](https://github.com/fivethirtyeight/election-results): President | State-level presidential returns | `.../main/election_results_presidential.csv` | no | CC BY 4.0 | computed state lean (Cook-style: 0.75 × latest + 0.25 × previous deviation from the nation) |
 | 11 | [Wikipedia: <year> United States Senate elections](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections) | Per-race tables 2014–2026: Cook PVI, incumbent + party, status, candidates, winner, specials | raw wikitext, same as #2 | no | CC BY-SA 4.0 | Senate features, labels, 2026 inputs and scoring |
+| 12 | [Kalshi](https://kalshi.com) and [Polymarket](https://polymarket.com) prediction markets | Prices for every listed 2026 House and Senate race and for chamber control, saved once before polls closed | Kalshi `api.elections.kalshi.com/trade-api/v2/events?series_ticker=KXHOUSERACE` / `SENATE<ST>` / `CONTROLH`/`CONTROLS`; Polymarket Gamma `gamma-api.polymarket.com/events?tag_slug=house-elections` / `senate-midterms` | no | see their terms | benchmark on the Scoreboard only (never a model feature) |
 | 8 | President's party by year | +1 / −1 per election 1998–2026 | public record, hard-coded in `ml/build.py` (`PRES_PARTY`) | — | — | midterm-penalty chart |
 
 ## Live results (election night)
@@ -40,6 +41,7 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 | `data/raw/senate_<year>.csv` | `ml/fetch_data.py` | one row per Senate race: `race, state, special, pvi_cook, inc_party, inc_running, candidates, winner, winner_name, status` |
 | `data/raw/senate_results_538.csv`, `data/raw/president_states_538.csv` | `ml/fetch_data.py` | trimmed 538 Senate and state presidential returns |
 | `data/forecast/senate_forecast_2026.{csv,json}` | `ml/build_senate.py --freeze` (once) | frozen P(Democratic side) per race for every candidate model, tipping-point odds, chamber + joint House × Senate odds |
+| `data/forecast/markets_2026.json` (+ copy `web/src/data/markets.json`) | `ml/fetch_markets.py` (refuses after 6 pm ET on Nov 3) | P(Democratic side) per race and per chamber from Kalshi and Polymarket: bid/ask midpoint, sides rescaled to 100%, volume, spread, `liquid` flag |
 | `web/src/data/senate.json` | `ml/build_senate.py` | everything the Senate guide and the tracker's Senate tab show |
 
 ## Known caveats
@@ -47,4 +49,6 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 - Nine states used new maps in 2026 (AL, CA, FL, LA, NC, OH, TN, TX, UT, per Wikipedia's *2025–2026 United States redistricting* article). The model uses Cook PVI on the new lines, never last cycle's House result.
 - Louisiana's House general election is on December 12, 2026; California and other states count slowly. Score twice.
 - The parser keeps ~99% of districts per year; a handful of rows with unusual formatting are skipped.
+- Prediction-market prices are not exact probabilities (long shots run high, fees and locked-up money keep prices off 0/1). Only races with ≥ 1,000 traded and a spread ≤ 10¢ are graded, and each market is compared with the model on the same races.
+- OK-3: the 2026 table parse missed the Republican nominee, so the frozen forecast treats it as uncontested (100% D). It is excluded from all grading.
 - Independent or third-party winners are dropped from training (none in 2014–2024 after the fusion fix).

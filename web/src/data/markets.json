@@ -1,0 +1,6940 @@
+{
+ "fetchedAt": "2026-11-03T15:06:03Z",
+ "cutoff": "2026-11-03T23:00:00Z",
+ "rules": {
+  "minVolume": 1000,
+  "maxSpread": 0.1
+ },
+ "sources": [
+  {
+   "key": "kalshi",
+   "name": "Kalshi",
+   "url": "https://kalshi.com"
+  },
+  {
+   "key": "polymarket",
+   "name": "Polymarket",
+   "url": "https://polymarket.com"
+  }
+ ],
+ "control": {
+  "house": {
+   "kalshi": {
+    "p": 0.937,
+    "vol": 113954867,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "CONTROLH-2026"
+   },
+   "polymarket": {
+    "p": 0.945,
+    "vol": 43699390,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "which-party-will-win-the-house-in-2026"
+   }
+  },
+  "senate": {
+   "kalshi": {
+    "p": 0.755,
+    "vol": 35414478,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "CONTROLS-2026"
+   },
+   "polymarket": {
+    "p": 0.775,
+    "vol": 19172833,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "which-party-will-win-the-senate-in-2026"
+   }
+  }
+ },
+ "house": {
+  "AK-AL": {
+   "polymarket": {
+    "p": 0.0095,
+    "vol": 64148,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "ak-al-house-election-winner"
+   }
+  },
+  "AL-1": {
+   "kalshi": {
+    "p": 0.0145,
+    "vol": 3076,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-AL01-26"
+   },
+   "polymarket": {
+    "p": 0.0165,
+    "vol": 49827,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "al-01-house-election-winner"
+   }
+  },
+  "AL-2": {
+   "kalshi": {
+    "p": 0.5274,
+    "vol": 531760,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-AL02-26"
+   },
+   "polymarket": {
+    "p": 0.532,
+    "vol": 287579,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "al-02-house-election-winner"
+   }
+  },
+  "AL-3": {
+   "kalshi": {
+    "p": 0.0095,
+    "vol": 15795,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-AL03-26"
+   },
+   "polymarket": {
+    "p": 0.0085,
+    "vol": 45451,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "al-03-house-election-winner"
+   }
+  },
+  "AL-4": {
+   "kalshi": {
+    "p": 0.01,
+    "vol": 2933,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-AL04-26"
+   },
+   "polymarket": {
+    "p": 0.012,
+    "vol": 38971,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "al-04-house-election-winner"
+   }
+  },
+  "AL-5": {
+   "kalshi": {
+    "p": 0.029,
+    "vol": 14515,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-AL05-26"
+   },
+   "polymarket": {
+    "p": 0.025,
+    "vol": 72472,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "al-05-house-election-winner"
+   }
+  },
+  "AL-6": {
+   "kalshi": {
+    "p": 0.0095,
+    "vol": 2455,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-AL06-26"
+   },
+   "polymarket": {
+    "p": 0.0116,
+    "vol": 27296,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "al-06-house-election-winner"
+   }
+  },
+  "AL-7": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 19026,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "KXHOUSERACE-AL07-26"
+   },
+   "polymarket": {
+    "p": 0.987,
+    "vol": 96019,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "al-07-house-election-winner"
+   }
+  },
+  "AR-1": {
+   "kalshi": {
+    "p": 0.015,
+    "vol": 22449,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "KXHOUSERACE-AR01-26"
+   },
+   "polymarket": {
+    "p": 0.0106,
+    "vol": 27527,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ar-01-house-election-winner"
+   }
+  },
+  "AR-2": {
+   "kalshi": {
+    "p": 0.25,
+    "vol": 158084,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-AR02-26"
+   },
+   "polymarket": {
+    "p": 0.265,
+    "vol": 132728,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ar-02-house-election-winner"
+   }
+  },
+  "AR-3": {
+   "kalshi": {
+    "p": 0.0164,
+    "vol": 9610,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-AR03-26"
+   },
+   "polymarket": {
+    "p": 0.011,
+    "vol": 39824,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ar-03-house-election-winner"
+   }
+  },
+  "AR-4": {
+   "kalshi": {
+    "p": 0.0095,
+    "vol": 5028,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-AR04-26"
+   },
+   "polymarket": {
+    "p": 0.0135,
+    "vol": 25365,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ar-04-house-election-winner"
+   }
+  },
+  "AZ-1": {
+   "polymarket": {
+    "p": 0.797,
+    "vol": 311862,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "az-01-house-election-winner"
+   }
+  },
+  "AZ-2": {
+   "polymarket": {
+    "p": 0.4472,
+    "vol": 42548,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "az-02-house-election-winner"
+   }
+  },
+  "AZ-3": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 1035,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-AZ03-26"
+   },
+   "polymarket": {
+    "p": 0.9905,
+    "vol": 53593,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "az-03-house-election-winner"
+   }
+  },
+  "AZ-4": {
+   "kalshi": {
+    "p": 0.9654,
+    "vol": 13992,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-AZ04-26"
+   },
+   "polymarket": {
+    "p": 0.9725,
+    "vol": 41067,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "az-04-house-election-winner"
+   }
+  },
+  "AZ-5": {
+   "kalshi": {
+    "p": 0.11,
+    "vol": 32764,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-AZ05-26"
+   },
+   "polymarket": {
+    "p": 0.101,
+    "vol": 46012,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "az-05-house-election-winner"
+   }
+  },
+  "AZ-6": {
+   "polymarket": {
+    "p": 0.9146,
+    "vol": 48712,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "az-06-house-election-winner"
+   }
+  },
+  "AZ-7": {
+   "kalshi": {
+    "p": 0.9845,
+    "vol": 1832,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-AZ07-26"
+   },
+   "polymarket": {
+    "p": 0.9889,
+    "vol": 41282,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "az-07-house-election-winner"
+   }
+  },
+  "AZ-8": {
+   "kalshi": {
+    "p": 0.1294,
+    "vol": 19479,
+    "spread": 0.03,
+    "liquid": true,
+    "id": "KXHOUSERACE-AZ08-26"
+   },
+   "polymarket": {
+    "p": 0.1256,
+    "vol": 19140,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "az-08-house-election-winner"
+   }
+  },
+  "AZ-9": {
+   "kalshi": {
+    "p": 0.0165,
+    "vol": 5741,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-AZ09-26"
+   },
+   "polymarket": {
+    "p": 0.0155,
+    "vol": 39066,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "az-09-house-election-winner"
+   }
+  },
+  "CA-1": {
+   "kalshi": {
+    "p": 0.9615,
+    "vol": 25174,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA01-26"
+   },
+   "polymarket": {
+    "p": 0.9606,
+    "vol": 51871,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "ca-01-house-election-winner"
+   }
+  },
+  "CA-10": {
+   "kalshi": {
+    "p": 0.9856,
+    "vol": 2608,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA10-26"
+   },
+   "polymarket": {
+    "p": 0.986,
+    "vol": 29271,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "ca-10-house-election-winner"
+   }
+  },
+  "CA-11": {
+   "polymarket": {
+    "p": 0.9933,
+    "vol": 22658,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "ca-11-house-election-winner"
+   }
+  },
+  "CA-12": {
+   "polymarket": {
+    "p": 0.993,
+    "vol": 49043,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "ca-12-house-election-winner"
+   }
+  },
+  "CA-13": {
+   "polymarket": {
+    "p": 0.9334,
+    "vol": 64615,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "ca-13-house-election-winner"
+   }
+  },
+  "CA-14": {
+   "polymarket": {
+    "p": 0.998,
+    "vol": 43482,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "ca-14-house-election-winner"
+   }
+  },
+  "CA-15": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 17188,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA15-26"
+   },
+   "polymarket": {
+    "p": 0.9895,
+    "vol": 124156,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "ca-15-house-election-winner"
+   }
+  },
+  "CA-16": {
+   "kalshi": {
+    "p": 0.9895,
+    "vol": 11975,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA16-26"
+   },
+   "polymarket": {
+    "p": 0.981,
+    "vol": 110092,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "ca-16-house-election-winner"
+   }
+  },
+  "CA-17": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 1430,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA17-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 16936,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "ca-17-house-election-winner"
+   }
+  },
+  "CA-18": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 1743,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA18-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 50315,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ca-18-house-election-winner"
+   }
+  },
+  "CA-19": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 6519,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA19-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 51064,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "ca-19-house-election-winner"
+   }
+  },
+  "CA-2": {
+   "kalshi": {
+    "p": 0.9846,
+    "vol": 1999,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA02-26"
+   },
+   "polymarket": {
+    "p": 0.9915,
+    "vol": 22365,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ca-02-house-election-winner"
+   }
+  },
+  "CA-20": {
+   "kalshi": {
+    "p": 0.0233,
+    "vol": 6531,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA20-26"
+   },
+   "polymarket": {
+    "p": 0.0165,
+    "vol": 50461,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "ca-20-house-election-winner"
+   }
+  },
+  "CA-21": {
+   "polymarket": {
+    "p": 0.9754,
+    "vol": 44120,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ca-21-house-election-winner"
+   }
+  },
+  "CA-23": {
+   "kalshi": {
+    "p": 0.05,
+    "vol": 5371,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA23-26"
+   },
+   "polymarket": {
+    "p": 0.044,
+    "vol": 112176,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "ca-23-house-election-winner"
+   }
+  },
+  "CA-24": {
+   "kalshi": {
+    "p": 0.9795,
+    "vol": 18841,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA24-26"
+   },
+   "polymarket": {
+    "p": 0.9845,
+    "vol": 53476,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "ca-24-house-election-winner"
+   }
+  },
+  "CA-25": {
+   "kalshi": {
+    "p": 0.981,
+    "vol": 2274,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA25-26"
+   },
+   "polymarket": {
+    "p": 0.9794,
+    "vol": 26948,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ca-25-house-election-winner"
+   }
+  },
+  "CA-26": {
+   "kalshi": {
+    "p": 0.9775,
+    "vol": 2641,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA26-26"
+   },
+   "polymarket": {
+    "p": 0.979,
+    "vol": 36786,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "ca-26-house-election-winner"
+   }
+  },
+  "CA-28": {
+   "kalshi": {
+    "p": 0.9891,
+    "vol": 4443,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA28-26"
+   },
+   "polymarket": {
+    "p": 0.986,
+    "vol": 142882,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "ca-28-house-election-winner"
+   }
+  },
+  "CA-29": {
+   "polymarket": {
+    "p": 0.994,
+    "vol": 32356,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "ca-29-house-election-winner"
+   }
+  },
+  "CA-3": {
+   "polymarket": {
+    "p": 0.9704,
+    "vol": 44775,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "ca-03-house-election-winner"
+   }
+  },
+  "CA-30": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 4890,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA30-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 35624,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ca-30-house-election-winner"
+   }
+  },
+  "CA-31": {
+   "kalshi": {
+    "p": 0.9806,
+    "vol": 1324,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA31-26"
+   },
+   "polymarket": {
+    "p": 0.9854,
+    "vol": 19638,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "ca-31-house-election-winner"
+   }
+  },
+  "CA-32": {
+   "kalshi": {
+    "p": 0.996,
+    "vol": 4037,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA32-26"
+   },
+   "polymarket": {
+    "p": 0.9965,
+    "vol": 29748,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "ca-32-house-election-winner"
+   }
+  },
+  "CA-33": {
+   "kalshi": {
+    "p": 0.9845,
+    "vol": 7062,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA33-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 22444,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "ca-33-house-election-winner"
+   }
+  },
+  "CA-34": {
+   "polymarket": {
+    "p": 0.999,
+    "vol": 50774,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "ca-34-house-election-winner"
+   }
+  },
+  "CA-35": {
+   "kalshi": {
+    "p": 0.9846,
+    "vol": 2186,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA35-26"
+   },
+   "polymarket": {
+    "p": 0.9945,
+    "vol": 46947,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "ca-35-house-election-winner"
+   }
+  },
+  "CA-36": {
+   "kalshi": {
+    "p": 0.99,
+    "vol": 5315,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA36-26"
+   },
+   "polymarket": {
+    "p": 0.9879,
+    "vol": 86411,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ca-36-house-election-winner"
+   }
+  },
+  "CA-37": {
+   "polymarket": {
+    "p": 0.9935,
+    "vol": 4697,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ca-37-house-election-winner"
+   }
+  },
+  "CA-38": {
+   "kalshi": {
+    "p": 0.9895,
+    "vol": 2675,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA38-26"
+   },
+   "polymarket": {
+    "p": 0.9835,
+    "vol": 66132,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "ca-38-house-election-winner"
+   }
+  },
+  "CA-39": {
+   "kalshi": {
+    "p": 0.9849,
+    "vol": 4729,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA39-26"
+   },
+   "polymarket": {
+    "p": 0.9903,
+    "vol": 59529,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ca-39-house-election-winner"
+   }
+  },
+  "CA-4": {
+   "polymarket": {
+    "p": 0.998,
+    "vol": 52754,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "ca-04-house-election-winner"
+   }
+  },
+  "CA-41": {
+   "polymarket": {
+    "p": 0.987,
+    "vol": 24283,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ca-41-house-election-winner"
+   }
+  },
+  "CA-42": {
+   "kalshi": {
+    "p": 0.9843,
+    "vol": 1224,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA42-26"
+   },
+   "polymarket": {
+    "p": 0.981,
+    "vol": 43187,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ca-42-house-election-winner"
+   }
+  },
+  "CA-43": {
+   "kalshi": {
+    "p": 0.9861,
+    "vol": 4466,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA43-26"
+   },
+   "polymarket": {
+    "p": 0.9845,
+    "vol": 34722,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "ca-43-house-election-winner"
+   }
+  },
+  "CA-44": {
+   "kalshi": {
+    "p": 0.981,
+    "vol": 1294,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA44-26"
+   },
+   "polymarket": {
+    "p": 0.9844,
+    "vol": 47798,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "ca-44-house-election-winner"
+   }
+  },
+  "CA-45": {
+   "polymarket": {
+    "p": 0.94,
+    "vol": 55784,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ca-45-house-election-winner"
+   }
+  },
+  "CA-46": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 1659,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA46-26"
+   },
+   "polymarket": {
+    "p": 0.9879,
+    "vol": 51681,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ca-46-house-election-winner"
+   }
+  },
+  "CA-47": {
+   "polymarket": {
+    "p": 0.9705,
+    "vol": 31775,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "ca-47-house-election-winner"
+   }
+  },
+  "CA-48": {
+   "kalshi": {
+    "p": 0.9396,
+    "vol": 45725,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA48-26"
+   },
+   "polymarket": {
+    "p": 0.9526,
+    "vol": 48825,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "ca-48-house-election-winner"
+   }
+  },
+  "CA-49": {
+   "polymarket": {
+    "p": 0.981,
+    "vol": 28836,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "ca-49-house-election-winner"
+   }
+  },
+  "CA-5": {
+   "kalshi": {
+    "p": 0.0592,
+    "vol": 21288,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA05-26"
+   },
+   "polymarket": {
+    "p": 0.0572,
+    "vol": 34006,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ca-05-house-election-winner"
+   }
+  },
+  "CA-50": {
+   "kalshi": {
+    "p": 0.981,
+    "vol": 3443,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA50-26"
+   },
+   "polymarket": {
+    "p": 0.9698,
+    "vol": 70211,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "ca-50-house-election-winner"
+   }
+  },
+  "CA-51": {
+   "kalshi": {
+    "p": 0.9826,
+    "vol": 1396,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA51-26"
+   },
+   "polymarket": {
+    "p": 0.9829,
+    "vol": 35514,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "ca-51-house-election-winner"
+   }
+  },
+  "CA-52": {
+   "kalshi": {
+    "p": 0.981,
+    "vol": 15232,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA52-26"
+   },
+   "polymarket": {
+    "p": 0.981,
+    "vol": 51490,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "ca-52-house-election-winner"
+   }
+  },
+  "CA-6": {
+   "kalshi": {
+    "p": 0.9946,
+    "vol": 67740,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA06-26"
+   },
+   "polymarket": {
+    "p": 0.9893,
+    "vol": 98463,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ca-06-house-election-winner"
+   }
+  },
+  "CA-7": {
+   "polymarket": {
+    "p": 0.9847,
+    "vol": 14589,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "ca-07-house-election-winner"
+   }
+  },
+  "CA-8": {
+   "kalshi": {
+    "p": 0.991,
+    "vol": 3768,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "KXHOUSERACE-CA08-26"
+   },
+   "polymarket": {
+    "p": 0.9884,
+    "vol": 58542,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "ca-08-house-election-winner"
+   }
+  },
+  "CA-9": {
+   "polymarket": {
+    "p": 0.996,
+    "vol": 28249,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "ca-09-house-election-winner"
+   }
+  },
+  "CO-1": {
+   "kalshi": {
+    "p": 0.9839,
+    "vol": 20513,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-CO01-26"
+   },
+   "polymarket": {
+    "p": 0.989,
+    "vol": 46181,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "co-01-house-election-winner"
+   }
+  },
+  "CO-2": {
+   "kalshi": {
+    "p": 0.989,
+    "vol": 8590,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-CO02-26"
+   },
+   "polymarket": {
+    "p": 0.986,
+    "vol": 44910,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "co-02-house-election-winner"
+   }
+  },
+  "CO-3": {
+   "polymarket": {
+    "p": 0.5,
+    "vol": 109388,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "co-03-house-election-winner"
+   }
+  },
+  "CO-4": {
+   "kalshi": {
+    "p": 0.3366,
+    "vol": 252283,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-CO04-26"
+   },
+   "polymarket": {
+    "p": 0.3317,
+    "vol": 92173,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "co-04-house-election-winner"
+   }
+  },
+  "CO-5": {
+   "kalshi": {
+    "p": 0.4478,
+    "vol": 252586,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-CO05-26"
+   },
+   "polymarket": {
+    "p": 0.435,
+    "vol": 67287,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "co-05-house-election-winner"
+   }
+  },
+  "CO-6": {
+   "kalshi": {
+    "p": 0.9864,
+    "vol": 1722,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-CO06-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 32571,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "co-06-house-election-winner"
+   }
+  },
+  "CO-7": {
+   "kalshi": {
+    "p": 0.9864,
+    "vol": 3010,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-CO07-26"
+   },
+   "polymarket": {
+    "p": 0.9934,
+    "vol": 28324,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "co-07-house-election-winner"
+   }
+  },
+  "CO-8": {
+   "polymarket": {
+    "p": 0.92,
+    "vol": 39476,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "co-08-house-election-winner"
+   }
+  },
+  "CT-1": {
+   "kalshi": {
+    "p": 0.987,
+    "vol": 6461,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "KXHOUSERACE-CT01-26"
+   },
+   "polymarket": {
+    "p": 0.9894,
+    "vol": 20468,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "ct-01-house-election-winner"
+   }
+  },
+  "CT-2": {
+   "kalshi": {
+    "p": 0.986,
+    "vol": 4579,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-CT02-26"
+   },
+   "polymarket": {
+    "p": 0.9835,
+    "vol": 20617,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "ct-02-house-election-winner"
+   }
+  },
+  "CT-3": {
+   "kalshi": {
+    "p": 0.9885,
+    "vol": 1871,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-CT03-26"
+   },
+   "polymarket": {
+    "p": 0.982,
+    "vol": 31498,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ct-03-house-election-winner"
+   }
+  },
+  "CT-4": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 2549,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-CT04-26"
+   },
+   "polymarket": {
+    "p": 0.9815,
+    "vol": 49429,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ct-04-house-election-winner"
+   }
+  },
+  "CT-5": {
+   "polymarket": {
+    "p": 0.9809,
+    "vol": 12467,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ct-05-house-election-winner"
+   }
+  },
+  "DE-AL": {
+   "kalshi": {
+    "p": 0.9795,
+    "vol": 17782,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-DEAL-26"
+   },
+   "polymarket": {
+    "p": 0.9825,
+    "vol": 49153,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "de-al-house-election-winner"
+   }
+  },
+  "FL-1": {
+   "kalshi": {
+    "p": 0.0195,
+    "vol": 10206,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL01-26"
+   },
+   "polymarket": {
+    "p": 0.023,
+    "vol": 119455,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "fl-01-house-election-winner"
+   }
+  },
+  "FL-10": {
+   "kalshi": {
+    "p": 0.989,
+    "vol": 42580,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL10-26"
+   },
+   "polymarket": {
+    "p": 0.9945,
+    "vol": 25533,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "fl-10-house-election-winner"
+   }
+  },
+  "FL-11": {
+   "kalshi": {
+    "p": 0.175,
+    "vol": 90081,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL11-26"
+   },
+   "polymarket": {
+    "p": 0.1692,
+    "vol": 50187,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-11-house-election-winner"
+   }
+  },
+  "FL-12": {
+   "kalshi": {
+    "p": 0.2139,
+    "vol": 64706,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL12-26"
+   },
+   "polymarket": {
+    "p": 0.203,
+    "vol": 101450,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-12-house-election-winner"
+   }
+  },
+  "FL-13": {
+   "polymarket": {
+    "p": 0.2424,
+    "vol": 94670,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "fl-13-house-election-winner"
+   }
+  },
+  "FL-14": {
+   "kalshi": {
+    "p": 0.745,
+    "vol": 610245,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL14-26"
+   },
+   "polymarket": {
+    "p": 0.7673,
+    "vol": 162053,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-14-house-election-winner"
+   }
+  },
+  "FL-15": {
+   "kalshi": {
+    "p": 0.0587,
+    "vol": 19577,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL15-26"
+   },
+   "polymarket": {
+    "p": 0.0515,
+    "vol": 41075,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "fl-15-house-election-winner"
+   }
+  },
+  "FL-16": {
+   "kalshi": {
+    "p": 0.2537,
+    "vol": 40245,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL16-26"
+   },
+   "polymarket": {
+    "p": 0.2412,
+    "vol": 34341,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "fl-16-house-election-winner"
+   }
+  },
+  "FL-17": {
+   "kalshi": {
+    "p": 0.0291,
+    "vol": 6282,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL17-26"
+   },
+   "polymarket": {
+    "p": 0.0275,
+    "vol": 32792,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "fl-17-house-election-winner"
+   }
+  },
+  "FL-18": {
+   "kalshi": {
+    "p": 0.0842,
+    "vol": 19308,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL18-26"
+   },
+   "polymarket": {
+    "p": 0.0792,
+    "vol": 77031,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "fl-18-house-election-winner"
+   }
+  },
+  "FL-19": {
+   "kalshi": {
+    "p": 0.0254,
+    "vol": 4923,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL19-26"
+   },
+   "polymarket": {
+    "p": 0.0225,
+    "vol": 39258,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "fl-19-house-election-winner"
+   }
+  },
+  "FL-2": {
+   "kalshi": {
+    "p": 0.0913,
+    "vol": 13075,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL02-26"
+   },
+   "polymarket": {
+    "p": 0.095,
+    "vol": 19766,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-02-house-election-winner"
+   }
+  },
+  "FL-20": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 10524,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL20-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 43791,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "fl-20-house-election-winner"
+   }
+  },
+  "FL-21": {
+   "kalshi": {
+    "p": 0.1244,
+    "vol": 76205,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL21-26"
+   },
+   "polymarket": {
+    "p": 0.1132,
+    "vol": 50875,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-21-house-election-winner"
+   }
+  },
+  "FL-22": {
+   "kalshi": {
+    "p": 0.675,
+    "vol": 244987,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL22-26"
+   },
+   "polymarket": {
+    "p": 0.6904,
+    "vol": 145527,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-22-house-election-winner"
+   }
+  },
+  "FL-23": {
+   "polymarket": {
+    "p": 0.9829,
+    "vol": 27412,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "fl-23-house-election-winner"
+   }
+  },
+  "FL-24": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 31908,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL24-26"
+   },
+   "polymarket": {
+    "p": 0.987,
+    "vol": 35470,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "fl-24-house-election-winner"
+   }
+  },
+  "FL-25": {
+   "kalshi": {
+    "p": 0.825,
+    "vol": 970464,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL25-26"
+   },
+   "polymarket": {
+    "p": 0.8342,
+    "vol": 153764,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-25-house-election-winner"
+   }
+  },
+  "FL-26": {
+   "kalshi": {
+    "p": 0.145,
+    "vol": 231393,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL26-26"
+   },
+   "polymarket": {
+    "p": 0.145,
+    "vol": 126292,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-26-house-election-winner"
+   }
+  },
+  "FL-27": {
+   "kalshi": {
+    "p": 0.3614,
+    "vol": 224087,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL27-26"
+   },
+   "polymarket": {
+    "p": 0.3568,
+    "vol": 92362,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-27-house-election-winner"
+   }
+  },
+  "FL-28": {
+   "kalshi": {
+    "p": 0.0729,
+    "vol": 41863,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL28-26"
+   },
+   "polymarket": {
+    "p": 0.065,
+    "vol": 77982,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-28-house-election-winner"
+   }
+  },
+  "FL-3": {
+   "kalshi": {
+    "p": 0.0469,
+    "vol": 8634,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL03-26"
+   },
+   "polymarket": {
+    "p": 0.0419,
+    "vol": 66637,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "fl-03-house-election-winner"
+   }
+  },
+  "FL-4": {
+   "kalshi": {
+    "p": 0.202,
+    "vol": 124496,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL04-26"
+   },
+   "polymarket": {
+    "p": 0.202,
+    "vol": 47856,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "fl-04-house-election-winner"
+   }
+  },
+  "FL-5": {
+   "kalshi": {
+    "p": 0.044,
+    "vol": 15261,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL05-26"
+   },
+   "polymarket": {
+    "p": 0.04,
+    "vol": 25399,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "fl-05-house-election-winner"
+   }
+  },
+  "FL-6": {
+   "kalshi": {
+    "p": 0.028,
+    "vol": 16146,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL06-26"
+   },
+   "polymarket": {
+    "p": 0.026,
+    "vol": 42677,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-06-house-election-winner"
+   }
+  },
+  "FL-7": {
+   "kalshi": {
+    "p": 0.3515,
+    "vol": 138039,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL07-26"
+   },
+   "polymarket": {
+    "p": 0.3333,
+    "vol": 104515,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "fl-07-house-election-winner"
+   }
+  },
+  "FL-8": {
+   "kalshi": {
+    "p": 0.0719,
+    "vol": 11498,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL08-26"
+   },
+   "polymarket": {
+    "p": 0.0665,
+    "vol": 65815,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "fl-08-house-election-winner"
+   }
+  },
+  "FL-9": {
+   "kalshi": {
+    "p": 0.3909,
+    "vol": 228815,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-FL09-26"
+   },
+   "polymarket": {
+    "p": 0.3819,
+    "vol": 110187,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "fl-09-house-election-winner"
+   }
+  },
+  "GA-1": {
+   "kalshi": {
+    "p": 0.12,
+    "vol": 95252,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA01-26"
+   },
+   "polymarket": {
+    "p": 0.1244,
+    "vol": 32988,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ga-01-house-election-winner"
+   }
+  },
+  "GA-10": {
+   "kalshi": {
+    "p": 0.027,
+    "vol": 5308,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA10-26"
+   },
+   "polymarket": {
+    "p": 0.0191,
+    "vol": 68916,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "ga-10-house-election-winner"
+   }
+  },
+  "GA-11": {
+   "kalshi": {
+    "p": 0.0493,
+    "vol": 35131,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA11-26"
+   },
+   "polymarket": {
+    "p": 0.0455,
+    "vol": 94573,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "ga-11-house-election-winner"
+   }
+  },
+  "GA-12": {
+   "kalshi": {
+    "p": 0.155,
+    "vol": 104346,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA12-26"
+   },
+   "polymarket": {
+    "p": 0.1515,
+    "vol": 86908,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ga-12-house-election-winner"
+   }
+  },
+  "GA-13": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 9423,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA13-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 39810,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "ga-13-house-election-winner"
+   }
+  },
+  "GA-14": {
+   "kalshi": {
+    "p": 0.0254,
+    "vol": 27320,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA14-26"
+   },
+   "polymarket": {
+    "p": 0.0221,
+    "vol": 19742,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ga-14-house-election-winner"
+   }
+  },
+  "GA-2": {
+   "kalshi": {
+    "p": 0.9795,
+    "vol": 30579,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA02-26"
+   },
+   "polymarket": {
+    "p": 0.9785,
+    "vol": 27463,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "ga-02-house-election-winner"
+   }
+  },
+  "GA-3": {
+   "kalshi": {
+    "p": 0.0217,
+    "vol": 16635,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA03-26"
+   },
+   "polymarket": {
+    "p": 0.0215,
+    "vol": 33705,
+    "spread": 0.031,
+    "liquid": true,
+    "id": "ga-03-house-election-winner"
+   }
+  },
+  "GA-4": {
+   "kalshi": {
+    "p": 0.984,
+    "vol": 2355,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA04-26"
+   },
+   "polymarket": {
+    "p": 0.9844,
+    "vol": 48437,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "ga-04-house-election-winner"
+   }
+  },
+  "GA-5": {
+   "kalshi": {
+    "p": 0.991,
+    "vol": 3651,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA05-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 55118,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ga-05-house-election-winner"
+   }
+  },
+  "GA-6": {
+   "kalshi": {
+    "p": 0.986,
+    "vol": 12016,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA06-26"
+   },
+   "polymarket": {
+    "p": 0.9855,
+    "vol": 24447,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ga-06-house-election-winner"
+   }
+  },
+  "GA-7": {
+   "kalshi": {
+    "p": 0.0694,
+    "vol": 49641,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA07-26"
+   },
+   "polymarket": {
+    "p": 0.0693,
+    "vol": 49861,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ga-07-house-election-winner"
+   }
+  },
+  "GA-8": {
+   "kalshi": {
+    "p": 0.0185,
+    "vol": 8397,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA08-26"
+   },
+   "polymarket": {
+    "p": 0.017,
+    "vol": 50690,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "ga-08-house-election-winner"
+   }
+  },
+  "GA-9": {
+   "kalshi": {
+    "p": 0.0165,
+    "vol": 14515,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-GA09-26"
+   },
+   "polymarket": {
+    "p": 0.0145,
+    "vol": 61443,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ga-09-house-election-winner"
+   }
+  },
+  "HI-1": {
+   "kalshi": {
+    "p": 0.9811,
+    "vol": 626,
+    "spread": 0.018,
+    "liquid": false,
+    "id": "KXHOUSERACE-HI01-26"
+   },
+   "polymarket": {
+    "p": 0.985,
+    "vol": 54649,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "hi-01-house-election-winner"
+   }
+  },
+  "HI-2": {
+   "kalshi": {
+    "p": 0.9879,
+    "vol": 83638,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-HI02-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 84127,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "hi-02-house-election-winner"
+   }
+  },
+  "IA-1": {
+   "polymarket": {
+    "p": 0.925,
+    "vol": 89749,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ia-01-house-election-winner"
+   }
+  },
+  "IA-2": {
+   "kalshi": {
+    "p": 0.7129,
+    "vol": 160210,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-IA02-26"
+   },
+   "polymarket": {
+    "p": 0.725,
+    "vol": 79418,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ia-02-house-election-winner"
+   }
+  },
+  "IA-3": {
+   "polymarket": {
+    "p": 0.8442,
+    "vol": 30203,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ia-03-house-election-winner"
+   }
+  },
+  "IA-4": {
+   "kalshi": {
+    "p": 0.0185,
+    "vol": 18243,
+    "spread": 0.029,
+    "liquid": true,
+    "id": "KXHOUSERACE-IA04-26"
+   },
+   "polymarket": {
+    "p": 0.0156,
+    "vol": 67417,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "ia-04-house-election-winner"
+   }
+  },
+  "ID-1": {
+   "kalshi": {
+    "p": 0.0171,
+    "vol": 2162,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-ID01-26"
+   },
+   "polymarket": {
+    "p": 0.019,
+    "vol": 49837,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "id-01-house-election-winner"
+   }
+  },
+  "ID-2": {
+   "kalshi": {
+    "p": 0.0212,
+    "vol": 9577,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-ID02-26"
+   },
+   "polymarket": {
+    "p": 0.0216,
+    "vol": 43948,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "id-02-house-election-winner"
+   }
+  },
+  "IL-1": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 12727,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL01-26"
+   },
+   "polymarket": {
+    "p": 0.9795,
+    "vol": 61320,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "il-01-house-election-winner"
+   }
+  },
+  "IL-10": {
+   "kalshi": {
+    "p": 0.9811,
+    "vol": 4630,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL10-26"
+   },
+   "polymarket": {
+    "p": 0.9805,
+    "vol": 34533,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "il-10-house-election-winner"
+   }
+  },
+  "IL-11": {
+   "kalshi": {
+    "p": 0.9815,
+    "vol": 1958,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL11-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 47913,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "il-11-house-election-winner"
+   }
+  },
+  "IL-12": {
+   "kalshi": {
+    "p": 0.016,
+    "vol": 11481,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL12-26"
+   },
+   "polymarket": {
+    "p": 0.017,
+    "vol": 27307,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "il-12-house-election-winner"
+   }
+  },
+  "IL-13": {
+   "kalshi": {
+    "p": 0.9825,
+    "vol": 2578,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL13-26"
+   },
+   "polymarket": {
+    "p": 0.9854,
+    "vol": 21769,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "il-13-house-election-winner"
+   }
+  },
+  "IL-14": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 4018,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL14-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 26336,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "il-14-house-election-winner"
+   }
+  },
+  "IL-15": {
+   "kalshi": {
+    "p": 0.0156,
+    "vol": 7325,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL15-26"
+   },
+   "polymarket": {
+    "p": 0.0145,
+    "vol": 51084,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "il-15-house-election-winner"
+   }
+  },
+  "IL-16": {
+   "kalshi": {
+    "p": 0.0334,
+    "vol": 35813,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL16-26"
+   },
+   "polymarket": {
+    "p": 0.033,
+    "vol": 73609,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "il-16-house-election-winner"
+   }
+  },
+  "IL-17": {
+   "polymarket": {
+    "p": 0.9743,
+    "vol": 33064,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "il-17-house-election-winner"
+   }
+  },
+  "IL-2": {
+   "kalshi": {
+    "p": 0.986,
+    "vol": 1496,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL02-26"
+   },
+   "polymarket": {
+    "p": 0.99,
+    "vol": 36923,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "il-02-house-election-winner"
+   }
+  },
+  "IL-3": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 1888,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL03-26"
+   },
+   "polymarket": {
+    "p": 0.9774,
+    "vol": 52959,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "il-03-house-election-winner"
+   }
+  },
+  "IL-4": {
+   "kalshi": {
+    "p": 0.9938,
+    "vol": 43728,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL04-26"
+   },
+   "polymarket": {
+    "p": 0.9913,
+    "vol": 78065,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "il-04-house-election-winner"
+   }
+  },
+  "IL-5": {
+   "kalshi": {
+    "p": 0.986,
+    "vol": 2259,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL05-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 35998,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "il-05-house-election-winner"
+   }
+  },
+  "IL-6": {
+   "kalshi": {
+    "p": 0.9755,
+    "vol": 1237,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL06-26"
+   },
+   "polymarket": {
+    "p": 0.9864,
+    "vol": 43835,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "il-06-house-election-winner"
+   }
+  },
+  "IL-7": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 689,
+    "spread": 0.027,
+    "liquid": false,
+    "id": "KXHOUSERACE-IL07-26"
+   },
+   "polymarket": {
+    "p": 0.99,
+    "vol": 27313,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "il-07-house-election-winner"
+   }
+  },
+  "IL-8": {
+   "kalshi": {
+    "p": 0.9605,
+    "vol": 17973,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL08-26"
+   },
+   "polymarket": {
+    "p": 0.9664,
+    "vol": 23836,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "il-08-house-election-winner"
+   }
+  },
+  "IL-9": {
+   "kalshi": {
+    "p": 0.99,
+    "vol": 3770,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "KXHOUSERACE-IL09-26"
+   },
+   "polymarket": {
+    "p": 0.989,
+    "vol": 32142,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "il-09-house-election-winner"
+   }
+  },
+  "IN-1": {
+   "polymarket": {
+    "p": 0.9799,
+    "vol": 24831,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "in-01-house-election-winner"
+   }
+  },
+  "IN-2": {
+   "kalshi": {
+    "p": 0.016,
+    "vol": 6194,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-IN02-26"
+   },
+   "polymarket": {
+    "p": 0.0155,
+    "vol": 42205,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "in-02-house-election-winner"
+   }
+  },
+  "IN-3": {
+   "kalshi": {
+    "p": 0.0171,
+    "vol": 2436,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "KXHOUSERACE-IN03-26"
+   },
+   "polymarket": {
+    "p": 0.0181,
+    "vol": 48963,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "in-03-house-election-winner"
+   }
+  },
+  "IN-4": {
+   "kalshi": {
+    "p": 0.02,
+    "vol": 14997,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-IN04-26"
+   },
+   "polymarket": {
+    "p": 0.0162,
+    "vol": 50492,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "in-04-house-election-winner"
+   }
+  },
+  "IN-5": {
+   "kalshi": {
+    "p": 0.235,
+    "vol": 243992,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-IN05-26"
+   },
+   "polymarket": {
+    "p": 0.24,
+    "vol": 76646,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "in-05-house-election-winner"
+   }
+  },
+  "IN-6": {
+   "kalshi": {
+    "p": 0.016,
+    "vol": 3472,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-IN06-26"
+   },
+   "polymarket": {
+    "p": 0.0211,
+    "vol": 38259,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "in-06-house-election-winner"
+   }
+  },
+  "IN-7": {
+   "polymarket": {
+    "p": 0.982,
+    "vol": 46062,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "in-07-house-election-winner"
+   }
+  },
+  "IN-8": {
+   "kalshi": {
+    "p": 0.03,
+    "vol": 95466,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-IN08-26"
+   },
+   "polymarket": {
+    "p": 0.0255,
+    "vol": 54030,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "in-08-house-election-winner"
+   }
+  },
+  "IN-9": {
+   "kalshi": {
+    "p": 0.0146,
+    "vol": 11126,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-IN09-26"
+   },
+   "polymarket": {
+    "p": 0.014,
+    "vol": 36463,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "in-09-house-election-winner"
+   }
+  },
+  "KS-1": {
+   "kalshi": {
+    "p": 0.0206,
+    "vol": 9561,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-KS01-26"
+   },
+   "polymarket": {
+    "p": 0.0192,
+    "vol": 38051,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "ks-01-house-election-winner"
+   }
+  },
+  "KS-2": {
+   "kalshi": {
+    "p": 0.2,
+    "vol": 69108,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-KS02-26"
+   },
+   "polymarket": {
+    "p": 0.204,
+    "vol": 70286,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ks-02-house-election-winner"
+   }
+  },
+  "KS-3": {
+   "kalshi": {
+    "p": 0.9706,
+    "vol": 20521,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-KS03-26"
+   },
+   "polymarket": {
+    "p": 0.9755,
+    "vol": 35722,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ks-03-house-election-winner"
+   }
+  },
+  "KS-4": {
+   "kalshi": {
+    "p": 0.0302,
+    "vol": 15776,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-KS04-26"
+   },
+   "polymarket": {
+    "p": 0.0236,
+    "vol": 158335,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "ks-04-house-election-winner"
+   }
+  },
+  "KY-1": {
+   "kalshi": {
+    "p": 0.0195,
+    "vol": 5679,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-KY01-26"
+   },
+   "polymarket": {
+    "p": 0.0215,
+    "vol": 51005,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "ky-01-house-election-winner"
+   }
+  },
+  "KY-2": {
+   "kalshi": {
+    "p": 0.0136,
+    "vol": 3433,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-KY02-26"
+   },
+   "polymarket": {
+    "p": 0.014,
+    "vol": 18845,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ky-02-house-election-winner"
+   }
+  },
+  "KY-3": {
+   "kalshi": {
+    "p": 0.983,
+    "vol": 5349,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-KY03-26"
+   },
+   "polymarket": {
+    "p": 0.9825,
+    "vol": 48976,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "ky-03-house-election-winner"
+   }
+  },
+  "KY-4": {
+   "kalshi": {
+    "p": 0.0235,
+    "vol": 67720,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-KY04-26"
+   },
+   "polymarket": {
+    "p": 0.0195,
+    "vol": 50334,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "ky-04-house-election-winner"
+   }
+  },
+  "KY-5": {
+   "kalshi": {
+    "p": 0.0175,
+    "vol": 6071,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-KY05-26"
+   },
+   "polymarket": {
+    "p": 0.0155,
+    "vol": 73182,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "ky-05-house-election-winner"
+   }
+  },
+  "KY-6": {
+   "kalshi": {
+    "p": 0.5821,
+    "vol": 286099,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-KY06-26"
+   },
+   "polymarket": {
+    "p": 0.58,
+    "vol": 144438,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ky-06-house-election-winner"
+   }
+  },
+  "LA-1": {
+   "kalshi": {
+    "p": 0.0166,
+    "vol": 4891,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-LA01-26"
+   },
+   "polymarket": {
+    "p": 0.0171,
+    "vol": 53467,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "la-01-house-election-winner"
+   }
+  },
+  "LA-2": {
+   "kalshi": {
+    "p": 0.9796,
+    "vol": 34300,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-LA02-26"
+   },
+   "polymarket": {
+    "p": 0.985,
+    "vol": 62881,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "la-02-house-election-winner"
+   }
+  },
+  "LA-3": {
+   "kalshi": {
+    "p": 0.019,
+    "vol": 4890,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-LA03-26"
+   },
+   "polymarket": {
+    "p": 0.0151,
+    "vol": 36293,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "la-03-house-election-winner"
+   }
+  },
+  "LA-4": {
+   "kalshi": {
+    "p": 0.0206,
+    "vol": 9315,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-LA04-26"
+   },
+   "polymarket": {
+    "p": 0.0262,
+    "vol": 21689,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "la-04-house-election-winner"
+   }
+  },
+  "LA-5": {
+   "kalshi": {
+    "p": 0.0165,
+    "vol": 16640,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-LA05-26"
+   },
+   "polymarket": {
+    "p": 0.0156,
+    "vol": 27111,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "la-05-house-election-winner"
+   }
+  },
+  "LA-6": {
+   "kalshi": {
+    "p": 0.0526,
+    "vol": 110998,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-LA06-26"
+   },
+   "polymarket": {
+    "p": 0.0465,
+    "vol": 76666,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "la-06-house-election-winner"
+   }
+  },
+  "MA-1": {
+   "kalshi": {
+    "p": 0.9879,
+    "vol": 5330,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-MA01-26"
+   },
+   "polymarket": {
+    "p": 0.9864,
+    "vol": 56413,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "ma-01-house-election-winner"
+   }
+  },
+  "MA-2": {
+   "kalshi": {
+    "p": 0.9885,
+    "vol": 1689,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-MA02-26"
+   },
+   "polymarket": {
+    "p": 0.989,
+    "vol": 75866,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ma-02-house-election-winner"
+   }
+  },
+  "MA-3": {
+   "kalshi": {
+    "p": 0.9825,
+    "vol": 3762,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "KXHOUSERACE-MA03-26"
+   },
+   "polymarket": {
+    "p": 0.9835,
+    "vol": 24390,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "ma-03-house-election-winner"
+   }
+  },
+  "MA-4": {
+   "kalshi": {
+    "p": 0.9884,
+    "vol": 2813,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-MA04-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 49548,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "ma-04-house-election-winner"
+   }
+  },
+  "MA-5": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 1845,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-MA05-26"
+   },
+   "polymarket": {
+    "p": 0.9881,
+    "vol": 38415,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "ma-05-house-election-winner"
+   }
+  },
+  "MA-6": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 45675,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-MA06-26"
+   },
+   "polymarket": {
+    "p": 0.983,
+    "vol": 30198,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "ma-06-house-election-winner"
+   }
+  },
+  "MA-7": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 520,
+    "spread": 0.007,
+    "liquid": false,
+    "id": "KXHOUSERACE-MA07-26"
+   },
+   "polymarket": {
+    "p": 0.991,
+    "vol": 37171,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "ma-07-house-election-winner"
+   }
+  },
+  "MA-8": {
+   "kalshi": {
+    "p": 0.9849,
+    "vol": 830,
+    "spread": 0.018,
+    "liquid": false,
+    "id": "KXHOUSERACE-MA08-26"
+   },
+   "polymarket": {
+    "p": 0.982,
+    "vol": 29147,
+    "spread": 0.029,
+    "liquid": true,
+    "id": "ma-08-house-election-winner"
+   }
+  },
+  "MA-9": {
+   "kalshi": {
+    "p": 0.9854,
+    "vol": 1415,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-MA09-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 30959,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ma-09-house-election-winner"
+   }
+  },
+  "MD-1": {
+   "kalshi": {
+    "p": 0.125,
+    "vol": 164141,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-MD01-26"
+   },
+   "polymarket": {
+    "p": 0.1156,
+    "vol": 108702,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "md-01-house-election-winner"
+   }
+  },
+  "MD-2": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 4469,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-MD02-26"
+   },
+   "polymarket": {
+    "p": 0.9824,
+    "vol": 25173,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "md-02-house-election-winner"
+   }
+  },
+  "MD-3": {
+   "kalshi": {
+    "p": 0.9805,
+    "vol": 2793,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-MD03-26"
+   },
+   "polymarket": {
+    "p": 0.9799,
+    "vol": 54482,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "md-03-house-election-winner"
+   }
+  },
+  "MD-4": {
+   "kalshi": {
+    "p": 0.9909,
+    "vol": 1026,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-MD04-26"
+   },
+   "polymarket": {
+    "p": 0.989,
+    "vol": 49016,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "md-04-house-election-winner"
+   }
+  },
+  "MD-5": {
+   "kalshi": {
+    "p": 0.9721,
+    "vol": 5886,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-MD05-26"
+   },
+   "polymarket": {
+    "p": 0.9741,
+    "vol": 25326,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "md-05-house-election-winner"
+   }
+  },
+  "MD-6": {
+   "kalshi": {
+    "p": 0.9726,
+    "vol": 8714,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "KXHOUSERACE-MD06-26"
+   },
+   "polymarket": {
+    "p": 0.9835,
+    "vol": 36015,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "md-06-house-election-winner"
+   }
+  },
+  "MD-7": {
+   "kalshi": {
+    "p": 0.9909,
+    "vol": 954,
+    "spread": 0.016,
+    "liquid": false,
+    "id": "KXHOUSERACE-MD07-26"
+   },
+   "polymarket": {
+    "p": 0.989,
+    "vol": 24663,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "md-07-house-election-winner"
+   }
+  },
+  "MD-8": {
+   "kalshi": {
+    "p": 0.992,
+    "vol": 775,
+    "spread": 0.01,
+    "liquid": false,
+    "id": "KXHOUSERACE-MD08-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 28786,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "md-08-house-election-winner"
+   }
+  },
+  "ME-1": {
+   "kalshi": {
+    "p": 0.9845,
+    "vol": 7036,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-ME01-26"
+   },
+   "polymarket": {
+    "p": 0.9829,
+    "vol": 48546,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "me-01-house-election-winner"
+   }
+  },
+  "MI-1": {
+   "kalshi": {
+    "p": 0.12,
+    "vol": 38779,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI01-26"
+   },
+   "polymarket": {
+    "p": 0.1165,
+    "vol": 39877,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "mi-01-house-election-winner"
+   }
+  },
+  "MI-10": {
+   "polymarket": {
+    "p": 0.735,
+    "vol": 38739,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mi-10-house-election-winner"
+   }
+  },
+  "MI-11": {
+   "kalshi": {
+    "p": 0.9825,
+    "vol": 3689,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI11-26"
+   },
+   "polymarket": {
+    "p": 0.9834,
+    "vol": 82891,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "mi-11-house-election-winner"
+   }
+  },
+  "MI-12": {
+   "kalshi": {
+    "p": 0.9805,
+    "vol": 4187,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI12-26"
+   },
+   "polymarket": {
+    "p": 0.9884,
+    "vol": 42076,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "mi-12-house-election-winner"
+   }
+  },
+  "MI-13": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 1913,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI13-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 52093,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "mi-13-house-election-winner"
+   }
+  },
+  "MI-2": {
+   "kalshi": {
+    "p": 0.0135,
+    "vol": 10249,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI02-26"
+   },
+   "polymarket": {
+    "p": 0.0111,
+    "vol": 55444,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "mi-02-house-election-winner"
+   }
+  },
+  "MI-3": {
+   "polymarket": {
+    "p": 0.9699,
+    "vol": 63713,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "mi-03-house-election-winner"
+   }
+  },
+  "MI-4": {
+   "polymarket": {
+    "p": 0.595,
+    "vol": 60578,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mi-04-house-election-winner"
+   }
+  },
+  "MI-5": {
+   "kalshi": {
+    "p": 0.0281,
+    "vol": 21241,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI05-26"
+   },
+   "polymarket": {
+    "p": 0.0246,
+    "vol": 49121,
+    "spread": 0.03,
+    "liquid": true,
+    "id": "mi-05-house-election-winner"
+   }
+  },
+  "MI-6": {
+   "kalshi": {
+    "p": 0.981,
+    "vol": 1658,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI06-26"
+   },
+   "polymarket": {
+    "p": 0.9825,
+    "vol": 54196,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "mi-06-house-election-winner"
+   }
+  },
+  "MI-7": {
+   "polymarket": {
+    "p": 0.7828,
+    "vol": 74572,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mi-07-house-election-winner"
+   }
+  },
+  "MI-8": {
+   "polymarket": {
+    "p": 0.9778,
+    "vol": 26865,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "mi-08-house-election-winner"
+   }
+  },
+  "MI-9": {
+   "kalshi": {
+    "p": 0.0189,
+    "vol": 7592,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-MI09-26"
+   },
+   "polymarket": {
+    "p": 0.0195,
+    "vol": 39018,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "mi-09-house-election-winner"
+   }
+  },
+  "MN-1": {
+   "kalshi": {
+    "p": 0.403,
+    "vol": 408643,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-MN01-26"
+   },
+   "polymarket": {
+    "p": 0.3911,
+    "vol": 106096,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mn-01-house-election-winner"
+   }
+  },
+  "MN-2": {
+   "polymarket": {
+    "p": 0.9571,
+    "vol": 65194,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "mn-02-house-election-winner"
+   }
+  },
+  "MN-3": {
+   "kalshi": {
+    "p": 0.9793,
+    "vol": 2195,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "KXHOUSERACE-MN03-26"
+   },
+   "polymarket": {
+    "p": 0.98,
+    "vol": 30345,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "mn-03-house-election-winner"
+   }
+  },
+  "MN-4": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 23282,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-MN04-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 29452,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "mn-04-house-election-winner"
+   }
+  },
+  "MN-5": {
+   "kalshi": {
+    "p": 0.9795,
+    "vol": 2238760,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "KXHOUSERACE-MN05-26"
+   },
+   "polymarket": {
+    "p": 0.9815,
+    "vol": 83388,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "mn-05-house-election-winner"
+   }
+  },
+  "MN-6": {
+   "kalshi": {
+    "p": 0.0606,
+    "vol": 35902,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-MN06-26"
+   },
+   "polymarket": {
+    "p": 0.0482,
+    "vol": 105890,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "mn-06-house-election-winner"
+   }
+  },
+  "MN-7": {
+   "kalshi": {
+    "p": 0.0211,
+    "vol": 13788,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-MN07-26"
+   },
+   "polymarket": {
+    "p": 0.0206,
+    "vol": 37980,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "mn-07-house-election-winner"
+   }
+  },
+  "MN-8": {
+   "kalshi": {
+    "p": 0.1741,
+    "vol": 73315,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-MN08-26"
+   },
+   "polymarket": {
+    "p": 0.1642,
+    "vol": 31923,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mn-08-house-election-winner"
+   }
+  },
+  "MO-1": {
+   "kalshi": {
+    "p": 0.9825,
+    "vol": 7387,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-MO01-26"
+   },
+   "polymarket": {
+    "p": 0.9864,
+    "vol": 37132,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "mo-01-house-election-winner"
+   }
+  },
+  "MO-2": {
+   "kalshi": {
+    "p": 0.402,
+    "vol": 414092,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-MO02-26"
+   },
+   "polymarket": {
+    "p": 0.4121,
+    "vol": 226529,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mo-02-house-election-winner"
+   }
+  },
+  "MO-3": {
+   "kalshi": {
+    "p": 0.0215,
+    "vol": 6203,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-MO03-26"
+   },
+   "polymarket": {
+    "p": 0.0136,
+    "vol": 44661,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "mo-03-house-election-winner"
+   }
+  },
+  "MO-4": {
+   "kalshi": {
+    "p": 0.0195,
+    "vol": 10027,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-MO04-26"
+   },
+   "polymarket": {
+    "p": 0.0151,
+    "vol": 73743,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mo-04-house-election-winner"
+   }
+  },
+  "MO-5": {
+   "polymarket": {
+    "p": 0.9834,
+    "vol": 91735,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "mo-05-house-election-winner"
+   }
+  },
+  "MO-6": {
+   "kalshi": {
+    "p": 0.0191,
+    "vol": 14070,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-MO06-26"
+   },
+   "polymarket": {
+    "p": 0.0131,
+    "vol": 69467,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "mo-06-house-election-winner"
+   }
+  },
+  "MO-7": {
+   "kalshi": {
+    "p": 0.0205,
+    "vol": 2135,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-MO07-26"
+   },
+   "polymarket": {
+    "p": 0.0209,
+    "vol": 39205,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "mo-07-house-election-winner"
+   }
+  },
+  "MO-8": {
+   "kalshi": {
+    "p": 0.019,
+    "vol": 1354,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-MO08-26"
+   },
+   "polymarket": {
+    "p": 0.014,
+    "vol": 47110,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "mo-08-house-election-winner"
+   }
+  },
+  "MS-1": {
+   "kalshi": {
+    "p": 0.02,
+    "vol": 19769,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-MS01-26"
+   },
+   "polymarket": {
+    "p": 0.0205,
+    "vol": 118788,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ms-01-house-election-winner"
+   }
+  },
+  "MS-2": {
+   "kalshi": {
+    "p": 0.9915,
+    "vol": 42547,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-MS02-26"
+   },
+   "polymarket": {
+    "p": 0.9879,
+    "vol": 45948,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "ms-02-house-election-winner"
+   }
+  },
+  "MS-3": {
+   "kalshi": {
+    "p": 0.012,
+    "vol": 4716,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-MS03-26"
+   },
+   "polymarket": {
+    "p": 0.002,
+    "vol": 62876,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "ms-03-house-election-winner"
+   }
+  },
+  "MS-4": {
+   "kalshi": {
+    "p": 0.019,
+    "vol": 11813,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-MS04-26"
+   },
+   "polymarket": {
+    "p": 0.0172,
+    "vol": 41940,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "ms-04-house-election-winner"
+   }
+  },
+  "MT-1": {
+   "polymarket": {
+    "p": 0.592,
+    "vol": 180666,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mt-01-house-election-winner"
+   }
+  },
+  "MT-2": {
+   "kalshi": {
+    "p": 0.0171,
+    "vol": 10943,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-MT02-26"
+   },
+   "polymarket": {
+    "p": 0.0135,
+    "vol": 70622,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "mt-02-house-election-winner"
+   }
+  },
+  "NC-1": {
+   "polymarket": {
+    "p": 0.8657,
+    "vol": 89697,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nc-01-house-election-winner"
+   }
+  },
+  "NC-10": {
+   "kalshi": {
+    "p": 0.0568,
+    "vol": 5836,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC10-26"
+   },
+   "polymarket": {
+    "p": 0.053,
+    "vol": 16535,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "nc-10-house-election-winner"
+   }
+  },
+  "NC-11": {
+   "polymarket": {
+    "p": 0.8756,
+    "vol": 324349,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nc-11-house-election-winner"
+   }
+  },
+  "NC-12": {
+   "kalshi": {
+    "p": 0.984,
+    "vol": 4460,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC12-26"
+   },
+   "polymarket": {
+    "p": 0.9905,
+    "vol": 66593,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "nc-12-house-election-winner"
+   }
+  },
+  "NC-13": {
+   "kalshi": {
+    "p": 0.34,
+    "vol": 689570,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC13-26"
+   },
+   "polymarket": {
+    "p": 0.3317,
+    "vol": 704817,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nc-13-house-election-winner"
+   }
+  },
+  "NC-14": {
+   "kalshi": {
+    "p": 0.2189,
+    "vol": 302364,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC14-26"
+   },
+   "polymarket": {
+    "p": 0.21,
+    "vol": 51105,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "nc-14-house-election-winner"
+   }
+  },
+  "NC-2": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 8867,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC02-26"
+   },
+   "polymarket": {
+    "p": 0.995,
+    "vol": 32611,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "nc-02-house-election-winner"
+   }
+  },
+  "NC-3": {
+   "kalshi": {
+    "p": 0.4059,
+    "vol": 1017210,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC03-26"
+   },
+   "polymarket": {
+    "p": 0.4208,
+    "vol": 338587,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nc-03-house-election-winner"
+   }
+  },
+  "NC-4": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 3504,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC04-26"
+   },
+   "polymarket": {
+    "p": 0.9775,
+    "vol": 87119,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "nc-04-house-election-winner"
+   }
+  },
+  "NC-5": {
+   "kalshi": {
+    "p": 0.1493,
+    "vol": 73202,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC05-26"
+   },
+   "polymarket": {
+    "p": 0.1513,
+    "vol": 58950,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "nc-05-house-election-winner"
+   }
+  },
+  "NC-6": {
+   "kalshi": {
+    "p": 0.15,
+    "vol": 22108,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC06-26"
+   },
+   "polymarket": {
+    "p": 0.1357,
+    "vol": 75066,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nc-06-house-election-winner"
+   }
+  },
+  "NC-7": {
+   "kalshi": {
+    "p": 0.2512,
+    "vol": 108694,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC07-26"
+   },
+   "polymarket": {
+    "p": 0.2475,
+    "vol": 50006,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "nc-07-house-election-winner"
+   }
+  },
+  "NC-8": {
+   "kalshi": {
+    "p": 0.0479,
+    "vol": 141335,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC08-26"
+   },
+   "polymarket": {
+    "p": 0.0464,
+    "vol": 60207,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "nc-08-house-election-winner"
+   }
+  },
+  "NC-9": {
+   "kalshi": {
+    "p": 0.345,
+    "vol": 572623,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NC09-26"
+   },
+   "polymarket": {
+    "p": 0.3417,
+    "vol": 406631,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nc-09-house-election-winner"
+   }
+  },
+  "ND-AL": {
+   "kalshi": {
+    "p": 0.0195,
+    "vol": 14096,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-NDAL-26"
+   },
+   "polymarket": {
+    "p": 0.0235,
+    "vol": 61253,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "nd-al-house-election-winner"
+   }
+  },
+  "NE-1": {
+   "kalshi": {
+    "p": 0.2289,
+    "vol": 191578,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NE01-26"
+   },
+   "polymarket": {
+    "p": 0.2338,
+    "vol": 58966,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ne-01-house-election-winner"
+   }
+  },
+  "NE-2": {
+   "polymarket": {
+    "p": 0.9422,
+    "vol": 68920,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "ne-02-house-election-winner"
+   }
+  },
+  "NE-3": {
+   "kalshi": {
+    "p": 0.0135,
+    "vol": 7160,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-NE03-26"
+   },
+   "polymarket": {
+    "p": 0.012,
+    "vol": 16840,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ne-03-house-election-winner"
+   }
+  },
+  "NH-1": {
+   "polymarket": {
+    "p": 0.9563,
+    "vol": 67033,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "nh-01-house-election-winner"
+   }
+  },
+  "NH-2": {
+   "kalshi": {
+    "p": 0.964,
+    "vol": 84082,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-NH02-26"
+   },
+   "polymarket": {
+    "p": 0.9708,
+    "vol": 70189,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "nh-02-house-election-winner"
+   }
+  },
+  "NJ-1": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 3290,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ01-26"
+   },
+   "polymarket": {
+    "p": 0.9803,
+    "vol": 54744,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "nj-01-house-election-winner"
+   }
+  },
+  "NJ-10": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 1841,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ10-26"
+   },
+   "polymarket": {
+    "p": 0.986,
+    "vol": 59207,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "nj-10-house-election-winner"
+   }
+  },
+  "NJ-11": {
+   "kalshi": {
+    "p": 0.9915,
+    "vol": 20716,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ11-26"
+   },
+   "polymarket": {
+    "p": 0.9935,
+    "vol": 47884,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "nj-11-house-election-winner"
+   }
+  },
+  "NJ-12": {
+   "kalshi": {
+    "p": 0.9834,
+    "vol": 13794,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ12-26"
+   },
+   "polymarket": {
+    "p": 0.9804,
+    "vol": 30454,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "nj-12-house-election-winner"
+   }
+  },
+  "NJ-2": {
+   "kalshi": {
+    "p": 0.4478,
+    "vol": 410737,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ02-26"
+   },
+   "polymarket": {
+    "p": 0.4372,
+    "vol": 273900,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nj-02-house-election-winner"
+   }
+  },
+  "NJ-3": {
+   "kalshi": {
+    "p": 0.99,
+    "vol": 6006,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ03-26"
+   },
+   "polymarket": {
+    "p": 0.9849,
+    "vol": 41266,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "nj-03-house-election-winner"
+   }
+  },
+  "NJ-4": {
+   "kalshi": {
+    "p": 0.0345,
+    "vol": 110123,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ04-26"
+   },
+   "polymarket": {
+    "p": 0.0385,
+    "vol": 34715,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "nj-04-house-election-winner"
+   }
+  },
+  "NJ-5": {
+   "polymarket": {
+    "p": 0.9845,
+    "vol": 32975,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "nj-05-house-election-winner"
+   }
+  },
+  "NJ-6": {
+   "kalshi": {
+    "p": 0.9815,
+    "vol": 1651,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ06-26"
+   },
+   "polymarket": {
+    "p": 0.9853,
+    "vol": 34867,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "nj-06-house-election-winner"
+   }
+  },
+  "NJ-7": {
+   "polymarket": {
+    "p": 0.9455,
+    "vol": 66210,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nj-07-house-election-winner"
+   }
+  },
+  "NJ-8": {
+   "kalshi": {
+    "p": 0.9875,
+    "vol": 17431,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-NJ08-26"
+   },
+   "polymarket": {
+    "p": 0.982,
+    "vol": 50843,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "nj-08-house-election-winner"
+   }
+  },
+  "NJ-9": {
+   "polymarket": {
+    "p": 0.9714,
+    "vol": 48902,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "nj-09-house-election-winner"
+   }
+  },
+  "NM-1": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 8256,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NM01-26"
+   },
+   "polymarket": {
+    "p": 0.997,
+    "vol": 46487,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "nm-01-house-election-winner"
+   }
+  },
+  "NM-2": {
+   "polymarket": {
+    "p": 0.9235,
+    "vol": 88956,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "nm-02-house-election-winner"
+   }
+  },
+  "NM-3": {
+   "kalshi": {
+    "p": 0.9689,
+    "vol": 10135,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-NM03-26"
+   },
+   "polymarket": {
+    "p": 0.9734,
+    "vol": 55287,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "nm-03-house-election-winner"
+   }
+  },
+  "NV-1": {
+   "polymarket": {
+    "p": 0.9636,
+    "vol": 37756,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "nv-01-house-election-winner"
+   }
+  },
+  "NV-2": {
+   "kalshi": {
+    "p": 0.3483,
+    "vol": 264814,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NV02-26"
+   },
+   "polymarket": {
+    "p": 0.35,
+    "vol": 90649,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "nv-02-house-election-winner"
+   }
+  },
+  "NV-3": {
+   "polymarket": {
+    "p": 0.9474,
+    "vol": 12785,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "nv-03-house-election-winner"
+   }
+  },
+  "NV-4": {
+   "polymarket": {
+    "p": 0.9568,
+    "vol": 39055,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "nv-04-house-election-winner"
+   }
+  },
+  "NY-1": {
+   "kalshi": {
+    "p": 0.2059,
+    "vol": 576647,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY01-26"
+   },
+   "polymarket": {
+    "p": 0.204,
+    "vol": 148931,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ny-01-house-election-winner"
+   }
+  },
+  "NY-10": {
+   "kalshi": {
+    "p": 0.9875,
+    "vol": 21252,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY10-26"
+   },
+   "polymarket": {
+    "p": 0.9874,
+    "vol": 57183,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "ny-10-house-election-winner"
+   }
+  },
+  "NY-11": {
+   "kalshi": {
+    "p": 0.0729,
+    "vol": 48620,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY11-26"
+   },
+   "polymarket": {
+    "p": 0.0652,
+    "vol": 52867,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "ny-11-house-election-winner"
+   }
+  },
+  "NY-12": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 18775,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY12-26"
+   },
+   "polymarket": {
+    "p": 0.984,
+    "vol": 35641,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ny-12-house-election-winner"
+   }
+  },
+  "NY-13": {
+   "kalshi": {
+    "p": 0.987,
+    "vol": 6847,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY13-26"
+   },
+   "polymarket": {
+    "p": 0.9884,
+    "vol": 41153,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "ny-13-house-election-winner"
+   }
+  },
+  "NY-14": {
+   "kalshi": {
+    "p": 0.992,
+    "vol": 8685,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY14-26"
+   },
+   "polymarket": {
+    "p": 0.998,
+    "vol": 67349,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "ny-14-house-election-winner"
+   }
+  },
+  "NY-15": {
+   "kalshi": {
+    "p": 0.9745,
+    "vol": 3882,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY15-26"
+   },
+   "polymarket": {
+    "p": 0.9785,
+    "vol": 49686,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ny-15-house-election-winner"
+   }
+  },
+  "NY-16": {
+   "kalshi": {
+    "p": 0.9865,
+    "vol": 2660,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY16-26"
+   },
+   "polymarket": {
+    "p": 0.9885,
+    "vol": 42096,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "ny-16-house-election-winner"
+   }
+  },
+  "NY-17": {
+   "polymarket": {
+    "p": 0.57,
+    "vol": 198667,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ny-17-house-election-winner"
+   }
+  },
+  "NY-18": {
+   "polymarket": {
+    "p": 0.9819,
+    "vol": 46737,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ny-18-house-election-winner"
+   }
+  },
+  "NY-19": {
+   "polymarket": {
+    "p": 0.9659,
+    "vol": 36106,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "ny-19-house-election-winner"
+   }
+  },
+  "NY-2": {
+   "kalshi": {
+    "p": 0.1741,
+    "vol": 302713,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY02-26"
+   },
+   "polymarket": {
+    "p": 0.1592,
+    "vol": 31075,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ny-02-house-election-winner"
+   }
+  },
+  "NY-20": {
+   "kalshi": {
+    "p": 0.9866,
+    "vol": 2524,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY20-26"
+   },
+   "polymarket": {
+    "p": 0.9866,
+    "vol": 47973,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "ny-20-house-election-winner"
+   }
+  },
+  "NY-21": {
+   "kalshi": {
+    "p": 0.3,
+    "vol": 279520,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY21-26"
+   },
+   "polymarket": {
+    "p": 0.2806,
+    "vol": 134283,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ny-21-house-election-winner"
+   }
+  },
+  "NY-22": {
+   "polymarket": {
+    "p": 0.9793,
+    "vol": 41310,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "ny-22-house-election-winner"
+   }
+  },
+  "NY-23": {
+   "kalshi": {
+    "p": 0.037,
+    "vol": 25619,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY23-26"
+   },
+   "polymarket": {
+    "p": 0.0357,
+    "vol": 91032,
+    "spread": 0.03,
+    "liquid": true,
+    "id": "ny-23-house-election-winner"
+   }
+  },
+  "NY-24": {
+   "kalshi": {
+    "p": 0.0534,
+    "vol": 25234,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY24-26"
+   },
+   "polymarket": {
+    "p": 0.045,
+    "vol": 54988,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "ny-24-house-election-winner"
+   }
+  },
+  "NY-25": {
+   "kalshi": {
+    "p": 0.9816,
+    "vol": 2333,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY25-26"
+   },
+   "polymarket": {
+    "p": 0.9909,
+    "vol": 42250,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ny-25-house-election-winner"
+   }
+  },
+  "NY-26": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 1621,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY26-26"
+   },
+   "polymarket": {
+    "p": 0.9849,
+    "vol": 43091,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ny-26-house-election-winner"
+   }
+  },
+  "NY-3": {
+   "polymarket": {
+    "p": 0.9196,
+    "vol": 59976,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ny-03-house-election-winner"
+   }
+  },
+  "NY-4": {
+   "polymarket": {
+    "p": 0.9182,
+    "vol": 29512,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "ny-04-house-election-winner"
+   }
+  },
+  "NY-5": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 5820,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY05-26"
+   },
+   "polymarket": {
+    "p": 0.9895,
+    "vol": 65373,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ny-05-house-election-winner"
+   }
+  },
+  "NY-6": {
+   "kalshi": {
+    "p": 0.9895,
+    "vol": 2356,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY06-26"
+   },
+   "polymarket": {
+    "p": 0.9945,
+    "vol": 27854,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "ny-06-house-election-winner"
+   }
+  },
+  "NY-7": {
+   "kalshi": {
+    "p": 0.986,
+    "vol": 2226,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY07-26"
+   },
+   "polymarket": {
+    "p": 0.9903,
+    "vol": 32014,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "ny-07-house-election-winner"
+   }
+  },
+  "NY-8": {
+   "kalshi": {
+    "p": 0.9885,
+    "vol": 3736,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY08-26"
+   },
+   "polymarket": {
+    "p": 0.9864,
+    "vol": 33561,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "ny-08-house-election-winner"
+   }
+  },
+  "NY-9": {
+   "kalshi": {
+    "p": 0.9811,
+    "vol": 5387,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-NY09-26"
+   },
+   "polymarket": {
+    "p": 0.9795,
+    "vol": 62387,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ny-09-house-election-winner"
+   }
+  },
+  "OH-1": {
+   "polymarket": {
+    "p": 0.9509,
+    "vol": 69762,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "oh-01-house-election-winner"
+   }
+  },
+  "OH-10": {
+   "kalshi": {
+    "p": 0.3069,
+    "vol": 309925,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH10-26"
+   },
+   "polymarket": {
+    "p": 0.2935,
+    "vol": 90584,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "oh-10-house-election-winner"
+   }
+  },
+  "OH-11": {
+   "kalshi": {
+    "p": 0.983,
+    "vol": 3368,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH11-26"
+   },
+   "polymarket": {
+    "p": 0.9879,
+    "vol": 39854,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "oh-11-house-election-winner"
+   }
+  },
+  "OH-12": {
+   "kalshi": {
+    "p": 0.021,
+    "vol": 14497,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH12-26"
+   },
+   "polymarket": {
+    "p": 0.0145,
+    "vol": 40657,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "oh-12-house-election-winner"
+   }
+  },
+  "OH-13": {
+   "polymarket": {
+    "p": 0.9753,
+    "vol": 50288,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "oh-13-house-election-winner"
+   }
+  },
+  "OH-14": {
+   "kalshi": {
+    "p": 0.0388,
+    "vol": 11628,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH14-26"
+   },
+   "polymarket": {
+    "p": 0.0342,
+    "vol": 103869,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "oh-14-house-election-winner"
+   }
+  },
+  "OH-15": {
+   "kalshi": {
+    "p": 0.3911,
+    "vol": 156986,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH15-26"
+   },
+   "polymarket": {
+    "p": 0.396,
+    "vol": 59821,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "oh-15-house-election-winner"
+   }
+  },
+  "OH-2": {
+   "kalshi": {
+    "p": 0.0205,
+    "vol": 8537,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH02-26"
+   },
+   "polymarket": {
+    "p": 0.013,
+    "vol": 61666,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "oh-02-house-election-winner"
+   }
+  },
+  "OH-3": {
+   "kalshi": {
+    "p": 0.983,
+    "vol": 5636,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH03-26"
+   },
+   "polymarket": {
+    "p": 0.9849,
+    "vol": 59001,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "oh-03-house-election-winner"
+   }
+  },
+  "OH-4": {
+   "kalshi": {
+    "p": 0.0205,
+    "vol": 5081,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH04-26"
+   },
+   "polymarket": {
+    "p": 0.0145,
+    "vol": 24440,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "oh-04-house-election-winner"
+   }
+  },
+  "OH-5": {
+   "kalshi": {
+    "p": 0.0306,
+    "vol": 10382,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH05-26"
+   },
+   "polymarket": {
+    "p": 0.0306,
+    "vol": 67855,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "oh-05-house-election-winner"
+   }
+  },
+  "OH-6": {
+   "kalshi": {
+    "p": 0.0161,
+    "vol": 11222,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH06-26"
+   },
+   "polymarket": {
+    "p": 0.0115,
+    "vol": 83473,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "oh-06-house-election-winner"
+   }
+  },
+  "OH-7": {
+   "kalshi": {
+    "p": 0.8317,
+    "vol": 380024,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH07-26"
+   },
+   "polymarket": {
+    "p": 0.8408,
+    "vol": 155115,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "oh-07-house-election-winner"
+   }
+  },
+  "OH-8": {
+   "kalshi": {
+    "p": 0.0664,
+    "vol": 3198,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-OH08-26"
+   },
+   "polymarket": {
+    "p": 0.0452,
+    "vol": 19129,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "oh-08-house-election-winner"
+   }
+  },
+  "OH-9": {
+   "polymarket": {
+    "p": 0.8191,
+    "vol": 67328,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "oh-09-house-election-winner"
+   }
+  },
+  "OK-1": {
+   "kalshi": {
+    "p": 0.0675,
+    "vol": 10480,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-OK01-26"
+   },
+   "polymarket": {
+    "p": 0.0559,
+    "vol": 46206,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "ok-01-house-election-winner"
+   }
+  },
+  "OK-2": {
+   "kalshi": {
+    "p": 0.0205,
+    "vol": 6487,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-OK02-26"
+   },
+   "polymarket": {
+    "p": 0.018,
+    "vol": 34824,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "ok-02-house-election-winner"
+   }
+  },
+  "OK-3": {
+   "kalshi": {
+    "p": 0.0195,
+    "vol": 15032,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-OK03-26"
+   },
+   "polymarket": {
+    "p": 0.0116,
+    "vol": 108518,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ok-03-house-election-winner"
+   }
+  },
+  "OK-4": {
+   "kalshi": {
+    "p": 0.02,
+    "vol": 6396,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-OK04-26"
+   },
+   "polymarket": {
+    "p": 0.0205,
+    "vol": 37713,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "ok-04-house-election-winner"
+   }
+  },
+  "OK-5": {
+   "kalshi": {
+    "p": 0.125,
+    "vol": 190450,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-OK05-26"
+   },
+   "polymarket": {
+    "p": 0.13,
+    "vol": 85630,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "ok-05-house-election-winner"
+   }
+  },
+  "OR-1": {
+   "kalshi": {
+    "p": 0.9905,
+    "vol": 876,
+    "spread": 0.017,
+    "liquid": false,
+    "id": "KXHOUSERACE-OR01-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 27759,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "or-01-house-election-winner"
+   }
+  },
+  "OR-2": {
+   "kalshi": {
+    "p": 0.0247,
+    "vol": 2813,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-OR02-26"
+   },
+   "polymarket": {
+    "p": 0.029,
+    "vol": 23528,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "or-02-house-election-winner"
+   }
+  },
+  "OR-3": {
+   "kalshi": {
+    "p": 0.9875,
+    "vol": 1835,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-OR03-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 21646,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "or-03-house-election-winner"
+   }
+  },
+  "OR-4": {
+   "kalshi": {
+    "p": 0.9725,
+    "vol": 3018,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-OR04-26"
+   },
+   "polymarket": {
+    "p": 0.9814,
+    "vol": 35945,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "or-04-house-election-winner"
+   }
+  },
+  "OR-5": {
+   "polymarket": {
+    "p": 0.9784,
+    "vol": 36451,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "or-05-house-election-winner"
+   }
+  },
+  "OR-6": {
+   "kalshi": {
+    "p": 0.9885,
+    "vol": 41336,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-OR06-26"
+   },
+   "polymarket": {
+    "p": 0.9865,
+    "vol": 27241,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "or-06-house-election-winner"
+   }
+  },
+  "PA-1": {
+   "polymarket": {
+    "p": 0.6212,
+    "vol": 151427,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "pa-01-house-election-winner"
+   }
+  },
+  "PA-10": {
+   "polymarket": {
+    "p": 0.8333,
+    "vol": 36833,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "pa-10-house-election-winner"
+   }
+  },
+  "PA-11": {
+   "kalshi": {
+    "p": 0.0235,
+    "vol": 10160,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA11-26"
+   },
+   "polymarket": {
+    "p": 0.0265,
+    "vol": 68055,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "pa-11-house-election-winner"
+   }
+  },
+  "PA-12": {
+   "kalshi": {
+    "p": 0.9884,
+    "vol": 81753,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA12-26"
+   },
+   "polymarket": {
+    "p": 0.9845,
+    "vol": 25278,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "pa-12-house-election-winner"
+   }
+  },
+  "PA-13": {
+   "kalshi": {
+    "p": 0.013,
+    "vol": 2593,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA13-26"
+   },
+   "polymarket": {
+    "p": 0.0165,
+    "vol": 18244,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "pa-13-house-election-winner"
+   }
+  },
+  "PA-14": {
+   "kalshi": {
+    "p": 0.0186,
+    "vol": 3743,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA14-26"
+   },
+   "polymarket": {
+    "p": 0.0166,
+    "vol": 44744,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "pa-14-house-election-winner"
+   }
+  },
+  "PA-15": {
+   "kalshi": {
+    "p": 0.0155,
+    "vol": 19784,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA15-26"
+   },
+   "polymarket": {
+    "p": 0.014,
+    "vol": 30952,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "pa-15-house-election-winner"
+   }
+  },
+  "PA-16": {
+   "kalshi": {
+    "p": 0.0451,
+    "vol": 21382,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA16-26"
+   },
+   "polymarket": {
+    "p": 0.0387,
+    "vol": 90999,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "pa-16-house-election-winner"
+   }
+  },
+  "PA-17": {
+   "polymarket": {
+    "p": 0.9884,
+    "vol": 33554,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "pa-17-house-election-winner"
+   }
+  },
+  "PA-2": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 295,
+    "spread": 0.027,
+    "liquid": false,
+    "id": "KXHOUSERACE-PA02-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 40738,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "pa-02-house-election-winner"
+   }
+  },
+  "PA-3": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 1988,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA03-26"
+   },
+   "polymarket": {
+    "p": 0.986,
+    "vol": 34091,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "pa-03-house-election-winner"
+   }
+  },
+  "PA-4": {
+   "kalshi": {
+    "p": 0.98,
+    "vol": 4481,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA04-26"
+   },
+   "polymarket": {
+    "p": 0.976,
+    "vol": 22507,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "pa-04-house-election-winner"
+   }
+  },
+  "PA-5": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 2408,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA05-26"
+   },
+   "polymarket": {
+    "p": 0.9849,
+    "vol": 39675,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "pa-05-house-election-winner"
+   }
+  },
+  "PA-6": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 7298,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA06-26"
+   },
+   "polymarket": {
+    "p": 0.98,
+    "vol": 41722,
+    "spread": 0.03,
+    "liquid": true,
+    "id": "pa-06-house-election-winner"
+   }
+  },
+  "PA-7": {
+   "polymarket": {
+    "p": 0.895,
+    "vol": 47282,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "pa-07-house-election-winner"
+   }
+  },
+  "PA-8": {
+   "polymarket": {
+    "p": 0.8744,
+    "vol": 76497,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "pa-08-house-election-winner"
+   }
+  },
+  "PA-9": {
+   "kalshi": {
+    "p": 0.0491,
+    "vol": 115331,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "KXHOUSERACE-PA09-26"
+   },
+   "polymarket": {
+    "p": 0.0495,
+    "vol": 36323,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "pa-09-house-election-winner"
+   }
+  },
+  "RI-1": {
+   "kalshi": {
+    "p": 0.9829,
+    "vol": 4904,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-RI01-26"
+   },
+   "polymarket": {
+    "p": 0.98,
+    "vol": 47445,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "ri-01-house-election-winner"
+   }
+  },
+  "RI-2": {
+   "kalshi": {
+    "p": 0.9658,
+    "vol": 118984,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-RI02-26"
+   },
+   "polymarket": {
+    "p": 0.9704,
+    "vol": 66049,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "ri-02-house-election-winner"
+   }
+  },
+  "SC-1": {
+   "kalshi": {
+    "p": 0.4802,
+    "vol": 299849,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-SC01-26"
+   },
+   "polymarket": {
+    "p": 0.4826,
+    "vol": 174696,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "sc-01-house-election-winner"
+   }
+  },
+  "SC-2": {
+   "kalshi": {
+    "p": 0.0951,
+    "vol": 64896,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "KXHOUSERACE-SC02-26"
+   },
+   "polymarket": {
+    "p": 0.0964,
+    "vol": 80616,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "sc-02-house-election-winner"
+   }
+  },
+  "SC-3": {
+   "kalshi": {
+    "p": 0.0115,
+    "vol": 9451,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-SC03-26"
+   },
+   "polymarket": {
+    "p": 0.0081,
+    "vol": 55809,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "sc-03-house-election-winner"
+   }
+  },
+  "SC-4": {
+   "kalshi": {
+    "p": 0.0315,
+    "vol": 9006,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-SC04-26"
+   },
+   "polymarket": {
+    "p": 0.0282,
+    "vol": 49230,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "sc-04-house-election-winner"
+   }
+  },
+  "SC-5": {
+   "kalshi": {
+    "p": 0.0359,
+    "vol": 20071,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "KXHOUSERACE-SC05-26"
+   },
+   "polymarket": {
+    "p": 0.0322,
+    "vol": 11968,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "sc-05-house-election-winner"
+   }
+  },
+  "SC-6": {
+   "kalshi": {
+    "p": 0.984,
+    "vol": 46196,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-SC06-26"
+   },
+   "polymarket": {
+    "p": 0.983,
+    "vol": 45092,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "sc-06-house-election-winner"
+   }
+  },
+  "SC-7": {
+   "kalshi": {
+    "p": 0.0354,
+    "vol": 51134,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-SC07-26"
+   },
+   "polymarket": {
+    "p": 0.0325,
+    "vol": 69071,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "sc-07-house-election-winner"
+   }
+  },
+  "SD-AL": {
+   "kalshi": {
+    "p": 0.016,
+    "vol": 6905,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "KXHOUSERACE-SDAL-26"
+   },
+   "polymarket": {
+    "p": 0.0086,
+    "vol": 39939,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "sd-al-house-election-winner"
+   }
+  },
+  "TN-1": {
+   "kalshi": {
+    "p": 0.016,
+    "vol": 4812,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN01-26"
+   },
+   "polymarket": {
+    "p": 0.0145,
+    "vol": 28548,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "tn-01-house-election-winner"
+   }
+  },
+  "TN-2": {
+   "kalshi": {
+    "p": 0.0215,
+    "vol": 10754,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN02-26"
+   },
+   "polymarket": {
+    "p": 0.019,
+    "vol": 39504,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "tn-02-house-election-winner"
+   }
+  },
+  "TN-3": {
+   "kalshi": {
+    "p": 0.0162,
+    "vol": 15464,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN03-26"
+   },
+   "polymarket": {
+    "p": 0.0195,
+    "vol": 46052,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "tn-03-house-election-winner"
+   }
+  },
+  "TN-4": {
+   "kalshi": {
+    "p": 0.0224,
+    "vol": 8833,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN04-26"
+   },
+   "polymarket": {
+    "p": 0.0186,
+    "vol": 136308,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "tn-04-house-election-winner"
+   }
+  },
+  "TN-5": {
+   "kalshi": {
+    "p": 0.12,
+    "vol": 72858,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN05-26"
+   },
+   "polymarket": {
+    "p": 0.115,
+    "vol": 80288,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "tn-05-house-election-winner"
+   }
+  },
+  "TN-6": {
+   "kalshi": {
+    "p": 0.0356,
+    "vol": 6473,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN06-26"
+   },
+   "polymarket": {
+    "p": 0.039,
+    "vol": 30970,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "tn-06-house-election-winner"
+   }
+  },
+  "TN-7": {
+   "kalshi": {
+    "p": 0.0655,
+    "vol": 15971,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN07-26"
+   },
+   "polymarket": {
+    "p": 0.0635,
+    "vol": 57314,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "tn-07-house-election-winner"
+   }
+  },
+  "TN-8": {
+   "kalshi": {
+    "p": 0.0407,
+    "vol": 11327,
+    "spread": 0.029,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN08-26"
+   },
+   "polymarket": {
+    "p": 0.033,
+    "vol": 51685,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "tn-08-house-election-winner"
+   }
+  },
+  "TN-9": {
+   "kalshi": {
+    "p": 0.205,
+    "vol": 302587,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-TN09-26"
+   },
+   "polymarket": {
+    "p": 0.2228,
+    "vol": 95667,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "tn-09-house-election-winner"
+   }
+  },
+  "TX-1": {
+   "kalshi": {
+    "p": 0.0145,
+    "vol": 9312,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX01-26"
+   },
+   "polymarket": {
+    "p": 0.0151,
+    "vol": 60542,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "tx-01-house-election-winner"
+   }
+  },
+  "TX-10": {
+   "kalshi": {
+    "p": 0.0686,
+    "vol": 10070,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX10-26"
+   },
+   "polymarket": {
+    "p": 0.07,
+    "vol": 38709,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "tx-10-house-election-winner"
+   }
+  },
+  "TX-11": {
+   "kalshi": {
+    "p": 0.0155,
+    "vol": 10238,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX11-26"
+   },
+   "polymarket": {
+    "p": 0.0165,
+    "vol": 36908,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "tx-11-house-election-winner"
+   }
+  },
+  "TX-12": {
+   "kalshi": {
+    "p": 0.0307,
+    "vol": 10333,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX12-26"
+   },
+   "polymarket": {
+    "p": 0.0291,
+    "vol": 69543,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "tx-12-house-election-winner"
+   }
+  },
+  "TX-13": {
+   "kalshi": {
+    "p": 0.0105,
+    "vol": 27234,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX13-26"
+   },
+   "polymarket": {
+    "p": 0.0175,
+    "vol": 19611,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "tx-13-house-election-winner"
+   }
+  },
+  "TX-14": {
+   "kalshi": {
+    "p": 0.0277,
+    "vol": 5760,
+    "spread": 0.029,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX14-26"
+   },
+   "polymarket": {
+    "p": 0.0301,
+    "vol": 40249,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "tx-14-house-election-winner"
+   }
+  },
+  "TX-15": {
+   "polymarket": {
+    "p": 0.8889,
+    "vol": 165290,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "tx-15-house-election-winner"
+   }
+  },
+  "TX-16": {
+   "kalshi": {
+    "p": 0.9795,
+    "vol": 3104,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX16-26"
+   },
+   "polymarket": {
+    "p": 0.9808,
+    "vol": 28054,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "tx-16-house-election-winner"
+   }
+  },
+  "TX-17": {
+   "kalshi": {
+    "p": 0.0389,
+    "vol": 34858,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX17-26"
+   },
+   "polymarket": {
+    "p": 0.0381,
+    "vol": 70105,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "tx-17-house-election-winner"
+   }
+  },
+  "TX-18": {
+   "kalshi": {
+    "p": 0.9845,
+    "vol": 2271,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX18-26"
+   },
+   "polymarket": {
+    "p": 0.9845,
+    "vol": 17640,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "tx-18-house-election-winner"
+   }
+  },
+  "TX-19": {
+   "kalshi": {
+    "p": 0.0185,
+    "vol": 7340,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX19-26"
+   },
+   "polymarket": {
+    "p": 0.014,
+    "vol": 32224,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "tx-19-house-election-winner"
+   }
+  },
+  "TX-2": {
+   "kalshi": {
+    "p": 0.0622,
+    "vol": 3100,
+    "spread": 0.032,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX02-26"
+   },
+   "polymarket": {
+    "p": 0.06,
+    "vol": 35774,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "tx-02-house-election-winner"
+   }
+  },
+  "TX-20": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 3372,
+    "spread": 0.013,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX20-26"
+   },
+   "polymarket": {
+    "p": 0.9845,
+    "vol": 40443,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "tx-20-house-election-winner"
+   }
+  },
+  "TX-21": {
+   "kalshi": {
+    "p": 0.0345,
+    "vol": 17501,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX21-26"
+   },
+   "polymarket": {
+    "p": 0.0358,
+    "vol": 85705,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "tx-21-house-election-winner"
+   }
+  },
+  "TX-22": {
+   "kalshi": {
+    "p": 0.0515,
+    "vol": 5885,
+    "spread": 0.037,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX22-26"
+   },
+   "polymarket": {
+    "p": 0.04,
+    "vol": 43408,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "tx-22-house-election-winner"
+   }
+  },
+  "TX-23": {
+   "kalshi": {
+    "p": 0.3586,
+    "vol": 1336733,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX23-26"
+   },
+   "polymarket": {
+    "p": 0.355,
+    "vol": 252942,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "tx-23-house-election-winner"
+   }
+  },
+  "TX-24": {
+   "kalshi": {
+    "p": 0.0602,
+    "vol": 48951,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX24-26"
+   },
+   "polymarket": {
+    "p": 0.0534,
+    "vol": 91860,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "tx-24-house-election-winner"
+   }
+  },
+  "TX-25": {
+   "kalshi": {
+    "p": 0.0531,
+    "vol": 34818,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX25-26"
+   },
+   "polymarket": {
+    "p": 0.0456,
+    "vol": 66469,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "tx-25-house-election-winner"
+   }
+  },
+  "TX-26": {
+   "kalshi": {
+    "p": 0.021,
+    "vol": 22446,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX26-26"
+   },
+   "polymarket": {
+    "p": 0.0181,
+    "vol": 94204,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "tx-26-house-election-winner"
+   }
+  },
+  "TX-27": {
+   "kalshi": {
+    "p": 0.0305,
+    "vol": 16197,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX27-26"
+   },
+   "polymarket": {
+    "p": 0.0275,
+    "vol": 76546,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "tx-27-house-election-winner"
+   }
+  },
+  "TX-28": {
+   "polymarket": {
+    "p": 0.925,
+    "vol": 25112,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "tx-28-house-election-winner"
+   }
+  },
+  "TX-29": {
+   "kalshi": {
+    "p": 0.982,
+    "vol": 6263,
+    "spread": 0.022,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX29-26"
+   },
+   "polymarket": {
+    "p": 0.9864,
+    "vol": 21184,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "tx-29-house-election-winner"
+   }
+  },
+  "TX-3": {
+   "kalshi": {
+    "p": 0.0607,
+    "vol": 22086,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX03-26"
+   },
+   "polymarket": {
+    "p": 0.0508,
+    "vol": 63781,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "tx-03-house-election-winner"
+   }
+  },
+  "TX-30": {
+   "kalshi": {
+    "p": 0.9795,
+    "vol": 7032,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX30-26"
+   },
+   "polymarket": {
+    "p": 0.9816,
+    "vol": 48897,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "tx-30-house-election-winner"
+   }
+  },
+  "TX-31": {
+   "kalshi": {
+    "p": 0.087,
+    "vol": 30116,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX31-26"
+   },
+   "polymarket": {
+    "p": 0.0837,
+    "vol": 74479,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "tx-31-house-election-winner"
+   }
+  },
+  "TX-32": {
+   "polymarket": {
+    "p": 0.1339,
+    "vol": 57294,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "tx-32-house-election-winner"
+   }
+  },
+  "TX-33": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 3873,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX33-26"
+   },
+   "polymarket": {
+    "p": 0.9905,
+    "vol": 18809,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "tx-33-house-election-winner"
+   }
+  },
+  "TX-34": {
+   "polymarket": {
+    "p": 0.9005,
+    "vol": 34227,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "tx-34-house-election-winner"
+   }
+  },
+  "TX-35": {
+   "polymarket": {
+    "p": 0.7323,
+    "vol": 127752,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "tx-35-house-election-winner"
+   }
+  },
+  "TX-36": {
+   "kalshi": {
+    "p": 0.0111,
+    "vol": 7796,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX36-26"
+   },
+   "polymarket": {
+    "p": 0.0156,
+    "vol": 68045,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "tx-36-house-election-winner"
+   }
+  },
+  "TX-37": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 5727,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX37-26"
+   },
+   "polymarket": {
+    "p": 0.9825,
+    "vol": 46130,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "tx-37-house-election-winner"
+   }
+  },
+  "TX-38": {
+   "kalshi": {
+    "p": 0.047,
+    "vol": 13800,
+    "spread": 0.032,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX38-26"
+   },
+   "polymarket": {
+    "p": 0.0393,
+    "vol": 37795,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "tx-38-house-election-winner"
+   }
+  },
+  "TX-4": {
+   "kalshi": {
+    "p": 0.0252,
+    "vol": 5965,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX04-26"
+   },
+   "polymarket": {
+    "p": 0.0191,
+    "vol": 93394,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "tx-04-house-election-winner"
+   }
+  },
+  "TX-5": {
+   "kalshi": {
+    "p": 0.0459,
+    "vol": 6778,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX05-26"
+   },
+   "polymarket": {
+    "p": 0.0457,
+    "vol": 65804,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "tx-05-house-election-winner"
+   }
+  },
+  "TX-6": {
+   "kalshi": {
+    "p": 0.0419,
+    "vol": 9446,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX06-26"
+   },
+   "polymarket": {
+    "p": 0.0445,
+    "vol": 131635,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "tx-06-house-election-winner"
+   }
+  },
+  "TX-7": {
+   "kalshi": {
+    "p": 0.9829,
+    "vol": 53973,
+    "spread": 0.018,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX07-26"
+   },
+   "polymarket": {
+    "p": 0.983,
+    "vol": 31134,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "tx-07-house-election-winner"
+   }
+  },
+  "TX-8": {
+   "kalshi": {
+    "p": 0.0255,
+    "vol": 24217,
+    "spread": 0.031,
+    "liquid": true,
+    "id": "KXHOUSERACE-TX08-26"
+   },
+   "polymarket": {
+    "p": 0.023,
+    "vol": 65930,
+    "spread": 0.03,
+    "liquid": true,
+    "id": "tx-08-house-election-winner"
+   }
+  },
+  "TX-9": {
+   "polymarket": {
+    "p": 0.2663,
+    "vol": 81476,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "tx-09-house-election-winner"
+   }
+  },
+  "UT-1": {
+   "polymarket": {
+    "p": 0.982,
+    "vol": 54436,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "ut-01-house-election-winner"
+   }
+  },
+  "UT-2": {
+   "polymarket": {
+    "p": 0.046,
+    "vol": 34509,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ut-02-house-election-winner"
+   }
+  },
+  "UT-3": {
+   "polymarket": {
+    "p": 0.012,
+    "vol": 18852,
+    "spread": 0.014,
+    "liquid": true,
+    "id": "ut-03-house-election-winner"
+   }
+  },
+  "UT-4": {
+   "kalshi": {
+    "p": 0.026,
+    "vol": 6236,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "KXHOUSERACE-UT04-26"
+   },
+   "polymarket": {
+    "p": 0.0221,
+    "vol": 60647,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "ut-04-house-election-winner"
+   }
+  },
+  "VA-1": {
+   "polymarket": {
+    "p": 0.7525,
+    "vol": 157810,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "va-01-house-election-winner"
+   }
+  },
+  "VA-10": {
+   "polymarket": {
+    "p": 0.9819,
+    "vol": 8473,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "va-10-house-election-winner"
+   }
+  },
+  "VA-11": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 4494,
+    "spread": 0.026,
+    "liquid": true,
+    "id": "KXHOUSERACE-VA11-26"
+   },
+   "polymarket": {
+    "p": 0.9815,
+    "vol": 29697,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "va-11-house-election-winner"
+   }
+  },
+  "VA-2": {
+   "polymarket": {
+    "p": 0.905,
+    "vol": 66557,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "va-02-house-election-winner"
+   }
+  },
+  "VA-3": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 1526,
+    "spread": 0.027,
+    "liquid": true,
+    "id": "KXHOUSERACE-VA03-26"
+   },
+   "polymarket": {
+    "p": 0.9895,
+    "vol": 69544,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "va-03-house-election-winner"
+   }
+  },
+  "VA-4": {
+   "kalshi": {
+    "p": 0.9825,
+    "vol": 10027,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "KXHOUSERACE-VA04-26"
+   },
+   "polymarket": {
+    "p": 0.9854,
+    "vol": 42861,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "va-04-house-election-winner"
+   }
+  },
+  "VA-5": {
+   "kalshi": {
+    "p": 0.4307,
+    "vol": 1268047,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-VA05-26"
+   },
+   "polymarket": {
+    "p": 0.4378,
+    "vol": 356765,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "va-05-house-election-winner"
+   }
+  },
+  "VA-6": {
+   "kalshi": {
+    "p": 0.0581,
+    "vol": 222065,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "KXHOUSERACE-VA06-26"
+   },
+   "polymarket": {
+    "p": 0.0503,
+    "vol": 146222,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "va-06-house-election-winner"
+   }
+  },
+  "VA-7": {
+   "polymarket": {
+    "p": 0.9787,
+    "vol": 17131,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "va-07-house-election-winner"
+   }
+  },
+  "VA-8": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 16345,
+    "spread": 0.023,
+    "liquid": true,
+    "id": "KXHOUSERACE-VA08-26"
+   },
+   "polymarket": {
+    "p": 0.9895,
+    "vol": 42038,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "va-08-house-election-winner"
+   }
+  },
+  "VA-9": {
+   "kalshi": {
+    "p": 0.016,
+    "vol": 12449,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "KXHOUSERACE-VA09-26"
+   },
+   "polymarket": {
+    "p": 0.0126,
+    "vol": 67529,
+    "spread": 0.008,
+    "liquid": true,
+    "id": "va-09-house-election-winner"
+   }
+  },
+  "VT-AL": {
+   "kalshi": {
+    "p": 0.9805,
+    "vol": 8788,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-VTAL-26"
+   },
+   "polymarket": {
+    "p": 0.981,
+    "vol": 51862,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "vt-al-house-election-winner"
+   }
+  },
+  "WA-1": {
+   "kalshi": {
+    "p": 0.9845,
+    "vol": 19498,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA01-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 47705,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "wa-01-house-election-winner"
+   }
+  },
+  "WA-10": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 1586,
+    "spread": 0.028,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA10-26"
+   },
+   "polymarket": {
+    "p": 0.9855,
+    "vol": 37751,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "wa-10-house-election-winner"
+   }
+  },
+  "WA-2": {
+   "kalshi": {
+    "p": 0.9805,
+    "vol": 1871,
+    "spread": 0.017,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA02-26"
+   },
+   "polymarket": {
+    "p": 0.9899,
+    "vol": 33175,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "wa-02-house-election-winner"
+   }
+  },
+  "WA-3": {
+   "polymarket": {
+    "p": 0.8894,
+    "vol": 77809,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "wa-03-house-election-winner"
+   }
+  },
+  "WA-4": {
+   "kalshi": {
+    "p": 0.0698,
+    "vol": 39722,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA04-26"
+   },
+   "polymarket": {
+    "p": 0.0792,
+    "vol": 66094,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "wa-04-house-election-winner"
+   }
+  },
+  "WA-5": {
+   "kalshi": {
+    "p": 0.2289,
+    "vol": 209671,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA05-26"
+   },
+   "polymarket": {
+    "p": 0.2269,
+    "vol": 129436,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "wa-05-house-election-winner"
+   }
+  },
+  "WA-6": {
+   "kalshi": {
+    "p": 0.987,
+    "vol": 2092,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA06-26"
+   },
+   "polymarket": {
+    "p": 0.9935,
+    "vol": 46291,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "wa-06-house-election-winner"
+   }
+  },
+  "WA-7": {
+   "kalshi": {
+    "p": 0.9895,
+    "vol": 3520,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA07-26"
+   },
+   "polymarket": {
+    "p": 0.989,
+    "vol": 35521,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "wa-07-house-election-winner"
+   }
+  },
+  "WA-8": {
+   "polymarket": {
+    "p": 0.9844,
+    "vol": 29280,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "wa-08-house-election-winner"
+   }
+  },
+  "WA-9": {
+   "kalshi": {
+    "p": 0.982,
+    "vol": 18425,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "KXHOUSERACE-WA09-26"
+   },
+   "polymarket": {
+    "p": 0.982,
+    "vol": 56069,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "wa-09-house-election-winner"
+   }
+  },
+  "WI-1": {
+   "polymarket": {
+    "p": 0.5224,
+    "vol": 31840,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "wi-01-house-election-winner"
+   }
+  },
+  "WI-2": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 2612,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-WI02-26"
+   },
+   "polymarket": {
+    "p": 0.9939,
+    "vol": 104744,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "wi-02-house-election-winner"
+   }
+  },
+  "WI-3": {
+   "polymarket": {
+    "p": 0.87,
+    "vol": 28025,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "wi-03-house-election-winner"
+   }
+  },
+  "WI-4": {
+   "kalshi": {
+    "p": 0.9719,
+    "vol": 2849,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "KXHOUSERACE-WI04-26"
+   },
+   "polymarket": {
+    "p": 0.981,
+    "vol": 37891,
+    "spread": 0.024,
+    "liquid": true,
+    "id": "wi-04-house-election-winner"
+   }
+  },
+  "WI-5": {
+   "kalshi": {
+    "p": 0.026,
+    "vol": 11159,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "KXHOUSERACE-WI05-26"
+   },
+   "polymarket": {
+    "p": 0.0232,
+    "vol": 109419,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "wi-05-house-election-winner"
+   }
+  },
+  "WI-6": {
+   "kalshi": {
+    "p": 0.0655,
+    "vol": 51850,
+    "spread": 0.029,
+    "liquid": true,
+    "id": "KXHOUSERACE-WI06-26"
+   },
+   "polymarket": {
+    "p": 0.0699,
+    "vol": 49754,
+    "spread": 0.021,
+    "liquid": true,
+    "id": "wi-06-house-election-winner"
+   }
+  },
+  "WI-7": {
+   "kalshi": {
+    "p": 0.0564,
+    "vol": 16535,
+    "spread": 0.025,
+    "liquid": true,
+    "id": "KXHOUSERACE-WI07-26"
+   },
+   "polymarket": {
+    "p": 0.0588,
+    "vol": 80992,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "wi-07-house-election-winner"
+   }
+  },
+  "WI-8": {
+   "kalshi": {
+    "p": 0.1106,
+    "vol": 35454,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-WI08-26"
+   },
+   "polymarket": {
+    "p": 0.1106,
+    "vol": 32564,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "wi-08-house-election-winner"
+   }
+  },
+  "WV-1": {
+   "kalshi": {
+    "p": 0.0166,
+    "vol": 5642,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "KXHOUSERACE-WV01-26"
+   },
+   "polymarket": {
+    "p": 0.0161,
+    "vol": 63115,
+    "spread": 0.015,
+    "liquid": true,
+    "id": "wv-01-house-election-winner"
+   }
+  },
+  "WV-2": {
+   "kalshi": {
+    "p": 0.0194,
+    "vol": 4364,
+    "spread": 0.019,
+    "liquid": true,
+    "id": "KXHOUSERACE-WV02-26"
+   },
+   "polymarket": {
+    "p": 0.019,
+    "vol": 101652,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "wv-02-house-election-winner"
+   }
+  },
+  "WY-AL": {
+   "kalshi": {
+    "p": 0.0175,
+    "vol": 32327,
+    "spread": 0.02,
+    "liquid": true,
+    "id": "KXHOUSERACE-WYAL-26"
+   },
+   "polymarket": {
+    "p": 0.0166,
+    "vol": 55247,
+    "spread": 0.016,
+    "liquid": true,
+    "id": "wy-al-house-election-winner"
+   }
+  }
+ },
+ "senate": {
+  "AK": {
+   "kalshi": {
+    "p": 0.695,
+    "vol": 6802877,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEAK-26"
+   },
+   "polymarket": {
+    "p": 0.715,
+    "vol": 2709007,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "alaska-senate-election-winner"
+   }
+  },
+  "AL": {
+   "kalshi": {
+    "p": 0.0235,
+    "vol": 33370,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "SENATEAL-26"
+   },
+   "polymarket": {
+    "p": 0.0195,
+    "vol": 18667,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "alabama-senate-election-winner-154"
+   }
+  },
+  "AR": {
+   "kalshi": {
+    "p": 0.0345,
+    "vol": 654269,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "SENATEAR-26"
+   },
+   "polymarket": {
+    "p": 0.032,
+    "vol": 119846,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "arkansas-senate-election-winner"
+   }
+  },
+  "CO": {
+   "kalshi": {
+    "p": 0.9835,
+    "vol": 101780,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "SENATECO-26"
+   },
+   "polymarket": {
+    "p": 0.9885,
+    "vol": 56002,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "colorado-senate-election-winner"
+   }
+  },
+  "DE": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 63358,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "SENATEDE-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 36105,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "delaware-senate-election-winner"
+   }
+  },
+  "FL-S": {
+   "kalshi": {
+    "p": 0.115,
+    "vol": 5190182,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEFLS-26"
+   },
+   "polymarket": {
+    "p": 0.1139,
+    "vol": 927911,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "florida-senate-election-winner"
+   }
+  },
+  "GA": {
+   "kalshi": {
+    "p": 0.9635,
+    "vol": 4839469,
+    "spread": 0.003,
+    "liquid": true,
+    "id": "SENATEGA-26"
+   },
+   "polymarket": {
+    "p": 0.968,
+    "vol": 640407,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "georgia-senate-election-winner"
+   }
+  },
+  "IA": {
+   "kalshi": {
+    "p": 0.515,
+    "vol": 11221042,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEIA-26"
+   },
+   "polymarket": {
+    "p": 0.5198,
+    "vol": 2282825,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "iowa-senate-election-winner"
+   }
+  },
+  "ID": {
+   "kalshi": {
+    "p": 0.0349,
+    "vol": 1360038,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "SENATEID-26"
+   },
+   "polymarket": {
+    "p": 0.0305,
+    "vol": 451278,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "idaho-senate-election-winner"
+   }
+  },
+  "IL": {
+   "kalshi": {
+    "p": 0.9855,
+    "vol": 89632,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "SENATEIL-26"
+   },
+   "polymarket": {
+    "p": 0.9935,
+    "vol": 45921,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "illinois-senate-election-winner"
+   }
+  },
+  "KS": {
+   "kalshi": {
+    "p": 0.625,
+    "vol": 10671148,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEKS-26"
+   },
+   "polymarket": {
+    "p": 0.6269,
+    "vol": 2557663,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "kansas-senate-election-winner"
+   }
+  },
+  "KY": {
+   "polymarket": {
+    "p": 0.0305,
+    "vol": 56393,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "kentucky-senate-election-winner"
+   }
+  },
+  "LA": {
+   "kalshi": {
+    "p": 0.0376,
+    "vol": 507998,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATELA-26"
+   },
+   "polymarket": {
+    "p": 0.125,
+    "vol": 178229,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "louisiana-senate-election-winner"
+   }
+  },
+  "MA": {
+   "kalshi": {
+    "p": 0.989,
+    "vol": 269335,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "SENATEMA-26"
+   },
+   "polymarket": {
+    "p": 0.99,
+    "vol": 59931,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "massachusetts-senate-election-winner"
+   }
+  },
+  "ME": {
+   "kalshi": {
+    "p": 0.715,
+    "vol": 16574952,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEME-26"
+   },
+   "polymarket": {
+    "p": 0.725,
+    "vol": 3862537,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "maine-senate-election-winner"
+   }
+  },
+  "MI": {
+   "kalshi": {
+    "p": 0.785,
+    "vol": 26620154,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEMI-26"
+   },
+   "polymarket": {
+    "p": 0.805,
+    "vol": 8953766,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "michigan-senate-election-winner"
+   }
+  },
+  "MN": {
+   "kalshi": {
+    "p": 0.9025,
+    "vol": 8205217,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATEMN-26"
+   },
+   "polymarket": {
+    "p": 0.9059,
+    "vol": 1165915,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "minnesota-senate-election-winner"
+   }
+  },
+  "MS": {
+   "kalshi": {
+    "p": 0.135,
+    "vol": 2271144,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEMS-26"
+   },
+   "polymarket": {
+    "p": 0.1238,
+    "vol": 1001262,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "mississippi-senate-election-winner"
+   }
+  },
+  "MT": {
+   "kalshi": {
+    "p": 0.0077,
+    "vol": 1088353,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "SENATEMT-26"
+   },
+   "polymarket": {
+    "p": 0.0049,
+    "vol": 442539,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "montana-senate-election-winner"
+   }
+  },
+  "NC": {
+   "kalshi": {
+    "p": 0.972,
+    "vol": 6408832,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATENC-26"
+   },
+   "polymarket": {
+    "p": 0.975,
+    "vol": 430238,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "north-carolina-senate-election-winner"
+   }
+  },
+  "NE": {
+   "kalshi": {
+    "p": 0.3284,
+    "vol": 6600632,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATENE-26"
+   },
+   "polymarket": {
+    "p": 0.315,
+    "vol": 1431113,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "nebraska-senate-election-winner"
+   }
+  },
+  "NH": {
+   "kalshi": {
+    "p": 0.932,
+    "vol": 3496802,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATENH-26"
+   },
+   "polymarket": {
+    "p": 0.945,
+    "vol": 729069,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "new-hampshire-senate-election-winner"
+   }
+  },
+  "NJ": {
+   "kalshi": {
+    "p": 0.9805,
+    "vol": 382200,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATENJ-26"
+   },
+   "polymarket": {
+    "p": 0.9875,
+    "vol": 39478,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "new-jersey-senate-election-winner"
+   }
+  },
+  "NM": {
+   "kalshi": {
+    "p": 0.9845,
+    "vol": 165835,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "SENATENM-26"
+   },
+   "polymarket": {
+    "p": 0.994,
+    "vol": 33834,
+    "spread": 0.006,
+    "liquid": true,
+    "id": "new-mexico-senate-election-winner"
+   }
+  },
+  "OH-S": {
+   "kalshi": {
+    "p": 0.7079,
+    "vol": 11473342,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATEOHS-26"
+   },
+   "polymarket": {
+    "p": 0.715,
+    "vol": 2930839,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "ohio-senate-election-winner"
+   }
+  },
+  "OK": {
+   "kalshi": {
+    "p": 0.0195,
+    "vol": 101066,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "SENATEOK-26"
+   },
+   "polymarket": {
+    "p": 0.013,
+    "vol": 31868,
+    "spread": 0.012,
+    "liquid": true,
+    "id": "oklahoma-senate-election-winner"
+   }
+  },
+  "OR": {
+   "kalshi": {
+    "p": 0.9865,
+    "vol": 47320,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "SENATEOR-26"
+   },
+   "polymarket": {
+    "p": 0.988,
+    "vol": 11083,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "oregon-senate-election-winner"
+   }
+  },
+  "RI": {
+   "kalshi": {
+    "p": 0.989,
+    "vol": 64131,
+    "spread": 0.002,
+    "liquid": true,
+    "id": "SENATERI-26"
+   },
+   "polymarket": {
+    "p": 0.9895,
+    "vol": 28554,
+    "spread": 0.011,
+    "liquid": true,
+    "id": "rhode-island-senate-election-winner"
+   }
+  },
+  "SC": {
+   "kalshi": {
+    "p": 0.295,
+    "vol": 10472140,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATESC-26"
+   },
+   "polymarket": {
+    "p": 0.302,
+    "vol": 2138123,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "south-carolina-senate-election-winner"
+   }
+  },
+  "SD": {
+   "kalshi": {
+    "p": 0.0547,
+    "vol": 718022,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATESD-26"
+   },
+   "polymarket": {
+    "p": 0.0564,
+    "vol": 106727,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "south-dakota-senate-election-winner"
+   }
+  },
+  "TN": {
+   "kalshi": {
+    "p": 0.02,
+    "vol": 582418,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "SENATETN-26"
+   },
+   "polymarket": {
+    "p": 0.0165,
+    "vol": 128983,
+    "spread": 0.005,
+    "liquid": true,
+    "id": "tennessee-senate-election-winner"
+   }
+  },
+  "TX": {
+   "kalshi": {
+    "p": 0.7079,
+    "vol": 85263299,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "SENATETX-26"
+   },
+   "polymarket": {
+    "p": 0.7277,
+    "vol": 13859616,
+    "spread": 0.01,
+    "liquid": true,
+    "id": "texas-senate-election-winner"
+   }
+  },
+  "VA": {
+   "kalshi": {
+    "p": 0.985,
+    "vol": 121659,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "SENATEVA-26"
+   },
+   "polymarket": {
+    "p": 0.9915,
+    "vol": 25587,
+    "spread": 0.004,
+    "liquid": true,
+    "id": "virginia-senate-election-winner"
+   }
+  },
+  "WV": {
+   "kalshi": {
+    "p": 0.0115,
+    "vol": 81363,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATEWV-26"
+   },
+   "polymarket": {
+    "p": 0.0135,
+    "vol": 23978,
+    "spread": 0.007,
+    "liquid": true,
+    "id": "west-virginia-senate-election-winner"
+   }
+  },
+  "WY": {
+   "kalshi": {
+    "p": 0.0165,
+    "vol": 39933,
+    "spread": 0.001,
+    "liquid": true,
+    "id": "SENATEWY-26"
+   },
+   "polymarket": {
+    "p": 0.015,
+    "vol": 24095,
+    "spread": 0.009,
+    "liquid": true,
+    "id": "wyoming-senate-election-winner"
+   }
+  }
+ }
+}

@@ -2,6 +2,7 @@
 
 ## 2026-11-03 (Senate)
 
+- Prediction markets on the Scoreboard: `ml/fetch_markets.py` freezes Kalshi + Polymarket prices before polls close (`data/forecast/markets_2026.json`); `web/src/live/MarketsPanel.tsx` grades each market against the frozen model on the same races, plus chamber control and biggest model–market disagreements
 - Shared site navigation (`web/src/components/SiteNav.tsx`): House guide / Senate guide / Live tracker switcher on every page, chapter track rail, mobile top bar + drawer; both guides use `GuideShell`
 - Race cards: hover/tap explanations for lean, bar, now, frozen and tipping (`InfoTip`), plus a "How to read a race card" explainer with a per-race logistic-regression breakdown (`senateContrib`)
 - Fix: Senate "now" probabilities computed exactly (the 0.25-point grid made "now" differ from "frozen" before any call)
