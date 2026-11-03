@@ -31,22 +31,23 @@ export interface SeatDatum { id: string; p: number; note?: string }
 
 /** 435 seats, most-Democratic on the left. Seats fly in from the base when scrolled into view;
  *  colors cross-fade when probabilities change. */
-export function Hemicycle({ seats, height = 300, label }: { seats: SeatDatum[]; height?: number; label?: string }) {
+export function Hemicycle({ seats, height = 300, label, rows = 12, majorityText = `${MAJORITY} for a majority`, pLabel = 'P(Dem)' }:
+  { seats: SeatDatum[]; height?: number; label?: string; rows?: number; majorityText?: string; pLabel?: string }) {
   const [wref, width] = useWidth<HTMLDivElement>()
   const [vref, inView] = useInView<HTMLDivElement>()
   const [hover, setHover] = useState<number | null>(null)
-  const layout = useMemo(() => seatLayout(seats.length, 12), [seats.length])
+  const layout = useMemo(() => seatLayout(seats.length, rows), [seats.length, rows])
   const sorted = useMemo(() => [...seats].sort((a, b) => b.p - a.p), [seats])
   const W = Math.min(width, height * 2.05)
   const R = W / 2 - 8
-  const dot = Math.max(2.2, R / 52)
+  const dot = Math.max(2.2, R / (rows * 4.3))
   const cx = width / 2, cy = R + 10
   const demSeats = seats.reduce((s, d) => s + d.p, 0)
   return (
     <div ref={(el) => { wref.current = el; vref.current = el }} className="chart" style={{ position: 'relative' }}>
       <svg width={width} height={cy + 8} role="img" aria-label={label ?? `Seat chart: ${Math.round(demSeats)} expected Democratic seats of ${seats.length}`}>
         <line x1={cx} x2={cx} y1={cy - R - 6} y2={cy - R * 0.38 + dot + 2} stroke="var(--text-primary)" strokeWidth={1.5} strokeDasharray="3 3" />
-        <text x={cx} y={cy - 2} textAnchor="middle" style={{ fill: 'var(--text-primary)', fontWeight: 650, fontSize: 13 }}>{MAJORITY} for a majority</text>
+        <text x={cx} y={cy - 2} textAnchor="middle" style={{ fill: 'var(--text-primary)', fontWeight: 650, fontSize: 13 }}>{majorityText}</text>
         {sorted.map((s, i) => {
           const L = layout[i]
           const tx = inView ? cx + L.x * R : cx
@@ -62,7 +63,7 @@ export function Hemicycle({ seats, height = 300, label }: { seats: SeatDatum[]; 
       </svg>
       {hover !== null && (
         <Tooltip x={cx + layout[hover].x * R} y={cy - layout[hover].y * R}>
-          <b>{sorted[hover].id}</b> · P(Dem) {pct(sorted[hover].p, 0)}
+          <b>{sorted[hover].id}</b> · {pLabel} {pct(sorted[hover].p, 0)}
           {sorted[hover].note && <div className="muted">{sorted[hover].note}</div>}
         </Tooltip>
       )}

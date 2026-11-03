@@ -10,12 +10,14 @@ Built as a companion to [PokemonML](https://github.com/elmandalorian-thx/Pokemon
 | Page | URL |
 |---|---|
 | 🔴 **Live results tracker** (election night + the count) | **https://elmandalorian-thx.github.io/Midterms2026ML/live/** |
-| ML walkthrough (10 chapters) | https://elmandalorian-thx.github.io/Midterms2026ML/ |
-| Frozen pre-election forecast (CSV) | https://elmandalorian-thx.github.io/Midterms2026ML/data/forecast/forecast_2026.csv |
+| House ML walkthrough (10 chapters) | https://elmandalorian-thx.github.io/Midterms2026ML/ |
+| Senate ML walkthrough (10 chapters) | https://elmandalorian-thx.github.io/Midterms2026ML/senate/ |
+| Frozen pre-election forecasts (CSV) | [House](https://elmandalorian-thx.github.io/Midterms2026ML/data/forecast/forecast_2026.csv) · [Senate](https://elmandalorian-thx.github.io/Midterms2026ML/data/forecast/senate_forecast_2026.csv) |
 | Code & data | https://github.com/elmandalorian-thx/Midterms2026ML |
 
 ### The live tracker
 
+- **House / Senate / Congress tabs**: race to 218, race to 50 (Republicans, with the VP) / 51 (Democrats, with two allied independents), and a joint House × Senate control grid.
 - **Race to 218**: called seats per party, plus a projection for the uncalled ones.
 - **Alert feed**: every call, every seat that **flips**, **upsets** against the frozen forecast, and milestones (50/100/200 called, a party reaching 218), with filters, optional browser notifications and sound.
 - **Results-updated projection** (a Bayesian update): each call is evidence about the true national environment; uncalled seats are re-scored and the seat distribution re-simulated.
@@ -27,7 +29,14 @@ page only when it changed), and parses the ✓ winner marks editors add as netwo
 10 minutes, commits `data/raw/districts_2026.csv`, rebuilds the Scorecard and redeploys. Paid, official-grade alternatives: **AP Elections API** and
 **Decision Desk HQ API**; state election sites (often Clarity/Scytl ENR) publish free official counts in per-state formats.
 
-**Highlights from the data**
+**Highlights from the Senate guide**
+- 203 contested Senate races (2014–2024); Wikipedia and 538 agree on every winner, and a state lean computed from presidential results matches Cook PVI (correlation 1.00).
+- With ~34 races a year, one held-out accuracy number swings by ±15 points: the guide reports bootstrap intervals and Brier score instead.
+- Borrowing strength from the House wins: a model pooled on House + Senate races (Brier 0.060) beats the Senate-only model (0.067) and gradient boosting (0.071), chosen by a rule written down before looking at 2026.
+- Independents stand in for a party that has no nominee (NE, ID, SD), symmetrically.
+- Frozen Senate forecast at the same D+9.2: P(Republican control) 49%, P(Democratic control) 50%, median 49 Republican seats (47–52). The House is near-certain; the Senate map makes it a coin flip.
+
+**Highlights from the House guide**
 - 2,600 district races (2014–2024) from two independent sources that agree on 100% of winners, after fixing a fusion-voting join bug in NY/CT.
 - One-line rule "district lean decides" already gets ~97% of contested 2024 races. Models reach 96–97%, but only ~85% on the 80 competitive seats: report the hard subset.
 - Leave-one-election-out: every year is ~96% except the 2018 wave (90%), when the model expected 205 Democratic seats and got 235.
@@ -53,11 +62,12 @@ See **[docs/DATA_SOURCES.md](docs/DATA_SOURCES.md)** for the full table (URLs, k
 uv venv .venv && uv pip install --python .venv/bin/python -r ml/requirements.txt   # Windows: .venv/Scripts/python.exe
 .venv/bin/python ml/fetch_data.py   # download 538 + Wikipedia -> data/raw/
 .venv/bin/python ml/build.py        # train, evaluate, forecast (frozen once), export web/src/data/guide.json
+.venv/bin/python ml/build_senate.py # Senate: evaluate, choose, forecast (written frozen only with --freeze), export web/src/data/senate.json
 cd web && npm install && npm run dev
 ```
 
-**After Election Day:** `.venv/bin/python ml/fetch_data.py --only 2026 && .venv/bin/python ml/build.py` pulls the winners and fills the
-Scorecard chapter. The frozen forecast in `data/forecast/` is never overwritten.
+**After Election Day:** `.venv/bin/python ml/fetch_data.py --only 2026 && .venv/bin/python ml/build.py && .venv/bin/python ml/build_senate.py` pulls the winners and fills both
+Scorecard chapters. The frozen forecast in `data/forecast/` is never overwritten.
 
 **Notebook:** [`notebooks/midterms_2026_ml.ipynb`](notebooks/midterms_2026_ml.ipynb)
 ([open in Colab](https://colab.research.google.com/github/elmandalorian-thx/Midterms2026ML/blob/main/notebooks/midterms_2026_ml.ipynb)).

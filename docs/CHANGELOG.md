@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-03 (Senate)
+
+- Senate pipeline: `ml/senate_tables.py` (Wikipedia Senate tables), 538 Senate + state presidential returns, `ml/build_senate.py` (computed state lean, leave-one-cycle-out with bootstrap CIs, House transfer, pooled House + Senate model chosen by a pre-registered rule, symmetric independent stand-in rule)
+- Frozen Senate forecast `data/forecast/senate_forecast_2026.{csv,json}` committed before polls closed, with joint House × Senate control odds
+- Live tracker: Senate and Congress tabs (race to 50/51, race cards, runoff detection, joint Bayesian nowcast from House + Senate calls)
+- Separate 10-chapter Senate guide at `/senate/` (`web/senate/index.html`, `web/src/senate/`); linked from the House guide
+- `Hemicycle` takes `rows`/`majorityText`/`pLabel`; `SeatHistogram` takes `majority`/`above`/`below`/`describe`; `.pbar` moved to shared CSS
+
 ## 2026-11-03 (evening)
 
 - Live results tracker at `/live/`: polls the Wikipedia API (revision check first), race-to-218 bar, alert feed (calls, flips, upsets, milestones) with filters, browser notifications and sound, Bayesian nowcast of the national environment, re-simulated seat projection, live forecast record, watchlist, labeled demo replay

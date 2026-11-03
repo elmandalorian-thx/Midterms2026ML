@@ -39,6 +39,6 @@ function projectData(): Plugin {
 export default defineConfig({
   base: BASE,
   plugins: [react(), projectData()],
-  // Two pages: the walkthrough (/) and the election-night tracker (/live/)
-  build: { rollupOptions: { input: { main: resolve(import.meta.dirname, 'index.html'), live: resolve(import.meta.dirname, 'live/index.html') } } },
+  // Three pages: the House walkthrough (/), the Senate walkthrough (/senate/) and the election-night tracker (/live/)
+  build: { rollupOptions: { input: { main: resolve(import.meta.dirname, 'index.html'), live: resolve(import.meta.dirname, 'live/index.html'), senate: resolve(import.meta.dirname, 'senate/index.html') } } },
 })

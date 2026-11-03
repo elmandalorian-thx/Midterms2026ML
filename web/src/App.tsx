@@ -54,6 +54,7 @@ export default function App() {
         <nav className="rail" aria-label="Chapters">
           <div className="rail-title">House 2026<div className="muted" style={{ fontWeight: 400, fontSize: 12 }}>A nonpartisan ML walkthrough by Juan Barahona</div></div>
           <a className="live-link rail-live" href={`${import.meta.env.BASE_URL}live/`}><i />Live results tracker</a>
+          <a href={`${import.meta.env.BASE_URL}senate/`}><span className="mono">→</span>The Senate guide</a>
           {CHAPTERS.map(([id, label], i) => (
             <a key={id} href={`#${id}`} className={active === id ? 'active' : ''}>
               <span className="mono">{String(i + 1).padStart(2, '0')}</span>{label}

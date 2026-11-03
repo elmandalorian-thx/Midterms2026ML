@@ -255,3 +255,8 @@ input[type='range'] { width: 100%; accent-color: var(--text-primary); }
 .live-link { display: inline-flex; align-items: center; gap: 8px; }
 .live-link i { width: 8px; height: 8px; border-radius: 50%; background: var(--critical); animation: pulse 1.4s ease-in-out infinite; }
 .rail a.rail-live { color: var(--text-primary); font-weight: 650; margin-bottom: 12px; border: 1px solid var(--border); background: var(--surface-1); }
+
+/* probability bar (Senate guide race table + live tracker) */
+.pbar { position: relative; height: 8px; border-radius: 4px; background: var(--surface-2); }
+.pbar div { position: absolute; inset: 0 auto 0 0; border-radius: 4px; transition: width 0.6s ease, background 0.6s ease; }
+.pbar span { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--text-muted); }

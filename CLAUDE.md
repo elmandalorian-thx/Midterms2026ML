@@ -9,7 +9,7 @@ elections, freeze the forecast before Election Day, score it afterwards. Sister 
 |------|-------|
 | Repo | `elmandalorian-thx/Midterms2026ML` (`main`) |
 | Hosting | GitHub Pages via `.github/workflows/pages.yml` |
-| URL | Guide `https://elmandalorian-thx.github.io/Midterms2026ML/` · Live tracker `https://elmandalorian-thx.github.io/Midterms2026ML/live/`; Vite `base` is `/Midterms2026ML/` |
+| URL | House guide `https://elmandalorian-thx.github.io/Midterms2026ML/` · Senate guide `/senate/` · Live tracker `/live/`; Vite `base` is `/Midterms2026ML/` |
 | Default branch | `main` (deploys on push; scheduled run every 10 min refreshes 2026 results until 2026-12-31) |
 | Env vars | optional `FIFTYPLUSONE_API_KEY` (fetch only) |
 
@@ -30,12 +30,17 @@ ml/fetch_data.py -> data/raw/districts_<2014..2026>.csv   (Wikipedia tables via 
 ml/build.py      -> web/src/data/guide.json                 (bundled: metrics, charts, models, 2026 districts)
                  -> data/forecast/forecast_2026.{csv,json}  (FROZEN: written once, never overwritten)
 data/raw + data/forecast served at /data/raw|forecast/ by the projectData() plugin in web/vite.config.ts
+ml/build_senate.py -> web/src/data/senate.json            (Senate; reuses build.py models + data/raw/senate_*.csv)
+                 -> data/forecast/senate_forecast_2026.*    (FROZEN only with --freeze; otherwise *.preview.*)
 web/src/lib/model.ts mirrors build.py features() + inference (logreg, depth-3 tree, GBM)
+web/senate/index.html + src/senate/  Senate guide (third Vite entry); lib/senate.ts = Senate model, sim, live parser
 web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.ts = TS port of the winner parser,
                  Wikipedia API polling, Bayesian env nowcast, alerts, demo replay. Backup feed = data/raw/districts_2026.csv
 ```
 
 - `parseCalls()` in `lib/live.ts` and `parse_page()` in `ml/wiki_tables.py` must agree (winner = {{Aye}} line, else "X hold/gain" status).
+  Same for `parseSenateCalls()` in `lib/senate.ts` and `parse_senate_page()` in `ml/senate_tables.py`.
+- Senate stand-in rule: a leading independent stands in for a party with no nominee (`STAND_IN_2026`); the VP tie-break and caucusing are seat-count facts, never features.
 
 - **Every number in the UI comes from `guide.json`.** Never hard-code a metric; derive text from `guide`.
 - **Feature parity:** `features()` in `ml/build.py` and `districtFeatures()` in `web/src/lib/model.ts` must match. `build.py` asserts the exported GBM reproduces sklearn.
@@ -53,12 +58,13 @@ web/live/index.html + src/live/  live tracker (second Vite entry); src/lib/live.
 | `components/ui.tsx` | `Chapter` (with HOML `book` chips), `Callout` (concept/pitfall/result/try/fair), `Code`, `StatTile`, `PartyTag`, `probColor` |
 | `lib/data.ts` | `guide`, `pct`, `fmt`, `lean`, `MAJORITY`, `dataUrl` |
 | `lib/model.ts` | `districtFeatures`, `predict`, `logreg`, `tree`, `gbm`, `fixed`, `mulberry32`, `randn` |
+| `lib/senate.ts` | `senate`, `SR`, `SF`, `HOLD`, `R_CONTROL`/`D_CONTROL`, `raceName`, `senateP`, `STABLE` (P per race on the env grid), `simulateSenate`, `simulateCongress` |
 
 ## Checklist for a new metric/chapter
 
 1. Compute it in `ml/build.py` and add it to `guide`. 2. Type it in `web/src/lib/types.ts`.
 3. `.venv/bin/python ml/build.py` (~1 min). 4. Section in `web/src/sections/`, charts in `ChartFrame` with `table`.
-5. New chapter: add to `CHAPTERS` in `App.tsx`. 6. `cd web && npx tsc -b && npm run build`; check light, dark and 390px.
+5. New chapter: add to `CHAPTERS` in `App.tsx` (Senate: `senate/SenateApp.tsx`; Senate metrics go in `ml/build_senate.py` + `Senate` type). 6. `cd web && npx tsc -b && npm run build`; check light, dark and 390px.
 
 ## Guidelines
 

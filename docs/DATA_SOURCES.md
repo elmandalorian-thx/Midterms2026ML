@@ -11,6 +11,9 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 | 5 | [FiftyPlusOne poll files](https://fiftyplusone.news/readme) (optional) | Every 2026 generic-ballot poll (`generic.csv`), presidential approval, House/Senate/governor polls | `https://fiftyplusone.news/api/csv?api_key=KEY&filename=generic.csv` (set `FIFTYPLUSONE_API_KEY`) | paid: Standard $100/mo or $1,000/yr; Premium $150/mo; Enterprise quote | see their terms | extensions: your own polling average, approval as a feature |
 | 6 | [MIT Election Data + Science Lab, U.S. House 1976–2024](https://electionlab.mit.edu/data) (alternative) | The standard academic House returns | Harvard Dataverse `doi:10.7910/DVN/IG0UN2` (download requires a short guestbook form) | form | CC0 | longer history if you want it |
 | 7 | [U.S. Census ACS API](https://www.census.gov/data/developers/data-sets/acs-1year.html) (extension) | Demographics by congressional district | `https://api.census.gov/data/2024/acs/acs1?get=NAME,B01003_001E&for=congressional%20district:*&key=KEY` | free key | public domain | extra features |
+| 9 | [FiveThirtyEight election-results](https://github.com/fivethirtyeight/election-results): Senate | Candidate-level Senate general, runoff and jungle-primary returns 2010–2024 | `.../main/election_results_senate.csv` | no | CC BY 4.0 | Senate vote margins, cross-check of winners |
+| 10 | [FiveThirtyEight election-results](https://github.com/fivethirtyeight/election-results): President | State-level presidential returns | `.../main/election_results_presidential.csv` | no | CC BY 4.0 | computed state lean (Cook-style: 0.75 × latest + 0.25 × previous deviation from the nation) |
+| 11 | [Wikipedia: <year> United States Senate elections](https://en.wikipedia.org/wiki/2026_United_States_Senate_elections) | Per-race tables 2014–2026: Cook PVI, incumbent + party, status, candidates, winner, specials | raw wikitext, same as #2 | no | CC BY-SA 4.0 | Senate features, labels, 2026 inputs and scoring |
 | 8 | President's party by year | +1 / −1 per election 1998–2026 | public record, hard-coded in `ml/build.py` (`PRES_PARTY`) | — | — | midterm-penalty chart |
 
 ## Live results (election night)
@@ -18,7 +21,8 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 | Source | Access | Cost | Used |
 |---|---|---|---|
 | Wikipedia API (`en.wikipedia.org/w/api.php`, `origin=*` for CORS) | `action=query&prop=revisions&rvprop=ids|timestamp` to check, then `rvprop=content&rvslots=main` to download | free | yes: `web/src/lib/live.ts` |
-| Backup: `data/raw/districts_2026.csv` on GitHub Pages | refreshed by `.github/workflows/pages.yml` every 10 min | free | yes, when Wikipedia is unreachable or rate-limited |
+| Same API, page *2026 United States Senate elections* | same revision check, parsed by `parseSenateCalls()` in `web/src/lib/senate.ts` | free | yes |
+| Backup: `data/raw/districts_2026.csv` and `data/raw/senate_2026.csv` on GitHub Pages | refreshed by `.github/workflows/pages.yml` every 10 min | free | yes, when Wikipedia is unreachable or rate-limited |
 | AP Elections API | developer.ap.org | paid | no (drop-in upgrade) |
 | Decision Desk HQ API | decisiondeskhq.com | paid | no |
 | State election-night reporting (often Clarity/Scytl ENR JSON) | per state | free | no |
@@ -32,7 +36,11 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 | `data/raw/generic_ballot_2026.json` | `ml/fetch_data.py` | polling-average rows + retrieval date |
 | `data/forecast/forecast_2026.csv` | `ml/build.py` (first run only) | frozen pre-election P(Dem) per district, logistic + boosting |
 | `data/forecast/forecast_2026.json` | `ml/build.py` (first run only) | frozen seat distribution, inputs, date |
-| `web/src/data/guide.json` | `ml/build.py` | everything the site shows |
+| `web/src/data/guide.json` | `ml/build.py` | everything the House guide shows |
+| `data/raw/senate_<year>.csv` | `ml/fetch_data.py` | one row per Senate race: `race, state, special, pvi_cook, inc_party, inc_running, candidates, winner, winner_name, status` |
+| `data/raw/senate_results_538.csv`, `data/raw/president_states_538.csv` | `ml/fetch_data.py` | trimmed 538 Senate and state presidential returns |
+| `data/forecast/senate_forecast_2026.{csv,json}` | `ml/build_senate.py --freeze` (once) | frozen P(Democratic side) per race for every candidate model, tipping-point odds, chamber + joint House × Senate odds |
+| `web/src/data/senate.json` | `ml/build_senate.py` | everything the Senate guide and the tracker's Senate tab show |
 
 ## Known caveats
 
