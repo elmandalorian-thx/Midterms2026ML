@@ -68,7 +68,7 @@ CA-5,CA,-10.0,R,1,1,0,1,1,2,,Incumbent advanced to general
 CA-50,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
 CA-51,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
 CA-52,CA,11.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-6,CA,5.0,R,1,1,0,1,1,2,,Incumbent advanced to general
+CA-6,CA,5.0,,0,0,1,1,1,2,,
 CA-7,CA,7.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general. Democratic hold.
 CA-8,CA,19.0,D,1,1,0,1,1,2,,Incumbent advanced to general
 CA-9,CA,8.0,D,1,1,0,1,1,2,,Incumbent advanced to general
