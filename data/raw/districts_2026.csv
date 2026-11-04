@@ -424,13 +424,13 @@ WA-7,WA,39.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 WA-8,WA,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 WA-9,WA,22.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 WI-1,WI,-2.0,R,1,1,0,1,1,2,D,|Incumbent lost re-election. Democratic gain.
-WI-2,WI,21.0,D,1,1,0,1,0,1,,Incumbent re-elected
+WI-2,WI,21.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
 WI-3,WI,-3.0,R,1,1,0,1,1,4,D,|Incumbent lost re-election. Democratic gain.
-WI-4,WI,26.0,D,1,1,0,1,1,3,,Incumbent renominated
-WI-5,WI,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
-WI-6,WI,-8.0,R,1,1,0,1,1,5,,Incumbent renominated
-WI-7,WI,-11.0,R,0,1,0,1,1,2,,|Incumbent retiring to run for
-WI-8,WI,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+WI-4,WI,26.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+WI-5,WI,-11.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+WI-6,WI,-8.0,R,1,1,0,1,1,5,R,Incumbent re-elected.
+WI-7,WI,-11.0,R,0,1,0,1,1,2,R,|Incumbent retired to run for . Republican hold.
+WI-8,WI,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
 WV-1,WV,-22.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
 WV-2,WV,-20.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
-WY-AL,WY,-23.0,R,0,1,0,1,1,4,,|Incumbent retiring to
+WY-AL,WY,-23.0,R,0,1,0,1,1,4,R,|Incumbent retired to . Republican hold.
