@@ -234,7 +234,7 @@ MT-1,MT,-5.0,R,0,1,0,1,1,3,,2017
 MT-2,MT,-15.0,R,1,1,0,1,1,4,,Incumbent renominated
 NC-1,NC,-5.0,D,1,1,0,1,1,3,,Incumbent renominated
 NC-10,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
-NC-11,NC,-5.0,R,1,1,0,1,1,3,,Incumbent renominated but withdrew
+NC-11,NC,-5.0,R,1,1,0,1,1,3,D,|Incumbent renominated but withdrew. Democratic gain.
 NC-12,NC,24.0,D,1,1,0,1,1,2,,Incumbent renominated
 NC-13,NC,-8.0,R,1,1,0,1,1,3,,Incumbent renominated
 NC-14,NC,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
