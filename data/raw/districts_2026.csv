@@ -101,7 +101,7 @@ FL-2,FL,-8.0,R,0,1,0,1,1,2,,Incumbent retiring
 FL-20,FL,20.0,,0,0,1,1,1,3,D,
 FL-21,FL,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
 FL-22,FL,-4.0,,0,0,1,1,1,2,,
-FL-23,FL,9.0,D,1,1,0,1,1,2,,Incumbent renominated
+FL-23,FL,9.0,D,1,1,0,1,1,2,,Incumbent re-elected
 FL-24,FL,22.0,D,0,1,0,1,1,2,D,Incumbent retiring
 FL-25,FL,-3.0,D,1,1,0,1,1,3,,Incumbent renominated
 FL-26,FL,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
@@ -110,7 +110,7 @@ FL-28,FL,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
 FL-3,FL,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
 FL-4,FL,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
 FL-5,FL,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
-FL-6,FL,-14.0,R,1,1,0,1,1,4,,Incumbent renominated
+FL-6,FL,-14.0,R,1,1,0,1,1,4,R,Incumbent re-elected
 FL-7,FL,-5.0,R,0,1,0,1,1,3,,Incumbent lost renomination
 FL-8,FL,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
 FL-9,FL,-8.0,D,1,1,0,1,1,2,,Incumbent renominated
@@ -122,9 +122,9 @@ GA-13,GA,21.0,,0,0,1,1,1,2,D,
 GA-14,GA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
 GA-2,GA,4.0,D,1,1,0,1,1,2,,Incumbent renominated
 GA-3,GA,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
-GA-4,GA,27.0,D,1,1,0,1,1,2,,Incumbent renominated
+GA-4,GA,27.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 GA-5,GA,36.0,D,1,1,0,1,1,2,D,Incumbent re-elected
-GA-6,GA,25.0,D,1,1,0,1,1,2,,Incumbent renominated
+GA-6,GA,25.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 GA-7,GA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
 GA-8,GA,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
 GA-9,GA,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
