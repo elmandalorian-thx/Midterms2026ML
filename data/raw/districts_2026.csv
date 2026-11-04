@@ -232,7 +232,7 @@ MS-3,MS,-14.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
 MS-4,MS,-21.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
 MT-1,MT,-5.0,R,0,1,0,1,1,3,,2017
 MT-2,MT,-15.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
-NC-1,NC,-5.0,D,1,1,0,1,1,3,,Incumbent renominated
+NC-1,NC,-5.0,D,1,1,0,1,1,3,D,Incumbent re-elected
 NC-10,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
 NC-11,NC,-5.0,R,1,1,0,1,1,3,D,|Incumbent renominated but withdrew. Democratic gain.
 NC-12,NC,24.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
@@ -245,7 +245,7 @@ NC-5,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
 NC-6,NC,-9.0,R,1,1,0,1,1,2,,Incumbent renominated
 NC-7,NC,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
 NC-8,NC,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
-NC-9,NC,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+NC-9,NC,-8.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
 ND-AL,ND,-18.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
 NE-1,NE,-6.0,R,1,1,0,1,1,4,,Incumbent renominated
 NE-2,NE,3.0,R,0,1,0,1,1,3,D,|Incumbent retired. Democratic gain.
@@ -398,9 +398,9 @@ TX-7,TX,13.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 TX-8,TX,-13.0,R,0,1,0,1,1,2,R,Incumbent retired. Republican hold.
 TX-9,TX,-9.0,,0,0,1,1,1,2,,
 UT-1,UT,12.0,,0,0,1,1,1,4,D,
-UT-2,UT,-15.0,R,1,1,0,1,1,5,,Incumbent renominated
-UT-3,UT,-21.0,R,1,1,0,1,1,6,R,Incumbent re-elected
-UT-4,UT,-17.0,R,0,1,0,1,1,4,,|Incumbent retiring. Republican loss.
+UT-2,UT,-15.0,R,1,1,0,1,1,5,,Incumbent renominated.
+UT-3,UT,-21.0,R,1,1,0,1,1,6,R,Incumbent re-elected.
+UT-4,UT,-17.0,R,0,1,0,1,1,4,,|Incumbent retired. Republican loss.
 VA-1,VA,-3.0,R,1,1,0,1,1,2,D,|Incumbent lost re-election. Democratic gain.
 VA-10,VA,6.0,D,1,1,0,1,1,3,,Incumbent re-elected
 VA-11,VA,18.0,D,1,1,0,1,1,3,,Incumbent renominated
