@@ -230,7 +230,7 @@ MS-1,MS,-18.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
 MS-2,MS,11.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 MS-3,MS,-14.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
 MS-4,MS,-21.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
-MT-1,MT,-5.0,R,0,1,0,1,1,3,D,2017
+MT-1,MT,-5.0,R,0,1,0,1,1,3,,2017
 MT-2,MT,-15.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
 NC-1,NC,-5.0,D,1,1,0,1,1,3,,Incumbent renominated
 NC-10,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
@@ -264,9 +264,9 @@ NJ-6,NJ,5.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 NJ-7,NJ,0.0,R,1,1,0,1,1,3,D,|Incumbent lost re-election. Democratic gain.
 NJ-8,NJ,15.0,D,1,1,0,1,0,4,D,Incumbent re-elected.
 NJ-9,NJ,2.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
-NM-1,NM,7.0,D,1,1,0,1,1,2,,Incumbent renominated
-NM-2,NM,0.0,D,1,1,0,1,1,2,,Incumbent renominated
-NM-3,NM,3.0,D,1,1,0,1,1,2,,Incumbent renominated
+NM-1,NM,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NM-2,NM,0.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NM-3,NM,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 NV-1,NV,2.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
 NV-2,NV,-7.0,R,0,1,0,1,1,3,,|Incumbent retiring
 NV-3,NV,1.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
