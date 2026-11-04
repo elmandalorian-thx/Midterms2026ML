@@ -412,7 +412,7 @@ VA-6,VA,-12.0,R,1,1,0,1,1,2,,Incumbent renominated
 VA-7,VA,2.0,D,1,1,0,1,1,6,,Incumbent renominated
 VA-8,VA,26.0,D,1,1,0,1,1,4,,Incumbent re-elected
 VA-9,VA,-22.0,R,1,1,0,1,1,2,R,Incumbent re-elected
-VT-AL,VT,17.0,D,1,1,0,1,1,6,,Incumbent re-elected
+VT-AL,VT,17.0,D,1,1,0,1,1,6,D,Incumbent re-elected.
 WA-1,WA,15.0,D,1,1,0,1,1,2,,Incumbent advanced to general
 WA-10,WA,9.0,D,1,1,0,1,1,2,,Incumbent advanced to general
 WA-2,WA,12.0,D,1,1,0,1,1,2,,Incumbent advanced to general
