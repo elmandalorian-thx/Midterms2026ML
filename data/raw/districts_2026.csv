@@ -413,16 +413,16 @@ VA-7,VA,2.0,D,1,1,0,1,1,6,D,Incumbent re-elected.
 VA-8,VA,26.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
 VA-9,VA,-22.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
 VT-AL,VT,17.0,D,1,1,0,1,1,6,D,Incumbent re-elected.
-WA-1,WA,15.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-WA-10,WA,9.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-WA-2,WA,12.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-WA-3,WA,-2.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-WA-4,WA,-10.0,R,0,1,0,1,1,2,,Incumbent retiring
-WA-5,WA,-5.0,R,1,1,0,1,1,2,,Incumbent advanced to general
-WA-6,WA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-WA-7,WA,39.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-WA-8,WA,3.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-WA-9,WA,22.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+WA-1,WA,15.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-10,WA,9.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-2,WA,12.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-3,WA,-2.0,D,1,1,0,1,1,2,,Incumbent advanced to general.
+WA-4,WA,-10.0,R,0,1,0,1,1,2,,Incumbent retired.
+WA-5,WA,-5.0,R,1,1,0,1,1,2,,Incumbent advanced to general.
+WA-6,WA,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-7,WA,39.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-8,WA,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+WA-9,WA,22.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 WI-1,WI,-2.0,R,1,1,0,1,1,2,D,|Incumbent lost re-election. Democratic gain.
 WI-2,WI,21.0,D,1,1,0,1,0,1,,Incumbent re-elected
 WI-3,WI,-3.0,R,1,1,0,1,1,4,D,|Incumbent lost re-election. Democratic gain.
@@ -431,6 +431,6 @@ WI-5,WI,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
 WI-6,WI,-8.0,R,1,1,0,1,1,5,,Incumbent renominated
 WI-7,WI,-11.0,R,0,1,0,1,1,2,,|Incumbent retiring to run for
 WI-8,WI,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
-WV-1,WV,-22.0,R,1,1,0,1,1,3,,Incumbent renominated
-WV-2,WV,-20.0,R,1,1,0,1,1,2,,Incumbent renominated
+WV-1,WV,-22.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+WV-2,WV,-20.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
 WY-AL,WY,-23.0,R,0,1,0,1,1,4,,|Incumbent retiring to
