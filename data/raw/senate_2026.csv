@@ -3,16 +3,16 @@ AK,AK,0,-6.0,R,1,R:Gerald Heikes;D+:Mary Peltola;R:Dan J. Sullivan;R+:Dan S. Sul
 AL,AL,0,-15.0,R,0,R+:Barry Moore;D:Everett Wess,,,Incumbent retiring to
 AR,AR,0,-15.0,R,1,R+:Tom Cotton;D:Hallie Shoffner;O:Jeff Wadlin,,,Incumbent renominated
 CO,CO,0,6.0,D,1,R+:Mark Baisley;O:Christopher Baum;O:Bob Chew;D+:John Hickenlooper;O:Blake Huber;O:Adam Withrow,,,Incumbent renominated
-DE,DE,0,8.0,D,1,D+:Chris Coons;R+:Michael Katz,,,Incumbent renominated
+DE,DE,0,8.0,D,1,D+:Chris Coons;R+:Michael Katz,D,Chris Coons,Incumbent re-elected
 FL-S,FL,1,-5.0,R,1,I:Neil Gillespie;R+:Ashley Moody;D+:Angie Nixon,,,Interim appointee nominated
 GA,GA,0,-1.0,D,1,D+:Jon Ossoff;R+:Mike Collins,D,Jon Ossoff,Incumbent re-elected
 IA,IA,0,-6.0,R,0,R+:Ashley Hinson;O:Thomas Laehn;D+:Josh Turek,,,Incumbent retiring
 ID,ID,0,-18.0,R,1,I+:Todd Achilles;I:Natalie Fleming;O:Matt Loesby;R+:Jim Risch,,,Incumbent renominated
-IL,IL,0,6.0,D,0,I:Whitfield Harrington Jr.;D+:Juliana Stratton;R+:Don Tracy,,,Incumbent retiring
+IL,IL,0,6.0,D,0,D+:Juliana Stratton;R+:Don Tracy;I:Whitfield Harrington Jr.,D,Juliana Stratton,Incumbent retiring. Democratic hold.
 KS,KS,0,-8.0,R,1,O:David Graham;D+:Adam Hamilton;R+:Roger Marshall,,,Incumbent renominated
 KY,KY,0,-15.0,R,0,R+:Andy Barr;D+:Charles Booker;I:Christopher Campbell,,,Incumbent retiring
 LA,LA,0,-11.0,R,0,D:Jamie Davis;R+:Julia Letlow,,,Incumbent lost renomination
-MA,MA,0,14.0,D,1,I:Shiva Ayyadurai;R+:John Deaton;D+:Ed Markey;O:Joe Tache,,,Incumbent renominated
+MA,MA,0,14.0,D,1,D+:Ed Markey;R+:John Deaton;I:Shiva Ayyadurai;O:Joe Tache,D,Ed Markey,Incumbent re-elected
 ME,ME,0,4.0,R,1,R+:Susan Collins;D+:Troy Jackson,,,Incumbent renominated
 MI,MI,0,0.0,D,0,O:Lydia Christensen;D+:Abdul El-Sayed;O:Walter P. Kristy;O:Tim Long;O:Douglas P. Marsh;R+:Mike Rogers,,,Incumbent retiring
 MN,MN,0,3.0,D,0,D+:Peggy Flanagan;I:Marisa Simonetti;R+:Michele Tafoya;O:Rebecca Whiting,,,Incumbent retiring
@@ -21,12 +21,12 @@ MT,MT,0,-10.0,R,0,R+:Kurt Alme;O:Kyle Austin;D:Alani Bankhead;I+:Seth Bodnar,,,I
 NC,NC,0,-1.0,R,0,O:Shannon Bray;D+:Roy Cooper;O:Michael Dublin;R+:Michael Whatley,,,Incumbent retiring
 NE,NE,0,-10.0,R,1,O:Chuck Conboy;O:Mike Marvin;I+:Dan Osborn;O:Robin Richards;R+:Pete Ricketts,,,Incumbent renominated
 NH,NH,0,2.0,D,0,O:Edmond LaPlante;D+:Chris Pappas;R+:John E. Sununu,,,Incumbent retiring
-NJ,NJ,0,4.0,D,1,D+:Cory Booker;I:Veronica Fernandez;O:Joanne Kuniansky;R:Justin Murphy,,,Incumbent renominated
+NJ,NJ,0,4.0,D,1,D+:Cory Booker;R:Justin Murphy;I:Veronica Fernandez;O:Joanne Kuniansky,D,Cory Booker,Incumbent re-elected
 NM,NM,0,4.0,D,1,D+:Ben Ray Luján;R:Larry Marker,,,Incumbent renominated
 OH-S,OH,1,-5.0,R,1,D+:Sherrod Brown;R+:Jon Husted;I:Greg Levy;O:William Redpath,,,Interim appointee nominated
 OK,OK,0,-17.0,R,0,R+:Kevin Hern;I:Ron Meinhardt;I:Curtis Stinnett;D:N'Kiyla Jasmine Thomas;O:Sevier White,,,Interim appointee ineligible to run
 OR,OR,0,8.0,D,1,O:Gary Lyndon Dye;O:Chris Henry;D+:Jeff Merkley;R+:David Brock Smith,,,Incumbent renominated
-RI,RI,0,8.0,D,1,I:Michael Bahry;R:Raymond McKay;D+:Jack Reed,,,Incumbent renominated
+RI,RI,0,8.0,D,1,D+:Jack Reed;R:Raymond McKay;I:Michael Bahry,D,Jack Reed,Incumbent re-elected
 SC,SC,0,-8.0,R,1,D+:Annie Andrews;R+:Darline Graham;O:Mark Hackett;O:Kasie Whitener,,,Interim appointee nominated in runoff
 SD,SD,0,-15.0,R,1,I:Brian Bengs;R+:Mike Rounds,,,Incumbent renominated
 TN,TN,0,-14.0,R,1,D+:Marquita Bradshaw;I:Tharon Chandler;I:Andrew Gerena;R+:Bill Hagerty;I:Jeremy Hearn;I:Robert Jones;I:James Macon III;I:Yoshi Matthews;I:David Sutman Jr.;I:Catherine Whitson,,,Incumbent renominated
