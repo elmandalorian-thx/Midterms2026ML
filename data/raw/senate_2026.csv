@@ -2,7 +2,7 @@ race,state,special,pvi_cook,inc_party,inc_running,candidates,winner,winner_name,
 AK,AK,0,-6.0,R,1,R:Gerald Heikes;D+:Mary Peltola;R:Dan J. Sullivan;R+:Dan S. Sullivan,,,Incumbent advanced to general
 AL,AL,0,-15.0,R,0,R+:Barry Moore;D:Everett Wess,,,Incumbent retiring to
 AR,AR,0,-15.0,R,1,R+:Tom Cotton;D:Hallie Shoffner;O:Jeff Wadlin,,,Incumbent renominated
-CO,CO,0,6.0,D,1,R+:Mark Baisley;O:Christopher Baum;O:Bob Chew;D+:John Hickenlooper;O:Blake Huber;O:Adam Withrow,,,Incumbent renominated
+CO,CO,0,6.0,D,1,D+:John Hickenlooper;R+:Mark Baisley;O:Bob Chew;O:Blake Huber;O:Adam Withrow,D,John Hickenlooper,Incumbent re-elected
 DE,DE,0,8.0,D,1,D+:Chris Coons;R+:Michael Katz,D,Chris Coons,Incumbent re-elected
 FL-S,FL,1,-5.0,R,1,R+:Ashley Moody;D+:Angie Nixon;I:Neil Gillespie,R,Ashley Moody,Interim appointee elected
 GA,GA,0,-1.0,D,1,D+:Jon Ossoff;R+:Mike Collins,D,Jon Ossoff,Incumbent re-elected
@@ -22,7 +22,7 @@ NC,NC,0,-1.0,R,0,D+:Roy Cooper;R+:Michael Whatley;O:Shannon Bray;O:Michael Dubli
 NE,NE,0,-10.0,R,1,O:Chuck Conboy;O:Mike Marvin;I+:Dan Osborn;O:Robin Richards;R+:Pete Ricketts,,,Incumbent renominated
 NH,NH,0,2.0,D,0,D+:Chris Pappas;R+:John E. Sununu;O:Edmond LaPlante,D,Chris Pappas,Incumbent retiring. Democratic hold.
 NJ,NJ,0,4.0,D,1,D+:Cory Booker;R:Justin Murphy;I:Veronica Fernandez;O:Joanne Kuniansky,D,Cory Booker,Incumbent re-elected
-NM,NM,0,4.0,D,1,D+:Ben Ray Luján;R:Larry Marker,,,Incumbent renominated
+NM,NM,0,4.0,D,1,D+:Ben Ray Luján;R:Larry Marker,D,Ben Ray Luján,Incumbent re-elected
 OH-S,OH,1,-5.0,R,1,D+:Sherrod Brown;R+:Jon Husted;I:Greg Levy;O:William Redpath,,,Interim appointee nominated
 OK,OK,0,-17.0,R,0,R+:Kevin Hern;I:Ron Meinhardt;I:Curtis Stinnett;D:N'Kiyla Jasmine Thomas;O:Sevier White,,,Interim appointee ineligible to run
 OR,OR,0,8.0,D,1,O:Gary Lyndon Dye;O:Chris Henry;D+:Jeff Merkley;R+:David Brock Smith,,,Incumbent renominated
@@ -33,4 +33,4 @@ TN,TN,0,-14.0,R,1,D+:Marquita Bradshaw;I:Tharon Chandler;I:Andrew Gerena;R+:Bill
 TX,TX,0,-6.0,R,0,O:Ted Brown;R+:Ken Paxton;D+:James Talarico,,,Incumbent lost renomination in runoff
 VA,VA,0,3.0,D,1,D+:Mark Warner;R+:Bert Mizusawa,D,Mark Warner,Incumbent re-elected
 WV,WV,0,-21.0,R,1,R+:Shelley Moore Capito;D:Rachel Fetty Anderson;O+:S. Marshall Wilson,R,Shelley Moore Capito,Incumbent re-elected
-WY,WY,0,-23.0,R,0,D+:James W. Byrd;R+:Harriet Hageman,,,Incumbent retiring
+WY,WY,0,-23.0,R,0,R+:Harriet Hageman;D+:James W. Byrd,R,Harriet Hageman,Incumbent retiring. Republican hold.
