@@ -187,12 +187,12 @@ MA-6,MA,11.0,D,0,1,0,1,1,2,,Incumbent retiring to
 MA-7,MA,34.0,D,1,1,0,1,0,1,,Incumbent re-elected
 MA-8,MA,15.0,D,1,1,0,1,1,3,,Incumbent renominated
 MA-9,MA,6.0,D,1,1,0,1,1,2,,Incumbent renominated
-MD-1,MD,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
-MD-2,MD,10.0,D,1,1,0,1,1,2,,Incumbent renominated
+MD-1,MD,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+MD-2,MD,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 MD-3,MD,12.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 MD-4,MD,39.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 MD-5,MD,17.0,D,0,1,0,1,1,2,D,|Incumbent retiring Democratic hold.
-MD-6,MD,3.0,D,1,1,0,1,1,3,,Incumbent renominated
+MD-6,MD,3.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 MD-7,MD,31.0,D,0,1,0,1,1,2,D,1996
 MD-8,MD,30.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 ME-1,ME,11.0,D,1,1,0,1,1,2,,Incumbent renominated
