@@ -13,13 +13,13 @@ AR-3,AR,-13.0,R,1,1,0,1,1,3,,Incumbent renominated
 AR-4,AR,-20.0,R,1,1,0,1,1,2,,Incumbent renominated
 AZ-1,AZ,-1.0,R,0,1,0,1,1,3,,Incumbent retiring to
 AZ-2,AZ,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
-AZ-3,AZ,22.0,D,1,1,0,1,0,3,,Incumbent renominated
-AZ-4,AZ,4.0,D,1,1,0,1,1,3,,Incumbent renominated
+AZ-3,AZ,22.0,D,1,1,0,1,0,3,D,Incumbent re-elected.
+AZ-4,AZ,4.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 AZ-5,AZ,-10.0,R,0,1,0,1,1,2,,Incumbent retiring to
 AZ-6,AZ,0.0,R,1,1,0,1,1,4,,Incumbent renominated
-AZ-7,AZ,13.0,D,1,1,0,1,1,2,,Incumbent renominated
+AZ-7,AZ,13.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 AZ-8,AZ,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
-AZ-9,AZ,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
+AZ-9,AZ,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
 CA-1,CA,7.0,R,1,1,0,1,1,2,D,|Incumbent lost re-election. Democratic gain.
 CA-10,CA,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 CA-11,CA,36.0,D,0,1,0,1,0,2,D,|Incumbent retiring. Democratic hold.
