@@ -166,12 +166,12 @@ KS-1,KS,-16.0,R,1,1,0,1,1,3,,Incumbent renominated
 KS-2,KS,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
 KS-3,KS,2.0,D,1,1,0,1,1,3,,Incumbent renominated
 KS-4,KS,-12.0,R,1,1,0,1,1,3,,Incumbent renominated
-KY-1,KY,-23.0,R,1,1,0,1,1,2,,Incumbent renominated
-KY-2,KY,-20.0,R,1,1,0,1,1,3,,Incumbent renominated
-KY-3,KY,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected
-KY-4,KY,-18.0,R,0,1,0,1,1,3,,Incumbent lost renomination
-KY-5,KY,-32.0,R,1,1,0,1,1,4,R,Incumbent re-elected
-KY-6,KY,-7.0,R,0,1,0,1,1,4,,Incumbent retiring to
+KY-1,KY,-23.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+KY-2,KY,-20.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+KY-3,KY,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+KY-4,KY,-18.0,R,0,1,0,1,1,3,R,|Incumbent lost renomination. Republican hold.
+KY-5,KY,-32.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+KY-6,KY,-7.0,R,0,1,0,1,1,4,D,|Incumbent retired to . Democratic gain.
 LA-1,LA,-20.0,R,1,1,0,1,1,4,,Incumbent running
 LA-2,LA,25.0,D,1,1,0,1,1,5,,Incumbent running
 LA-3,LA,-18.0,R,1,1,0,1,1,6,,Incumbent running
