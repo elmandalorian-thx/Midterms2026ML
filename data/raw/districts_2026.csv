@@ -178,15 +178,15 @@ LA-3,LA,-18.0,R,1,1,0,1,1,6,R,Incumbent re-elected.
 LA-4,LA,-17.0,R,1,1,0,1,1,5,R,Incumbent re-elected.
 LA-5,LA,-17.0,R,0,1,0,1,1,11,,Incumbent retired to .
 LA-6,LA,-16.0,D,0,1,0,1,1,10,,1996
-MA-1,MA,8.0,D,1,1,0,1,0,2,,Incumbent renominated
-MA-2,MA,13.0,D,1,1,0,1,0,1,,Incumbent re-elected
-MA-3,MA,11.0,D,1,1,0,1,1,3,,Incumbent renominated
-MA-4,MA,11.0,D,1,1,0,1,1,2,,Incumbent renominated
-MA-5,MA,24.0,D,1,1,0,1,0,1,,Incumbent re-elected
-MA-6,MA,11.0,D,0,1,0,1,1,2,,Incumbent retiring to
-MA-7,MA,34.0,D,1,1,0,1,0,1,,Incumbent re-elected
-MA-8,MA,15.0,D,1,1,0,1,1,3,,Incumbent renominated
-MA-9,MA,6.0,D,1,1,0,1,1,2,,Incumbent renominated
+MA-1,MA,8.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+MA-2,MA,13.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+MA-3,MA,11.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MA-4,MA,11.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+MA-5,MA,24.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+MA-6,MA,11.0,D,0,1,0,1,1,2,D,|Incumbent retiring to . New member elected. Democratic hold.
+MA-7,MA,34.0,D,1,1,0,1,0,1,D,Incumbent re-elected.
+MA-8,MA,15.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MA-9,MA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 MD-1,MD,-8.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
 MD-2,MD,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 MD-3,MD,12.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
