@@ -136,23 +136,23 @@ IA-3,IA,-2.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
 IA-4,IA,-15.0,R,0,1,0,1,1,2,R,|Incumbent retired to . Republican hold.
 ID-1,ID,-22.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
 ID-2,ID,-13.0,R,1,1,0,1,1,5,R,Incumbent re-elected.
-IL-1,IL,18.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-10,IL,12.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-11,IL,6.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-12,IL,-22.0,R,1,1,0,1,1,2,,Incumbent renominated
-IL-13,IL,5.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-14,IL,3.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-15,IL,-20.0,R,1,1,0,1,1,2,,Incumbent renominated
-IL-16,IL,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
-IL-17,IL,3.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-2,IL,18.0,D,0,1,0,1,1,2,,Incumbent retiring to
-IL-3,IL,17.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-4,IL,17.0,D,0,1,0,1,1,4,,Incumbent retiring
-IL-5,IL,19.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-6,IL,3.0,D,1,1,0,1,1,2,,Incumbent renominated
-IL-7,IL,34.0,D,0,1,0,1,1,2,,Incumbent retiring
-IL-8,IL,5.0,D,0,1,0,1,1,2,,Incumbent retiring to
-IL-9,IL,19.0,D,0,1,0,1,1,2,,Incumbent retiring
+IL-1,IL,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-10,IL,12.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-11,IL,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-12,IL,-22.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-13,IL,5.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-14,IL,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-15,IL,-20.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-16,IL,-11.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+IL-17,IL,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-2,IL,18.0,D,0,1,0,1,1,2,D,|Incumbent retired to . Democratic hold.
+IL-3,IL,17.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-4,IL,17.0,D,0,1,0,1,1,4,D,|Incumbent retired. Democratic hold.
+IL-5,IL,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-6,IL,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+IL-7,IL,34.0,D,0,1,0,1,1,2,D,|Incumbent retired. Democratic hold.
+IL-8,IL,5.0,D,0,1,0,1,1,2,D,|Incumbent retired to . Democratic hold.
+IL-9,IL,19.0,D,0,1,0,1,1,2,D,|Incumbent retired. Democratic hold.
 IN-1,IN,1.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 IN-2,IN,-13.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
 IN-3,IN,-16.0,R,0,1,0,1,1,2,R,2016
@@ -218,14 +218,14 @@ MN-5,MN,32.0,,0,0,1,1,1,3,,
 MN-6,MN,-10.0,R,1,1,0,1,1,2,,Incumbent renominated
 MN-7,MN,-18.0,R,1,1,0,1,1,2,,Incumbent renominated
 MN-8,MN,-7.0,R,1,1,0,1,1,2,,Incumbent renominated
-MO-1,MO,29.0,D,1,1,0,1,1,3,,Incumbent renominated
-MO-2,MO,-4.0,R,1,1,0,1,1,3,,Incumbent renominated
-MO-3,MO,-13.0,R,1,1,0,1,1,3,,Incumbent renominated
-MO-4,MO,-21.0,R,1,1,0,1,1,3,,Incumbent renominated
-MO-5,MO,12.0,D,1,1,0,1,1,3,,Incumbent renominated
-MO-6,MO,-19.0,R,0,1,0,1,1,3,,Incumbent retiring
-MO-7,MO,-21.0,R,1,1,0,1,1,3,,Incumbent renominated
-MO-8,MO,-27.0,R,1,1,0,1,1,3,,Incumbent renominated
+MO-1,MO,29.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MO-2,MO,-4.0,R,1,1,0,1,1,3,D,|Incumbent lost re-election. Democratic gain.
+MO-3,MO,-13.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MO-4,MO,-21.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MO-5,MO,12.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+MO-6,MO,-19.0,R,0,1,0,1,1,3,R,|Incumbent retired. Republican hold.
+MO-7,MO,-21.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
+MO-8,MO,-27.0,R,1,1,0,1,1,3,R,Incumbent re-elected.
 MS-1,MS,-18.0,R,1,1,0,1,1,3,,Incumbent renominated
 MS-2,MS,11.0,D,1,1,0,1,1,3,,Incumbent renominated
 MS-3,MS,-14.0,R,1,1,0,1,1,3,,Incumbent renominated
@@ -248,10 +248,10 @@ NC-8,NC,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
 NC-9,NC,-8.0,R,1,1,0,1,1,2,D,Incumbent renominated
 ND-AL,ND,-18.0,R,1,1,0,1,1,4,,Incumbent renominated
 NE-1,NE,-6.0,R,1,1,0,1,1,4,,Incumbent renominated
-NE-2,NE,3.0,R,0,1,0,1,1,3,,Incumbent retiring
-NE-3,NE,-27.0,R,1,1,0,1,1,5,,Incumbent renominated
-NH-1,NH,2.0,D,0,1,0,1,1,2,,Incumbent retiring to
-NH-2,NH,2.0,D,1,1,0,1,1,3,,Incumbent renominated
+NE-2,NE,3.0,R,0,1,0,1,1,3,D,|Incumbent retired. Democratic gain.
+NE-3,NE,-27.0,R,1,1,0,1,1,5,R,Incumbent re-elected.
+NH-1,NH,2.0,D,0,1,0,1,1,2,D,|Incumbent retired to . Democratic hold.
+NH-2,NH,2.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 NJ-1,NJ,10.0,D,1,1,0,1,1,2,,Incumbent renominated
 NJ-10,NJ,27.0,D,1,1,0,1,1,2,,Incumbent renominated
 NJ-11,NJ,5.0,D,1,1,0,1,1,3,,Incumbent renominated
