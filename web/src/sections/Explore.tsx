@@ -127,6 +127,11 @@ for tr, te in LeaveOneOut().split(X):
     lin[te] = LinearRegression().fit(X[tr], y[tr]).predict(X[te])
     rf[te] = RandomForestRegressor(200).fit(X[tr], y[tr]).predict(X[te])
 `} />
+      <Callout kind="result" title="Takeaway">
+        District lean, the national mood that moves every district together, and incumbency explain most House races, so they
+        become our features. The national picture has only {nat.rows.length} data points, and with so few a straight line (off by {nat.maeLinearSeats} seats
+        on average) beats a flexible random forest ({nat.maeForestSeats}).
+      </Callout>
     </Chapter>
   )
 }

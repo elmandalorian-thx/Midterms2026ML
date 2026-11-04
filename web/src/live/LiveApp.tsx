@@ -3,7 +3,7 @@ import { useTween } from '../components/anim'
 import { ChartFrame, Legend, linear, ticks, Tooltip, useWidth } from '../components/charts'
 import { Hemicycle, SeatHistogram } from '../components/election'
 import { PartyTag, probColor } from '../components/ui'
-import { guide, lean, MAJORITY, pct } from '../lib/data'
+import { etTime, guide, lean, MAJORITY, pct } from '../lib/data'
 import {
   alertsFor, demoNight, fetchBackup, fetchRevision, fetchWikitext, GRID, gridIndex, parseCalls, posteriorEnv, priorCurve, simulate, TABLE,
   type Alert, type AlertKind, type Call,
@@ -24,6 +24,8 @@ const F = guide.forecast
 const GUIDE_URL = import.meta.env.BASE_URL
 const STORE = 'house26-live-v1'
 const STORE_S = 'senate26-live-v1'
+/** Set once the exercise is closed: the tracker stops polling and shows the results as of this time (the published backup copy). */
+const CLOSED = guide.score2026?.closedAt ?? null
 type Tab = 'house' | 'senate' | 'congress' | 'score'
 
 function load<T>(k: string, fallback: T): T {
@@ -150,17 +152,19 @@ function EnvChart({ prior, post }: { prior: number[]; post: number[] }) {
 
 export default function LiveApp() {
   const [theme, toggleTheme] = useTheme()
-  const saved = load<{ calls: [string, W][]; alerts: Alert[]; history: Point[]; rev?: number; revTime?: string }>(STORE, { calls: [], alerts: [], history: [] })
+  const saved = CLOSED ? { calls: [], alerts: [], history: [] } as { calls: [string, W][]; alerts: Alert[]; history: Point[]; rev?: number; revTime?: string }
+    : load<{ calls: [string, W][]; alerts: Alert[]; history: Point[]; rev?: number; revTime?: string }>(STORE, { calls: [], alerts: [], history: [] })
   const [called, setCalled] = useState<Map<string, W>>(() => new Map(saved.calls))
   const [alerts, setAlerts] = useState<Alert[]>(saved.alerts)
   const [history, setHistory] = useState<Point[]>(saved.history)
   const [rev, setRev] = useState<{ id?: number; time?: string }>({ id: saved.rev, time: saved.revTime })
-  const savedS = load<{ calls: [string, SCall][]; rev?: number; revTime?: string }>(STORE_S, { calls: [] })
+  const savedS = CLOSED ? { calls: [] } as { calls: [string, SCall][]; rev?: number; revTime?: string }
+    : load<{ calls: [string, SCall][]; rev?: number; revTime?: string }>(STORE_S, { calls: [] })
   const [sCalled, setSCalled] = useState<Map<string, SCall>>(() => new Map(savedS.calls))
   const [sRev, setSRev] = useState<{ id?: number; time?: string }>({ id: savedS.rev, time: savedS.revTime })
   const [tab, setTabState] = useState<Tab>(() => load<Tab>('live-tab', 'house'))
   const setTab = (t: Tab) => { setTabState(t); save('live-tab', t) }
-  const [status, setStatus] = useState<'idle' | 'checking' | 'ok' | 'backup' | 'error'>('idle')
+  const [status, setStatus] = useState<'idle' | 'checking' | 'ok' | 'backup' | 'error' | 'final'>('idle')
   const [lastCheck, setLastCheck] = useState<number | null>(null)
   const [interval, setIntervalS] = useState(120)
   const [paused, setPaused] = useState(false)
@@ -179,9 +183,9 @@ export default function LiveApp() {
 
   // Persist the real feed (never the demo)
   useEffect(() => {
-    if (!demo) save(STORE, { calls: [...called], alerts: alerts.slice(0, 300), history: history.slice(-500), rev: rev.id, revTime: rev.time })
+    if (!demo && !CLOSED) save(STORE, { calls: [...called], alerts: alerts.slice(0, 300), history: history.slice(-500), rev: rev.id, revTime: rev.time })
   }, [called, alerts, history, rev, demo])
-  useEffect(() => { if (!demo) save(STORE_S, { calls: [...sCalled], rev: sRev.id, revTime: sRev.time }) }, [sCalled, sRev, demo])
+  useEffect(() => { if (!demo && !CLOSED) save(STORE_S, { calls: [...sCalled], rev: sRev.id, revTime: sRev.time }) }, [sCalled, sRev, demo])
 
   /** Show new alerts; beep / notify for the most important one. */
   const emit = useCallback((made: Alert[], quiet: boolean) => {
@@ -198,7 +202,7 @@ export default function LiveApp() {
   }, [])
 
   /** Senate: merge a batch of calls (winners or runoffs), alert on what changed. */
-  const ingestS = useCallback((batch: SCall[], quiet = false) => {
+  const ingestS = useCallback((batch: SCall[], quiet = false, t = Date.now()) => {
     const before = live.current.sCalled
     const after = new Map(before)
     const same = (a?: SCall, b?: SCall) => !!a && !!b && a.party === b.party && !!a.runoff === !!b.runoff
@@ -207,11 +211,11 @@ export default function LiveApp() {
     if (!newCalls.length) return
     live.current.sCalled = after
     setSCalled(after)
-    emit(senateAlerts(newCalls, before, after, Date.now()), quiet)
+    emit(senateAlerts(newCalls, before, after, t), quiet)
   }, [emit])
 
   /** Merge a batch of calls: diff against what we had, emit alerts, notify. */
-  const ingest = useCallback((batch: Call[], quiet = false) => {
+  const ingest = useCallback((batch: Call[], quiet = false, t = Date.now()) => {
     const before = live.current.called
     const after = new Map(before)
     const newCalls = batch.filter((c) => before.get(c.id) !== c.winner)
@@ -219,7 +223,7 @@ export default function LiveApp() {
     if (!newCalls.length) return
     live.current.called = after
     setCalled(after)
-    emit(alertsFor(newCalls, before, after, Date.now()), quiet)
+    emit(alertsFor(newCalls, before, after, t), quiet)
   }, [emit])
 
   // Real feed: check the revision id; download + parse only when the page changed.
@@ -253,12 +257,30 @@ export default function LiveApp() {
     setLastCheck(Date.now())
   }, [ingest, ingestS])
 
+  // Closed exercise: replay the published closing snapshot once, alerts stamped with the close time; no polling.
+  const loadFinal = useCallback(async () => {
+    setStatus('checking')
+    try {
+      const t = Date.parse(CLOSED!)
+      const [h, sn] = [await fetchBackup(GUIDE_URL), await fetchSenateBackup(GUIDE_URL)]
+      live.current.called = new Map(); live.current.sCalled = new Map()
+      setCalled(new Map()); setSCalled(new Map()); setAlerts([]); setHistory([])
+      ingest(h, true, t)
+      ingestS(sn, true, t)
+      setStatus('final')
+    } catch {
+      setStatus('error')
+    }
+    setLastCheck(Date.now())
+  }, [ingest, ingestS])
+
   useEffect(() => {
     if (demo || paused) return
+    if (CLOSED) { loadFinal(); return }
     poll()
     const t = setInterval(poll, interval * 1000)
     return () => clearInterval(t)
-  }, [demo, paused, interval, poll])
+  }, [demo, paused, interval, poll, loadFinal])
 
   // Demo: replay a simulated night into a separate, unsaved state
   const demoRef = useRef<{ calls: ({ h: Call } | { s: SCall })[]; i: number } | null>(null)
@@ -275,6 +297,7 @@ export default function LiveApp() {
   }
   const stopDemo = () => {
     demoRef.current = null
+    if (CLOSED) { setDemo(false); return } // the effect above reloads the closing snapshot
     const s = load<{ calls: [string, W][]; alerts: Alert[]; history: Point[] }>(STORE, { calls: [], alerts: [], history: [] })
     const ss = load<{ calls: [string, SCall][] }>(STORE_S, { calls: [] })
     live.current.called = new Map(s.calls); live.current.sCalled = new Map(ss.calls)
@@ -363,7 +386,7 @@ export default function LiveApp() {
   const nextIn = lastCheck ? Math.max(0, Math.round((lastCheck + interval * 1000 - now) / 1000)) : null
   const seats = D.map((d, i) => ({ id: d.id, p: probs[i], note: called.has(d.id) ? `Called: ${called.get(d.id)}` : `Uncalled · P(Dem) ${pct(probs[i], 0)}` }))
 
-  const pollControls = !demo && (
+  const pollControls = !demo && !CLOSED && (
     <div className="seg" role="group" aria-label="Polling interval">
       {[60, 120, 300].map((s) => <button key={s} aria-pressed={interval === s} onClick={() => setIntervalS(s)}>{s / 60} min</button>)}
       <button onClick={() => poll()} disabled={status === 'checking'}>↻ Now</button>
@@ -385,23 +408,31 @@ export default function LiveApp() {
           <a href={GUIDE_URL} className="brand">Midterms 2026</a>
           <SiteSwitcher current="live" row />
         </div>
-        <div className={`status ${demo ? 'demo' : paused ? 'paused' : status}`}>
-          <i />{demo ? 'DEMO REPLAY' : paused ? 'PAUSED' : status === 'error' ? 'RETRYING' : status === 'backup' ? 'LIVE · BACKUP FEED' : 'LIVE'}
-          {!demo && !paused && <span className="muted tabular">{status === 'checking' ? 'checking…' : nextIn !== null ? `next check ${nextIn}s` : ''}</span>}
+        <div className={`status ${demo ? 'demo' : CLOSED ? 'final' : paused ? 'paused' : status}`}>
+          <i />{demo ? 'DEMO REPLAY' : CLOSED ? (status === 'error' ? 'FINAL · LOADING FAILED' : `FINAL · ${etTime(CLOSED)}`) : paused ? 'PAUSED' : status === 'error' ? 'RETRYING' : status === 'backup' ? 'LIVE · BACKUP FEED' : 'LIVE'}
+          {!demo && !paused && !CLOSED && <span className="muted tabular">{status === 'checking' ? 'checking…' : nextIn !== null ? `next check ${nextIn}s` : ''}</span>}
         </div>
         <div className="top-actions">
+          {!CLOSED && <>
           <button className="btn" aria-pressed={paused} onClick={() => setPaused((p) => !p)}>{paused ? '▶ Resume' : '❚❚ Pause'}</button>
           <button className="btn" aria-pressed={notify} onClick={askNotify} title="Browser notification when this tab is in the background">{notify ? '🔔 On' : '🔕 Alerts'}</button>
           <button className="btn" aria-pressed={sound} onClick={() => setSound((s) => !s)} title={sound ? 'Sound alerts on: click to mute' : 'Sound alerts off: click for a chime on each call'} aria-label={sound ? 'Mute sound alerts' : 'Turn on sound alerts'}>{sound ? '🔊' : '🔈'}</button>
+          </>}
           <button className="btn" onClick={toggleTheme} title="Light / dark mode" aria-label="Toggle light and dark mode">{theme === 'dark' ? '☀' : '☾'}</button>
         </div>
       </header>
 
+      {CLOSED && !demo && (
+        <div className="banner">
+          <b>This exercise is closed.</b> The tracker shows the results as of {etTime(CLOSED)} and no longer polls Wikipedia; the count went on
+          after that. <button className="linkish" onClick={() => setTab('score')}>Read the final findings</button>
+        </div>
+      )}
       {demo && (
         <div className="banner">
           <b>Simulated replay, not real results.</b> Outcomes are drawn from the frozen forecast with a random national polling error, so you can see how the
           tracker behaves. <span className="seg" style={{ marginLeft: 8 }}>{[1, 4, 12].map((s) => <button key={s} aria-pressed={demoSpeed === s} onClick={() => setDemoSpeed(s)}>{s}×</button>)}</span>
-          <button className="btn" style={{ marginLeft: 8 }} onClick={stopDemo}>Back to live data</button>
+          <button className="btn" style={{ marginLeft: 8 }} onClick={stopDemo}>{CLOSED ? 'Back to the final results' : 'Back to live data'}</button>
         </div>
       )}
 
@@ -416,7 +447,7 @@ export default function LiveApp() {
             <div>
               <h1>Race to 218</h1>
               <p className="muted" style={{ margin: 0 }}>
-                {demo ? 'Simulated feed' : <>Source: Wikipedia's 2026 House results tables, polled every {interval / 60} min{rev.time ? ` · page updated ${clock(Date.parse(rev.time))}` : ''}</>}
+                {demo ? 'Simulated feed' : CLOSED ? `Final record: Wikipedia's 2026 House results tables as of ${etTime(CLOSED)}` : <>Source: Wikipedia's 2026 House results tables, polled every {interval / 60} min{rev.time ? ` · page updated ${clock(Date.parse(rev.time))}` : ''}</>}
               </p>
             </div>
             {pollControls}
@@ -444,7 +475,7 @@ export default function LiveApp() {
             <div>
               <h1>Race for the Senate</h1>
               <p className="muted" style={{ margin: 0 }}>
-                {demo ? 'Simulated feed' : <>Source: Wikipedia's 2026 Senate results tables, polled every {interval / 60} min{sRev.time ? ` · page updated ${clock(Date.parse(sRev.time))}` : ''}</>}
+                {demo ? 'Simulated feed' : CLOSED ? `Final record: Wikipedia's 2026 Senate results tables as of ${etTime(CLOSED)}` : <>Source: Wikipedia's 2026 Senate results tables, polled every {interval / 60} min{sRev.time ? ` · page updated ${clock(Date.parse(sRev.time))}` : ''}</>}
               </p>
             </div>
             {pollControls}
@@ -486,7 +517,7 @@ export default function LiveApp() {
 
         <div className="live-grid">
           <div className="col-main">
-            {tab === 'score' && <Scoreboard called={called} sCalled={sCalled} sLogLik={sLogLik} controls={pollControls} />}
+            {tab === 'score' && <Scoreboard called={called} sCalled={sCalled} sLogLik={sLogLik} controls={pollControls} closedAt={demo ? null : CLOSED} />}
             {tab === 'senate' && <>
               <section className="panel">
                 <div className="hero-head">

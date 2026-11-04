@@ -66,6 +66,11 @@ export function Problem() {
           before polls closed. The build refuses to overwrite it.
         </Callout>
       </div>
+      <Callout kind="result" title="Takeaway">
+        The Senate asks the House question with far less data: {c.contested} contested races in {c.years.length} cycles against {fmt(c.houseRows)} House races.
+        The model gives each of the {SR.length} races a probability from the same four signed features, then adds the {notUp} seats not up to see who controls the chamber.
+        Seat-count rules like the Vice President's tie-break are applied as written, never learned.
+      </Callout>
     </Chapter>
   )
 }
@@ -123,6 +128,11 @@ lean[2026] = (0.75 * dev[2024] + 0.25 * dev[2020]) / 2
 side_D = democratic_nominee or leading_independent
 side_R = republican_nominee or leading_independent
 `} />
+      <Callout kind="result" title="Takeaway">
+        Before any model, check the data against itself: the two sources agree on the winner in {q.agree} of {q.checked} contested races, and our
+        rebuilt state lean correlates {cook.corr.toFixed(2)} with Cook's published values. We drop the {q.noOpponent + q.thirdCandidateWon} races without two
+        competing sides, and where a major party has no nominee one rule, the same for both parties, lets the leading independent stand in.
+      </Callout>
     </Chapter>
   )
 }
@@ -134,6 +144,7 @@ export function Explore() {
   const st = senate.straightTicket
   const first = st[0], last = st[st.length - 1]
   const rising = last.share < first.share
+  const spread = Math.round(drift.reduce((s, d) => s + d.residSd, 0) / drift.length)
   return (
     <Chapter id="explore" num="03" title="Explore"
       kicker="Statewide races follow the state's presidential lean closely, but candidates still move them by double digits."
@@ -173,9 +184,14 @@ export function Explore() {
         </ChartFrame>
       </div>
       <Callout kind="concept" title="Irreducible error lives here">
-        The spread around the dashed line (about {Math.round(drift.reduce((s, d) => s + d.residSd, 0) / drift.length)} margin points a year) is mostly candidates: who they are,
+        The spread around the dashed line (about {spread} margin points a year) is mostly candidates: who they are,
         how they campaign, scandals, money. Our four features cannot see any of it. In the House, 435 such errors average out; in the Senate,
         {' '}{SR.length} of them decide the chamber. That is why the Senate forecast is far less certain than the House one, even at the same national mood.
+      </Callout>
+      <Callout kind="result" title="Takeaway">
+        State lean and the national mood explain most of each Senate result, and incumbents tend to beat what those two predict. What is left, about
+        {' '}{spread} margin points a year, is mostly the candidates, which our features cannot see and which do not average out over {SR.length} races.
+        Popular stories about trends deserve the same test as a model: check them against the data first.
       </Callout>
     </Chapter>
   )
@@ -298,6 +314,11 @@ pooled = LogReg().fit(X_pool, y_pool)
 # Pre-registered choice: lowest leave-one-cycle-out Brier among the candidates
 chosen = min(["senate", "gbm", "house", "pooled"], key=lambda k: brier[k])
 `} />
+      <Callout kind="result" title="Takeaway">
+        When one dataset is too small, borrow from a bigger one whose features mean the same thing, and let held-out data decide whether it helps.
+        Under a rule fixed in advance, {chosen.name} had the lowest held-out Brier score ({chosen.brier!.toFixed(4)}{M.senate ? ` against ${M.senate.brier!.toFixed(4)} for the Senate-only logistic regression` : ''}),
+        so it is the model behind the 2026 forecast.
+      </Callout>
     </Chapter>
   )
 }

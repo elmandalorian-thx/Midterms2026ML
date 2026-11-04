@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-04 (exercise closed)
+
+- Count closed at 2:41 pm ET (`COUNT_CLOSED` in `ml/build.py`); 10-min GitHub schedule removed and the Oracle-server trigger paused
+- Findings computed in both builds (`score2026`): misses by direction, close-race accuracy, best-fit national environment with a likelihood interval, hindsight accuracy at that environment, Senate seats and control
+- Score chapters (House + Senate) now state the findings; both Wrap chapters open with "What we learned"; every chapter ends with a Takeaway box
+- Live tracker final mode: stops polling, replays the closing snapshot, "Final findings" panel on the Scoreboard (models, polling averages, markets, bottom line)
+
 ## 2026-11-03 (Senate)
 
 - Prediction markets on the Scoreboard: `ml/fetch_markets.py` freezes Kalshi + Polymarket prices before polls close (`data/forecast/markets_2026.json`); `web/src/live/MarketsPanel.tsx` grades each market against the frozen model on the same races, plus chamber control and biggest model–market disagreements

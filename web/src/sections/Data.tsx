@@ -113,6 +113,11 @@ rows = parse_page(text)                  # ml/wiki_tables.py: one dict per distr
 # Fusion voting: credit every ballot line to the candidate's major party
 major = h[h.party != "O"].groupby(["cycle", "state_abbrev", "office_seat_name", "candidate_name"]).party.first()
 `} />
+      <Callout kind="result" title="Takeaway">
+        Every input is public: {fmt(q.rows)} district races from 2014–2024, built from 538 returns and Wikipedia's district tables.
+        Cross-checking the two sources caught a fusion-voting join bug, and after the fix they agree on {pct(q.agree / q.checked)} of winners.
+        District lean comes from Cook PVI because it is published on each year's actual lines, including the redrawn 2026 maps.
+      </Callout>
     </Chapter>
   )
 }

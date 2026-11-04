@@ -10,7 +10,7 @@ elections, freeze the forecast before Election Day, score it afterwards. Sister 
 | Repo | `elmandalorian-thx/Midterms2026ML` (`main`) |
 | Hosting | GitHub Pages via `.github/workflows/pages.yml` |
 | URL | House guide `https://elmandalorian-thx.github.io/Midterms2026ML/` · Senate guide `/senate/` · Live tracker `/live/`; Vite `base` is `/Midterms2026ML/` |
-| Default branch | `main` (deploys on push; scheduled run every 10 min refreshes 2026 results until 2026-12-31) |
+| Default branch | `main` (deploys on push; manual run refreshes 2026 results once. The 10-min schedule ended when the count was closed: `COUNT_CLOSED` in `ml/build.py` freezes the scorecards and puts the live tracker in final mode) |
 | Env vars | optional `FIFTYPLUSONE_API_KEY` (fetch only) |
 
 ## Tech stack

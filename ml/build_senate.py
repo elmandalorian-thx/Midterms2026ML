@@ -28,7 +28,7 @@ from sklearn.metrics import accuracy_score, brier_score_loss, log_loss
 from sklearn.tree import DecisionTreeClassifier
 
 import build as H
-from build import SEED, SIGMA_ENV, LogReg, export_gbm, export_logreg, export_tree, gbm_raw, make_gbm, r
+from build import COUNT_CLOSED, SEED, SIGMA_ENV, LogReg, export_gbm, export_logreg, export_tree, gbm_raw, make_gbm, r
 
 RAW, OUT_SRC, OUT_FC = H.RAW, H.OUT_SRC, H.OUT_FC
 YEARS = [2014, 2016, 2018, 2020, 2022, 2024]
@@ -460,6 +460,31 @@ def main() -> None:
                  "accuracy": r(accuracy_score(yy, pf >= 0.5)), "brier": r(brier_score_loss(yy, pf)),
                  "misses": [{"race": a.race, "p": r(p, 3), "winner": a.winSide} for a, p in zip(done.itertuples(), pf)
                             if (p >= 0.5) != (a.winSide == "D")]}
+        # Findings at the close of the count (same definitions as the House build).
+        cm = contested[done.index]
+        yc, pc_ = yy[cm], pf[cm]
+        Xc = X26.loc[done.index[cm]]
+        env_grid = np.round(np.arange(-10, 30.001, 0.1), 1)
+        ll = [np.sum(np.log(np.clip(np.where(yc == 1, q, 1 - q), 1e-9, 1)))
+              for q in (final.predict_proba(Xc.assign(env=e))[:, 1] for e in env_grid)]
+        best = float(env_grid[int(np.argmax(ll))])
+        within = env_grid[np.array(ll) >= max(ll) - 1.92]
+        p_best = final.predict_proba(Xc.assign(env=best))[:, 1]
+        close = (done.lean.abs() <= 5).values[cm]
+        miss = (pc_ >= 0.5) != (yc == 1)
+        dem = ~done.dStandin.values
+        seats = {"R": hold["R"] + int((done.winSide == "R").sum()),
+                 "D": hold["D"] + hold["I_caucusD"] + int(((done.winSide == "D").values & dem).sum()),
+                 "I": int(((done.winSide == "D").values & ~dem).sum())}
+        score.update({
+            "closedAt": COUNT_CLOSED, "uncalled": [a.race for a in r26.itertuples() if a.race not in set(done.race)],
+            "seats": seats, "control": "R" if seats["R"] >= 50 else "D" if seats["D"] + seats["I"] >= 51 else None,
+            "contested": int(cm.sum()), "missToD": int((miss & (yc == 1)).sum()), "missToR": int((miss & (yc == 0)).sum()),
+            "closeN": int(close.sum()), "closeAccuracy": r(accuracy_score(yc[close], pc_[close] >= 0.5)) if close.any() else None,
+            "impliedEnv": r(best, 1), "impliedLo": r(float(within.min()), 1), "impliedHi": r(float(within.max()), 1),
+            "frozenEnv": r(frozen["env"], 2) if "env" in frozen else None,
+            "hindsightAccuracy": r(accuracy_score(yc, p_best >= 0.5)), "hindsightBrier": r(brier_score_loss(yc, p_best)),
+        })
 
     # --- Browser models (+ check the GBM export reproduces sklearn)
     g_exp = export_gbm(fit_gbm)

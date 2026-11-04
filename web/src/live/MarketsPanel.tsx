@@ -11,7 +11,7 @@ const ET = (iso: string) => new Date(iso).toLocaleString('en-US', { timeZone: 'A
 const party = (s: 'D' | 'R' | null) => (s === 'D' ? 'Democrats' : s === 'R' ? 'Republicans' : 'not decided yet')
 
 /** Ranked on close races, like the models: every forecaster gets the safe seats right. */
-function verdict(r: MarketRow) {
+export function marketVerdict(r: MarketRow) {
   const m = r.mClose, d = r.modelClose
   if (!m || !d || m.n < MIN_N) return null
   const gap = d.brier - m.brier
@@ -34,7 +34,7 @@ export function MarketsPanel({ called, sCalled }: { called: Map<string, 'D' | 'R
     const s = sideOf(r, c)
     return s === 'D' ? 'D side won' : s === 'R' ? 'R side won' : 'other'
   }
-  const told = rows.map((r) => ({ r, v: verdict(r) })).filter((x) => x.v)
+  const told = rows.map((r) => ({ r, v: marketVerdict(r) })).filter((x) => x.v)
 
   return (
     <section className="panel">
@@ -52,7 +52,7 @@ export function MarketsPanel({ called, sCalled }: { called: Map<string, 'D' | 'R
             <th className="num">Brier: market</th><th className="num">Brier: model</th><th className="num">Close called</th>
             <th className="num">Close Brier: market</th><th className="num">Close Brier: model</th><th /></tr></thead>
           <tbody>{rows.map((r) => {
-            const v = verdict(r)
+            const v = marketVerdict(r)
             return (
               <tr key={r.chamber + r.key}>
                 <td>{r.chamber}</td><td>{r.name}</td>

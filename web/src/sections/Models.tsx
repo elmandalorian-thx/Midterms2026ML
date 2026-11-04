@@ -19,6 +19,10 @@ export function Baselines() {
         model will look great on accuracy. The real question is whether it beats these rules where races are close, and whether its
         probabilities are honest.
       </Callout>
+      <Callout kind="result" title="Takeaway">
+        Without any learning, the best one-line rule (“{b.find((x) => x.accuracy === best)!.name}”) already gets {pct(best)} of the {guide.counts.test} test
+        races right. That is the bar every model in the next chapter has to clear, on close races and with honest probabilities, to be worth it.
+      </Callout>
     </Chapter>
   )
 }

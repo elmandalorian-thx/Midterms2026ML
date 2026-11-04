@@ -1,9 +1,9 @@
 import { useMemo, useState, type ReactNode } from 'react'
 import { linear, ticks, Tooltip, useWidth } from '../components/charts'
-import { lean, pct } from '../lib/data'
-import { CLOSE, observations, resultsOnlyEnv, scoreModels, scorePolls, type ModelRow, type PollRow } from '../lib/scoreboard'
+import { etTime, guide, lean, pct } from '../lib/data'
+import { CLOSE, controlResult, observations, resultsOnlyEnv, scoreMarkets, scoreModels, scorePolls, type ModelRow, type PollRow } from '../lib/scoreboard'
 import type { SCall } from '../lib/senate'
-import { MarketsPanel } from './MarketsPanel'
+import { marketVerdict, MarketsPanel } from './MarketsPanel'
 
 const MIN_N = 8 // fewer close races than this: say so instead of crowning a winner
 const TIE = 0.005 // Brier gaps smaller than this are noise at tonight's sample sizes
@@ -46,8 +46,8 @@ function PollDots({ rows, est, sd }: { rows: PollRow[]; est: number | null; sd: 
   )
 }
 
-export function Scoreboard({ called, sCalled, sLogLik, controls }: {
-  called: Map<string, 'D' | 'R' | 'O'>; sCalled: Map<string, SCall>; sLogLik: number[]; controls: ReactNode
+export function Scoreboard({ called, sCalled, sLogLik, controls, closedAt }: {
+  called: Map<string, 'D' | 'R' | 'O'>; sCalled: Map<string, SCall>; sLogLik: number[]; controls: ReactNode; closedAt?: string | null
 }) {
   const obs = useMemo(() => observations(called, sCalled), [called, sCalled])
   const models = useMemo(() => scoreModels(obs), [obs])
@@ -78,9 +78,40 @@ export function Scoreboard({ called, sCalled, sLogLik, controls }: {
       : `${ch}: ${b.top.name} leads the frozen choice on ${nn} close races.`
   }
   const isBest = (m: ModelRow) => [bestH, bestS].some((b) => b && b.top === m && ranked1(b, m.chamber))
+  const ours = polls.find((p) => p.isAverage) ? { margin: guide.forecast.frozen.env } : undefined // the input the forecast was frozen with
+  const final = (t: string) => t.replace(' so far', '')
+  const ctrl = controlResult(called, sCalled)
+  const who = (c: 'D' | 'R' | null) => (c === 'D' ? 'Democrats' : c === 'R' ? 'Republicans' : 'not decided')
+  const mkt = useMemo(() => scoreMarkets(obs).map((r) => ({ r, v: marketVerdict(r) })).filter((x) => x.v), [obs])
+  const hD = [...called.values()].filter((w) => w === 'D').length, hR = [...called.values()].filter((w) => w === 'R').length
 
   return (
     <>
+      {closedAt && n > 0 && (
+        <section className="panel">
+          <span className="pill">Exercise closed · {etTime(closedAt)}</span>
+          <h2 style={{ marginTop: 12 }}>Final findings</h2>
+          <ol className="findings">
+            <li><b>Results at the close.</b> House: {called.size} of 435 races called, {hD} Democratic and {hR} Republican; majority: {who(ctrl.house)}.
+              Senate control: {who(ctrl.senate)}. The frozen forecasts had given Democrats {pct(guide.forecast.frozen.pDemMajority, 0)} for the House.</li>
+            <li><b>Models.</b> {final(verdict('House', bestH))} {final(verdict('Senate', bestS))} No model was refit after the polls closed.</li>
+            {ours && <li><b>The national mood.</b> On their own, the called House and Senate races together imply {lean(est.mean, 1)} (± {est.sd.toFixed(1)}); our input, the
+              frozen polling average, said {lean(ours.margin, 1)}, so it understated {est.mean > ours.margin ? 'Democrats' : 'Republicans'} by{' '}
+              {Math.abs(est.mean - ours.margin).toFixed(1)} points. {resolved ? `${closest.source} came closest.` : `The averages were too close together to rank (${closest.source} nearest).`}{' '}
+              One shared input moves every race the same way, which is why the misses all leaned one way.</li>}
+            <li><b>Prediction markets.</b> {mkt.length
+              ? mkt.map(({ r, v }) => `${r.chamber}, ${r.name}: ${v === 'tie' ? 'tied with the model' : v === 'market' ? 'ahead of the model' : 'behind the model'} on ${r.mClose!.n} close races.`).join(' ')
+              : 'Too few close races priced and called to rank the markets against the model.'}{' '}
+              Markets stayed a benchmark, never an input.</li>
+            {ours && <li><b>Bottom line.</b> The error that mattered most was the shared national input: a {Math.abs(est.mean - ours.margin).toFixed(1)}-point miss
+              against the ±{guide.forecast.frozen.sigmaEnv} points the forecast allowed for{Math.abs(est.mean - ours.margin) > guide.forecast.frozen.sigmaEnv ? ', so its ranges were too narrow' : ''}.
+              Both guides' Chapter 09 grade the frozen forecasts race by race.</li>}
+          </ol>
+          <p className="muted" style={{ fontSize: 13.5, marginBottom: 0 }}>
+            The count continued after this exercise closed; these findings use the results as of the close and do not change.
+          </p>
+        </section>
+      )}
       <section className="panel hero-panel">
         <div className="hero-head">
           <div>

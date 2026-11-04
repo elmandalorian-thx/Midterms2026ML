@@ -37,6 +37,7 @@ PRES_PARTY = {1998: 1, 2000: 1, 2002: -1, 2004: -1, 2006: -1, 2008: -1, 2010: 1,
               2018: -1, 2020: -1, 2022: 1, 2024: 1, 2026: -1}
 SIGMA_ENV = 3.0  # assumed s.d. (points of margin) of the gap between the final generic-ballot average and the real vote
 N_SIMS = 20000
+COUNT_CLOSED = "2026-11-04T19:41:00Z"  # the 2026 results were frozen here: last refresh before the exercise was closed
 
 FEATURES = ["pvi", "env", "inc", "held"]
 FEATURE_LABELS = {"pvi": "Cook PVI (district lean)", "env": "National environment", "inc": "Incumbent on ballot",
@@ -429,6 +430,31 @@ def main() -> None:
                  "brierLogreg": r(brier_score_loss(yy, done.p_dem_logreg)),
                  "misses": [{"district": a.district, "p": r(a.p_dem_logreg), "winner": a.winner}
                             for a in done.itertuples() if (a.p_dem_logreg >= 0.5) != (a.winner == "D")]}
+        # Findings once the count is closed: which way the misses lean, close-race accuracy, and the national
+        # environment the called contested races imply (same frozen model, only env refit by maximum likelihood).
+        c = done
+        c = c[(c.has_d == 1) & (c.has_r == 1)]
+        yc = (c.winner == "D").astype(int).values
+        Xc = X26.set_index(d26.district).loc[c.district]
+        env_grid = np.round(np.arange(-10, 30.001, 0.1), 1)
+        ll = [np.sum(np.log(np.clip(np.where(yc == 1, q, 1 - q), 1e-9, 1)))
+              for q in (final_lr.predict_proba(Xc.assign(env=e))[:, 1] for e in env_grid)]
+        best = float(env_grid[int(np.argmax(ll))])
+        within = env_grid[np.array(ll) >= max(ll) - 1.92]  # ~95% likelihood interval
+        p_best = final_lr.predict_proba(Xc.assign(env=best))[:, 1]
+        close = (c.pvi.abs() <= 5).values
+        miss = (c.p_dem_logreg.values >= 0.5) != (yc == 1)
+        score.update({
+            "closedAt": COUNT_CLOSED, "uncalled": int(len(d26) - len(done)),
+            "majority": "D" if score["seatsD"] >= 218 else "R" if score["seatsR"] >= 218 else None,
+            "contested": int(len(c)), "missToD": int((miss & (yc == 1)).sum()), "missToR": int((miss & (yc == 0)).sum()),
+            "dataIssues": [m["district"] for m in score["misses"] if m["district"] not in set(c.district)],
+            "closeN": int(close.sum()), "closeAccuracy": r(accuracy_score(yc[close], c.p_dem_logreg.values[close] >= 0.5)) if close.any() else None,
+            "impliedEnv": r(best, 1), "impliedLo": r(float(within.min()), 1), "impliedHi": r(float(within.max()), 1),
+            "frozenEnv": frozen["env"],
+            "hindsightAccuracy": r(accuracy_score(yc, p_best >= 0.5)), "hindsightBrier": r(brier_score_loss(yc, p_best)),
+            "contestedAccuracy": r(accuracy_score(yc, c.p_dem_logreg.values >= 0.5)), "contestedBrier": r(brier_score_loss(yc, c.p_dem_logreg.values)),
+        })
 
     # --- Export the browser models + verify the GBM export reproduces sklearn
     g_exp = export_gbm(final_gbm)

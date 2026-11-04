@@ -82,6 +82,10 @@ export interface Guide {
   score2026: null | {
     called: number; seatsD: number; seatsR: number; accuracyLogreg: number; accuracyGbm: number; brierLogreg: number
     misses: { district: string; p: number; winner: string }[]
+    // Findings at the close of the count (ml/build.py): contested races only unless noted
+    closedAt: string; uncalled: number; majority: 'D' | 'R' | null; contested: number; missToD: number; missToR: number
+    dataIssues: string[]; closeN: number; closeAccuracy: number | null; contestedAccuracy: number; contestedBrier: number
+    impliedEnv: number; impliedLo: number; impliedHi: number; frozenEnv: number; hindsightAccuracy: number; hindsightBrier: number
   }
   model: {
     logreg: { mean: number[]; scale: number[]; coef: number[]; intercept: number }
@@ -172,7 +176,12 @@ export interface Senate {
     genericBallot: Guide['forecast']['genericBallot']
     houseEnvSlope: number
   }
-  score2026: null | { called: number; dSide: number; rSide: number; accuracy: number; brier: number; misses: { race: string; p: number; winner: string }[] }
+  score2026: null | {
+    called: number; dSide: number; rSide: number; accuracy: number; brier: number; misses: { race: string; p: number; winner: string }[]
+    closedAt: string; uncalled: string[]; seats: { R: number; D: number; I: number }; control: 'D' | 'R' | null; contested: number
+    missToD: number; missToR: number; closeN: number; closeAccuracy: number | null
+    impliedEnv: number; impliedLo: number; impliedHi: number; frozenEnv: number | null; hindsightAccuracy: number; hindsightBrier: number
+  }
   model: { logreg: Record<string, LogRegParams>; gbm: Guide['model']['gbm']; tree: TreeNode[] }
   races: SenateRace2026[]
 }

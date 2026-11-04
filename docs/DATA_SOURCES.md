@@ -23,7 +23,7 @@ Everything the project uses, how to get it, and what it is used for. All inputs 
 |---|---|---|---|
 | Wikipedia API (`en.wikipedia.org/w/api.php`, `origin=*` for CORS) | `action=query&prop=revisions&rvprop=ids|timestamp` to check, then `rvprop=content&rvslots=main` to download | free | yes: `web/src/lib/live.ts` |
 | Same API, page *2026 United States Senate elections* | same revision check, parsed by `parseSenateCalls()` in `web/src/lib/senate.ts` | free | yes |
-| Backup: `data/raw/districts_2026.csv` and `data/raw/senate_2026.csv` on GitHub Pages | refreshed by `.github/workflows/pages.yml` every 10 min | free | yes, when Wikipedia is unreachable or rate-limited |
+| Backup: `data/raw/districts_2026.csv` and `data/raw/senate_2026.csv` on GitHub Pages | refreshed by `.github/workflows/pages.yml` (every 10 min on election night; frozen at the close on 2026-11-04) | free | yes, when Wikipedia is unreachable or rate-limited |
 | AP Elections API | developer.ap.org | paid | no (drop-in upgrade) |
 | Decision Desk HQ API | decisiondeskhq.com | paid | no |
 | State election-night reporting (often Clarity/Scytl ENR JSON) | per state | free | no |

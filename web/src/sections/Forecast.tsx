@@ -219,6 +219,12 @@ for s in shifts:
     seats.append((rng.random(435) < p).sum())         # 435 correlated coin flips
 p_majority = (np.array(seats) >= 218).mean()
 `} />
+      <Callout kind="result" title="Takeaway">
+        With the generic-ballot average ({lean(fz.env, 1)}) and a shared ±{fz.sigmaEnv}-point polling error, the forecast frozen on {fz.frozenOn} gives
+        {' '}{pct(fz.pDemMajority, 0)} for a Democratic majority and {pct(1 - fz.pDemMajority, 0)} for a Republican one, with a median of {fz.medianSeatsD} Democratic
+        seats ({fz.p10}–{fz.p90} in 80% of simulations). It is conditional on the polls: one national miss moves every district together,
+        which is why the answer is a range. Chapter 09 grades it against the results.
+      </Callout>
     </Chapter>
   )
 }

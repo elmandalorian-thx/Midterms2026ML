@@ -4,10 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  # Election night and the weeks of counting: refresh 2026 results every 10 minutes and redeploy.
-  # (GitHub may delay scheduled runs at busy times; the live page also polls Wikipedia directly.)
-  schedule:
-    - cron: '*/10 * * * *'
+  # The 10-minute election-night refresh (schedule + an Oracle-server trigger) was switched off when the
+  # count was closed on 2026-11-04. A manual run still refreshes the 2026 results once.
 
 permissions:
   contents: write

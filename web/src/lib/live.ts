@@ -67,7 +67,7 @@ export function parseCalls(text: string): Call[] {
   return [...out.values()]
 }
 
-/** Backup feed: data/raw/districts_2026.csv, re-published by the GitHub Actions workflow every ~10 minutes. */
+/** Backup feed: data/raw/districts_2026.csv, re-published by the GitHub Actions workflow (frozen at the close; see COUNT_CLOSED). */
 export async function fetchBackup(base: string): Promise<Call[]> {
   const text = await (await fetch(`${base}data/raw/districts_2026.csv?t=${Date.now()}`)).text()
   const [head, ...rows] = text.trim().split('\n')

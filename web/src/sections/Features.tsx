@@ -54,6 +54,11 @@ def features(d, env):
     f["held"] = d.inc_party.map(sign).fillna(0)
     return f
 `} />
+      <Callout kind="result" title="Takeaway">
+        Each race becomes four signed numbers (district lean, national environment, incumbent on the ballot, party holding the seat),
+        so swapping the parties simply flips every sign. In the fitted model a sitting incumbent is worth about {eff.inc.toFixed(1)} points of
+        district lean. The weak spot is <code>env</code>: the real vote in training, but only a polling average for 2026.
+      </Callout>
     </Chapter>
   )
 }

@@ -85,6 +85,11 @@ export function Problem() {
           to be equally readable and colorblind-safe in light and dark mode.
         </Callout>
       </div>
+      <Callout kind="result" title="Takeaway">
+        We predict each district as a classification problem, a probability that the Democrat wins, and add 435 of them up to get
+        a seat forecast. The national mood is an input we assume, not predict, because there are only {guide.national.rows.length} national
+        elections to learn from. Success means honest probabilities (calibration and Brier score) on years the model never trained on.
+      </Callout>
     </Chapter>
   )
 }

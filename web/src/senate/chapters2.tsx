@@ -3,7 +3,8 @@ import { useTween } from '../components/anim'
 import { BarList, ChartFrame, Legend, LineChart } from '../components/charts'
 import { SeatHistogram, YearBars } from '../components/election'
 import { Callout, Chapter, Code, probColor, StatTile } from '../components/ui'
-import { dataUrl, guide, lean, pct } from '../lib/data'
+import markets from '../data/markets.json'
+import { dataUrl, etTime, guide, lean, missWords, pct } from '../lib/data'
 import { GRID, gridIndex } from '../lib/live'
 import { mulberry32, randn } from '../lib/model'
 import { D_CONTROL, HOLD, R_CONTROL, raceName, senate, SF, SR, STABLE } from '../lib/senate'
@@ -38,6 +39,11 @@ export function Neutral() {
       <Callout kind="fair" title="The two asymmetric rules are not the model's">
         The Vice President's tie-break and which independents caucus with whom are facts about the Senate in 2026, applied in the seat count, not
         learned. Both are stated up front and both would flip with the facts.
+      </Callout>
+      <Callout kind="result" title="Takeaway">
+        A fairness check can be a test you run, not a promise: swap the parties and see if the answer swaps. It does, up to an average gap of
+        {' '}{pct(sym.logregGap, 1)} for the Senate logistic model and {pct(sym.gbmGap, 1)} for gradient boosting, which comes from the learned intercept and
+        uneven tree splits, not from any feature that treats one party differently.
       </Callout>
     </Chapter>
   )
@@ -185,6 +191,11 @@ export function Forecast() {
         </div>
         <p className="muted" style={{ fontSize: 13.5 }}>“(I)” = an independent standing in where Democrats have no nominee. The model sees only the side, not the candidate.</p>
       </div>
+      <Callout kind="result" title="Takeaway">
+        Frozen on {fz.frozenOn}, the forecast gives Republicans a {pct(fz.pRControl, 0)} chance of keeping control and Democrats {pct(fz.pDControl, 0)}, with
+        {' '}{fz.p10R}–{fz.p90R} Republican seats in 80% of simulated elections. Each simulation shares one national polling error across every race and adds
+        the held-over seats, so control depends on the map and on which races tip the balance, not only on how close each race is.
+      </Callout>
     </Chapter>
   )
 }
@@ -243,6 +254,10 @@ house_D = simulate_house(env + shift) >= 218        # every district at that env
 senate_R = simulate_senate(env + shift) >= 50       # every Senate race at the SAME environment
 joint = (house_D & senate_R).mean()                 # vs. house_D.mean() * senate_R.mean()
 `} />
+      <Callout kind="result" title="Takeaway">
+        Both chambers ride on the same national mood, so their outcomes move together: split control comes out at {pct(splitJ, 1)} when simulated jointly
+        against {pct(splitI, 1)} if you multiply the separate odds. When two predictions share an input, simulate them together instead of multiplying.
+      </Callout>
     </Chapter>
   )
 }
@@ -251,6 +266,15 @@ joint = (house_D & senate_R).mean()                 # vs. house_D.mean() * senat
 
 export function Score() {
   const s = senate.score2026
+  const leanOf = new Map(SR.map((r) => [r.id, r.lean]))
+  const missedSafe = s ? s.misses.filter((m) => Math.abs(leanOf.get(m.race) ?? 0) > 5).length : 0
+  // Markets are a benchmark only: did their pre-close average favor the side that won a race the model missed?
+  const mk = markets.senate as Record<string, Partial<Record<'kalshi' | 'polymarket', { p: number; liquid: boolean }>>>
+  const marketHit = s ? s.misses.filter((m) => {
+    const ps = Object.values(mk[m.race] ?? {}).filter((q) => q?.liquid).map((q) => q!.p)
+    const avg = ps.length ? ps.reduce((a, b) => a + b, 0) / ps.length : 0.5
+    return m.winner === 'D' ? avg > 0.5 : avg < 0.5
+  }).length : 0
   return (
     <Chapter id="scorecard" num="09" title="Score the forecast"
       kicker="Graded on races that had not happened when the forecast was committed."
@@ -258,7 +282,7 @@ export function Score() {
       {s ? (
         <>
           <div className="grid-4">
-            <StatTile label="Races called so far" value={s.called} format={(v) => `${Math.round(v)}`} note={`of ${SR.length}`} />
+            <StatTile label="Races called at the close" value={s.called} format={(v) => `${Math.round(v)}`} note={`of ${SR.length}${s.uncalled.length ? `; ${s.uncalled.join(', ')} still counting` : ''}`} />
             <StatTile label="Frozen forecast accuracy" value={s.accuracy} format={(v) => pct(v)} note={chosen.name} />
             <StatTile label="Brier score" value={s.brier} format={(v) => v.toFixed(3)} note={`held-out years: ${chosen.brier!.toFixed(3)} · coin flip 0.25`} />
             <StatTile label="Sides won" value={`${s.dSide} D · ${s.rSide} R`} note="Democratic side incl. independent stand-ins" />
@@ -267,6 +291,29 @@ export function Score() {
             <h4>Misses ({s.misses.length}): the frozen forecast favored the other side</h4>
             <p className="mono" style={{ fontSize: 13 }}>{s.misses.map((m) => `${m.race} (P(D side) ${pct(m.p, 0)}, won by ${m.winner} side)`).join(' · ') || 'none'}</p>
           </div>
+          <div className="block grid-2">
+            <Callout kind="result" title={`Control: ${s.control === 'D' ? 'Democrats' : s.control === 'R' ? 'Republicans' : 'not decided at the close'}`}>
+              With the called races and the seats not up, the chamber stood at {s.seats.D} Democratic-caucus seats{s.seats.I ? `, ${s.seats.I} independent stand-ins` : ''} and{' '}
+              {s.seats.R} Republican on {etTime(s.closedAt)}. The frozen forecast had given Democrats {pct(fz.pDControl, 0)} and Republicans{' '}
+              {pct(fz.pRControl, 0)}. One chamber outcome is a single draw, so on its own it says little about forecast quality; the race-by-race scores do.
+            </Callout>
+            <Callout kind="result" title="Close races right, misses all one way">
+              The forecast called {s.closeAccuracy !== null ? `${pct(s.closeAccuracy)} of the ${s.closeN} races in states within 5 points of even` : 'no close race'}, but
+              of its {s.missToD + s.missToR} misses {missWords(s.missToD, s.missToR)}, {missedSafe === s.misses.length ? 'every one of them in a state leaning more than 5 points' : missedSafe > 0 ? `${missedSafe} of them in states leaning more than 5 points` : 'all in close states'}.
+              {marketHit > 0 && <> The prediction markets, snapshotted before polls closed, had favored the winning side in {marketHit} of those {s.misses.length} races.</>}
+            </Callout>
+            <Callout kind="concept" title="The same polling miss as the House">
+              The called Senate races fit best with a national environment of <b>{lean(s.impliedEnv, 1)}</b> (likely range {lean(s.impliedLo, 1)} to{' '}
+              {lean(s.impliedHi, 1)}, wide because there are only {s.contested} races), against the {lean(fz.env, 1)} polling average. The House races point
+              the same way ({guide.score2026 ? lean(guide.score2026.impliedEnv, 1) : '—'}), and with that environment the unchanged frozen model would have
+              scored {pct(s.hindsightAccuracy)} (Brier {s.hindsightBrier.toFixed(3)}).
+            </Callout>
+            <Callout kind="pitfall" title="What the model could not see">
+              Brier on 2026 was {s.brier.toFixed(3)} against {chosen.brier!.toFixed(3)} on held-out years. Most of that gap is the shared polling
+              miss; the rest sits in a few lopsided states where candidates mattered, the part Chapter 03 showed the features cannot see. Race-level
+              polls carry that information; a next version should test them as an input on past cycles first (markets stay a benchmark).
+            </Callout>
+          </div>
         </>
       ) : (
         <div className="card" style={{ padding: 24 }}>
@@ -274,12 +321,12 @@ export function Score() {
           <h4 style={{ marginTop: 12 }}>The forecast is frozen. The answers are not in yet.</h4>
           <p>
             On {fz.frozenOn} the pipeline wrote <code>data/forecast/senate_forecast_2026.csv</code> with a probability for every race and committed it before polls
-            closed. Every 10 minutes a GitHub Action pulls the winners from the same Wikipedia tables and this chapter fills itself in.
+            closed. A GitHub Action pulls the winners from the same Wikipedia tables and this chapter fills itself in.
           </p>
         </div>
       )}
       <p style={{ marginTop: 16 }}>
-        <a className="btn live-link" href={`${import.meta.env.BASE_URL}live/`} style={{ textDecoration: 'none' }}><i />Follow the count live</a>
+        <a className="btn live-link" href={`${import.meta.env.BASE_URL}live/`} style={{ textDecoration: 'none' }}><i />{s ? 'See the final count' : 'Follow the count live'}</a>
         <span className="muted" style={{ fontSize: 14, marginLeft: 10 }}>House, Senate and control of Congress, scored against both frozen forecasts</span>
       </p>
       <Callout kind="try" title="Score it on probabilities, not just hits">
@@ -294,10 +341,29 @@ export function Score() {
 /* ------------------------------------------------------------ 10 */
 
 export function Wrap() {
+  const s = senate.score2026
   return (
     <Chapter id="wrap" num="10" title="Limits & files"
       kicker="What this model cannot see, and everything you need to rerun it."
       book={{ ch: 'Ch. 1', sections: ['Main Challenges of Machine Learning', 'Testing and Validating'] }}>
+      {s && (
+        <div className="block card">
+          <span className="pill">Exercise closed · {etTime(s.closedAt)}</span>
+          <h3 style={{ marginTop: 12 }}>What we learned</h3>
+          <ol style={{ margin: 0, paddingLeft: 20, lineHeight: 1.7 }}>
+            <li><b>Small data needs borrowed strength and wide error bars.</b> With {SR.length} races a year, the model chosen in advance
+              ({chosen.name.toLowerCase()}) picked {pct(s.accuracy)} of the {s.called} called races (Brier {s.brier.toFixed(3)}, held-out years{' '}
+              {chosen.brier!.toFixed(3)}).</li>
+            <li><b>Close states were not the problem.</b> {s.closeAccuracy !== null ? `It called ${pct(s.closeAccuracy)} of the ${s.closeN} close states;` : ''} its
+              misses ({s.missToD + s.missToR}) all came from one shared polling miss ({lean(fz.env, 1)} assumed, about {lean(s.impliedEnv, 1)} implied) and
+              candidates the features cannot see.</li>
+            <li><b>Seat rules are facts, not features.</b> Held-over seats, the Vice President's tie-break and independents standing in for a party
+              were applied the same way for both sides, and the model stayed blind to party.</li>
+            <li><b>One chamber outcome is one draw.</b> Control went to {s.control === 'D' ? 'Democrats' : s.control === 'R' ? 'Republicans' : 'neither side at the close'} against
+              a frozen {pct(fz.pDControl, 0)} / {pct(fz.pRControl, 0)} split; judge the forecast on the race-by-race scores in Chapter 09.</li>
+          </ol>
+        </div>
+      )}
       <div className="grid-2">
         <Callout kind="pitfall" title="Candidates are invisible">
           The biggest Senate surprises are candidate effects (Chapter 03). An independent like Nebraska's challenger is scored exactly like a generic

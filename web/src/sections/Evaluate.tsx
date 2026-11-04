@@ -108,6 +108,11 @@ for year in [2014, 2016, 2018, 2020, 2022, 2024]:
 # Neutrality: P(D | x) + P(D | -x) should be 1
 gap = np.abs(m.predict_proba(X)[:, 1] + m.predict_proba(-X)[:, 1] - 1).mean()
 `} />
+      <Callout kind="result" title="Takeaway">
+        Headline accuracy flatters a House model: {pct(inf.contestedOnly)} on contested 2024 races, but {pct(inf.competitiveOnly)} on the {inf.competitiveN} competitive
+        ones. Testing one whole election at a time shows wave years such as {worst.year} are the hardest, a warning for 2026. The party-swap
+        check finds an average asymmetry of {pct(sym.logregGap, 1)}, which training on party-swapped copies removes entirely.
+      </Callout>
     </Chapter>
   )
 }

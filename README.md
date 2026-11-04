@@ -26,8 +26,11 @@ Built as a companion to [PokemonML](https://github.com/elmandalorian-thx/Pokemon
 - **Demo replay**: a clearly labeled simulated night, so you can see it work before races are called.
 
 **Where the live data comes from:** the browser polls the free, CORS-enabled **Wikipedia API** (it checks the page's revision id first and downloads the
-page only when it changed), and parses the ✓ winner marks editors add as networks call races. Backup: a GitHub Action re-fetches the results every
-10 minutes, commits `data/raw/districts_2026.csv`, rebuilds the Scorecard and redeploys. Paid, official-grade alternatives: **AP Elections API** and
+page only when it changed), and parses the ✓ winner marks editors add as networks call races. Backup: a GitHub Action re-fetched the results every
+10 minutes on election night, committed `data/raw/districts_2026.csv`, rebuilt the Scorecard and redeployed.
+
+**The exercise closed on Nov 4, 2026, 2:41 pm ET.** The tracker now shows the results as of that time (no polling), and both guides'
+Chapter 09 plus the tracker's Scoreboard state the final findings. Paid, official-grade alternatives: **AP Elections API** and
 **Decision Desk HQ API**; state election sites (often Clarity/Scytl ENR) publish free official counts in per-state formats.
 
 **Highlights from the Senate guide**

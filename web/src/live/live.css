@@ -126,3 +126,6 @@
 .rcard footer .tip { border-bottom: 1px dotted var(--text-muted); }
 .explainer-pick { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
 .explainer-pick select { font: inherit; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); }
+.status.final i { background: var(--text-muted); animation: none; }
+.findings { margin: 0 0 10px; padding-left: 20px; line-height: 1.65; font-size: 14.5px; }
+.findings li { margin-bottom: 6px; }
