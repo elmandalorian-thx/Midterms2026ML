@@ -197,19 +197,19 @@ MD-7,MD,31.0,D,0,1,0,1,1,2,D,1996
 MD-8,MD,30.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 ME-1,ME,11.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 ME-2,ME,-4.0,D,0,1,0,1,1,2,,Incumbent retiring
-MI-1,MI,-11.0,R,1,1,0,1,1,7,,Incumbent renominated
+MI-1,MI,-11.0,R,1,1,0,1,1,7,R,Incumbent re-elected.
 MI-10,MI,-3.0,R,0,1,0,1,1,5,,Incumbent retiring to
-MI-11,MI,9.0,D,0,1,0,1,1,5,,Incumbent retiring to
-MI-12,MI,21.0,D,1,1,0,1,1,5,,Incumbent renominated
-MI-13,MI,22.0,D,0,1,0,1,1,5,,Incumbent lost renomination
-MI-2,MI,-15.0,R,1,1,0,1,1,4,,Incumbent renominated
-MI-3,MI,4.0,D,1,1,0,1,1,3,,Incumbent renominated
+MI-11,MI,9.0,D,0,1,0,1,1,5,D,|Incumbent retiring to . New member elected. Democratic hold.
+MI-12,MI,21.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
+MI-13,MI,22.0,D,0,1,0,1,1,5,D,|Incumbent lost renomination. New member elected. Democratic hold.
+MI-2,MI,-15.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
+MI-3,MI,4.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 MI-4,MI,-3.0,R,1,1,0,1,1,3,,Incumbent renominated
-MI-5,MI,-13.0,R,1,1,0,1,1,5,,Incumbent renominated
-MI-6,MI,12.0,D,1,1,0,1,1,6,,Incumbent renominated
+MI-5,MI,-13.0,R,1,1,0,1,1,5,R,Incumbent re-elected.
+MI-6,MI,12.0,D,1,1,0,1,1,6,D,Incumbent re-elected.
 MI-7,MI,0.0,R,1,1,0,1,1,3,,Incumbent renominated
-MI-8,MI,-1.0,D,1,1,0,1,1,5,,Incumbent renominated
-MI-9,MI,-16.0,R,1,1,0,1,1,6,,Incumbent renominated
+MI-8,MI,-1.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
+MI-9,MI,-16.0,R,1,1,0,1,1,6,R,Incumbent re-elected.
 MN-1,MN,-6.0,R,1,1,0,1,1,2,,Incumbent renominated
 MN-2,MN,3.0,,0,0,1,1,1,2,,
 MN-3,MN,11.0,,0,0,1,1,1,2,,
