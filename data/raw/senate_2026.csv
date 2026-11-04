@@ -11,9 +11,9 @@ ID,ID,0,-18.0,R,1,I+:Todd Achilles;I:Natalie Fleming;O:Matt Loesby;R+:Jim Risch,
 IL,IL,0,6.0,D,0,D+:Juliana Stratton;R+:Don Tracy;I:Whitfield Harrington Jr.,D,Juliana Stratton,Incumbent retiring. Democratic hold.
 KS,KS,0,-8.0,R,1,D+:Adam Hamilton;R+:Roger Marshall;O:David Graham,D,Adam Hamilton,Incumbent lost re-election. Democratic gain.
 KY,KY,0,-15.0,R,0,R+:Andy Barr;D+:Charles Booker;I:Christopher Campbell,R,Andy Barr,Incumbent retiring. Republican hold.
-LA,LA,0,-11.0,R,0,D:Jamie Davis;R+:Julia Letlow,,,Incumbent lost renomination
+LA,LA,0,-11.0,R,0,R+:Julia Letlow;D:Jamie Davis,R,Julia Letlow,Incumbent lost renomination. Republican hold.
 MA,MA,0,14.0,D,1,D+:Ed Markey;R+:John Deaton;I:Shiva Ayyadurai;O:Joe Tache,D,Ed Markey,Incumbent re-elected
-ME,ME,0,4.0,R,1,R+:Susan Collins;D+:Troy Jackson,,,Incumbent renominated
+ME,ME,0,4.0,R,1,R+:Susan Collins;D+:Troy Jackson,D,,Incumbent lost re-election. Democratic gain.
 MI,MI,0,0.0,D,0,O:Lydia Christensen;D+:Abdul El-Sayed;O:Walter P. Kristy;O:Tim Long;O:Douglas P. Marsh;R+:Mike Rogers,,,Incumbent retiring
 MN,MN,0,3.0,D,0,D+:Peggy Flanagan;R+:Michele Tafoya;I:Marisa Simonetti;O:Rebecca Whiting,D,Peggy Flanagan,Incumbent retiring. DFL hold.
 MS,MS,0,-11.0,R,1,D+:Scott Colom;R+:Cindy Hyde-Smith;I:Ty Pinkins,,,Incumbent renominated
