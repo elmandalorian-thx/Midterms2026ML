@@ -1,12 +1,12 @@
 district,state,pvi,inc_party,inc_running,inc_count,new_seat,has_d,has_r,n_cands,winner,inc_status
 AK-AL,AK,-6.0,R,1,1,0,1,1,4,,Incumbent advanced to general
 AL-1,AL,-17.0,,0,0,1,1,1,2,R,
-AL-2,AL,-7.0,D,1,1,0,1,1,2,D,Incumbent renominated
-AL-3,AL,-23.0,R,1,1,0,1,1,2,R,Incumbent renominated
-AL-4,AL,-33.0,R,1,1,0,1,1,2,R,Incumbent renominated
-AL-5,AL,-15.0,R,1,1,0,1,1,2,R,Incumbent renominated
-AL-6,AL,-17.0,R,1,1,0,1,1,2,R,Incumbent renominated
-AL-7,AL,10.0,D,1,1,0,1,1,2,D,Incumbent renominated
+AL-2,AL,-7.0,D,1,1,0,1,1,2,D,Incumbent re-elected
+AL-3,AL,-23.0,R,1,1,0,1,1,2,R,Incumbent re-elected
+AL-4,AL,-33.0,R,1,1,0,1,1,2,R,Incumbent re-elected
+AL-5,AL,-15.0,R,1,1,0,1,1,2,R,Incumbent re-elected
+AL-6,AL,-17.0,R,1,1,0,1,1,2,R,Incumbent re-elected
+AL-7,AL,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 AR-1,AR,-23.0,R,1,1,0,1,1,3,,Incumbent renominated
 AR-2,AR,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
 AR-3,AR,-13.0,R,1,1,0,1,1,3,,Incumbent renominated
