@@ -235,17 +235,17 @@ MT-2,MT,-15.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
 NC-1,NC,-5.0,D,1,1,0,1,1,3,,Incumbent renominated
 NC-10,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
 NC-11,NC,-5.0,R,1,1,0,1,1,3,D,|Incumbent renominated but withdrew. Democratic gain.
-NC-12,NC,24.0,D,1,1,0,1,1,2,D,Incumbent re-elected
-NC-13,NC,-8.0,R,1,1,0,1,1,3,D,| Incumbent lost re-election. Democratic gain.
-NC-14,NC,-8.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
-NC-2,NC,17.0,D,1,1,0,1,1,3,D,Incumbent re-elected
+NC-12,NC,24.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+NC-13,NC,-8.0,R,1,1,0,1,1,3,D,Incumbent renominated
+NC-14,NC,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
+NC-2,NC,17.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 NC-3,NC,-6.0,R,1,1,0,1,1,3,,Incumbent renominated
-NC-4,NC,23.0,D,1,1,0,1,1,3,D,Incumbent re-elected
+NC-4,NC,23.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 NC-5,NC,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
-NC-6,NC,-9.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+NC-6,NC,-9.0,R,1,1,0,1,1,2,,Incumbent renominated
 NC-7,NC,-7.0,R,1,1,0,1,1,3,,Incumbent renominated
 NC-8,NC,-10.0,R,1,1,0,1,1,3,,Incumbent renominated
-NC-9,NC,-8.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
+NC-9,NC,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
 ND-AL,ND,-18.0,R,1,1,0,1,1,4,R,Incumbent re-elected.
 NE-1,NE,-6.0,R,1,1,0,1,1,4,,Incumbent renominated
 NE-2,NE,3.0,R,0,1,0,1,1,3,D,|Incumbent retired. Democratic gain.
