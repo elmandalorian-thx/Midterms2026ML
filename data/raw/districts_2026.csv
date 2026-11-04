@@ -327,9 +327,9 @@ PA-1,PA,1.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-10,PA,-3.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-11,PA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-12,PA,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected
-PA-13,PA,-23.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-13,PA,-23.0,R,1,1,0,1,1,2,R,Incumbent re-elected
 PA-14,PA,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
-PA-15,PA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-15,PA,-19.0,R,1,1,0,1,1,2,R,Incumbent re-elected
 PA-16,PA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-17,PA,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-2,PA,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected
@@ -338,7 +338,7 @@ PA-4,PA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-5,PA,15.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-6,PA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-7,PA,-1.0,R,1,1,0,1,1,2,,Incumbent renominated
-PA-8,PA,-4.0,R,1,1,0,1,1,2,,Incumbent renominated
+PA-8,PA,-4.0,R,1,1,0,1,1,2,D,| Incumbent lost re-election. Democratic gain.
 PA-9,PA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
 RI-1,RI,12.0,D,1,1,0,1,1,3,,Incumbent renominated
 RI-2,RI,4.0,D,1,1,0,1,1,2,,Incumbent renominated
