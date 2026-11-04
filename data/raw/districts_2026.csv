@@ -326,17 +326,17 @@ OR-6,OR,6.0,D,1,1,0,1,1,2,,Incumbent renominated
 PA-1,PA,1.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-10,PA,-3.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-11,PA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
-PA-12,PA,10.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-12,PA,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-13,PA,-23.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-14,PA,-17.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-15,PA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-16,PA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
-PA-17,PA,3.0,D,1,1,0,1,1,2,,Incumbent renominated
-PA-2,PA,19.0,D,1,1,0,1,1,2,,Incumbent renominated
-PA-3,PA,40.0,D,0,1,0,1,0,2,,Incumbent retiring
-PA-4,PA,8.0,D,1,1,0,1,1,2,,Incumbent renominated
-PA-5,PA,15.0,D,1,1,0,1,1,2,,Incumbent renominated
-PA-6,PA,6.0,D,1,1,0,1,1,2,,Incumbent renominated
+PA-17,PA,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected
+PA-2,PA,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected
+PA-3,PA,40.0,D,0,1,0,1,0,2,D,Incumbent retiring. Democratic hold.
+PA-4,PA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected
+PA-5,PA,15.0,D,1,1,0,1,1,2,D,Incumbent re-elected
+PA-6,PA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-7,PA,-1.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-8,PA,-4.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-9,PA,-19.0,R,1,1,0,1,1,2,,Incumbent renominated
