@@ -1,6 +1,6 @@
 race,state,special,pvi_cook,inc_party,inc_running,candidates,winner,winner_name,status
 AK,AK,0,-6.0,R,1,R:Gerald Heikes;D+:Mary Peltola;R:Dan J. Sullivan;R+:Dan S. Sullivan,,,Incumbent advanced to general
-AL,AL,0,-15.0,R,0,R+:Barry Moore;D:Everett Wess,,,Incumbent retiring to
+AL,AL,0,-15.0,R,0,R+:Barry Moore;D:Everett Wess,R,Barry Moore,Incumbent retiring to . Republican hold.
 AR,AR,0,-15.0,R,1,R+:Tom Cotton;D:Hallie Shoffner;O:Jeff Wadlin,,,Incumbent renominated
 CO,CO,0,6.0,D,1,D+:John Hickenlooper;R+:Mark Baisley;O:Bob Chew;O:Blake Huber;O:Adam Withrow,D,John Hickenlooper,Incumbent re-elected
 DE,DE,0,8.0,D,1,D+:Chris Coons;R+:Michael Katz,D,Chris Coons,Incumbent re-elected
