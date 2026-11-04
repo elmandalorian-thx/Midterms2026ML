@@ -72,14 +72,14 @@ CA-6,CA,5.0,,0,0,1,1,1,2,D,
 CA-7,CA,7.0,D,1,1,0,1,0,2,,Incumbent advanced to general.
 CA-8,CA,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 CA-9,CA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
-CO-1,CO,29.0,D,0,1,0,1,1,5,,Incumbent lost renomination
-CO-2,CO,20.0,D,1,1,0,1,1,3,,Incumbent renominated
+CO-1,CO,29.0,D,0,1,0,1,1,5,D,|Incumbent lost renomination. Democratic hold.
+CO-2,CO,20.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 CO-3,CO,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
 CO-4,CO,-9.0,R,1,1,0,1,1,3,,Incumbent renominated
 CO-5,CO,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
-CO-6,CO,11.0,D,1,1,0,1,1,5,,Incumbent renominated
-CO-7,CO,8.0,D,1,1,0,1,1,6,,Incumbent renominated
-CO-8,CO,0.0,R,1,1,0,1,1,3,,Incumbent renominated
+CO-6,CO,11.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
+CO-7,CO,8.0,D,1,1,0,1,1,6,D,Incumbent re-elected.
+CO-8,CO,0.0,R,1,1,0,1,1,3,D,|Incumbent lost re-election. Democratic gain.
 CT-1,CT,12.0,D,0,1,0,1,1,3,D,|Incumbent lost renomination. Democratic hold.
 CT-2,CT,4.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 CT-3,CT,8.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
@@ -195,7 +195,7 @@ MD-5,MD,17.0,D,0,1,0,1,1,2,D,|Incumbent retiring Democratic hold.
 MD-6,MD,3.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 MD-7,MD,31.0,D,0,1,0,1,1,2,D,1996
 MD-8,MD,30.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
-ME-1,ME,11.0,D,1,1,0,1,1,2,,Incumbent renominated
+ME-1,ME,11.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 ME-2,ME,-4.0,D,0,1,0,1,1,2,,Incumbent retiring
 MI-1,MI,-11.0,R,1,1,0,1,1,7,,Incumbent renominated
 MI-10,MI,-3.0,R,0,1,0,1,1,5,,Incumbent retiring to
