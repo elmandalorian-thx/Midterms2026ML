@@ -20,58 +20,58 @@ AZ-6,AZ,0.0,R,1,1,0,1,1,4,,Incumbent renominated
 AZ-7,AZ,13.0,D,1,1,0,1,1,2,,Incumbent renominated
 AZ-8,AZ,-8.0,R,1,1,0,1,1,2,,Incumbent renominated
 AZ-9,AZ,-15.0,R,1,1,0,1,1,2,,Incumbent renominated
-CA-1,CA,7.0,R,1,1,0,1,1,2,,Incumbent advanced to general
-CA-10,CA,18.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-1,CA,7.0,R,1,1,0,1,1,2,D,|Incumbent lost re-election. Democratic gain.
+CA-10,CA,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 CA-11,CA,36.0,D,0,1,0,1,0,2,D,|Incumbent retiring. Democratic hold.
-CA-12,CA,39.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general Democratic hold.
-CA-13,CA,2.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-14,CA,19.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general. Democratic hold.
-CA-15,CA,26.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-16,CA,25.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-17,CA,21.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-18,CA,16.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-19,CA,18.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-2,CA,13.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-20,CA,-16.0,R,1,1,0,1,1,2,,Incumbent advanced to general
-CA-21,CA,5.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-22,CA,1.0,R,1,1,0,1,1,2,,Incumbent advanced to general
-CA-23,CA,-9.0,R,1,1,0,1,1,2,,Incumbent advanced to general
-CA-24,CA,13.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-25,CA,4.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-26,CA,9.0,D,0,1,0,1,1,2,,Incumbent retiring
-CA-27,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-28,CA,14.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-12,CA,39.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-13,CA,2.0,D,1,1,0,1,1,2,,Incumbent advanced to general.
+CA-14,CA,19.0,D,1,1,0,1,0,2,,Incumbent advanced to general.
+CA-15,CA,26.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-16,CA,25.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-17,CA,21.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-18,CA,16.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-19,CA,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-2,CA,13.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-20,CA,-16.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-21,CA,5.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-22,CA,1.0,R,1,1,0,1,1,2,,Incumbent advanced to general.
+CA-23,CA,-9.0,R,1,1,0,1,1,2,,Incumbent advanced to general.
+CA-24,CA,13.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-25,CA,4.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-26,CA,9.0,D,0,1,0,1,1,2,D,|Incumbent retired. Democratic hold.
+CA-27,CA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-28,CA,14.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 CA-29,CA,19.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general. Democratic hold.
-CA-3,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-30,CA,21.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-31,CA,8.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-32,CA,14.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-33,CA,7.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-34,CA,28.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general. Democratic hold.
-CA-35,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-36,CA,21.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-37,CA,33.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general. Democratic hold.
-CA-38,CA,8.0,,0,0,1,1,1,2,,
-CA-39,CA,7.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-4,CA,8.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general. Democratic hold.
-CA-40,CA,-6.0,R,1,1,0,0,1,2,R,|Incumbent advanced to general. Republican hold.
-CA-41,CA,9.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-42,CA,8.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-43,CA,27.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-44,CA,20.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-45,CA,3.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-46,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-47,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-3,CA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-30,CA,21.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-31,CA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-32,CA,14.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-33,CA,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-34,CA,28.0,D,1,1,0,1,0,2,,Incumbent advanced to general.
+CA-35,CA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-36,CA,21.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-37,CA,33.0,D,1,1,0,1,0,2,D,Incumbent re-elected.
+CA-38,CA,8.0,,0,0,1,1,1,2,D,
+CA-39,CA,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-4,CA,8.0,D,1,1,0,1,0,2,,Incumbent advanced to general.
+CA-40,CA,-6.0,R,1,1,0,0,1,2,,Incumbent advanced to general.
+CA-41,CA,9.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-42,CA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-43,CA,27.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-44,CA,20.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-45,CA,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-46,CA,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-47,CA,6.0,D,1,1,0,1,1,2,,Incumbent advanced to general.
 CA-48,CA,2.0,R,0,1,0,1,1,2,,2018
-CA-49,CA,7.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-5,CA,-10.0,R,1,1,0,1,1,2,,Incumbent advanced to general
-CA-50,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-51,CA,10.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-52,CA,11.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-6,CA,5.0,,0,0,1,1,1,2,,
-CA-7,CA,7.0,D,1,1,0,1,0,2,D,|Incumbent advanced to general. Democratic hold.
-CA-8,CA,19.0,D,1,1,0,1,1,2,,Incumbent advanced to general
-CA-9,CA,8.0,D,1,1,0,1,1,2,,Incumbent advanced to general
+CA-49,CA,7.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-5,CA,-10.0,R,1,1,0,1,1,2,R,Incumbent re-elected.
+CA-50,CA,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-51,CA,10.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-52,CA,11.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-6,CA,5.0,,0,0,1,1,1,2,D,
+CA-7,CA,7.0,D,1,1,0,1,0,2,,Incumbent advanced to general.
+CA-8,CA,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
+CA-9,CA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
 CO-1,CO,29.0,D,0,1,0,1,1,5,,Incumbent lost renomination
 CO-2,CO,20.0,D,1,1,0,1,1,3,,Incumbent renominated
 CO-3,CO,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
@@ -80,11 +80,11 @@ CO-5,CO,-5.0,R,1,1,0,1,1,4,,Incumbent renominated
 CO-6,CO,11.0,D,1,1,0,1,1,5,,Incumbent renominated
 CO-7,CO,8.0,D,1,1,0,1,1,6,,Incumbent renominated
 CO-8,CO,0.0,R,1,1,0,1,1,3,,Incumbent renominated
-CT-1,CT,12.0,D,0,1,0,1,1,3,,Incumbent lost renomination
-CT-2,CT,4.0,D,1,1,0,1,1,3,,Incumbent renominated
-CT-3,CT,8.0,D,1,1,0,1,1,3,,Incumbent renominated
-CT-4,CT,13.0,D,1,1,0,1,1,3,,Incumbent renominated
-CT-5,CT,3.0,D,1,1,0,1,1,3,,Incumbent renominated
+CT-1,CT,12.0,D,0,1,0,1,1,3,D,|Incumbent lost renomination. Democratic hold.
+CT-2,CT,4.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+CT-3,CT,8.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+CT-4,CT,13.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
+CT-5,CT,3.0,D,1,1,0,1,1,3,D,Incumbent re-elected.
 DE-AL,DE,8.0,D,1,1,0,1,1,2,,Incumbent renominated
 FL-1,FL,-18.0,R,1,1,0,1,1,3,,Incumbent renominated
 FL-10,FL,13.0,D,1,1,0,1,0,1,D,Incumbent re-elected
