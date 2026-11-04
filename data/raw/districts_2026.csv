@@ -279,7 +279,7 @@ NY-13,NY,32.0,D,0,1,0,1,1,4,D,|Incumbent lost renomination. New member elected. 
 NY-14,NY,19.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
 NY-15,NY,27.0,D,1,1,0,1,1,5,D,Incumbent re-elected.
 NY-16,NY,18.0,D,1,1,0,1,1,2,D,Incumbent re-elected.
-NY-17,NY,1.0,R,1,1,0,1,1,4,,Incumbent renominated.
+NY-17,NY,1.0,R,1,1,0,1,1,4,D,| Incumbent lost re-election. Democratic gain.
 NY-18,NY,2.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
 NY-19,NY,1.0,D,1,1,0,1,1,4,D,Incumbent re-elected.
 NY-2,NY,-6.0,R,1,1,0,1,1,4,,Incumbent renominated
