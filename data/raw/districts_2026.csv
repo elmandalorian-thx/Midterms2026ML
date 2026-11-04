@@ -333,7 +333,7 @@ PA-15,PA,-19.0,R,1,1,0,1,1,2,R,Incumbent re-elected
 PA-16,PA,-11.0,R,1,1,0,1,1,2,,Incumbent renominated
 PA-17,PA,3.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-2,PA,19.0,D,1,1,0,1,1,2,D,Incumbent re-elected
-PA-3,PA,40.0,D,0,1,0,1,0,2,D,Incumbent retiring. Democratic hold.
+PA-3,PA,40.0,D,0,1,0,1,0,2,D,| Incumbent retired. Democratic hold.
 PA-4,PA,8.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-5,PA,15.0,D,1,1,0,1,1,2,D,Incumbent re-elected
 PA-6,PA,6.0,D,1,1,0,1,1,2,D,Incumbent re-elected
